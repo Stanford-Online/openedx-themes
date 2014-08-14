@@ -1,5 +1,20 @@
+Warning
+========
+
+**If you are looking to stand up your own themed edX instance, we
+ask that you not use this theme to base your work off of.  We've
+created (and maintain) an [example theme][ex] that you should use
+instead.**
+
+Go here: [https://github.com/Stanford-Online/edx-theme/][ex]
+
+  [ex]: https://github.com/Stanford-Online/edx-theme/
+
+
+
 Overview
 ========
+
 This directory stores Stanford's theming files for its edX instance.
 We're storing the stuff here and then pulling it in to our instance
 when we deploy.
@@ -11,10 +26,11 @@ staticfiles paths properly to point to these files.
 
 Theme Authoring
 ===============
+
 The proposed theming solution for edX provides a number of hooks for
 themes to adjust both HTML and CSS to their liking.
 
-See the [the relevant wiki page](https://github.com/edx/edx-platform/wiki/Stanford-Theming) on how to apply the theme.
+See [this wiki page](https://github.com/edx/edx-platform/wiki/Stanford-Theming) on how to apply the theme.
 
 License
 =======
