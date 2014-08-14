@@ -222,3 +222,11 @@ $video-thumb-url: '../themes/stanford/images/stanford-video-thumb.png';
     border: none;
 }
 
+#help-center-button {
+    border-radius: 10px;
+    font-family: $sans-serif;
+    font-weight: bold;
+    background-color: $dark-red;
+    color: $white;
+}
+
