@@ -19,9 +19,6 @@
       if ( document.location.href.indexOf('#contact') > -1 ) {
         $('section#contact').show();
         $('#about-menu a.contact').addClass('active');
-      } else if ( document.location.href.indexOf('#careers') > -1 ) {
-        $('section#careers').show();
-        $('#about-menu a.careers').addClass('active');
       } else {
         $('section#about').show();
         $('#about-menu a.about').addClass('active');
@@ -42,13 +39,11 @@
 <section class="container about" style="width: auto;">
   <nav id="about-menu">
     <a href="#about" class="about active">${_('About')}</a>
-    <a href="#careers" class="careers">${_('Careers')}</a>
     <a href="#contact" class="contact">${_('Contact')}</a>
   </nav>
 
   <section class="vision">
 
-  
 ## About Section ##
     <section class="message left" id="about">
       <div class="photo">
@@ -69,7 +64,6 @@
       <hr class="fade-right-hr-divider">
     </section>
 
-
 ## Careers Section ##
     <section class="message left" id="careers">
       <div class="photo">
@@ -89,37 +83,9 @@
         </p>
         
         <p>&nbsp;</p>
-
-
-        <h3><strong>Software Engineer</strong>, Office of the Vice Provost for Online Learning<br /><br /></h3>
-        <p>
-          We are hiring an engineer to join Stanford Online's Platform team.  Stanford has the best, the biggest, and the most on-line courses on the Internet.  This team builds and operates the open-source platform behind many of them.  Students on-campus and worldwide learn via our course materials and the online communities they create.
-        </p>
-        <p>
-          Our technical stack is modern and sane:<br />
-          - Python/Django, Nginx, Celery<br />
-          - CSS/SASS, JS/jQuery/CoffeeScript<br />
-          - Relational (MySQL) and nosql (MongoDB) storage<br />
-          - Cloud hosted at Amazon: EC2, RDS, S3, ElasticCache<br />
-          - Jenkins, Gerrit, and Ansible
-        </p>
-        <p>
-          As an engineer on this team you'd be expected to work across the stack as needed.  We are looking for generalists.  If you are an engineer who sees technical variety and learning as fun challenges, then join us.
-        </p>
-        <p>
-          This is a two year fixed term position (100% FTE). The job is on the Stanford Campus, ie. being remote full-time isn't an option.  You'll need to successfully pass a background check and show you are eligible to work in the US before coming on board.
-        </p>
-        <p>
-          <a href="https://stanford.taleo.net/careersection/2/jobdetail.ftl?job=62804" style="font-size: 1.25em;padding: 5px;background-color: #820000;color: white;border-radius: 5px;">
-            Apply Now
-          </a>
-        </p>
-        
-        <p>&nbsp;</p>
       </article>
       <hr class="fade-right-hr-divider">
     </section>
-
 
 ## Contact Section ##
     <section class="message left" id="contact">
