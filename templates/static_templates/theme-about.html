@@ -111,18 +111,6 @@
         <p><strong>${_('{NovoEd} Support Center:').format(NovoEd="NovoEd")}</strong><br />
         <a href="mailto:support@novoed.com" class="external">support@novoed.com</a></p>
       </article>
-      <script>
-        $(function() {
-          var ua = navigator.userAgent;
-          
-          $('#stanford-OpenEdX-contact a').each(function() {
-            var href = $(this).attr('href') + "?body=User Agent String: " + ua + " (${_('Please do not delete, this text helps us help you. - {platform_name} Team').format(platform_name='Stanford OpenEdX')})";
-            if (!$(this).hasClass('external')) {
-              $(this).attr('href', href);
-            }
-          });
-        });
-      </script>
       <hr class="fade-right-hr-divider">
     </section>
   </section>
