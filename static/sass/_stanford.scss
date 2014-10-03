@@ -230,12 +230,22 @@ $video-thumb-url: '../themes/stanford/images/stanford-video-thumb.png';
     border: none;
 }
 
-#help-center-button {
-    border-radius: 10px;
-    font-family: $sans-serif;
-    font-weight: bold;
-    background-color: $dark-red;
-    color: $white;
+.help-buttons {
+    li {
+        margin-top: 10px;
+        
+        a.help-modal-button {
+            &:link, &:visited {
+                font-family: $sans-serif;
+                font-weight: bold;
+                background-color: $dark-red;
+                color: $white;
+            }
+        }
+    }
+    &:first-child {
+        margin-top: 0;
+    }
 }
 
 // Shib username page
