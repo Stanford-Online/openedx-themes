@@ -65,6 +65,7 @@ $header-image: none;
 $header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
+$passwordreset-banner-image: none;
 $footer-bg: $sandstone-25;
 $courseware-footer-border: 1px solid $beige-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
@@ -205,6 +206,13 @@ $video-thumb-url: '../themes/stanford/images/stanford-video-thumb.png';
 @mixin footer_references_style {
     margin: 0 !important;
     text-align: right;
+}
+
+.view-register, .view-login, .view-passwordreset {
+    .introduction header .title {
+        top: 20px;
+        left: 20px;
+    }
 }
 
 //-----------------------
