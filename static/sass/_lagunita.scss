@@ -1,0 +1,247 @@
+/****************************************************************************************************
+*   Stanford Theming File
+*
+*   Contains all the theme color definitions for the Stanford Open Source MOOC Project
+*
+****************************************************************************************************/
+
+//-----------------
+//  Color variables (from Stanford palette unless noted)
+//-----------------
+
+//Cardinal Color Variables
+$cardinal-red: #8C1515;
+$dark-red: #820000; //Link Color
+$cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$cardinal-bg: #e9afaf; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
+
+//Gray Color Variables
+$white: #ffffff;
+$lightest-gray: #FBFDFF; //Main BG Color
+$lighter-gray: #E1E3E8; 
+$light-gray: #D1D3D8; //Block/Course BG Color
+
+$medium-gray: #909297;
+
+$dark-gray: #6E7075;
+$darker-gray: #4D4F53; //Lighter Text Color
+$darkest-gray: #2B2D31; //Main Text Color
+
+$black: #000000;
+
+
+
+//-----------------
+//  Font Assignment
+//-----------------
+
+$theme-sans-font: 'Source Sans';
+$sans-serif: $theme-sans-font, $sans-serif;
+$body-font-family: $sans-serif;
+
+$theme-serif-font: 'Crimson Text';
+$serif: $theme-serif-font, $serif;
+
+
+
+
+//-----------------
+//  Theme Element Assignments
+//-----------------
+
+$body-bg: $lightest-gray;
+$container-bg: $lightest-gray;
+$login-register-bg: $lightest-gray;
+$content-wrapper-bg: $lightest-gray;
+$header-image: none;
+$header-bg: transparentize($lighter-gray, .25);
+$courseware-header-image: none;
+$courseware-header-bg: transparentize($lighter-gray, .25);
+$passwordreset-banner-image: none;
+$footer-bg: $lighter-gray;
+$courseware-footer-border: 1px solid $light-gray;
+$courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
+$courseware-footer-margin: 50px;
+
+$faded-hr-image-1: linear-gradient($light-gray 0%, $light-gray);
+$faded-hr-image-2: linear-gradient($light-gray 0%, $light-gray);
+$faded-hr-image-3: linear-gradient($light-gray 0%, $light-gray);
+$faded-hr-image-4: linear-gradient($light-gray 0%, $light-gray);
+$faded-hr-image-5: linear-gradient($light-gray 0%, $light-gray);
+$faded-hr-image-6: linear-gradient($light-gray 0%, $light-gray);
+
+$base-font-color: $black;
+$lighter-base-font-color: $dark-gray;
+$very-light-text: $lightest-gray;
+
+$link-color: $dark-red;
+$link-color-d1: $dark-red;
+$link-hover: $cardinal-light;
+$site-status-color: $cardinal-bg;
+
+$header-graphic-super-color: $dark-red;
+$header-graphic-sub-color: $lighter-base-font-color;
+
+$header-link-color: $dark-red;
+$header-link-hover: $cardinal-light;
+
+$button-color: $cardinal-red;
+$button-archive-color: $light-gray;
+
+$shadow-color: $gray;
+
+// actions
+$button-bg-image: none;
+$button-bg-color: $light-gray;
+$button-bg-hover-color: $lightest-gray;
+
+// actions - primary
+$action-primary-bg: $cardinal-red;
+$action-primary-fg: $lighter-gray;
+$action-primary-shadow: none;
+
+// focused - hover/active pseudo states
+$action-primary-focused-bg: $dark-red;
+$action-primary-focused-fg: $lightest-gray;
+
+// current or active navigation item
+$action-primary-active-bg: $dark-red;
+$action-primary-active-fg: $lightest-gray;
+$action-primary-active-shadow: none;
+$action-primary-active-focused-fg: $lighter-gray;
+$action-primary-active-focused-shadow: none;
+
+// disabled
+$action-primary-disabled-bg: $darker-gray;
+$action-prmary-disabled-fg: $lightest-gray;
+
+
+
+// actions - secondary
+$action-secondary-bg: $light-gray;
+$action-secondary-fg: $gray;
+$action-secondary-shadow: none;
+
+// focused - hover/active pseudo states
+$action-secondary-focused-bg: $lighter-gray;
+$action-secondary-focused-fg: $gray;
+
+// current or active navigation item
+$action-secondary-active-bg: $lighter-gray;
+$action-secondary-active-fg: $gray;
+$action-secondary-active-shadow: none;
+$action-secondary-active-focused-fg: $darker-gray;
+$action-secondary-active-focused-shadow: none;
+
+// disabled
+$action-secondary-disabled-bg: $light-gray;
+$action-secondary-disabled-fg: $gray;
+
+//
+
+$border-color-1: $light-gray;
+$border-color-2: $light-gray;
+$border-color-3: $light-gray;
+$outer-border-color: $light-gray;
+
+$sidebar-color: $lightest-gray;
+
+$homepage__header--gradient__color--alpha: $lightest-gray;
+$homepage__header--gradient__color--bravo: $lightest-gray;
+$homepage__header--background: $lightest-gray;
+$dashboard-profile-header-image: none;
+$dashboard-profile-header-color: $lightest-gray;
+$dashboard-profile-color: $light-gray;
+$dot-color: $light-gray;
+
+$course-bg-color: $light-gray;
+$course-bg-image: none;
+$account-content-wrapper-bg: $lightest-gray;
+
+$course-profile-bg: $lightest-gray;
+$course-header-bg: transparentize($lightest-gray, .1);
+
+$sidebar-chapter-bg-top: transparentize($lightest-gray, .3);
+$sidebar-chapter-bg-bottom: transparentize($lightest-gray, .9);
+$sidebar-chapter-bg: $lighter-gray;
+$sidebar-active-image: $light-gray;
+
+$form-bg-color: $lightest-gray;
+$modal-bg-color: $lightest-gray;
+
+//TOP HEADER IMAGE MARGIN
+$header_image_margin: -77px;
+
+//FOOTER MARGIN
+$footer_margin: ($baseline/4) 0;
+
+//-----------------
+//  CSS BG Images
+//-----------------
+$homepage-bg-image: url('../themes/lagunita/images/stanford-pano.jpg');
+
+$login-banner-image: none;
+$register-banner-image: none;
+
+$video-thumb-url: '../themes/lagunita/images/stanford-video-thumb.png';
+
+//-----------------
+//  Mixin Styles
+//-----------------
+@mixin login_register_h1_style {
+    clip: auto !important;
+    margin-top: 25px;
+    width: 750px;
+    top: 0px !important;
+}
+
+@mixin footer_references_style {
+    margin: 0 !important;
+    text-align: right;
+}
+
+.view-register, .view-login, .view-passwordreset {
+    .introduction header .title {
+        top: 20px;
+        left: 20px;
+    }
+}
+
+//-----------------------
+//  Stanford Extra Styles
+//-----------------------
+#stanford-footer-edx-image {
+    display: block;
+    height: 40px;
+    width: 120px;
+    padding-bottom: 10px;
+    float: right;
+    background-image: url("https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png");
+    background-size: 120px 40px;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.help-buttons {
+    li {
+        margin-top: 10px;
+        
+        a.help-modal-button {
+            &:link, &:visited {
+                font-family: $sans-serif;
+                font-weight: bold;
+                background-color: $dark-red;
+                color: $white;
+            }
+        }
+    }
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+// Shib username page
+section.introduction h1.sr {
+    min-height: 100px;
+}
+
