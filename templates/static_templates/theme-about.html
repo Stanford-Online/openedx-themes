@@ -47,18 +47,27 @@
 ## About Section ##
     <section class="message left" id="about">
       <div class="photo">
-        <img src="${static.url('themes/stanford/images/quad.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
+        <img src="${static.url('themes/lagunita/images/quad.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
           <!-- Image Copyright owned by Giulio Gratta -->
       </div>
       <article>
-        <h2>${_('About')} <span class="edx">Stanford Online</span></h2>
+        <h2>${_('About')} <span class="edx">Lagunita</span></h2>
         
-        <p>${_('{Stanford} is developing new online course material in order to improve on-campus courses and provide broader public access to exciting learning opportunities.').format(Stanford="Stanford")}</p>
-        <p>${_("The engineering team at Stanford's Office of the Vice Provost for Online Learning is running and developing on an instance of the {platform_link_start}OpenEdX platform{link_end}. More details are in {details_link_start}this article{link_end}.").format(
-            platform_link_start='<a href="http://code.edx.org">',
-            details_link_start='<a href="http://news.stanford.edu/news/2013/june/open-source-platform-061113.html">',
-            link_end='</a>'
-          )}
+        <p>${_("{Lagunita} is {Stanford}'s instance of the open-source software release of the {Open_edX} platform, which was developed by the joint {Harvard_MIT} non-profit organization, and which {Stanford} engineers have been collaborating on since April 2013. {Lagunita} hosts many of the free, online courses that are taught by {Stanford} faculty and made available to lifelong learners around the world for self-enrichment. {Lagunita} also hosts a variety of professional education opportunities in conjunction with many of {Stanford_University}'s schools and departments.").format(
+                Lagunita="Lagunita",
+                Stanford="Stanford",
+                Open_edX="Open edX",
+                Harvard_MIT="Harvard/MIT",
+                Stanford_University="Stanford University"
+            )}
+        </p>
+        
+        <p>${_("All of the personal and professional learning opportunities that are hosted on {Lagunita} and open to the public are made available through Stanford Online and listed at {lagunita_courses_link}.  To see our complete catalog of {Stanford_Online} courses on {Lagunita} and other platforms, you can visit {online_courses_link}.").format(
+                Lagunita="Lagunita",
+                Stanford_Online="Stanford Online",
+                lagunita_courses_link="<a href='https://lagunita.stanford.edu/courses'>https://lagunita.stanford.edu/courses</a>",
+                online_courses_link="<a href='http://online.stanford.edu/courses/'>http://online.stanford.edu/courses/</a>"
+            )}
         </p>
       </article>
       <hr class="fade-right-hr-divider">
@@ -67,19 +76,25 @@
 ## Careers Section ##
     <section class="message left" id="careers">
       <div class="photo">
-        <img src="${static.url('themes/stanford/images/tree-light.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
+        <img src="${static.url('themes/lagunita/images/tree-light.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
           <!-- Image Copyright owned by Giulio Gratta -->
       </div>
       <article>
         <h2>${_('Careers')}</h2>
         <p>
-          Technology is disrupting higher education.  We believe universities can benefit from this if it's done right.  Supporting basic education and computer science research is core to what we do.  We also believe that universities should be in control of how this space evolves, and that an open-source platform is the best way to do that.
+          ${_("Technology is disrupting higher education.  We believe universities can benefit from this if it's done right.  Supporting basic education and computer science research is core to what we do.  We also believe that universities should be in control of how this space evolves, and that an open-source platform is the best way to do that.")}
         </p>
         <p>
-          Our engineering team is small and productive: five engineers, one PM, and two course ops staff.  We do our own operations and QA.  We install several times per week.  We like being close to our customers (faculty, staff, students) since that motivates the right kind of innovation.  We run a lightweight, mostly-Agile development process with quick daily standups, group planning, and frequent demos.  We work on the Stanford Campus.
+          ${_("Our engineering team is small and productive: five engineers, one PM, and two course ops staff.  We do our own operations and QA.  We install several times per week.  We like being close to our customers (faculty, staff, students) since that motivates the right kind of innovation.  We run a lightweight, mostly-Agile development process with quick daily standups, group planning, and frequent demos.  We work on the {Stanford_Campus}.").format(
+            Stanford_Campus="Stanford Campus"
+          )}
         </p>
         <p>
-          What we work on is mostly driven by our customers, but we also commit to the core edX platform repo.  We collaborate with other OpenEdX adopters, including Google.
+          ${_("What we work on is mostly driven by our customers, but we also commit to the core {edX} platform repo.  We collaborate with other {Open_edX} adopters, including {Google}.").format(
+            edX="edX",
+            Open_edX="Open edX",
+            Google="Google"
+          )}
         </p>
         
         <p>&nbsp;</p>
@@ -90,20 +105,25 @@
 ## Contact Section ##
     <section class="message left" id="contact">
       <div class="photo">
-        <img src="${static.url('themes/stanford/images/dish.jpg')}" alt="${_('Stanford Dish by Twilight')}" />
+        <img src="${static.url('themes/lagunita/images/dish.jpg')}" alt="${_('Stanford Dish by Twilight')}" />
           <!-- Image Copyright owned by Stanford University -->
       </div>
       <article id="stanford-OpenEdX-contact">
         <h2>${_('Platform Help Center and Contact Emails')}</h2>
-        <p><strong>${_('Stanford Online Help Center:')}</strong><br />
+        <p><strong>Stanford Online Help Center:</strong><br />
             <a href="https://stanfordonline.zendesk.com/hc">https://stanfordonline.zendesk.com</a>
         </p>
-        <p>The <a href="https://stanfordonline.zendesk.com/hc">Help Center</a> contains a FAQ that answers all of the most common tech support questions for the courses available through class.stanford.edu. If you can't find what you're looking for there, or if you have a suggestion or bug report to make, you can also file a support ticket from the Help Center.</p>
-        <p>For disability-related questions email us at: <br />
-            <a href="mailto:accessibility@class.stanford.edu">accessibility@class.stanford.edu</a>
+        <p>${_("The {help_center_link} contains a FAQ that answers all of the most common tech support questions for the courses available through {lagunita_home_link}. If you can't find what you're looking for there, or if you have a suggestion or bug report to make, you can also file a support ticket from the {help_center}.").format(
+                help_center_link='<a href="https://stanfordonline.zendesk.com/hc">Help Center</a>',
+                lagunita_home_link="<a href='https://lagunita.stanford.edu'>https://lagunita.stanford.edu</a>",
+                help_center="Help Center"
+            )}
         </p>
-        <p>For privacy-related questions email us at:<br />
-            <a href="mailto:privacy@class.stanford.edu">privacy@class.stanford.edu</a>
+        <p>${_("For disability-related questions email us at:")} <br />
+            <a href="mailto:accessibility@stanfordonline.zendesk.com">accessibility@stanfordonline.zendesk.com</a>
+        </p>
+        <p>${_("For privacy-related questions email us at:")}<br />
+            <a href="mailto:privacy@stanfordonline.zendesk.com">privacy@stanfordonline.zendesk.com</a>
         </p>
       </article>
       <hr class="fade-right-hr-divider">

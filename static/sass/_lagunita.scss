@@ -17,18 +17,29 @@ $cardinal-bg: #e9afaf; //Selected Content BG Color, ie. calendar          ***Cus
 
 //Gray Color Variables
 $white: #ffffff;
-$lightest-gray: #FBFDFF; //Main BG Color
-$lighter-gray: #E1E3E8; 
-$light-gray: #D1D3D8; //Block/Course BG Color
 
-$medium-gray: #909297;
+$lightest-gray: #FBFFFD; //Main BG Color
+$lighter-gray: #E1E5E3; 
+$light-gray: #D1D5D3; //Block/Course BG Color
 
-$dark-gray: #6E7075;
-$darker-gray: #4D4F53; //Lighter Text Color
-$darkest-gray: #2B2D31; //Main Text Color
+$medium-gray: #919593;
+
+$dark-gray: #717573;
+$darker-gray: #515553; //Lighter Text Color
+$darkest-gray: #313533; //Main Text Color
 
 $black: #000000;
 
+//Green Color Variables
+$lightest-green: #CFF5F3;
+$lighter-green: #AFD5D3;
+$light-green: #8FB5B3;
+
+$medium-green: #6F9593;
+
+$dark-green: #4F7573;
+$darker-green: #2F5553;
+$darkest-green: #0F3533;
 
 
 //-----------------
@@ -54,9 +65,9 @@ $container-bg: $lightest-gray;
 $login-register-bg: $lightest-gray;
 $content-wrapper-bg: $lightest-gray;
 $header-image: none;
-$header-bg: transparentize($lighter-gray, .25);
+$header-bg: $lighter-gray;
 $courseware-header-image: none;
-$courseware-header-bg: transparentize($lighter-gray, .25);
+$courseware-header-bg: $lighter-gray;
 $passwordreset-banner-image: none;
 $footer-bg: $lighter-gray;
 $courseware-footer-border: 1px solid $light-gray;
@@ -70,25 +81,25 @@ $faded-hr-image-4: linear-gradient($light-gray 0%, $light-gray);
 $faded-hr-image-5: linear-gradient($light-gray 0%, $light-gray);
 $faded-hr-image-6: linear-gradient($light-gray 0%, $light-gray);
 
-$base-font-color: $black;
-$lighter-base-font-color: $dark-gray;
+$base-font-color: $darkest-gray;
+$lighter-base-font-color: $darker-gray;
 $very-light-text: $lightest-gray;
 
-$link-color: $dark-red;
-$link-color-d1: $dark-red;
-$link-hover: $cardinal-light;
+$link-color: $dark-green;
+$link-color-d1: $dark-green;
+$link-hover: $dark-gray;
 $site-status-color: $cardinal-bg;
 
-$header-graphic-super-color: $dark-red;
+$header-graphic-super-color: $dark-green;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $dark-red;
-$header-link-hover: $cardinal-light;
+$header-link-color: $darker-green;
+$header-link-hover: $dark-gray;
 
-$button-color: $cardinal-red;
-$button-archive-color: $light-gray;
+$button-color: $medium-green;
+$button-archive-color: $lighter-gray;
 
-$shadow-color: $gray;
+$shadow-color: $darkest-gray;
 
 // actions
 $button-bg-image: none;
@@ -96,46 +107,54 @@ $button-bg-color: $light-gray;
 $button-bg-hover-color: $lightest-gray;
 
 // actions - primary
-$action-primary-bg: $cardinal-red;
+$action-primary-bg: $darker-green;
 $action-primary-fg: $lighter-gray;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: $dark-red;
+$action-primary-focused-bg: $dark-green;
 $action-primary-focused-fg: $lightest-gray;
+$action-primary-focused-shadow: none;
 
 // current or active navigation item
-$action-primary-active-bg: $dark-red;
-$action-primary-active-fg: $lightest-gray;
+$action-primary-active-bg: $darker-gray;
+$action-primary-active-fg: $lighter-gray;
 $action-primary-active-shadow: none;
-$action-primary-active-focused-fg: $lighter-gray;
+
+$action-primary-active-focused-bg: $dark-gray;
+$action-primary-active-focused-fg: $lightest-gray;
 $action-primary-active-focused-shadow: none;
 
 // disabled
-$action-primary-disabled-bg: $darker-gray;
-$action-prmary-disabled-fg: $lightest-gray;
+$action-primary-disabled-bg: $light-gray;
+$action-prmary-disabled-fg: $darkest-gray;
+$action-prmary-disabled-shadow: none;
 
 
 
 // actions - secondary
-$action-secondary-bg: $light-gray;
-$action-secondary-fg: $gray;
+$action-secondary-bg: $light-green;
+$action-secondary-fg: $darkest-gray;
 $action-secondary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-secondary-focused-bg: $lighter-gray;
-$action-secondary-focused-fg: $gray;
+$action-secondary-focused-bg: $lightest-green;
+$action-secondary-focused-fg: $darker-gray;
+$action-secondary-focused-shadow: none;
 
 // current or active navigation item
-$action-secondary-active-bg: $lighter-gray;
-$action-secondary-active-fg: $gray;
+$action-secondary-active-bg: $light-gray;
+$action-secondary-active-fg: $darkest-gray;
 $action-secondary-active-shadow: none;
-$action-secondary-active-focused-fg: $darker-gray;
+
+$action-secondary-active-focused-fg: $lightest-gray;
+$action-secondary-active-focused-bg: $darker-gray;
 $action-secondary-active-focused-shadow: none;
 
 // disabled
 $action-secondary-disabled-bg: $light-gray;
-$action-secondary-disabled-fg: $gray;
+$action-secondary-disabled-fg: $darkest-gray;
+$action-secondary-disabled-shadow: none;
 
 //
 
@@ -154,7 +173,7 @@ $dashboard-profile-header-color: $lightest-gray;
 $dashboard-profile-color: $light-gray;
 $dot-color: $light-gray;
 
-$course-bg-color: $light-gray;
+$course-bg-color: $lighter-gray;
 $course-bg-image: none;
 $account-content-wrapper-bg: $lightest-gray;
 
@@ -178,12 +197,12 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('../themes/lagunita/images/stanford-pano.jpg');
+$homepage-bg-image: url('../themes/lagunita/images/lake_lag.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '../themes/lagunita/images/stanford-video-thumb.png';
+$video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
 
 //-----------------
 //  Mixin Styles
@@ -216,7 +235,7 @@ $video-thumb-url: '../themes/lagunita/images/stanford-video-thumb.png';
     width: 120px;
     padding-bottom: 10px;
     float: right;
-    background-image: url("https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png");
+    background-image: url("https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png");
     background-size: 120px 40px;
     background-repeat: no-repeat;
     border: none;
@@ -230,7 +249,7 @@ $video-thumb-url: '../themes/lagunita/images/stanford-video-thumb.png';
             &:link, &:visited {
                 font-family: $sans-serif;
                 font-weight: bold;
-                background-color: $dark-red;
+                background-color: $dark-green;
                 color: $white;
             }
         }
@@ -240,8 +259,57 @@ $video-thumb-url: '../themes/lagunita/images/stanford-video-thumb.png';
     }
 }
 
+.home>header {
+    .outer-wrapper {
+        width: 760px !important;
+    }
+    .title {
+        width: 535px;
+        margin-left: 0;
+    }
+    .media {
+        width: 225px;
+    }
+}
+
+.view-register, .view-login, .view-passwordreset {
+    .container, .introduction {
+        width: auto !important;
+        max-width: 1180px;
+        min-width: 760px;
+    }
+    .wrapper-footer footer {
+        width: auto !important;
+        max-width: 1180px;
+        min-width: 760px;
+    }
+    header.global nav {
+        width: auto !important;
+        max-width: 1180px;
+        min-width: 760px;
+    }
+}
+
 // Shib username page
 section.introduction h1.sr {
     min-height: 100px;
 }
 
+footer {
+    .colophon {
+        width: 80% !important;
+        
+        .footer-logo {
+            float: left;
+            margin-right: 35px;
+        }
+        
+        .nav-colophon li {
+            height: 35px;
+            margin-bottom: 20px;
+        }
+    }
+    .references {
+        width: 15% !important;
+    }
+}
