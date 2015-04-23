@@ -6,17 +6,6 @@
 
 <%namespace name='static' file='/static_content.html'/>
 
-<script>
-    $(document).ready(function() {
-        var print_tos = '<input type="button" value="Print Terms of Service" class="print">';
-        $('#content section.tos').prepend(print_tos).append(print_tos);
-        $('#content section.tos input.print').click(function() {
-            window.print();
-            return false;
-        });
-    });
-</script>
-
 <%block name="title"><title>${_('Terms of Service')}</title></%block>
 
 <section class="static-container tos" style="padding: 0 25px; box-sizing: border-box;">
@@ -333,3 +322,14 @@
   <hr />
   <p><strong>${_('Effective date: June 14, 2014')}</strong></p>
 </section>
+
+<script>
+    $(document).ready(function() {
+        var print_tos = '<input type="button" value="Print Terms of Service" class="print">';
+        $('#content section.tos').prepend(print_tos).append(print_tos);
+        $('#content section.tos input.print').click(function() {
+            window.print();
+            return false;
+        });
+    });
+</script>
