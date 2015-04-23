@@ -6,23 +6,6 @@
 
 <%namespace name='static' file='/static_content.html'/>
 
-<style>
-    @media print {
-        html body .window-wrap #su-header,
-        html body .window-wrap header.global,
-        html body .window-wrap .wrapper-footer,
-        html body .window-wrap #su-footer,
-        #content section.tos input.print {
-            display: none;
-        }
-    }
-    section.tos,
-    #content section.tos input.print {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-</style>
-
 <script>
     $(document).ready(function() {
         var print_tos = '<input type="button" value="Print Terms of Service" class="print">';
