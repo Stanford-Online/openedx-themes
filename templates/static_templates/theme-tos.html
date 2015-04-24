@@ -9,7 +9,7 @@
 <%block name="title"><title>${_('Terms of Service')}</title></%block>
 
 <section class="static-container tos" style="padding: 0 25px; box-sizing: border-box;">
-  <p>&nbsp;</p>
+
   <h2><em>${_('NOTICE: On June 14, 2014, Stanford amended its Terms of Service and Privacy Policy as follows:')}</em></h2>
   
   <hr />
@@ -32,7 +32,7 @@
   
   <hr />
   
-  <h2 id="tos" style="color: #333;"><strong>${_('Terms of Service for Stanford Online Courses')}</strong></h2>
+  <h2 id="tos">${_('Terms of Service for Stanford Online Courses')}</h2>
   
   <p>${_('These Terms of Service govern the Stanford Online website and Stanford\'s OpenEdX platform, class.stanford.edu ("Site") which is owned by Stanford University ("Stanford") and operated by Stanford or its service providers. You should not access or use this Site until you have carefully read and agreed to the following Terms of Service.')}</p>
   
@@ -98,7 +98,7 @@
   <li>${_('Violations of Honor Code')}</li>
   </ul>
   
-  <p>${_('Copyrighted material, including without limitation software, graphics, text, photographs, sound, video and musical recordings, may not be placed on the Site without the express permission of the owner of the copyright in the material, or other legal entitlement to use the material.')}/p>
+  <p>${_('Copyrighted material, including without limitation software, graphics, text, photographs, sound, video and musical recordings, may not be placed on the Site without the express permission of the owner of the copyright in the material, or other legal entitlement to use the material.')}</p>
   
   <p><strong>${_('Security Rules')}</strong></p>
   
@@ -181,7 +181,9 @@
   
   <p>${_("You agree to indemnify and hold Stanford and its instructors, trustees, officers, agents, employees, and assignees, harmless from any claims, actions, demands, losses or damages, including legal fees, arising out of, resulting from or in any way related to your participation in an online course, use of a Site, placement of any content onto a Site or violation of these Terms. You further agree to fully cooperate in Stanford's defense against any such claims.")}</p>
   
-  <h3 id="copyright">${_('Copyright Complaints')}</strong></p>
+  <hr />
+
+  <h2 id="copyright">${_('Copyright Complaints')}</h2>
   
   <p>${_("Stanford respects the intellectual property rights of others. In accordance with Title II of the Digital Millennium Copyright Act (DMCA), an agent has been designated to receive notification of a claimed copyright infringement for the Stanford University Network domains: Stanford.EDU, Stanford.ORG and Stanford.COM. If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement, please contact Stanford's DMCA Designated Agent at DMCA-Claim@Stanford.EDU with a copy to {contact_email} and provide the following written information: (i) an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; (ii) a description of the copyrighted work that you claim has been infringed upon; (iii) a description of where the material that you claim is infringing is located on the Site; (iv) your address, telephone number, and email address; (v) a statement by you that you have a good-faith belief that the disputed use is not authorized by the copyright owner, its agent or the law; and (vi) a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.").format(
       contact_email='<a href="mailto:contact+tos@class.stanford.edu">contact@class.stanford.edu</a>'
@@ -204,7 +206,7 @@
   
   <hr />
   
-  <h2 id="honor" style="color: #333;"><strong>${_('Honor Code')}</strong></h2>
+  <h2 id="honor">${_('Honor Code')}</h2>
   
   <p>${_("By registering in an online course, you agree to: rely solely on your own work in connection with all assessments, problems, homework and assignments (unless collaboration is expressly permitted); acknowledge any and all external sources used in your work; refrain from any activity that would dishonestly or fraudulently improve your results or disadvantage others in the course; refrain from disclosing answers to assessments, problems, assignments and homework to others; maintain only one user account and not let anyone else use your username and/or password; and not access or attempt to access any other user's account, or misrepresent or attempt to misrepresent your identity while using the Sites. This Honor Code is not intended to prohibit discussion of course material. While users must submit work that is their own, you should feel free to discuss lectures or other course material with others either in-person or online.")}</p>
   
@@ -212,8 +214,7 @@
   
   <hr />
   
-  <h2 id="privacy" style="color: #333;"><strong>${_('Privacy Policy')}</strong></h2>
-  
+  <h2 id="privacy">${_('Privacy Policy')}</h2>
   
   <p>${_('Stanford respects your privacy, will use reasonable efforts to keep your Personally Identifiable Information private, and will not share it with third parties, except as otherwise provided in this Privacy Policy, or unless Stanford has a good faith belief that such disclosure is necessary in special cases, such as a physical threat to you or others.')}</p>
   
@@ -320,5 +321,15 @@
   
   <hr />
   <p><strong>${_('Effective date: June 14, 2014')}</strong></p>
-  <p>&nbsp;</p>
 </section>
+
+<script>
+    $(document).ready(function() {
+        var print_tos = '<input type="button" value="Print Terms of Service" class="print">';
+        $('#content section.tos').prepend(print_tos).append(print_tos);
+        $('#content section.tos input.print').click(function() {
+            window.print();
+            return false;
+        });
+    });
+</script>

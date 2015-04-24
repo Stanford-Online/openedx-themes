@@ -313,3 +313,19 @@ footer {
         width: 15% !important;
     }
 }
+
+// Print page, originally implemented for TOS page
+@media print {
+    html body .window-wrap #su-header,
+    html body .window-wrap header.global,
+    html body .window-wrap .wrapper-footer,
+    html body .window-wrap #su-footer,
+    #content section.tos input.print {
+        display: none;
+    }
+}
+section.tos,
+#content section.tos input.print {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
