@@ -204,27 +204,6 @@ $register-banner-image: none;
 
 $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
 
-//-----------------
-//  Mixin Styles
-//-----------------
-@mixin login_register_h1_style {
-    clip: auto !important;
-    margin-top: 25px;
-    width: 750px;
-    top: 0px !important;
-}
-
-@mixin footer_references_style {
-    margin: 0 !important;
-    text-align: right;
-}
-
-.view-register, .view-login, .view-passwordreset {
-    .introduction header .title {
-        top: 20px;
-        left: 20px;
-    }
-}
 
 //-----------------------
 //  Stanford Extra Styles
@@ -256,37 +235,6 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
     }
     &:first-child {
         margin-top: 0;
-    }
-}
-
-.home>header {
-    .outer-wrapper {
-        width: 760px !important;
-    }
-    .title {
-        width: 535px;
-        margin-left: 0;
-    }
-    .media {
-        width: 225px;
-    }
-}
-
-.view-register, .view-login, .view-passwordreset {
-    .container, .introduction {
-        width: auto !important;
-        max-width: 1180px;
-        min-width: 760px;
-    }
-    .wrapper-footer footer {
-        width: auto !important;
-        max-width: 1180px;
-        min-width: 760px;
-    }
-    header.global nav {
-        width: auto !important;
-        max-width: 1180px;
-        min-width: 760px;
     }
 }
 
@@ -358,3 +306,5 @@ section.tos,
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+@import '_mobile.scss';
