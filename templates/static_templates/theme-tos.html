@@ -12,8 +12,8 @@
 <%
   site_name = settings.SITE_NAME
   accessibility_email = '<a href="mailto:accessibility@stanfordonline.zendesk.com">accessibility@stanfordonline.zendesk.com</a>'
-  concern_email='<a href="mailto:concern@stanfordonline.zendesk.com">concern@stanfordonline.zendesk.com</a>'
-  contact_email = '<a href="mailto:' + settings.CONTACT_EMAIL + '">' + settings.CONTACT_EMAIL + '</a>'
+  concern_email = '<a href="mailto:concern@stanfordonline.zendesk.com">concern@stanfordonline.zendesk.com</a>'
+  contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
   privacy_email = '<a href="mailto:privacy@stanfordonline.zendesk.com">privacy@stanfordonline.zendesk.com</a>'
 %>
 
@@ -129,7 +129,7 @@
             any underlying service provider.
         ''')}
     </p>
-  
+
     <p><strong>${_('User Accounts')}</strong></p>
 
     <p>
@@ -161,7 +161,7 @@
             reason.
         ''')}
     </p>
-  
+
     <p><strong>${_('Fees and Refunds')}</strong></p>
 
     <p>
@@ -208,7 +208,7 @@
             by all such rules and restrictions.
         ''')}
     </p>
-  
+
     <p><strong>${_('Modifications to Site')}</strong></p>
 
     <p>
@@ -250,7 +250,7 @@
             copyright in the material, or other legal entitlement to use the material.
         ''')}
     </p>
-  
+
     <p><strong>${_('Security Rules')}</strong></p>
 
     <p>
@@ -270,7 +270,7 @@
         <li>${_('attempting to interfere with service to any user, host or network, including without limitation, via means of submitting a virus to the Site, overloading, "flooding", "Mailbombing" or "Crashing"')}</li>
         <li>${_('impersonating another person or improperly allowing another to use your registration information to access the Site.')}</li>
     </ul>
-  
+
     <p><strong>${_('Content Disclaimer')}</strong></p>
 
     <p>
@@ -279,7 +279,7 @@
             by the content of the Sites, you should not continue.
         ''')}
     </p>
-  
+
     <p>
         ${_('''Sites may also include the personal opinions and other expressions by Users who post entries on a wide
             range of topics. Neither the content of the forums, nor the links to other web sites, are screened,
@@ -412,7 +412,7 @@
             IS AT YOUR OWN RISK.
         ''')}
     </p>
-  
+
     <p>
         ${_('''WITHOUT LIMITING THE FOREGOING, STANFORD DOES NOT WARRANT THAT (A) THE SITE WILL MEET YOUR REQUIREMENTS
             OR EXPECTATIONS OR ACHIEVE THE INTENDED PURPOSES, (B) THE SITE WILL NOT EXPERIENCE OUTAGES OR OTHERWISE BE
@@ -462,7 +462,7 @@
             contact_email=contact_email
         )}
     </p>
-  
+
     <p><strong>${_('Proprietary Rights')}</strong></p>
 
     <p>
@@ -475,7 +475,7 @@
             trademark_link='<a href="http://adminguide.stanford.edu/15_5.pdf">http://adminguide.stanford.edu/15_5.pdf</a>'
         )}
     </p>
-  
+
     <p>
         ${_('''Except as otherwise provided herein, use of the Site does not grant you a license to any content,
             features or Material you may access on the Site, and you may not modify, rent, lease, loan, sell,
@@ -523,7 +523,7 @@
             contact_email=contact_email
         )}
     </p>
-  
+
     <p><strong>${_('Notices')}</strong></p>
 
     <p>
@@ -532,7 +532,7 @@
             displaying notices or links to notices to you on the Site.
         ''')}
     </p>
-  
+
     <p><strong>${_('General Information')}</strong></p>
 
     <p>
@@ -690,7 +690,7 @@
     </p>
 
     <p><strong>${_('Collection of Information by Third Parties')}</strong></p>
-  
+
     <p>
         ${_('''We may permit a limited number of authorized third parties, such as analytics partners, to place cookies
             through the Site to provide us with better insights into the use of the Site or user demographics. These
@@ -814,7 +814,7 @@
             function for us.
         ''')}
     </p>
-  
+
     <p>
         <span style="text-decoration: underline;">${_('Government Authorities, Legal Rights and Actions')}</span>.
         ${_('''Stanford may share your Personally Identifiable Information with various government authorities in
@@ -828,7 +828,7 @@
             of Use and other agreements.
         ''')}
     </p>
-  
+
     <p><strong>${_('Security')}</strong></p>
 
     <p>
