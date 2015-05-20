@@ -290,6 +290,32 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
     }
 }
 
+// Previous and Next arrow styling changes
+#course-content .sequence-bottom {
+    li {
+        width: 120px;
+        
+        a {
+            padding: 14px 10px;
+            text-indent: 0;
+        }
+
+        &.prev {
+            a {
+                padding-left: 40px;
+                background-position: 15px 15px !important;
+            }
+        }
+
+        &.next {
+            a {
+                padding-left: 30px;
+                background-position: 95px 15px !important;
+            }
+        }
+    }
+}
+
 // Shib username page
 section.introduction h1.sr {
     min-height: 100px;
@@ -312,4 +338,20 @@ footer {
     .references {
         width: 15% !important;
     }
+}
+
+// Print page, originally implemented for TOS page
+@media print {
+    html body .window-wrap #su-header,
+    html body .window-wrap header.global,
+    html body .window-wrap .wrapper-footer,
+    html body .window-wrap #su-footer,
+    #content section.tos input.print {
+        display: none;
+    }
+}
+section.tos,
+#content section.tos input.print {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
