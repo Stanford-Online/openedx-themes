@@ -5,6 +5,13 @@
   from edxmako.shortcuts import marketing_link
 %>
 <%namespace name='static' file='/static_content.html'/>
+<%namespace name='theme_settings' file='theme-settings.html'/>
+
+<%
+  theme_vars = theme_settings.get_theme_vars()
+  effective_date = theme_vars['effective_date']
+%>
+
 <div class="wrapper-footer">
   <footer>
     <div class="colophon">
@@ -15,8 +22,12 @@
       </div>
       <nav class="nav-colophon">
         <ol>
-          <li><a href="${reverse('tos')}">${_('Terms of Service')} <br />(${_('Revised 05/21/15')})</a></li>
-          <li><a href="${reverse('tos')}#privacy">${_('Privacy Policy')} <br />(${_('Revised 05/21/15')})</a></li>
+          <li><a href="${reverse('tos')}">${_('Terms of Service')} <br />
+            (${_('Revised {date}').format(date=effective_date)})
+          </a></li>
+          <li><a href="${reverse('tos')}#privacy">${_('Privacy Policy')} <br />
+            (${_('Revised {date}').format(date=effective_date)})
+          </a></li>
           <li><a href="${reverse('tos')}#honor">${_('Honor Code')}</a></li>
           <li><a href="${reverse('tos')}#copyright">${_('Copyright')}</a></li>
           <li><a href="${marketing_link('ABOUT')}#contact">${_('Contact')}</a></li>
