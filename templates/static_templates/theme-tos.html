@@ -6,22 +6,27 @@
 <%inherit file="/main.html" />
 
 <%namespace name='static' file='/static_content.html'/>
+<%namespace name='theme_settings' file='/theme-settings.html'/>
 
 <%block name="title"><title>${_('Terms of Service')}</title></%block>
 
 <%
+  theme_vars = theme_settings.get_theme_vars()
+  effective_date = theme_vars['effective_date']
   site_name = settings.SITE_NAME
-  accessibility_email = '<a href="mailto:accessibility@stanfordonline.zendesk.com">accessibility@stanfordonline.zendesk.com</a>'
-  concern_email = '<a href="mailto:concern@stanfordonline.zendesk.com">concern@stanfordonline.zendesk.com</a>'
+  accessibility_email = theme_vars['accessibility_email']
+  concern_email = theme_vars['concern_email']
   contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
-  privacy_email = '<a href="mailto:privacy@stanfordonline.zendesk.com">privacy@stanfordonline.zendesk.com</a>'
+  privacy_email = theme_vars['privacy_email']
 %>
 
 <section class="static-container tos" style="padding: 0 25px; box-sizing: border-box;">
 
-    <h2>
-      <em>${_('NOTICE: On June 14, 2014, Stanford amended its Terms of Service and Privacy Policy as follows:')}</em>
-    </h2>
+    <h2><em>
+        ${_('NOTICE: On {date}, Stanford amended its Terms of Service and Privacy Policy as follows:').format(
+            date=effective_date
+        )}
+    </em></h2>
 
     <hr />
 
@@ -556,8 +561,6 @@
         ''')}
     </p>
 
-    <p><strong>${_('Effective June 14, 2014')}</strong></p>
-
     <hr />
 
     <h2 id="honor">${_('Honor Code')}</h2>
@@ -948,7 +951,11 @@
     </p>
 
     <hr />
-    <p><strong>${_('Effective date: May 21, 2015')}</strong></p>
+    <p><strong>
+        ${_('Effective date: {date}').format(
+            date=effective_date
+        )}
+    </strong></p>
 </section>
 
 <script>

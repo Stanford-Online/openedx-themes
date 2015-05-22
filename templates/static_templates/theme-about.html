@@ -4,8 +4,18 @@
   from django.utils.translation import ugettext as _
 %>
 <%namespace name='static' file='/static_content.html'/>
+<%namespace name='theme_settings' file='/theme-settings.html'/>
 
 <%inherit file="/main.html" />
+
+<%
+  theme_vars = theme_settings.get_theme_vars()
+  site_name = settings.SITE_NAME
+  accessibility_email = theme_vars['accessibility_email']
+  concern_email = theme_vars['concern_email']
+  contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
+  privacy_email = theme_vars['privacy_email']
+%>
 
 <%block name="title"><title>${_('About {PLATFORM_NAME}').format(PLATFORM_NAME='Stanford Online')}</title></%block>
 
@@ -120,10 +130,10 @@
             )}
         </p>
         <p>${_("For disability-related questions email us at:")} <br />
-            <a href="mailto:accessibility@stanfordonline.zendesk.com">accessibility@stanfordonline.zendesk.com</a>
+            ${accessibility_email}
         </p>
         <p>${_("For privacy-related questions email us at:")}<br />
-            <a href="mailto:privacy@stanfordonline.zendesk.com">privacy@stanfordonline.zendesk.com</a>
+            ${privacy_email}
         </p>
       </article>
       <hr class="fade-right-hr-divider">
