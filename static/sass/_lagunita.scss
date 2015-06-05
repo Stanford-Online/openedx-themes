@@ -301,12 +301,12 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
 
         &.button-previous {
             padding-left: 29px;
-            background-position-x: 15px;
+            background-position: 15px 15px;
         }
 
         &.button-next {
             padding-right: 29px;
-            background-position-x: 85px;
+            background-position: 85px 15px;
         }
     }
 }
