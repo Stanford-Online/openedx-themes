@@ -292,28 +292,31 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
 
 // Previous and Next arrow styling changes
 #course-content .sequence-bottom {
-    li {
-        width: 120px;
-        
-        a {
-            padding: 14px 10px;
-            text-indent: 0;
+    width: 220px;
+
+    .sequence-nav-button {
+        width: 110px;
+        text-indent: 0;
+        padding: 6px 7px 8px 7px;
+
+        &.button-previous {
+            padding-left: 29px;
+            background-position: 15px 15px;
         }
 
-        &.prev {
-            a {
-                padding-left: 40px;
-                background-position: 15px 15px !important;
-            }
-        }
-
-        &.next {
-            a {
-                padding-left: 30px;
-                background-position: 95px 15px !important;
-            }
+        &.button-next {
+            padding-right: 29px;
+            background-position: 85px 15px;
         }
     }
+}
+
+// Research Info styling, upstream change styles ul element directly, so slight HAX
+
+.profile-sidebar .research-info {
+    margin: 20px;
+    padding-top: 25px;
+    border-top: 1px solid #999;
 }
 
 // Shib username page
