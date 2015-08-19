@@ -41,6 +41,25 @@ $dark-green: #4F7573;
 $darker-green: #2F5553;
 $darkest-green: #0F3533;
 
+$m-blue: $medium-green;
+$m-blue-l1: tint($m-blue,60%); // #2BACE6
+$m-blue-l2: tint($m-blue,70%); // #42B5E9
+$m-blue-l3: tint($m-blue,80%); // #59BEEC
+$m-blue-l4: tint($m-blue,90%);
+$m-blue-l5: tint($m-blue,95%);
+$m-blue-s1: saturate($m-blue,15%);
+$m-blue-l5: tint($m-blue,75%);
+$m-blue-d1: $dark-green; // #1790C7
+$m-blue-d2: $dark-green;
+$m-blue-d3: $darker-green; // #126F9A
+$m-blue-d4: $darker-green;
+$m-blue-d5: $darker-green;
+$m-blue-d6: $darker-green;
+$m-blue-t0: rgba($m-blue,0.125);
+$m-blue-t1: rgba($m-blue,0.25);
+$m-blue-t2: rgba($m-blue,0.50);
+$m-blue-t3: rgba($m-blue,0.75);
+
 
 //-----------------
 //  Font Assignment
@@ -262,13 +281,15 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
 .home>header {
     .outer-wrapper {
         width: 760px !important;
+        padding: 175px 10px !important;
     }
     .title {
-        width: 535px;
-        margin-left: 0;
+        width: 535px !important;
+        margin-left: 0 !important;
     }
     .media {
-        width: 225px;
+        width: 225px !important;
+        height: 129px !important;
     }
 }
 
