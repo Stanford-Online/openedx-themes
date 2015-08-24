@@ -318,20 +318,27 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
     .sequence-nav-button {
         width: 110px;
         text-indent: 0;
-        padding: 8px 14px;
+        text-align: center;
+        padding: 8px 10px;
+
+        .icon {
+            position: absolute;
+            top: 16px;
+        }
 
         &.button-previous {
-            text-align: left;
+            padding-left: 30px;
+            
             .icon {
-                margin-right: 15px;
+                left: 15px;
             }
         }
 
         &.button-next {
-            text-align: right;
+            padding-right: 30px;
 
             .icon {
-                margin-left: 30px;
+                right: 15px;
             }
         }
     }
