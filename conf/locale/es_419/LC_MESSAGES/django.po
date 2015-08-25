@@ -48,9 +48,17 @@ msgstr "Al inscribirse como estudiante en línea, usted también formará parte 
 msgid "Read Terms of Service and Privacy Policy."
 msgstr "Lea Términos de servicio y la Política de privacidad."
 
+#: templates/theme-footer.html:25
+msgid "Terms of Service"
+msgstr "Términos del servicio"
+
 #: templates/theme-footer.html:26 templates/theme-footer.html:29
 msgid "Revised {date}"
 msgstr "Revisado {date}"
+
+#: templates/theme-footer.html:31
+msgid "Honor Code"
+msgstr "Código de Honor"
 
 #: templates/theme-footer.html:40
 msgid "Powered by {platform_name}"
