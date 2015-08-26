@@ -147,10 +147,13 @@ msgid ""
 "Is this OK?"
 msgstr ""
 
-#: lms/static/js/student_account/views/account_settings_factory.js:32
+#: lms/static/js/student_account/views/account_settings_factory.js:33
 msgid ""
-"The name that identifies you on this site. You cannot change your username."
-msgstr "En nombre que lo identifica en este sitio. No podrá ser cambiado."
+"The name that identifies you throughout {platform_name}. You cannot change "
+"your username."
+msgstr ""
+"En nombre que lo identifica en el sitio de {platform_name}. No podrá ser "
+"cambiado."
 
 #: lms/static/js/student_account/views/account_settings_factory.js:83
 #: lms/static/js/student_account/views/account_settings_factory.js:114
