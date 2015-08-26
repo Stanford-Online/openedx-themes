@@ -123,10 +123,10 @@
         <p><strong>Stanford Online Help Center:</strong><br />
             <a href="https://stanfordonline.zendesk.com/hc">https://stanfordonline.zendesk.com</a>
         </p>
-        <p>${_("The {help_center_link} contains a FAQ that answers all of the most common tech support questions for the courses available through {lagunita_home_link}. If you can't find what you're looking for there, or if you have a suggestion or bug report to make, you can also file a support ticket from the {help_center}.").format(
-                help_center_link='<a href="https://stanfordonline.zendesk.com/hc">Help Center</a>',
-                lagunita_home_link="<a href='https://lagunita.stanford.edu'>https://lagunita.stanford.edu</a>",
-                help_center="Help Center"
+        <p>${_("The {help_link_start}Help Center{link_end} contains a FAQ that answers all of the most common tech support questions for the courses available through {lagunita_home_link}. If you can't find what you're looking for there, or if you have a suggestion or bug report to make, you can also file a support ticket from the Help Center.").format(
+                help_link_start='<a href="https://stanfordonline.zendesk.com/hc">',
+                link_end='</a>',
+                lagunita_home_link='<a href="https://lagunita.stanford.edu">https://lagunita.stanford.edu</a>'
             )}
         </p>
         <p>${_("For disability-related questions email us at:")} <br />
