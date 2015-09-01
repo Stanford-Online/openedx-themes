@@ -1378,6 +1378,10 @@ msgstr "Para cualquier otra pregunta, sírvase comunicarse con nosotros a {conta
 msgid "Effective date: {date}"
 msgstr "Fecha de vigencia: {date}"
 
+#: templates/static_templates/theme-tos.html:962
+msgid "Print Terms of Service"
+msgstr "Imprimir Términos del servicio"
+
 #. Translators: "Assessment Panel" appears on a tab that, when clicked, opens
 #. up a panel that
 #. displays information about open-ended problems that a user has submitted or
@@ -2021,11 +2025,19 @@ msgstr "¿Hay error?"
 msgid "{platform_name} Problem Reports"
 msgstr "Informes de errores en {platform_name}"
 
+#: lms/templates/report_modal.html:22
+msgid "Report A Problem"
+msgstr "Informarnos de error"
+
 #: lms/templates/report_modal.html:25
 msgid ""
 "If you've found a problem on this page (e.g. an error), please let us know! "
 "For other questions, please check out the 'Help' tab."
 msgstr "Si ha encontrado un error en esta página, ¡favor de informarnos! Para otras preguntas, favor de usar la pestaña de 'Ayuda'."
+
+#: lms/templates/report_modal.html:37
+msgid "Include error messages, steps which lead to the issue, etc."
+msgstr "Incluya los mensajes de error, los pasos que conduzcan al problema, etc."
 
 #: lms/templates/report_modal.html:41
 msgid "Submit Problem Report"
@@ -2124,6 +2136,14 @@ msgid ""
 "Non-registered mode.  {tag_start}Register{tag_end} to save your course "
 "progress."
 msgstr "Modo no registrado. {tag_start}Regístrese{tag_end} para guardar su progreso en el curso."
+
+#: lms/templates/courseware/progress.html:60
+msgid ""
+"Note: Submitted assignments will appear as bars in the Progress chart.\n"
+"                Mouse over a bar to see more information about the "
+"relevant assignment.\n"
+"            "
+msgstr "Tenga en cuenta: Tareas enviadas aparecerán como barras en el gráfico de progreso. Coloque el ratón sobre una barra para ver más información acerca de la tarea correspondiente."
 
 #: lms/templates/emails/activation_email_subject.txt:3
 msgid "Activate Your {account_name} Account"

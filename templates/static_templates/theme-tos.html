@@ -959,7 +959,7 @@
 
 <script>
     $(document).ready(function() {
-        var print_tos = '<input type="button" value="Print Terms of Service" class="print">';
+        var print_tos = '<input type="button" value="${_('Print Terms of Service')}" class="print">';
         $('#content section.tos').prepend(print_tos).append(print_tos);
         $('#content section.tos input.print').click(function() {
             window.print();
