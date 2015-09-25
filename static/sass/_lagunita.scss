@@ -260,6 +260,16 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
     border: none;
 }
 
+#global-navigation {
+    .nav-wrapper .user {
+        .primary a {
+            &.dropdown {
+                padding: 5px 10px 11px 10px;
+            }
+        }
+    }
+}
+
 .help-buttons {
     li {
         margin-top: 10px;
