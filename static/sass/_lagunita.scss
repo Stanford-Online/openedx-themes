@@ -357,23 +357,46 @@ section.introduction h1.sr {
     min-height: 100px;
 }
 
-footer {
-    .colophon {
-        width: 80% !important;
-        
-        .footer-logo {
+//-----------------
+// Footer Styling
+//-----------------
+.wrapper-footer {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    
+    footer {
+        max-width: 1180px;
+        margin: 0 auto;
+    
+        .colophon {
+            width: 80%;
             float: left;
-            margin-right: 35px;
+    
+            .footer-logo {
+                float: left;
+                margin-right: 35px;
+            }
+            .nav-colophon li {
+                display: inline-block;
+                height: 35px;
+                float: left;
+                margin: 0 20px 20px 0;
+            }
         }
-        
-        .nav-colophon li {
-            height: 35px;
-            margin-bottom: 20px;
+    
+        .references {
+            width: 15%;
+            float: right;
+        }
+    
+        .copyright {
+            clear: both;
         }
     }
-    .references {
-        width: 15% !important;
-    }
+}
+#su-footer {
+    clear: both;
 }
 
 // Print page, originally implemented for TOS page
