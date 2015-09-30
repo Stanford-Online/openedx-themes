@@ -263,6 +263,9 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
 #global-navigation {
     .nav-wrapper .user {
         .primary a {
+            &.user-link {
+                padding: 6px 8px 9px 10px
+            }
             &.dropdown {
                 padding: 5px 10px 11px 10px;
             }
@@ -289,17 +292,21 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
 }
 
 .home>header {
+    height: 320px;
+    margin-top: 0;
+
     .outer-wrapper {
+        min-width: 0;
         width: 760px !important;
-        padding: 175px 10px !important;
+        padding: 150px 10px 0 10px;
     }
     .title {
-        width: 535px !important;
-        margin-left: 0 !important;
+        width: 80% !important;
+        float: none !important;
+        margin: 0 auto !important;
     }
     .media {
-        width: 225px !important;
-        height: 129px !important;
+        display: none;
     }
 }
 
@@ -364,6 +371,10 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
     border-top: 1px solid #999;
 }
 
+.course-sidebar .research-info {
+    padding: 0 10px;
+}
+
 // Shib username page
 section.introduction h1.sr {
     min-height: 100px;
@@ -409,6 +420,14 @@ section.introduction h1.sr {
 }
 #su-footer {
     clear: both;
+}
+
+// Typography styling
+P {
+    line-height: 1.4em;
+}
+ul li, ol li {
+    font-family: $sans-serif !important;
 }
 
 // Print page, originally implemented for TOS page
