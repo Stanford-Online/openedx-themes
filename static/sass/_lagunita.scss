@@ -393,7 +393,7 @@ section.introduction h1.sr {
         margin: 0 auto;
     
         .colophon {
-            width: 80%;
+            width: 80% !important;
             float: left;
     
             .footer-logo {
@@ -409,7 +409,7 @@ section.introduction h1.sr {
         }
     
         .references {
-            width: 15%;
+            width: 15% !important;
             float: right;
         }
     
