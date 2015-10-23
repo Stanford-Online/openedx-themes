@@ -233,12 +233,12 @@ msgstr "La Universidad de Stanford está dedicada a la ciencia del aprendizaje. 
 
 #: templates/static_templates/theme-tos.html:44
 msgid ""
-" By registering as an online learner, you are also participating in research intended to enhance\n"
+" By registering as an online learner, you are also participating in {research_link_start}research{link_end} intended to enhance\n"
 "            Stanford's instructional offerings as well as the quality of learning and related sciences worldwide. In\n"
 "            the interest of research, you may be exposed to some variations in the course materials. Stanford does not\n"
 "            use learner data for any purpose beyond the University's stated missions of education and research. For\n"
 "            purposes of research, we may share information we collect from online learning activities, including\n"
-"            {link_start}Personally Identifiable Information {link_end}, with researchers beyond Stanford. However,\n"
+"            {pii_link_start}Personally Identifiable Information {link_end}, with researchers beyond Stanford. However,\n"
 "            your Personally Identifiable Information will only be shared as permitted by applicable law, will be\n"
 "            limited to what is necessary to perform the research, and will be subject to an agreement to protect the\n"
 "            data. We may also share with the public or third parties aggregated information that does not personally\n"
