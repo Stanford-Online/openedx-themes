@@ -1985,11 +1985,11 @@ msgstr "Actualizar mi cuenta con {account_name}"
 
 #: lms/templates/register.html:19
 msgid "Create your {account_name} learning and research account!"
-msgstr "¡Crear su cuenta de aprendizaje y investigaciones con {platform_name}!"
+msgstr "¡Crear su cuenta de aprendizaje y investigaciones con {account_name}!"
 
 #: lms/templates/register.html:84
 msgid "Create My {account_name} Account"
-msgstr "Crear mi cuenta de con {platform_name}"
+msgstr "Crear mi cuenta de con {account_name}"
 
 #: lms/templates/register.html:99
 msgid "Welcome to the {account_name} Learning and Research Community"
