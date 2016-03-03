@@ -41,19 +41,20 @@
     </p>
 
     <p>
-        ${_(''' By registering as an online learner, you are also participating in research intended to enhance
+        ${_(''' By registering as an online learner, you are also participating in {research_link_start}research{link_end} intended to enhance
             Stanford\'s instructional offerings as well as the quality of learning and related sciences worldwide. In
             the interest of research, you may be exposed to some variations in the course materials. Stanford does not
             use learner data for any purpose beyond the University\'s stated missions of education and research. For
             purposes of research, we may share information we collect from online learning activities, including
-            {link_start}Personally Identifiable Information {link_end}, with researchers beyond Stanford. However,
+            {pii_link_start}Personally Identifiable Information {link_end}, with researchers beyond Stanford. However,
             your Personally Identifiable Information will only be shared as permitted by applicable law, will be
             limited to what is necessary to perform the research, and will be subject to an agreement to protect the
             data. We may also share with the public or third parties aggregated information that does not personally
             identify you. Similarly, any research findings will be reported at the aggregate level and will not expose
             your personal identity.
         ''').format(
-            link_start='<a href="#pii">',
+            pii_link_start='<a href="#pii">',
+            research_link_start='<a href="http://lytics.stanford.edu/report/">',
             link_end='</a>'
         )}
     </p>
@@ -678,7 +679,7 @@
         <span style="text-decoration: underline;">${_('Personally Identifiable Information')}</span>.
         ${_('''This Privacy Policy serves as notice that Stanford collects Personally Identifiable Information in the
             manner described herein. Such information may include but is not limited to: username, email address, home
-            address, postal code, gender and year of birth. Stanford collects Personally Identifiable Information that
+            address, IP address, postal code, gender and year of birth. Stanford collects Personally Identifiable Information that
             you provide to us when you sign-up for email updates, participate in online courses or services through
             our Site, participate in our public forums, send us email messages, and/or or otherwise contact us. In
             order to subscribe to services, you may be required to provide us with Personally Identifiable Information
@@ -777,7 +778,7 @@
         <span style="text-decoration: underline;">${_('Research')}</span>.
         ${_('''We will study course participation to learn how to enhance both our course offerings and the online
             learning experience. Records of your participation may be used by Stanford for these research studies.
-            Such records may include but will not be limited to: username, email address, home address, postal code,
+            Such records may include but will not be limited to: username, email address, home address, IP address, postal code,
             gender, year of birth and your interactions with the platform such as video player usage, forum posts,
             actions on class pages, assignments, and assessment results. For purposes of research, we may share
             information we collect from online learning activities, including Personally Identifiable Information
@@ -959,7 +960,7 @@
 
 <script>
     $(document).ready(function() {
-        var print_tos = '<input type="button" value="Print Terms of Service" class="print">';
+        var print_tos = '<input type="button" value="${_('Print Terms of Service')}" class="print">';
         $('#content section.tos').prepend(print_tos).append(print_tos);
         $('#content section.tos input.print').click(function() {
             window.print();

@@ -1,0 +1,580 @@
+/****************************************************************************************************
+*   Mobile Theming File
+*
+*   Contains style for overriding theming for mobile
+*
+****************************************************************************************************/
+html {
+    min-width: 420px;
+}
+
+@media (max-width: 500px) {
+    header.global {
+        .nav-global {
+            li, div {
+                margin-right: 2px !important;
+            }
+        }
+        .user {
+            .user-link {
+                padding: 0 !important;
+
+                div {
+                    display: none;
+                }
+            }
+            .dropdown {
+                padding: 5px 12px 12px 12px;
+            }
+        }
+    }
+
+    section.container {
+        &.dashboard {
+            section.my-courses {
+                ul.listing-courses {
+                    li.course-item {
+                        section.details {
+                            .wrapper-course-image {
+                                width: 100%;
+
+                                a {
+                                    max-height: 200px;
+                                }
+                            }
+                            .wrapper-course-details {
+                                width: 100%;
+
+                                .course-title {
+                                    a {
+                                        font-size: 32px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.courses {
+        .courses-listing {
+            .courses-listing-item {
+                .course-image {
+                    .cover-image {
+                        height: 240px;
+                        
+                        &::before {
+                            height: 240px;
+                        }
+
+                        .learn-more {
+                            top: 90px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        min-width: 500px !important;
+    }
+
+    .view-register header.global,
+    .view-login header.global,
+    .view-passwordreset  header.global,
+    header.global {
+        nav {
+            min-width: 0;
+            width: 90%;
+            padding: 15px 0;
+            margin: 0 5%;
+        }
+
+        h1.logo {
+            margin-right: 20px !important;
+        }
+    }
+
+    .view-register .content-wrapper#content,
+    .view-login .content-wrapper#content,
+    .view-passwordreset  .content-wrapper#content,
+    .content-wrapper#content {
+        header.search {
+            margin-top: 0;
+            height: 240px;
+
+            .inner-wrapper.main-search {
+                text-align: left;
+                padding-top: 75px;
+                min-width: 0;
+
+                hgroup {
+                    padding: 20px 15px;
+                    margin: 10px;
+
+                    .logo {
+                        float: left;
+                    }
+                    h2 {
+                        display: inline;
+                    }
+                }
+            }
+        }
+
+        section.container {
+            padding: 0;
+            min-width: 0;
+
+            section.courses {
+                padding-top: 20px;
+
+                ul.courses-listing li.courses-listing-item {
+                    width: 45%;
+                    margin: 0 2.5%;
+
+                    .inner-wrapper {
+                        height: 225px;
+
+                        .cover-image {
+                            height: 225px;
+                        }
+                    }
+                }
+            }
+
+            section.details {
+                width: 90%;
+                margin: 0 5%;
+
+                .wrapper-course-details {
+                    .course-info {
+                        width: 40%;
+                    }
+                    .wrapper-course-actions {
+                        width: 60%;
+                    }
+                }
+            }
+            section.course-sidebar {
+                width: 100%;
+
+                section.course-summary {
+                    width: 90%;
+                    padding: 5%;
+                    margin-bottom: 0;
+                }
+            }
+
+            &.about {
+                nav#about-menu {
+                    margin-bottom: 35px;
+                    font-size: 1.25em;
+
+                    a {
+                        margin: 0 25px;
+                    }
+                }
+                section.vision {
+                    section.message.left {
+                        margin-bottom: 35px;
+                        padding-bottom: 35px;
+
+                        .photo {
+                            width: 90%;
+                            margin: 0 5%;
+                        }
+                        article {
+                            width: 90%;
+                            margin: 5%;
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
+
+            &.dashboard {
+                width: 90%;
+                margin: 5% 5% 0 5%;
+
+                section.my-courses {
+                    width: 100%;
+
+                    .course {
+                        .details {
+                            width: 100%;
+                            margin: 0;
+                        }
+                    }
+                }
+                #dashboard-search-bar {
+                    width: 100%;
+                }
+                section.profile-sidebar {
+                    width: 100%;
+                    clear: both;
+                }
+            }
+        }
+
+        section.home > header {
+            height: 320px;
+            margin-top: 0;
+
+            .outer-wrapper {
+                min-width: 0;
+                padding: 150px 10px 0 10px;
+
+                .title {
+                    width: 100%;
+                    margin: 0 auto;
+                    bottom: 75px;
+                }
+                .media {
+                    display: none;
+                }
+            }
+        }
+
+        section.course-info > header.course-profile {
+            .intro-inner-wrapper {
+                position: absolute;
+                bottom: 10%;
+                min-width: 0;
+                width: 90%;
+                margin: 0 5%;
+
+                section.intro {
+                    .main-cta {
+                        .register {
+                            width: 100%;
+                        }
+                        strong {
+                            clear: both;
+                            width: 100%;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                .media {
+                    display: none;
+                }
+            }
+        }
+
+        section.introduction {
+            width: 100%;
+
+            header {
+                height: auto;
+
+                h1.title {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    width: 90%;
+                    margin: 5%;
+                    padding-bottom: 0;
+                    border-bottom: 1px solid $black;
+
+                    .title-super {
+                        line-height: 1.25em;
+                    }
+                    .title-sub {
+                        margin: 15px 0;
+                    }
+                }
+            }
+        }
+
+        section.register,
+        section.login {
+            width: 100%;
+
+            section.content {
+                width: 90%;
+                margin: 0 5%;
+
+                .group-form {
+                    width: 100%;
+                    float: left;
+
+                    ol.list-input {
+                        margin-left: 0;
+
+                        li.field-education-level {
+                            width: 100%;
+                            margin-bottom: 25px;
+
+                            .field {
+                                width: 100%;
+                            }
+                        }
+                        li.field-gender {
+                            width: 50%;
+                            float: left;
+
+                            .field {
+                                width: 90%;
+                            }
+                        }
+                        li.field-yob {
+                            width: 50%;
+                            float: left;
+
+                            .field {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    &.group-form-accountacknowledgements {
+                        .field {
+                            margin: 10px 0;
+
+                            input {
+                                float: left;
+                                width: 25px;
+                                height: 25px;
+                            }
+                            label {
+                                display: inline;
+                            }
+                        }
+                    }
+                }
+            }
+            aside {
+                width: 90%;
+                margin: 5%;
+            }
+        }
+
+        .wrapper-account-settings {
+            width: 100%;
+            min-width: auto;
+            padding: 40px 10px;
+            box-sizing: border-box;
+
+            .account-settings-sections {
+                .u-field-title {
+                    width: 40%;
+                    padding-top: 10px;
+                }
+                .u-field-value {
+                    width: 50%;
+                }
+                .u-field-message {
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+    .view-register .wrapper-footer > footer,
+    .view-login .wrapper-footer > footer,
+    .view-passwordreset  .wrapper-footer > footer,
+    .wrapper-footer > footer {
+        min-width: 0;
+        width: 100%;
+
+        .colophon {
+            width: 90% !important;
+            margin: 0 5%;
+
+            .footer-logo {
+                display: none;
+            }
+            .nav-colophon ol li {
+                width: 45%;
+                display: inline-block;
+                height: auto;
+            }
+        }
+        .references {
+            float: right;
+            margin-right: 10px !important;
+        }
+    }
+}
+
+@media (max-width: 500px) and (orientation: portrait) {
+    html {
+        min-width: 380px !important;
+    }
+
+    .view-register .content-wrapper#content,
+    .view-login .content-wrapper#content,
+    .view-passwordreset  .content-wrapper#content,
+    .content-wrapper#content {
+        section.container {
+
+            section.courses {
+
+                ul.courses-listing li.courses-listing-item {
+                    width: 90%;
+                    margin: 0 5%;
+                }
+            }
+        }
+
+        section.course-info > header.course-profile {
+            .intro-inner-wrapper {
+                position: absolute;
+                bottom: 10%;
+                min-width: 0;
+                width: 90%;
+                margin: 0 5%;
+
+                section.intro {
+                    hgroup > h1 {
+                        font-size: 1.5em;
+                    }
+                    .main-cta {
+                        .register {
+                            width: 100%;
+                        }
+                        strong {
+                            clear: both;
+                            width: 100%;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                .media {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    section.modal {
+        left: 0 !important;
+        width: 90%;
+        margin: 0 5% !important;
+        box-sizing: border-box;
+
+        .group-form {
+            margin: 10% 0;
+
+            ol.list-input {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 801px) and (max-width: 960px) {
+    .view-register .content-wrapper#content,
+    .view-login .content-wrapper#content,
+    .view-passwordreset  .content-wrapper#content,
+    .content-wrapper#content {
+        section.container {
+
+            section.courses {
+
+                ul.courses-listing li.courses-listing-item {
+                    width: 45%;
+                    margin: 0 2.5%;
+
+                    .inner-wrapper {
+                        height: 250px;
+
+                        .cover-image {
+                            height: 250px;
+                        }
+                    }
+                }
+            }
+        }
+
+        section.register,
+        section.login {
+            section.content {
+                width: 65%;
+                margin-right: 5%;
+
+                ol.list-input {
+                    margin-left: 0;
+                }
+            }
+            aside {
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .view-register .content-wrapper#content,
+    .view-login .content-wrapper#content,
+    .view-passwordreset  .content-wrapper#content,
+    .content-wrapper#content {
+        section.course-info {
+            header.course-profile .intro-inner-wrapper,
+            section.container {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media (min-width: 801px) {
+    .home>header {
+        .outer-wrapper {
+            width: 760px !important;
+            padding: 60px 0 !important;
+        }
+        .title {
+            width: 80% !important;
+            margin: 0 10% !important;
+        }
+        .media {
+            width: 225px;
+        }
+    }
+
+    .view-register, .view-login, .view-passwordreset {
+        .container, .introduction {
+            width: auto !important;
+            max-width: 1180px;
+            min-width: 760px;
+        }
+        .wrapper-footer footer {
+            width: auto !important;
+            max-width: 1180px;
+            min-width: 760px;
+        }
+        header.global nav {
+            width: auto !important;
+            max-width: 1180px;
+            min-width: 760px;
+        }
+    }
+
+    @mixin login_register_h1_style {
+        clip: auto !important;
+        margin-top: 25px;
+        width: 750px;
+        top: 0px !important;
+    }
+
+    @mixin footer_references_style {
+        margin: 0 !important;
+        text-align: right;
+    }
+
+    .view-register, .view-login, .view-passwordreset {
+        .introduction header .title {
+            top: 20px;
+            left: 20px;
+        }
+    }
+}
