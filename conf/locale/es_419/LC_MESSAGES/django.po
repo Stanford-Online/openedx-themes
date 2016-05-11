@@ -1916,29 +1916,6 @@ msgstr ""
 msgid "Staff Analytics Info"
 msgstr ""
 
-#: lms/templates/login-sidebar.html:25
-msgid "Looking for help in logging in or with your {account_name} account?"
-msgstr "¿Está buscando ayuda para iniciar sesión o con tu cuenta de {account_name}? "
-
-#: lms/templates/login.html:10
-msgid "Log into your {account_name} Account"
-msgstr "Iniciar sesión en su cuenta de {account_name}"
-
-#: lms/templates/login.html:106
-msgid "Log into My {account_name} Account"
-msgstr "Iniciar sesión en mi cuenta de {account_name}"
-
-#: lms/templates/login.html:149
-msgid "We're Sorry, {account_name} accounts are unavailable currently"
-msgstr "Lo sentimos, las cuentas de {account_name} no están disponibles actualmente"
-
-#: lms/templates/login.html:164
-msgid ""
-"Please provide the following information to log into your {account_name} "
-"account. Required fields are noted by <strong class=\"indicator\">bold text "
-"and an asterisk (*)</strong>."
-msgstr "Favor de proporcionar la siguiente información para iniciar sesión en su cuenta de {account_name}. Los campos obligatorios se indican con <strong class=\"indicator\">texto en negrita y con un asterisco (*)</strong>."
-
 #: lms/templates/problem.html:18
 msgid "At {start_time}, you started this exam."
 msgstr "Usted inició el examen a {start_time}."
@@ -1979,37 +1956,9 @@ msgstr "Para {end_time}, ¡debe hacer clic manualmente en el botón \"Enviar su 
 msgid "Start Timer"
 msgstr "Iniciar cronómetro"
 
-#: lms/templates/register-shib.html:76
-msgid "Update my {account_name} Account"
-msgstr "Actualizar mi cuenta con {account_name}"
-
-#: lms/templates/register.html:19
-msgid "Create your {account_name} learning and research account!"
-msgstr "¡Crear su cuenta de aprendizaje y investigaciones con {account_name}!"
-
-#: lms/templates/register.html:84
-msgid "Create My {account_name} Account"
-msgstr "Crear mi cuenta de con {account_name}"
-
-#: lms/templates/register.html:99
-msgid "Welcome to the {account_name} Learning and Research Community"
-msgstr "Bienvenido a la Comunidad de Aprendizaje e Investigación de {account_name}"
-
 #: lms/templates/register.html:100
 msgid "Create your account"
 msgstr "Crear su cuenta"
-
-#: lms/templates/register.html:112
-msgid "We're sorry, {account_name} enrollment is not available in your region"
-msgstr "Lo sentimos, las inscripciones a {account_name} no están disponible en su región"
-
-#: lms/templates/register.html:140
-msgid "Create your own {account_name} account below"
-msgstr "Cree su propia cuenta con {account_name} a continuación"
-
-#: lms/templates/register.html:318
-msgid "Please share with us your reasons for registering with {account_name}"
-msgstr "Favor de compartir sus razones por registrarse con {account_name}"
 
 #: lms/templates/register.html:336
 msgid ""
@@ -2145,26 +2094,11 @@ msgid ""
 "            "
 msgstr "Tenga en cuenta: Tareas enviadas aparecerán como barras en el gráfico de progreso. Coloque el ratón sobre una barra para ver más información acerca de la tarea correspondiente."
 
-#: lms/templates/emails/activation_email_subject.txt:3
-msgid "Activate Your {account_name} Account"
-msgstr "Activar su cuenta con {account_name}"
-
 #: lms/templates/emails/add_beta_tester_email_message.txt:12
 msgid ""
 "To start accessing course materials, please visit "
 "https://{site_name}/dashboard"
 msgstr "Para iniciar el acceso a los materiales del  curso, favor de visitar https://{site_name}/dashboard"
-
-#: lms/templates/emails/email_change.txt:3
-msgid ""
-"We received a request to change the e-mail associated with your "
-"{account_name} account from {old_email} to {new_email}. If this is correct, "
-"please confirm your new e-mail address by visiting:"
-msgstr "Hemos recibido una solicitud para cambiar la dirección de correo electrónico asociado con su cuenta de {account_name} de {old_email} a {new_email}. Si esto es correcto, por favor confirme su nueva dirección de correo electrónico al visitar:"
-
-#: lms/templates/emails/email_change_subject.txt:2
-msgid "Request to change {account_name} account e-mail"
-msgstr "Solicitud de cambio de correo electronico en una cuenta de {account_name}"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:51
 msgid "Get Student Responses Report"
@@ -2394,12 +2328,6 @@ msgstr "Cambio de correo electrónico ha fallado."
 #: lms/templates/student_account/email_change_failed.html:12
 msgid "Something went wrong. Please contact {support} for help."
 msgstr "Algo salió mal. Favor de ponerse en contacto con {support} para obtener ayuda."
-
-#: lms/templates/student_account/email_change_failed.html:18
-msgid ""
-"The email address you wanted to use is already used by another "
-"{account_name} account."
-msgstr "La dirección de correo electrónico que desea utilizar ya está siendo utilizado por otra cuenta de {account_name}."
 
 #: lms/templates/student_account/email_change_failed.html:24
 msgid ""
