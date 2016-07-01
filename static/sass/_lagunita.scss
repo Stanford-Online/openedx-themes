@@ -241,6 +241,15 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
     border: none;
 }
 
+#register {
+    .checkbox-honor_code,
+    .checkbox-terms_of_service {
+        label a {
+            font-weight: bold;
+        }
+    }
+}
+
 #global-navigation {
     .nav-wrapper .user {
         .primary a {
