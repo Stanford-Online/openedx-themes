@@ -2302,6 +2302,14 @@ msgstr ""
 msgid "Queries"
 msgstr ""
 
+#: openedx/core/djangoapps/user_api/views.py:687
+msgid "I agree to the {platform_name} {terms_of_service} and {privacy_policy}."
+msgstr "أوافق على {terms_of_service} و{privacy_policy} الخاصين بمنصّة {platform_name}."
+
+#: openedx/core/djangoapps/user_api/views.py:697
+msgid "You must agree to the {platform_name} {terms_of_service} and {privacy_policy}."
+msgstr "يجب الموافقة على {terms_of_service} و{privacy_policy} الخاصين بمنصّة {platform_name}."
+
 #: openedx/core/lib/inline_analytics_utils.py:94
 msgid "The analytics cannot be displayed for this type of question."
 msgstr ""
