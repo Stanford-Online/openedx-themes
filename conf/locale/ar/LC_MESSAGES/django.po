@@ -65,7 +65,7 @@ msgstr "{platform_name}، لائحة بالمقرّرات الدراسية"
 
 #: templates/theme-homepage_overlay.html:6
 msgid "Learn from <strong>{university_name}</strong>"
-msgstr "تعلّم من <strong>{university_name}<strong/> "
+msgstr "تعلّم من <strong>{university_name}</strong> "
 
 #: templates/theme-register_extra.html:4
 msgid ""
