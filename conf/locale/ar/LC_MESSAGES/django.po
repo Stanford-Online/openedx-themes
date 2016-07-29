@@ -1,0 +1,2617 @@
+# Stanford OpenEdX translation file
+# Copyright (C) 2016 Stanford University
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stanford-openedx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-17 22:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: kluo <kevluo@stanford.edu>, 2016\n"
+"Language-Team: Arabic (https://www.transifex.com/stanford-online/teams/22259/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: templates/theme-dashboard_extra.html:3
+#: templates/courseware/theme-course_about-sidebar_extra.html:5
+msgid "Our Research Community"
+msgstr "باحثونا"
+
+#: templates/theme-dashboard_extra.html:4
+#: templates/theme-register_extra.html:2
+#: templates/courseware/theme-course_about-sidebar_extra.html:6
+msgid ""
+"{university_name} pursues the science of learning. Online learners are "
+"important participants in that pursuit. The information we gather from your "
+"engagement with our instructional offerings makes it possible for faculty, "
+"researchers, designers and engineers to continuously improve their work and,"
+" in that process, build learning science."
+msgstr ""
+"تتخصّص {university_name} في علم التعلّم. ويشكّل المتعلّمون عبر الإنترنت "
+"مشاركين أساسيين في هذه المسيرة. فبفضل المعلومات التي نجمعها من خلال "
+"مشاركتكم، والدروس التي نقدّمها، يصبح من الممكن بالنسبة للكليّة، والباحثين، "
+"والمصمّمين، والمهندسين، الاستمرار في تحسين عملهم، وفي خلال هذه العملية تطوير"
+" علم التعلّم. "
+
+#: templates/theme-dashboard_extra.html:5
+#: templates/courseware/theme-course_about-sidebar_extra.html:7
+msgid ""
+"By registering as an online learner, you are also participating in "
+"research..."
+msgstr "عندما تتسجّل معنا كمتعلّم عبر الإنترنت، أنت تشارك في البحث أيضاً... "
+
+#: templates/theme-dashboard_extra.html:5
+#: templates/courseware/theme-course_about-sidebar_extra.html:7
+msgid "Read Terms of Service and Privacy Policy."
+msgstr "طالع شروط الخدمة وسياسة الخصوصية "
+
+#: templates/theme-footer.html:26 templates/theme-footer.html:29
+msgid "Revised {date}"
+msgstr "منقّح {date}"
+
+#: templates/theme-footer.html:40
+msgid "Powered by {platform_name}"
+msgstr "مشغّل بواسطة {platform_name}"
+
+#: templates/theme-header.html:22
+msgid "{platform_name}, Courses List"
+msgstr "{platform_name}، لائحة بالمقرّرات الدراسية"
+
+#: templates/theme-homepage_overlay.html:6
+msgid "Learn from <strong>{university_name}</strong>"
+msgstr "تعلّم من <strong>{university_name}</strong> "
+
+#: templates/theme-register_extra.html:4
+msgid ""
+"By registering as an online learner, you are also participating in research "
+"intended to enhance Stanford's instructional offerings as well as the "
+"quality of learning and related sciences worldwide. In the interest of "
+"research, you may be exposed to some variations in the course materials. "
+"Stanford does not use learner data for any purpose beyond the University's "
+"stated missions of education and research. For purposes of research, we may "
+"share information we collect from online learning activities, including "
+"{link_start}Personally Identifiable Information{link_end}, with researchers "
+"beyond Stanford. However, your Personally Identifiable Information will only"
+" be shared as permitted by applicable law, will be limited to what is "
+"necessary to perform the research, and will be subject to an agreement to "
+"protect the data. We may also share with the public or third parties "
+"aggregated information that does not personally identify you. Similarly, any"
+" research findings will be reported at the aggregate level and will not "
+"expose your personal identity."
+msgstr ""
+"عند التسجيل كمتعلّم عبر الإنترنت، أنت تشارك أيضاً في البحث الهادف إلى تحسين "
+"موادّ جامعة \"ستانفورد\" التعليمية، ونوعية التعليم والعلوم ذات الصلة في "
+"مختلف أنحاء العالم. بهدف إتمام البحث على أفضل نحو، قد يتمّ منحك المادّة "
+"الدراسية بطرق متنوّعة. لا تستخدم \"ستانفورد\" بيانات المتعلّم لغرضٍ معيّن ما"
+" خلا مهام التربية والبحث التي كانت الجامعة قد أعلنت عنها. لغايات تتعلّق "
+"بالبحث، قد نطلع باحثين من خارج \"ستانفورد\" على المعلومات التي جمعناها من "
+"أنشطة التعلّم الإلكترونية، بما في ذلك {link_start}بياناتك الشخصية{link_end}."
+" سيتمّ تبادل هذه البيانات ضمن الحدود التي يجيزها القانون المطبّق فقط، "
+"وسيقتصر ذلك على ما هو ضروريّ لإتمام البحث، استناداً إلى أحكام اتّفاق لحماية "
+"البيانات. ومن المحتمل كذلك أن نطلع الجمهور أو أطرافاً ثالثة على معلومات "
+"كليّة لا تتمّ فيها تسميتك شخصياً. كذلك، سيتمّ نشر أيّ نتيجة من نتائج البحث "
+"على المستوى الكليّ، من دون الكشف عن هويّتك الشخصية. "
+
+#: templates/theme-register_extra.html:9
+msgid ""
+"Please read our {link_start}Privacy Policy{link_end} for more information "
+"regarding the processing, transmission and use of data collected through the"
+" Stanford Online website and Stanford's Lagunita platform."
+msgstr ""
+"يرجى قراءة {link_start}سياستنا المتعلقة بالخصوصية{link_end} للحصول على "
+"المزيد من المعلومات حول عملية معالجة البيانات التي يتمّ جمعها عبر موقع "
+"\"ستانفورد\" الإلكتروني ومنصّة \"لاغونيتا\" الإلكترونية الخاصة بستانفورد، "
+"فضلاً عن عملية نقل هذه البيانات واستخدامها. "
+
+#: templates/theme-register_sidebar.html:6
+msgid ""
+"You will receive an activation email.  You must click on the activation link"
+" to complete the process.  Don't see the email?  Check your spam folder and "
+"mark emails from lagunita.stanford.edu as 'not spam', since you'll want to "
+"be able to receive email from your courses."
+msgstr ""
+"سوف تتلقى رسالة تفعيل إلكترونية. يجب أن تضغط على رابط التفعيل لإتمام "
+"العملية. إذا لم تتلقَّ هذه الرسالة، تفقّد ملفّك الخاص بالبريد المزعج، وأدرج "
+"الرسائل الواردة من lagunita.stanford.edu ضمن ملفّ البريد غير المزعج، كي "
+"تتمكّن من تلقي رسائل خاصة بدروسك. "
+
+#: templates/courseware/theme-course_about-social_sharing.html:8
+msgid "Tweet that you've registered for this course"
+msgstr "أنشر تغريدة حول تسجّلك لهذا المقرّر الدراسي."
+
+#: templates/courseware/theme-course_about-social_sharing.html:11
+msgid "Email someone to say you've registered for this course"
+msgstr "أرسل رسالةً إلكترونية إلى صديق لتخبره بتسجّلك لهذا المقرّر الدراسي."
+
+#: templates/courseware/theme-course_index_overlay.html:9
+msgid "Public courses from {university_name}."
+msgstr "دروس عامة من {university_name}."
+
+#: templates/courseware/theme-course_info_extra.html:3
+msgid ""
+"We encourage you to review our {tos_link_start}Terms of Service{link_end} "
+"and {privacy_link_start}Privacy Policy{link_end} before beginning the "
+"course."
+msgstr ""
+"نشجّعك على استعراض {tos_link_start}شروط الخدمة{link_end} "
+"و{privacy_link_start}سياسة الخصوصية{link_end} قبل بداية هذا المقرّر الدراسي."
+" "
+
+#: templates/static_templates/theme-about.html:20
+msgid "About {PLATFORM_NAME}"
+msgstr "لمحة عن {PLATFORM_NAME}."
+
+#: templates/static_templates/theme-about.html:60
+#: templates/static_templates/theme-about.html:89
+msgid "Stanford Quad with Hoover Tower"
+msgstr "حرم \"هوفر تاور\" في جامعة \"ستانفورد\". "
+
+#: templates/static_templates/theme-about.html:66
+msgid ""
+"{Lagunita} is {Stanford}'s instance of the open-source software release of "
+"the {Open_edX} platform, which was developed by the joint {Harvard_MIT} non-"
+"profit organization, and which {Stanford} engineers have been collaborating "
+"on since April 2013. {Lagunita} hosts many of the free, online courses that "
+"are taught by {Stanford} faculty and made available to lifelong learners "
+"around the world for self-enrichment. {Lagunita} also hosts a variety of "
+"professional education opportunities in conjunction with many of "
+"{Stanford_University}'s schools and departments."
+msgstr ""
+"{Lagunita} هي المثال الذي تقدّمه {Stanford} عن منصّة  {Open_edX} الخاصة "
+"ببرنامج المفتوح المصدر، وقد طوّرتها بالتعاون مع المنظّمة غير الربحية "
+"{Harvard_MIT}، ويعمل مهندسو {Stanford} على تطويرها منذ أبريل 2013. تستضيف "
+"{Lagunita} الكثير من الدروس الإلكترونية المجانية التي تدرّسها كليّة "
+"{Stanford}، وتكون متوفّرة للمتعلّمين بشكل مستمر من مختلف أنحاء العالم "
+"للإثراء الذاتي. كما تستضيف   {Lagunita} أيضاً مجموعة متنوّعة من فرص التعليم "
+"المهنية بالتعاون مع العديد من كليات {Stanford_University} وأقسامها."
+
+#: templates/static_templates/theme-about.html:75
+msgid ""
+"All of the personal and professional learning opportunities that are hosted "
+"on {Lagunita} and open to the public are made available through Stanford "
+"Online and listed at {lagunita_courses_link}.  To see our complete catalog "
+"of {Stanford_Online} courses on {Lagunita} and other platforms, you can "
+"visit {online_courses_link}."
+msgstr ""
+"تتوفّر جميع فرص التعليم الشخصية والمهنية التي تستضيفها {Lagunita}، وتكون "
+"مفتوحة للعامة، عبر الموقع الإلكتروني لستانفورد، وتدرج على "
+"{lagunita_courses_link}. للاطلاع على قائمة كاملة بدروس {Stanford_Online} "
+"المتوفّرة على {Lagunita} ومنصات أخرى، يمكنك زيارة {online_courses_link}."
+
+#: templates/static_templates/theme-about.html:93
+msgid "Careers"
+msgstr "المسيرة المهنية"
+
+#: templates/static_templates/theme-about.html:95
+msgid ""
+"Technology is disrupting higher education.  We believe universities can "
+"benefit from this if it's done right.  Supporting basic education and "
+"computer science research is core to what we do.  We also believe that "
+"universities should be in control of how this space evolves, and that an "
+"open-source platform is the best way to do that."
+msgstr ""
+"تزرع التكنولوجيا الخلل في مرحلة التعليم العالي. برأينا، يمكن للجامعات أن "
+"تستفيد من التكنولوجيا إذا عرفت كيف تتصرّف بالطريقة الصحيحة. إنّ دعم البحوث "
+"حول التعليم الأساسي وعلوم الكمبيوتر عنصرٌ جوهري من عملنا. نعتقد كذلك أنّه من"
+" الضروري أن تدير الجامعات كيفية تطوّر هذا المجال، ولعلّ المنصّة الإلكترونية "
+"المفتوحة المصدر هي أفضل طريقة للقيام بذلك."
+
+#: templates/static_templates/theme-about.html:98
+msgid ""
+"Our engineering team is small and productive: five engineers, one PM, and "
+"two course ops staff.  We do our own operations and QA.  We install several "
+"times per week.  We like being close to our customers (faculty, staff, "
+"students) since that motivates the right kind of innovation.  We run a "
+"lightweight, mostly-Agile development process with quick daily standups, "
+"group planning, and frequent demos.  We work on the {Stanford_Campus}."
+msgstr ""
+"إنّ فريقنا الهندسي صغير ومنتج: خمسة مهندسين، ومدير مشروع واحد، وموظّفان "
+"معنيّان بتشغيل الدروس. نعمل على إدارة عملياتنا الخاصة وضمان النوعية. نركّب "
+"البرامج عدة مرات أسبوعياً. نودّ البقاء على مقربة من عملائنا (الكلية، "
+"الموظّفين، الطلاب)، بما أنّ هذا الأمر يحفّز على الأسلوب الصحيح للابتكار. "
+"ندير عملياتنا بطريقة خفيفة ورشيقة في معظم الأحيان، يتخللها اجتماعات يومية "
+"سريعة، وتخطيط جماعي، وتجارب منتظمة. مقرّنا في {Stanford_Campus}. "
+
+#: templates/static_templates/theme-about.html:103
+msgid ""
+"What we work on is mostly driven by our customers, but we also commit to the"
+" core {edX} platform repo.  We collaborate with other {Open_edX} adopters, "
+"including {Google}."
+msgstr ""
+"عملنا يستند في الغالب على تحفيز من العملاء، لكننا نلتزم أيضاً باتفاق العمل "
+"الأساسي للمنصة {edX}. ننسّق مع شركات  {Open_edX} أخرى، مثل {Google}."
+
+#: templates/static_templates/theme-about.html:118
+msgid "Stanford Dish by Twilight"
+msgstr "منطقة ديش في ستانفورد من توايلايت"
+
+#: templates/static_templates/theme-about.html:122
+msgid "Platform Help Center and Contact Emails"
+msgstr ""
+"مركز المساعدة الخاص بالمنصة وعناوين البريد الإلكتروني الخاصة بجهات الاتصال"
+
+#: templates/static_templates/theme-about.html:126
+msgid ""
+"The {help_link_start}Help Center{link_end} contains a FAQ that answers all "
+"of the most common tech support questions for the courses available through "
+"{lagunita_home_link}. If you can't find what you're looking for there, or if"
+" you have a suggestion or bug report to make, you can also file a support "
+"ticket from the Help Center."
+msgstr ""
+"يتضمّن {help_link_start}مركز المساعدة{link_end} فقرة بالأسئلة المتكرّرة التي"
+" تجيب عن سائر الأسئلة الشائعة المتعلقة بالأسئلة التكنولوجية للدرس والمتوفّرة"
+" عبر {lagunita_home_link}. إذا لم تجد ما تبحث عنه هنا، أو إذا كان لديك "
+"اقتراح أو إبلاغ عن عطل، يمكنك أيضاً طلب المساعدة من المركز. "
+
+#: templates/static_templates/theme-about.html:132
+msgid "For disability-related questions email us at:"
+msgstr ""
+"للأسئلة المتعلقة بحالات إعاقة معيّنة، يرجى إرسال رسالة إلكترونية على العنوان"
+" التالي: "
+
+#: templates/static_templates/theme-about.html:135
+msgid "For privacy-related questions email us at:"
+msgstr ""
+"للأسئلة المتعلقة بالخصوصية، يرجى إرسال رسالة إلكترونية على العنوان التالي: "
+
+#: templates/static_templates/theme-embargo.html:7
+msgid ""
+"Our system indicates that you are trying to access a course at {SITE_NAME} "
+"from an IP address associated with a country currently subject to "
+"comprehensive U.S. economic and trade sanctions.  {university_name} is "
+"required to comply with these sanctions regulations, and regretfully, we are"
+" not permitted to allow you to access this particular course.  Feel free to "
+"browse our catalogue to find other courses you may be interested in taking."
+msgstr ""
+"يشير نظامنا إلى أنك كنت تحاول الدخول إلى {SITE_NAME} من عنوان مقترن بدولة "
+"تخضع حالياً لعقوبات اقتصادية وتجارية أميركية شاملة. إنّ {university_name} "
+"ملزمة بالتقيّد بأحكام هذه العقوبات. وعليه يؤسفنا أننا لن نتمكّن من إعطائك "
+"الإذن للاطلاع على هذا الدرس بالتحديد. لا تتردّد بمراجعة قائمتنا لإيجاد دروس "
+"أخرى قد تهمّك. "
+
+#: templates/static_templates/theme-tos.html:26
+msgid ""
+"NOTICE: On {date}, Stanford amended its Terms of Service and Privacy Policy "
+"as follows:"
+msgstr ""
+"إشعار: عدلت ستانفورد شروطها الخاصة بسياسة الخدمة والخصوصية بتاريخ {date} على"
+" النحو التالي:"
+
+#: templates/static_templates/theme-tos.html:33
+msgid "Welcome to the Stanford Online Learning and Research Community"
+msgstr "مرحبًا بك في مجتمع ستانفورد التعلـّمي والبحثي عبر الإنترنت"
+
+#: templates/static_templates/theme-tos.html:36
+msgid ""
+"Stanford University pursues the science of learning. Online learners are important participants in that\n"
+"            pursuit. The information we gather from your engagement with our instructional offerings makes it possible\n"
+"            for faculty, researchers, designers and engineers to continuously improve their work and, in that process,\n"
+"            build learning science.\n"
+"        "
+msgstr ""
+"تنتهج جامعة ستانفورد مفهوم علم التعلم، ويُعد المتعلمون عبر الإنترنت مشاركين "
+"مهمين في ذلك النهج. تساعد المعلومات التي نجمعها من خلال مشاركتك في عروضنا "
+"التعليمية أعضاء هيئة التدريس والباحثين والمصممين والمهندسين في تحسين أعمالهم"
+" بصورة مستمرة، وبناء مفهوم علم التعلم."
+
+#: templates/static_templates/theme-tos.html:44
+msgid ""
+" By registering as an online learner, you are also participating in {research_link_start}research{link_end} intended to enhance\n"
+"            Stanford's instructional offerings as well as the quality of learning and related sciences worldwide. In\n"
+"            the interest of research, you may be exposed to some variations in the course materials. Stanford does not\n"
+"            use learner data for any purpose beyond the University's stated missions of education and research. For\n"
+"            purposes of research, we may share information we collect from online learning activities, including\n"
+"            {pii_link_start}Personally Identifiable Information {link_end}, with researchers beyond Stanford. However,\n"
+"            your Personally Identifiable Information will only be shared as permitted by applicable law, will be\n"
+"            limited to what is necessary to perform the research, and will be subject to an agreement to protect the\n"
+"            data. We may also share with the public or third parties aggregated information that does not personally\n"
+"            identify you. Similarly, any research findings will be reported at the aggregate level and will not expose\n"
+"            your personal identity.\n"
+"        "
+msgstr ""
+"ومن خلال تسجيلك كمتعلم عبر الإنترنت، تكون بذلك مشاركًا أيضًا في "
+"{research_link_start}الأبحاث{link_end} التي تهدف إلى تحسين عروض ستانفورد "
+"التعليمية، إضافة إلى جودة التعلم والعلوم ذات الصلة في جميع أرجاء العالم. قد "
+"تتعرض لبعض التباينات في مواد المقررات الدراسية وذلك لصالح الجهود البحثية. لا"
+" تستخدم ستانفورد بيانات المتعلم لأي غرض خارج المهام التعليمية والبحثية "
+"المقررة في الجامعة. وقد نقوم بمشاركة المعلومات التي نجمعها من أنشطة التعلم "
+"عبر الإنترنت ومنها {pii_link_start}معلومات تحديد الهوية الشخصية{link_end} مع"
+" الباحثين خارج ستانفورد وذلك للأغراض البحثية. ومع هذا، فلن تتم مشاركة "
+"معلومات تحديد هويتك الشخصية إلا في الإطار المسموح به بموجب القانون المعمول "
+"به، وستكون مقتصرة على المعلومات الضرورية اللازمة لإجراء الأبحاث، ومرهونة "
+"باتفاقية حماية البيانات. وقد نتبادل أيضاً المعلومات المجمعة التي لا تحدد "
+"هويتك الشخصية مع عامة الناس أو مع أطراف خارجية. وعلى نحو مماثل، سيتم الإبلاغ"
+" عن أي نتائج بحثية بشكل إجمالي، ولن تكشف عن هويتك الشخصية."
+
+#: templates/static_templates/theme-tos.html:63
+msgid ""
+"Please read our {link_start}Privacy Policy{link_end} for more information regarding the processing,\n"
+"            transmission and use of data collected through the Stanford Online website and Stanford's Lagunita\n"
+"            platform.\n"
+"        "
+msgstr ""
+"يُرجى قراءة {link_start}سياسة الخصوصية{link_end} الخاصة بنا لمزيد من "
+"المعلومات عن معالجة البيانات المجمعة خلال الموقع الإلكتروني لستانفورد "
+"وإرسالها واستخدامها عبر الإنترنت وعبر منصة Lagunita التابعة لستانفورد."
+
+#: templates/static_templates/theme-tos.html:74
+msgid "Terms of Service for Stanford Online Courses"
+msgstr "شروط الخدمة الخاصة بالمقررات الدراسية لستانفورد على الإنترنت"
+
+#: templates/static_templates/theme-tos.html:77
+msgid ""
+"These Terms of Service govern the Stanford Online website and Stanford's OpenEdX platform,\n"
+"            {site_name} (\"Site\") which is owned by Stanford University (\"Stanford\") and operated by Stanford or its\n"
+"            service providers. You should not access or use this Site until you have carefully read and agreed to the\n"
+"            following Terms of Service.\n"
+"        "
+msgstr ""
+"تحكم شروط الخدمة هذه الموقع الإلكتروني لستانفورد  ومنصة OpenEdX التابعة "
+"لستانفورد، {site_name}، (ويُشار إليهما بـ \"الموقع\") والتي تملكها وتشغّلها "
+"جامعة ستانفورد (\"ستانفورد\") أو أي من مزودي خدماتها. يجب ألا تقوم بالدخول "
+"إلى هذا \"الموقع\" أو تستخدمه قبل قراءة شروط الخدمة التالية بعناية والموافقة"
+" عليها:"
+
+#: templates/static_templates/theme-tos.html:86
+msgid "Use of the Site"
+msgstr "استخدام \"الموقع\" "
+
+#: templates/static_templates/theme-tos.html:89
+msgid ""
+"In order to participate in Stanford Online courses or access any online resources offered by\n"
+"            Stanford you must first carefully read and agree to these Terms of Service, Honor Code and Privacy Policy\n"
+"            (collectively \"Terms\"). BY ACCESSING AND PARTICIPATING IN THE SITE, YOU HAVE INDICATED THAT YOU HAVE READ\n"
+"            THESE TERMS AND AGREE TO BE BOUND BY AND COMPLY WITH THEM. If you do not agree to be bound by these Terms,\n"
+"            please promptly exit the Site.\n"
+"        "
+msgstr ""
+"يجب قراءة شروط الخدمة هذه وميثاق الشرف وسياسة الخصوصية (يُشار إليها مجتمعة "
+"بلفظ \"الشروط\") بعناية والموافقة عليها قبل المشاركة في المقررات الدراسية "
+"لستانفورد على الإنترنت أو الحصول على أي من الموارد الإلكترونية التي تقدمها "
+"ستانفورد. يُعد دخولك إلى \"الموقع\" والمشاركة فيه بمثابة إشارة منك إلى قراءة"
+" هذه الشروط وموافقة على الالتزام بها والامتثال لها. إذا كنت لا توافق على "
+"الالتزام بهذه الشروط، يُرجى الخروج من \"الموقع\" على الفور."
+
+#: templates/static_templates/theme-tos.html:98
+msgid ""
+"STANFORD RESERVES THE RIGHT TO MODIFY THESE TERMS AT ANY TIME AND WILL PUBLISH NOTICE OF ANY\n"
+"            MODIFICATIONS ON-LINE AT THIS SITE. BY CONTINUING TO ACCESS A SITE AFTER NOTICE OF SUCH MODIFICATIONS HAS\n"
+"            BEEN PUBLISHED, YOU SIGNIFY YOUR AGREEMENT TO BE BOUND BY THEM.\n"
+"        "
+msgstr ""
+"تحتفظ ستانفورد بحق تعديل هذه الشروط في أي وقت، وستنشر عبر الإنترنت إشعاراً "
+"بأية تعديلات تُجرى في \"الموقع\". يُعد استمرار دخولك إلى \"الموقع\" بعد نشر "
+"إشعار بمثل هذه التعديلات بمثابة موافقة من جانبك على الالتزام بها."
+
+#: templates/static_templates/theme-tos.html:104
+msgid "User Age and Eligibility"
+msgstr "عمر المستخدم وأهليته"
+
+#: templates/static_templates/theme-tos.html:106
+msgid ""
+"Participation in the Site and Stanford Online Courses is restricted to those individuals who have\n"
+"            registered, who are 18 years of age and over, emancipated minors, or those who possess parental or legal\n"
+"            guardian consent, and who are fully able and competent to enter into these terms, conditions, obligations,\n"
+"            affirmations, representations and warranties herein. By accessing the Site you affirm that you are at least\n"
+"            13 years old and meet the eligibility requirements. This Site is not intended for children under 13. If you\n"
+"            are under 13 years of age, do not use the Site. If you have questions about your eligibility, please\n"
+"            contact us at {contact_email}.\n"
+"        "
+msgstr ""
+"إن المشاركة في \"الموقع\" والمقررات الدراسية لستانفورد على الإنترنت تقتصر "
+"على هؤلاء الأفراد الذين قاموا بالتسجيل، البالغين من العمر 18 عامًا أو أكثر، "
+"أو القصر الأحرار، أو هؤلاء الذين تتوفر لديهم موافقة من ولي الأمر أو الوصي "
+"القانوني، والذين يتمتعون بالقدرة والأهلية الكاملتين للالتزام بمثل هذه الشروط"
+" والأحكام والالتزامات والإقرارات والتعهدات والضمانات المنصوص عليها هنا. تقر "
+"عند دخولك إلى \"الموقع\" ببلوغك سن الـ13 عامًا على الأقل واستيفائك متطلبات "
+"الأهلية. هذا \"الموقع\" غير مخصص للأطفال دون سن الـ13 عامًا. لا تستخدم "
+"\"الموقع\" إذا كان عمرك دون سن الـ13. إذا كان لديك أسئلة بخصوص أهليتك، يُرجى"
+" الاتصال بنا عبر{contact_email}."
+
+#: templates/static_templates/theme-tos.html:119
+msgid ""
+"Certain courses may also have additional eligibility requirements as specified in the specific course\n"
+"            description. If you are not eligible for registration and participation or do not agree to the Terms, you\n"
+"            may not use the Site.\n"
+"        "
+msgstr ""
+"قد تكون لبعض المقررات الدراسية متطلبات أهلية إضافية كما هو محدد في الوصف "
+"الخاص بالمقرر الدراسي. إذا كنت غير مؤهل للتسجيل والمشاركة، أو لا توافق على "
+"هذه الشروط، فقد لا يتسنى لك استخدام \"الموقع\"."
+
+#: templates/static_templates/theme-tos.html:125
+msgid "Access to the Site"
+msgstr "الدخول إلى \"الموقع\""
+
+#: templates/static_templates/theme-tos.html:128
+msgid ""
+"While portions of the Site may be available to the general public, portions of the Site are restricted\n"
+"            to registered users who meet eligibility criteria. You agree that you will not access any registration-only\n"
+"            portions of the Site if you do not meet the eligibility requirements. Stanford is not responsible for any\n"
+"            delay, inability or failure to access the Site due to any cause, including but not limited to acts of God,\n"
+"            natural disasters, government orders, labor unrest, malfunction of user hardware or software, interruption\n"
+"            in internet service, loss or corruption of data, and unanticipated suspension or cessation of service from\n"
+"            any underlying service provider.\n"
+"        "
+msgstr ""
+"على الرغم من أن بعض أجزاء \"الموقع\" قد تكون متاحة للجمهور العام؛ إلا أن "
+"أجزاء أخرى تقتصر على المستخدمين المسجلين الذين يستوفون معايير الأهلية. كما "
+"أنك توافق على عدم الدخول إلى الأجزاء التي تحتاج للتسجيل إذا كنت لا تلبي "
+"متطلبات الأهلية. لا تتحمل ستانفورد المسؤولية عن أي تأخير أو عجز أو فشل في "
+"الدخول إلى \"الموقع\" لأي أسباب، ومنها على سبيل المثال لا الحصر أحداث القضاء"
+" والقدر أو الكوارث الطبيعية أو القرارات الحكومية أو الاضطرابات العمالية أو "
+"أي خلل بأجهزة المستخدمين أو برمجياتهم الحاسوبية أو انقطاع خدمة الإنترنت أو "
+"فقدان البيانات أو تلفها، أو التعليق أو التوقف غير المتوقع  للخدمة المقدمة من"
+" أي مزود خدمة رئيسي."
+
+#: templates/static_templates/theme-tos.html:138
+msgid "User Accounts"
+msgstr "حسابات المستخدمين"
+
+#: templates/static_templates/theme-tos.html:141
+msgid "Site Registration"
+msgstr "التسجيل في \"الموقع\""
+
+#: templates/static_templates/theme-tos.html:142
+msgid ""
+"In order to fully participate in all Site activities, you must register and create a User Account. You\n"
+"            are required to provide a valid email address (\"Email Address\") and create a user password (\"User\n"
+"            Password\") and a unique username, which will be publicly visible on the forum and other locations on the\n"
+"            Site. In setting up your User Account, you may also be prompted or required to enter additional\n"
+"            information, including but not limited to your name, location or other information required to confirm\n"
+"            your identity.\n"
+"        "
+msgstr ""
+"يجب عليك التسجيل وإنشاء حساب مستخدم كي يتسنى لك المشاركة في جميع أنشطة "
+"\"الموقع\" بشكل كامل: يتعين عليك تقديم عنوان بريد إلكتروني صالح (\"عنوان "
+"البريد الإلكتروني\") وإنشاء كلمة مرور للمستخدم (\"كلمة مرور المستخدم\") واسم"
+" مستخدم فريد، سيكون واضحًا للجمهور في المنتدى والأماكن الأخرى \"بالموقع\". "
+"وعند إنشاء حساب المستخدم الخاص بك، قد يتعين عليك أو يُطلب منك إدخال معلومات "
+"إضافية، منها على سبيل المثال لا الحصر اسمك أو مكانك أو معلومات أخرى ضرورية "
+"لتأكيد هويتك."
+
+#: templates/static_templates/theme-tos.html:152
+msgid "Course Registration"
+msgstr "التسجيل في المقرر الدراسي"
+
+#: templates/static_templates/theme-tos.html:153
+msgid ""
+"In order to participate in an online course you may be required to register in the course by selecting\n"
+"            the course from the list of offered courses. You may be required to provide additional information at the\n"
+"            time of registration including, without limitation, evidence of eligibility or of successful completion of\n"
+"            prerequisite courses. You may be required to pay a fee to register in some courses.\n"
+"        "
+msgstr ""
+"كي يتسنى لك المشاركة في أي مقرر دراسي عبر الإنترنت، قد يُطلب منك التسجيل في "
+"المقرر من خلال اختياره من قائمة المقررات الدراسية المعروضة . وقد يُطلب منك "
+"تقديم معلومات إضافية عند التسجيل، ومنها على سبيل المثال لا الحصر، دليل "
+"الأهلية أو الاستكمال الناجح لمقررات دراسية مطلوبة مسبقاً. قد يُتطلب منك دفع "
+"رسوم للتسجيل في بعض المقررات الدراسية."
+
+#: templates/static_templates/theme-tos.html:161
+msgid ""
+"You understand and agree that all information provided by you is accurate, current and complete and that\n"
+"            you will maintain and update your information to keep it accurate, current and complete. You acknowledge\n"
+"            that if any information provided by you is untrue, inaccurate, not current or incomplete, we reserve the\n"
+"            right to refuse access to the selected course or to terminate your use of the Site. You agree that you\n"
+"            will never divulge or share access or access information to your User Account with any third party for any\n"
+"            reason.\n"
+"        "
+msgstr ""
+"وبالإضافة إلى ذلك، فإنك تدرك وتقر أن المعلومات المقدمة منك دقيقة وحديثة "
+"وكاملة، وأنك سوف تحافظ على المعلومات وتحدثها وتحافظ على دقتها وتحديثها "
+"واستكمالها. كما تُقر أنه في حال كانت أي معلومات مقدمة من قِبلك غير حقيقية أو"
+" غير دقيقة أو غير حديثة أو غير كاملة؛ فنحن نحتفظ بحق منع دخولك إلى المقرر "
+"الدراسي الذي اخترته أو إنهاء استخدامك \"للموقع\". وتوافق على أنك لن تقوم "
+"مطلقًا بالإفصاح عن الدخول أو معلومات الدخول إلى حساب المستخدم الخاص بك أو "
+"مشاركتها مع أي طرف خارجي لأي سبب."
+
+#: templates/static_templates/theme-tos.html:170
+msgid "Fees and Refunds"
+msgstr "الرسوم واستردادها"
+
+#: templates/static_templates/theme-tos.html:173
+msgid ""
+"Courses may be made available for free or for a fee at the sole discretion of Stanford. Course fees, if\n"
+"            applicable, are due and payable at the time of registration for the course or at the time of requesting a\n"
+"            service or materials for which a fee is required. Stanford expressly reserves the right to refuse to\n"
+"            permit access to any fee-based course if the fee is not paid, is cancelled or not processed for any\n"
+"            reason. For a period of fourteen (14) calendar days from the course start date (\"Refund Period\"), you\n"
+"            may withdraw or unenroll from the course by clicking on the unregister link and request a refund of the\n"
+"            registration fee by emailing {contact_email}. Please include your full name and username in your request.\n"
+"            Refunds will be credited to the credit card used when you registered and may take up to two billing cycles\n"
+"            to process. Stanford has no obligation to issue a refund after the Refund Period, but if you believe a\n"
+"            refund is warranted, please email us at {contact_email}.\n"
+"        "
+msgstr ""
+"قد تتوفر المقررات الدراسية مجانًا أو مقابل رسوم وفق ما تراه ستانفورد، وتكون "
+"رسوم المقرر الدراسي، حال تطبيقها، مستحقة الدفع عند التسجيل في المقرر أو عند "
+"طلب خدمة أو مواد يتعين دفع رسوم مقابلها. تحتفظ ستانفورد صراحة بالحق في رفض "
+"السماح بالدخول إلى أي مقرر دراسي غير مجاني حال عدم سداد رسوم المقرر الدراسي "
+"أو إلغائها أو عدم معالجتها لأي سبب. يجوز لك الانسحاب أو إلغاء التسجيل في "
+"المقرر الدراسي في خلال فترة أربعة عشر (14) يومًا منذ تاريخ بدء المقرر "
+"الدراسي (\"فترة استرداد الرسوم\")، وذلك بالنقر فوق رابط إلغاء التسجيل، مع "
+"إمكانية طلب استرداد رسوم التسجيل عن طريق إرسال بريد إلكتروني إلى العنوان "
+"التالي {contact_email}. يُرجى إدخال اسمك الكامل واسم المستخدم الخاص بك في "
+"الطلب. ستُودع الأموال المستردة في بطاقة الائتمان التي استخدمتها عند التسجيل "
+"وقد تستغرق دورتي فوترة حتى يتم معالجتها. ولا تتحمل ستانفورد أي التزام يتعلق "
+"بإعادة أي أموال بعد انتهاء فترة استرداد الرسوم، ومع ذلك إذا كان لديك أسباب "
+"تعتقد أنها تتيح لك استرداد الرسوم، يُرجى حينئذ إرسال بريد إلكتروني على "
+"العنوان التالي {contact_email}."
+
+#: templates/static_templates/theme-tos.html:188
+msgid "Course Modification or Cancellation"
+msgstr "تعديل أو إلغاء المقرر الدراسي"
+
+#: templates/static_templates/theme-tos.html:191
+msgid ""
+"The Site, including the course materials, may contain errors and omissions. We reserve the right to\n"
+"            correct errors or omissions without prior notice. We also reserve the right to cancel, discontinue,\n"
+"            reschedule, delay, change instructors or modify any course or service. You acknowledge that the course\n"
+"            content of the online course does not reflect the complete curriculum of a course that may be offered to\n"
+"            students enrolled at Stanford.\n"
+"        "
+msgstr ""
+"قد يحتوى \"الموقع\" أو مواد المقرر الدراسي على بعض الأخطاء والمحذوفات، ونحن "
+"نحتفظ بحق تصويب الأخطاء أو المحذوفات بدون إشعار مسبق. كما نحتفظ أيضًا بالحق "
+"في إلغاء أي مقرر دراسي أو خدمة أو إيقافهما أو إعادة جدولتهما أو تأخيرهما أو "
+"تغيير المعلمين المعنيين بهما أو تعديلهما. وتُقر من جانبك بأن محتوى المقرر "
+"الدراسي الذي يتم تقديمه عبر الإنترنت لا يعكس المنهج الكامل لأي مقرر دراسي قد"
+" يُقدَّم للطلاب المسجلين في ستانفورد."
+
+#: templates/static_templates/theme-tos.html:199
+msgid "License to use Site Materials"
+msgstr "ترخيص استخدام مواد \"الموقع\""
+
+#: templates/static_templates/theme-tos.html:202
+msgid ""
+"Unless otherwise indicated, the Site and all its content, such as text, images, and the HTML used to\n"
+"            generate the pages (\"Material\") are the property of Stanford or that of our suppliers or licensors and are\n"
+"            protected by patent, trademark and/or copyright under US or foreign laws. In consideration for your\n"
+"            agreement to the terms and conditions contained here, Stanford grants you a personal, non-exclusive,\n"
+"            non-transferable license to access and use the Site and the Material. Registered users may download\n"
+"            Material from the Site only for such user's own personal, non-commercial use. No user may otherwise copy,\n"
+"            reproduce, duplicate, retransmit, distribute, publish, scrape, download in bulk, sell, resell,\n"
+"            commercially exploit or otherwise transfer any Material or modify or create derivative works of the\n"
+"            Material. The burden of determining that use of any information, software, material or any other content\n"
+"            on the Site is permissible rests with User. Some content on the Site is provided by third parties, and the\n"
+"            use of that content is subject to rules and restrictions as indicated on the Site. You agree to be bound\n"
+"            by all such rules and restrictions.\n"
+"        "
+msgstr ""
+"يُعد \"الموقع\" وكافة محتوياته مثل النصوص والصور وملفات HTML المستخدمة في "
+"إنشاء الصفحات (ويُشار إليها كلها بـ \"المواد\") ملكية خاصة لستانفورد أو "
+"لموردينا أو لمانحي التراخيص وتكون محمية ببراءة اختراع و/أو علامة تجارية و/أو"
+" حقوق الطبع والنشر بموجب قوانين الولايات المتحدة أو غيرها من القوانين "
+"الأجنبية، ما لم يُشَر إلى خلاف ذلك. وبناء على موافقتك على الشروط والأحكام "
+"الواردة هنا، تمنحك ستانفورد ترخيصًا شخصيًا غير حصري وغير قابل للتحويل للدخول"
+" إلى \"الموقع\" واستخدام المواد. يجوز للمستخدمين المسجلين تنزيل المواد من "
+"\"الموقع\" بشرط أن يكون ذلك من أجل الاستخدام الشخصي وغير التجاري للمستخدمين "
+"فقط. لا يجوز للمستخدم تصوير أي مواد أو استنساخها أو تكرارها أو إعادة نقلها "
+"أو توزيعها أو نشرها أو حذفها أو تنزيلها أو بيعها أو إعادة بيعها أو استغلالها"
+" تجاريًا أو نقلها بأي طريقة أخرى أو إنشاء أعمال مشتقة من هذه المواد. ويقع "
+"على عاتق المستخدم عبء تحديد إمكانية استخدام أي معلومات أو برمجيات حاسوبية أو"
+" مواد أو أي محتوى آخر في \"الموقع\". تجدر الإشارة إلى أن بعض محتويات "
+"\"الموقع\" مقدمة من أطراف ثالثة ويخضع استخدام تلك المحتويات للقواعد والقيود "
+"كما هو مشار إليه في \"الموقع\". وأنت توافق على الالتزام بكافة هذه القواعد "
+"والقيود."
+
+#: templates/static_templates/theme-tos.html:217
+msgid "Modifications to Site"
+msgstr "تعديلات \"الموقع\""
+
+#: templates/static_templates/theme-tos.html:220
+msgid ""
+"Stanford reserves the right, for any reason or no reason, in our sole discretion and without notice, to\n"
+"            terminate, change, suspend or discontinue any aspect of the Site, including without limitation, information,\n"
+"            data, text, music, sound, photographs, graphics, video, messages, courses, Materials, features and/or hours\n"
+"            of availability, and we will not be liable to you or to any third party for doing so. We may also impose\n"
+"            rules and limits on the use of the Site or restrict your access to part, or the entire, Site without notice\n"
+"            or penalty.\n"
+"        "
+msgstr ""
+"تحتفظ ستانفورد بالحق في إنهاء أو تغيير أو تعليق أو إيقاف أي من أجزاء "
+"\"الموقع\"، سواء بسبب أو بغير سبب، ووفق تقديرها المطلق ودون إشعار مسبق، "
+"ويتضمن ذلك على سبيل المثال لا الحصر المعلومات و/أو البيانات و/أو النصوص و/أو"
+" المقاطع الموسيقية و/أو الصوتية و/أو الصور الفوتوغرافية و/أو الرسومات "
+"البيانية و/أو مقاطع الفيديو و/أو الرسائل و/أو المقررات الدراسية و/أو المواد "
+"و/أو المقالات و/أو ساعات التوفر، مع عدم تحملها أي مسؤولية تجاهك أو تجاه أي "
+"طرف ثالث جراء هذا. وقد نقوم أيضًا بفرض قواعد وقيود على استخدام \"الموقع\" أو"
+" تقييد دخولك إلى أي جزء منه أو إلى \"الموقع\" بالكامل دون إشعار مسبق أو "
+"التعرض لأي جزاءات جراء ذلك."
+
+#: templates/static_templates/theme-tos.html:229
+msgid "Rules for Online Conduct"
+msgstr "قواعد السلوكيات عبر الإنترنت"
+
+#: templates/static_templates/theme-tos.html:231
+msgid ""
+"You agree to use the Sites in accordance with all applicable laws. You are responsible for your own\n"
+"            communications, including the upload, transmission and posting of information, and are responsible for the\n"
+"            consequences of their posting on or through the Site. You further agree that you will not email or post\n"
+"            malicious or harmful content anywhere on the Site, or on any other Stanford computing resources including\n"
+"            without limitation the following:\n"
+"        "
+msgstr ""
+"وبالإضافة إلى ما سبق، فإنك توافق على استخدام المواقع وفقًا لكافة القوانين "
+"المعمول بها. كما تتحمل المسؤولية عن كافة مراسلاتك، بما في ذلك أي عمليات "
+"تحميل وتحويل ونشر للمعلومات، وتكون مسؤولاً عن العواقب المترتبة على نشرها على"
+" \"الموقع\" أو من خلاله. وتوافق أيضًا على الالتزام بعدم إرسال أو نشر أي "
+"محتوى كيديّ أو ضار في أي مكان على \"الموقع\"، أو على أي من الموارد الحاسوبية"
+" الأخرى لستانفورد، ويتضمن ذلك على سبيل المثال لا الحصر ما يلي:"
+
+#: templates/static_templates/theme-tos.html:240
+msgid "Content that defames or threatens others"
+msgstr "محتوى يشوه سمعة الآخرين أو يعرضها للتهديد"
+
+#: templates/static_templates/theme-tos.html:241
+msgid "Harassing statements or content that violates federal or state law"
+msgstr ""
+"عبارات أو محتوى يتسبب في مضايقة الآخرين على نحو يخرق القوانين الفيدرالية أو "
+"قوانين الولاية"
+
+#: templates/static_templates/theme-tos.html:242
+msgid ""
+"Content that discusses illegal activities with the intent to commit them"
+msgstr "محتوى يناقش الأنشطة غير القانونية مع نية القيام بها."
+
+#: templates/static_templates/theme-tos.html:243
+msgid ""
+"Content that is not your own, or infringes another's intellectual property, "
+"including, but not limited to, copyrights, trademarks or trade secrets"
+msgstr ""
+"محتوى لا يخصك، أو ينتهك حقوق الملكية الفكرية لشخص آخر، ويتضمن ذلك على سبيل "
+"المثال لا الحصر، حقوق الطبع والنشر أو العلامات التجارية أو الأسرار التجارية."
+
+#: templates/static_templates/theme-tos.html:244
+msgid "Content related to partisan political activities"
+msgstr "محتوى يتعلق بالأنشطة السياسية الحزبية"
+
+#: templates/static_templates/theme-tos.html:245
+msgid "Material that contains obscene (i.e. pornographic) language or images"
+msgstr "مواد تحتوي على لغة بذيئة أو صور خليعة (مثل الصور الإباحية)"
+
+#: templates/static_templates/theme-tos.html:246
+msgid ""
+"Advertising or any form of commercial solicitation or promotion, including "
+"links to other sites"
+msgstr ""
+"الإعلان أو أي نوع من الإغراء أو الترويج التجاري، ويتضمن هذا الروابط التي "
+"تنقل إلى مواقع أخرى."
+
+#: templates/static_templates/theme-tos.html:247
+msgid "Content that is otherwise unlawful"
+msgstr "أي محتوى يكون بطريقة أخرى غير قانوني"
+
+#: templates/static_templates/theme-tos.html:248
+msgid "Intentionally incomplete, misleading or inaccurate content"
+msgstr "أي محتوى غير مكتمل أو مضلل أو غير دقيق عن قصد"
+
+#: templates/static_templates/theme-tos.html:249
+msgid "Violations of Honor Code"
+msgstr "انتهاكات ميثاق الشرف"
+
+#: templates/static_templates/theme-tos.html:253
+msgid ""
+"Copyrighted material, including without limitation software, graphics, text, photographs, sound, video\n"
+"            and musical recordings, may not be placed on the Site without the express permission of the owner of the\n"
+"            copyright in the material, or other legal entitlement to use the material.\n"
+"        "
+msgstr ""
+"لا يجوز نشر المواد المحمية بحقوق الطبع النشر، ومنها على سبيل المثال لا "
+"الحصر، البرمجيات الحاسوبية والرسومات البيانية والنصوص والصور والمقاطع "
+"الصوتية ومقاطع الفيديو والتسجيلات الموسيقية، على \"الموقع\" دون الموافقة "
+"الصريحة من مالك حقوق طبع ونشر المواد أو الوفاء بأي استحقاقات قانونية أخرى "
+"لاستخدام هذه المواد."
+
+#: templates/static_templates/theme-tos.html:259
+msgid "Security Rules"
+msgstr "قواعد الأمن"
+
+#: templates/static_templates/theme-tos.html:262
+msgid ""
+"Violations of system or network security may result in civil or criminal liability. Stanford will\n"
+"            investigate occurrences and may involve, and cooperate with, law enforcement authorities in prosecuting the\n"
+"            use or users who are involved in such violations. You agree that you will not violate or attempt to violate\n"
+"            the security of the Site, including without limitation:\n"
+"        "
+msgstr ""
+"يمكن أن يترتب على انتهاكات أمن النظام أو الشبكة تحمل مسؤولية مدنية أو "
+"جنائية، ومن ثم سوف تحقق ستانفورد في الوقائع، ويمكن أن تُشرك سلطات إنفاذ "
+"القانون أو تتعاون معها في التحقيق في تلك الاستخدام أو محاكمة المستخدمين "
+"المتورطين في مثل هذه الانتهاكات. وبالإضافة إلى ذلك، فإنك توافق على الالتزام "
+"بعدم انتهاك أمن \"الموقع\" أو محاولة هذا، ويتضمن ذلك على سبيل المثال لا "
+"الحصر:"
+
+#: templates/static_templates/theme-tos.html:270
+msgid ""
+"attacking, probing, scanning or testing the vulnerability of, breaching "
+"security of, disrupting, disabling or harming the Site, or servers or "
+"networks connected to the Site"
+msgstr ""
+"تنفيذ أي أعمال هجوم أو تدقيق أو مسح ضوئي أو اختبار مواطن الضعف أو انتهاك "
+"النظام الأمني \"بالموقع\" أو إحداث تشويش به أو تعطيله أو إلحاق الضرر به أو "
+"بالخوادم أو الشبكات المتصلة \"بالموقع\"."
+
+#: templates/static_templates/theme-tos.html:271
+msgid ""
+"using the Site via any automated means, such as a screen-scraper or robot. "
+"This is not intended to exclude the use of assistive technology for your own"
+" use, such as screen-readers"
+msgstr ""
+"استخدام \"الموقع\" من خلال أي وسائل مؤتمتة مثل أدوات تحليل المحتوى المكتوب "
+"أو الإنسان الآلي. ولا يُقصد من هذا منع استخدام التقنيات المساعدة لاستخدامك "
+"الشخصي مثل قارئات الشاشة."
+
+#: templates/static_templates/theme-tos.html:272
+msgid ""
+"sending any unsolicited emails to other Site Users or forging any TCP/IP "
+"packet header or any part of the header information in any email"
+msgstr ""
+"إرسال أي رسائل بريد إلكتروني غير مرغوب فيها إلى مستخدمي \"الموقع\" الآخرين "
+"أو تزوير رأس رزمة TCP/IP أو أي جزء من معلومات رأس الصفحة في أي رسائل بريد "
+"إلكتروني."
+
+#: templates/static_templates/theme-tos.html:273
+msgid ""
+"displaying the Site within a frame on another website without consent, or "
+"place pop-up windows or other disruptive technologies over it"
+msgstr ""
+"عرض \"الموقع\" في إطار على موقع إلكتروني آخر دون الحصول على موافقة أو وضع "
+"نوافذ منبثقة أو استخدام تقنيات أخرى تهدف إلى التشويش."
+
+#: templates/static_templates/theme-tos.html:274
+msgid ""
+"accessing data not intended for you or logging into a server or account you "
+"are not authorized to access"
+msgstr ""
+"الوصول إلى بيانات غير مخصصة لك أو تسجيل الدخول إلى خادم أو حساب غير مصرح لك "
+"بالوصول إليه."
+
+#: templates/static_templates/theme-tos.html:275
+msgid ""
+"attempting to interfere with service to any user, host or network, including"
+" without limitation, via means of submitting a virus to the Site, "
+"overloading, \"flooding\", \"Mailbombing\" or \"Crashing\""
+msgstr ""
+"محاولة التدخل في خدمة مقدمة لأي مستخدم أو مضيف أو شبكة، ويتضمن ذلك على سبيل "
+"المثال لا الحصر: من خلال إرسال فيروس إلى \"الموقع\" أو التحميل الزائد "
+"\"الفيضان\" أو \"إغراق البريد الإلكتروني\" أو \"التعطيل\"."
+
+#: templates/static_templates/theme-tos.html:276
+msgid ""
+"impersonating another person or improperly allowing another to use your "
+"registration information to access the Site."
+msgstr ""
+"انتحال هوية شخص آخر أو السماح لشخص آخر باستخدام معلومات التسجيل الخاصة بك "
+"للدخول إلى \"الموقع\"."
+
+#: templates/static_templates/theme-tos.html:279
+msgid "Content Disclaimer"
+msgstr "إخلاء المسؤولية عن المحتوى"
+
+#: templates/static_templates/theme-tos.html:282
+msgid ""
+"The text and other material on the Sites may include the opinion of the specific instructor and are not\n"
+"            statements of advice, endorsement, opinion, or information of Stanford. If you feel you might be offended\n"
+"            by the content of the Sites, you should not continue.\n"
+"        "
+msgstr ""
+"يمكن أن تشمل النصوص والمواد الأخرى على المواقع رأي معلم معين، ومن ثم فهي "
+"ليست بيانات مشورات أو إقرار أو آراء أو معلومات تخص جامعة ستانفورد. وإذا شعرت"
+" بأنك مهان أو مغبون من محتوى المواقع، فعليك التوقف عن المواصلة."
+
+#: templates/static_templates/theme-tos.html:289
+msgid ""
+"Sites may also include the personal opinions and other expressions by Users who post entries on a wide\n"
+"            range of topics. Neither the content of the forums, nor the links to other web sites, are screened,\n"
+"            approved, reviewed or endorsed by Stanford or any other related entity. Stanford is not a publisher of any\n"
+"            of the content of the forums, or of any content that may be available through links to and from them.\n"
+"        "
+msgstr ""
+"يمكن أن تحتوي المواقع أيضًا على آراء شخصية وغيرها من تعبيرات المستخدمين، "
+"الذين ينشرون تدوينات في مجموعة واسعة من الموضوعات. لا يتم تدقيق محتوى "
+"المنتديات ولا روابط المواقع الأخرى أو اعتمادها أو مراجعتها أو إقرارها من "
+"جانب جامعة ستانفورد أو أي جهة أخرى ذات صلة. لا تُعد جامعة ستانفورد هي الجهة "
+"الناشرة لأي محتوى على المنتديات أو أي محتوى آخر قد يكون متاحًا من خلال "
+"الروابط الموجودة بها أو التي يتم الوصول إليها من خلالها."
+
+#: templates/static_templates/theme-tos.html:296
+msgid "User Content"
+msgstr "محتوى المستخدم"
+
+#: templates/static_templates/theme-tos.html:299
+msgid ""
+"You may be permitted to submit and distribute materials in connection with an online course (\"User\n"
+"            Content\"). You represent and warrant that any material you submit to the Site, instructors or other Users\n"
+"            is accurate and complete and will not violate or infringe the rights of any third party, including without\n"
+"            limitation privacy, publicity, intellectual property and any other proprietary rights, such as copyright,\n"
+"            trademark and patent rights. You represent and warrant that you have all the necessary rights and licenses\n"
+"            to use the material and to permit use of the material by Stanford and other researchers.\n"
+"        "
+msgstr ""
+"قد يُسمح لك بإرسال مواد ونشرها فيما يتصل بأي مقرر دراسي عبر الإنترنت "
+"(\"محتوى المستخدم\")، ومن ثم فإنك تتعهد وتضمن أن تكون أي مواد تقدمها "
+"\"للموقع\" أو للمعلمين أو المستخدمين الآخرين دقيقة وكاملة ولن تنتهك أو تخرق "
+"حقوق أي طرف ثالث، بما في ذلك على سبيل المثال لا الحصر حقوق الخصوصية والإعلان"
+" والملكية الفكرية وغيرها من الحقوق الخاصة مثل حقوق الطبع والنشر والعلامات "
+"التجارية وبراءات الاختراع. كما تتعهد وتضمن أنك تتمتع بجميع الحقوق والتراخيص "
+"اللازمة لاستخدام المواد من قبل جامعة ستانفورد وغيرها من الباحثين لهذه "
+"المواد."
+
+#: templates/static_templates/theme-tos.html:309
+msgid ""
+"You agree that, if a third party claims that any material you have contributed to a Site is unlawful,\n"
+"            you will bear the burden of establishing that the material complies with all applicable laws. Although\n"
+"            Stanford does not monitor the content of the Site, Stanford has the right to remove material from the\n"
+"            Site, block access, or take other action with respect to the material in its sole discretion.\n"
+"        "
+msgstr ""
+"وبالإضافة إلى ما سبق، توافق أنه في حال ادعاء أي طرف ثالث عدم قانونية أي مواد"
+" أسهمت بنشرها على أحد المواقع، فإنك ستتحمل عبء إثبات توافق هذه المواد مع "
+"جميع القوانين النافذة. ورغم أن جامعة ستانفورد لا تراقب محتوى \"الموقع\"، فإن"
+" لديها الحق في حذف أي مواد من \"الموقع\" أو حظر الدخول إليها أو اتخاذ أي "
+"إجراء آخر فيما يتعلق بها وفقًا لتقديرها الحصري."
+
+#: templates/static_templates/theme-tos.html:317
+msgid "Grant of license"
+msgstr "منح الترخيص"
+
+#: templates/static_templates/theme-tos.html:318
+msgid ""
+"By your submission of any material in connection with this course, you hereby grant Stanford an\n"
+"            irrevocable, non-exclusive, royalty free, fully transferable, worldwide license to use, disclose,\n"
+"            reproduce, distribute, prepare derivative works of, publicly perform, publicly display and provide to\n"
+"            other researchers any such submission. You hereby grant Users in your online course a license to use your\n"
+"            User Content (including the right to copy, modify and distribute such content) in conjunction with their\n"
+"            participation in the course.\n"
+"        "
+msgstr ""
+"من خلال تقديمك لأي مادة فيما يتصل بهذا المقرر الدراسي، فإنك تمنح جامعة "
+"ستانفورد بموجب ذلك ترخيصًا نهائيًا مجانيًا قابلًا للنقل غير حصري وعالمياً "
+"لاستخدام أي من تلك المواد والكشف عنها ونسخها وتوزيعها وإعداد أعمال مشتقة "
+"منها وتأديتها بصورة علنية وعرضها أيضًا بصورة علنية وتزويد الباحثين الآخرين "
+"بها. كما أنك تمنح المستخدمين المشتركين في مقررك الدراسي عبر الإنترنت بموجب "
+"ذلك ترخيصًا لاستخدام محتوى المستخدم الخاص بك (بما في ذلك الحق في نسخ هذا "
+"المحتوى وتعديله وتوزيعه) بالتزامن مع مشاركتهم في المقرر الدراسي."
+
+#: templates/static_templates/theme-tos.html:327
+msgid "User Status and Statement of Accomplishment"
+msgstr "حالة المستخدم وبيان الإنجاز"
+
+#: templates/static_templates/theme-tos.html:330
+msgid ""
+"You agree and acknowledge that your access to the Site, participation in an online course and your\n"
+"            agreement to these Terms do not confer any right to access or use the resources of Stanford or establish\n"
+"            any relationship with Stanford or its instructors beyond the Site, that you are not enrolled, admitted or\n"
+"            in attendance at Stanford and that you are not entitled to any student or academic grievance procedures.\n"
+"            You agree that no joint venture, partnership, employment, or agency relationship exists between Stanford\n"
+"            and you as a result of these Terms or your use of the Site.\n"
+"        "
+msgstr ""
+"وعلاوة على ما سبق، فإنك توافق وتُقر بأن دخولك إلى \"الموقع\" والمشاركة في "
+"أحد المقررات الدراسية عبر الإنترنت وموافقتك على هذه الشروط، لا يمنحك أي حق "
+"في الدخول إلى موارد جامعة ستانفورد أو استخدامها، أو إقامة أي علاقة مع "
+"ستانفورد أو معلميها خارج نطاق \"الموقع\"، كما تقر وتوافق على أنك غير مسجل "
+"بجامعة ستانفورد أو مقبول بها أو تحضر في حرمها، ولا يحق لك اتخاذ أي إجراء من "
+"إجراءات التظلم الطلابية أو الأكاديمية. كما توافق على عدم وجود علاقات مشتركة "
+"تتعلق بمشاريع أو شراكات أو توظيف/عمالة أو وكالات بينك وبين جامعة ستانفورد "
+"نتيجة لهذه الشروط أو استخدامك \"للموقع\"."
+
+#: templates/static_templates/theme-tos.html:340
+msgid ""
+"Subject to satisfactory performance and course completion, you may receive a Statement of Accomplishment\n"
+"            (\"Statement\") signed by the instructor(s). Stanford reserves the right to determine whether a Statement\n"
+"            will be issued for the online course and the nature of the information to be provided in the Statement. You\n"
+"            acknowledge that any Statement will not stand in the place of a course taken at Stanford or an accredited\n"
+"            institution or confer any academic credit, grade or degree or indicate enrollment at Stanford. You further\n"
+"            acknowledge that instructors of any online course are not required to participate in any attempts to get\n"
+"            the course recognized by any educational or accredited institution.\n"
+"        "
+msgstr ""
+"يمكن أن تحصل على بيان إنجاز (\"البيان\") مشفوعًا بتوقيع معلم (معلمين) رهنًا "
+"بمستوى الأداء واستكمال المقرر الدراسي. تحتفظ جامعة ستانفورد بالحق في تحديد "
+"ما إذا كانت ستُصدر بيانًا للمقرر الدراسي عبر الإنترنت أم لا، وكذلك طبيعة "
+"المعلومات التي ستُدرج في البيان. كما تُقر أنت بأن أي بيان لن يكون بديلًا عن "
+"أي مقرر دراسي يتم الحصول عليه بمقر جامعة ستانفورد أو في إحدى المؤسسات "
+"المعتمدة أو يمنحك أي اعتماد أو مرتبة أو درجة أكاديمية أو يشير إلى التسجيل "
+"بالجامعة. وتُقر أيضًا بأن معلمي أي مقرر دراسي عبر الإنترنت غير ملزمين "
+"بالمشاركة في أي مساعٍ للحصول على اعتراف بالمقرر الدراسي من جانب أي مؤسسة "
+"تعليمية أو معتمدة."
+
+#: templates/static_templates/theme-tos.html:350
+msgid "International Use and Consent to Processing"
+msgstr "الاستخدام العالمي والموافقة على المعالجة"
+
+#: templates/static_templates/theme-tos.html:353
+msgid ""
+"Stanford controls and operates this Site within the United States of America, and all information is\n"
+"            collected, transmitted, processed and stored within the United States. We do not represent that materials\n"
+"            on the Site are appropriate or available for use in other locations. Persons who choose to access the Site\n"
+"            from other locations do so on their own initiative, and are responsible for compliance with local laws, if\n"
+"            and to the extent local laws are applicable. You agree to comply with all applicable laws, rules and\n"
+"            regulations in connection with your use of the Site. Without limiting the generality of the foregoing, you\n"
+"            agree to comply with all applicable laws regarding the transmission of technical data exported from the\n"
+"            United States or the country in which you reside. By providing any personal information to the Site, all\n"
+"            users, including without limitation users in the European Union, fully understand and unambiguously\n"
+"            consent to the collection, transmission processing and storage of such information in the United States\n"
+"            and the use of such information for research by Stanford and other U.S. and international researchers.\n"
+"        "
+msgstr ""
+"تتحكم جامعة ستانفورد في هذا \"الموقع\" وتقوم بتشغيله داخل الولايات المتحدة "
+"الأمريكية، ويتم جمع المعلومات كافة ونقلها ومعالجتها وتخزينها داخل الولايات "
+"المتحدة الأمريكية. لا نتعهد بأن المواد الموجودة على \"الموقع\" مناسبة أو "
+"متاحة للاستخدام في أماكن أخرى. والأشخاص الذين يختارون الدخول إلى \"الموقع\" "
+"من أماكن أخرى يقومون بذلك من تلقاء أنفسهم، وهم مسؤولون عن الامتثال للقوانين "
+"المحلية حال تطبيقها وبقدر تطبيقها. وفضلاً عن ذلك، فإنك توافق على الامتثال "
+"للقوانين والقواعد واللوائح المعمول بها فيما يتعلق باستخدامك \"للموقع\". ودون"
+" تقييد عمومية ما سبق، فإنك توافق على الامتثال لجميع القوانين المعمول بها "
+"فيما يتعلق بنقل البيانات الفنية المصدرة من الولايات المتحدة أو البلد الذي "
+"تقيم به. بمجرد تقديمك لأي معلومات شخصية على \"الموقع\"، فإن جميع المستخدمين،"
+" بما في ذلك على سبيل المثال لا الحصر، المستخدمين في دول الاتحاد الأوروبي "
+"يدركون تمامًا ويوافقون بوضوح على جمع هذه المعلومات ونقلها ومعالجتها وتخزينها"
+" في الولايات المتحدة، واستخدام جامعة ستانفورد وغيرها من الباحثين الأمريكيين "
+"والدوليين لهذه المعلومات للأغراض البحثية."
+
+#: templates/static_templates/theme-tos.html:367
+msgid "Links to Other Sites"
+msgstr "روابط إلى مواقع أخرى"
+
+#: templates/static_templates/theme-tos.html:370
+msgid ""
+"The Site may include hyperlinks to sites maintained or controlled by others. Stanford is not responsible\n"
+"            for and does not routinely screen, approve, review or endorse the contents of or use of any of the\n"
+"            products or services that may be offered at other sites. These links do not imply Stanford's endorsement\n"
+"            of or association with the linked sites. Stanford is not responsible for and shall in no event be liable,\n"
+"            directly or indirectly, to anyone for any loss or damage arising from or occasioned by the creation or use\n"
+"            of the linked sites or the information or material accessed through those linked sites. If you choose to\n"
+"            use Social Auth login, we may receive from the authenticator your name, email, and public profile\n"
+"            information, and the authenticator is notified of your login to this site.\n"
+"        "
+msgstr ""
+"قد يتضمن \"الموقع\" ارتباطات تشعبية لمواقع يقوم عليها أو يتحكم بها آخرون، "
+"كما أن جامعة ستانفورد غير مسؤولة عن تدقيق محتوى المواد أو الخدمات التي قد "
+"تُعرض على المواقع الأخرى أو اعتمادها أو مراجعتها أو إقرارها بشكل روتيني أو "
+"استخدام أي منها. ولا تشمل هذه الروابط اعتماد ستانفورد للمواقع المرتبطة ولا "
+"المشاركة معها. وجامعة ستانفورد غير مسؤولة ولا تتحمل المسؤولية القانونية بأي "
+"حال سواء، بشكل مباشر أم غير مباشر، تجاه أي طرف عن أية خسارة أو أضرار جراء "
+"إنشاء هذه المواقع المرتبطة أو استخدامها أو بسبب المعلومات أو المواد التي يتم"
+" الوصول إليها من خلال هذه المواقع. قد يتسنى لنا استلام اسمك وبريديك "
+"الإلكتروني ومعلومات ملفك الشخصي العام من خلال المصدّق وذلك في حالة اختيارك "
+"تسجيل الدخول عن طريق Social Auth، ويتم إرسال إشعار إلى المصدق بتسجيل دخولك "
+"إلى هذا \"الموقع\"."
+
+#: templates/static_templates/theme-tos.html:381
+msgid "Choice of Law/Forum Selection"
+msgstr "اختيار القانون/ تحديد موقع المحاكمات"
+
+#: templates/static_templates/theme-tos.html:384
+msgid ""
+"The Sites are managed by Stanford, located in Santa Clara County, California. You agree that any dispute\n"
+"            arising out of or relating to these Terms or any content posted to a Site, including copies and\n"
+"            republication thereof, whether based in contract, tort, statutory or other law, will be governed by the\n"
+"            laws of the State of California, excluding its conflicts of law provisions. You further consent to the\n"
+"            personal jurisdiction of and exclusive venue in the federal and state courts located in and serving Santa\n"
+"            Clara County, California as the legal forum for any such dispute. Excluding claims for injunctive or other\n"
+"            equitable relief, for claims related to the Site where the total amount sought is less than ten thousand\n"
+"            U.S. Dollars ($10,000.00 USD), either you or Stanford may elect at any point during the dispute to resolve\n"
+"            the claim through binding, non-appearance-based arbitration. The dispute will then be resolved using an\n"
+"            established alternative dispute resolution (\"ADR\") provider, mutually agreed upon by you and Stanford. The\n"
+"            parties and the selected ADR provider shall not involve any personal appearance by the parties or\n"
+"            witnesses, unless otherwise mutually agreed by the parties; rather, the arbitration shall be conducted, at\n"
+"            the option of the party seeking relief, online, by telephone or via written submissions alone. Any\n"
+"            judgment rendered by the arbitrator may be entered in any court of competent jurisdiction. Any claim or\n"
+"            cause of action you may have with respect to Stanford or the Site must be commenced within one (1) year\n"
+"            after the claim or cause of action arose.\n"
+"        "
+msgstr ""
+"تُدار \"المواقع\" من قبل جامعة ستانفورد الكائنة في مقاطعة سانتا كلارا "
+"بكاليفورنيا، كما أنك تقر بأن أي نزاع ينشأ بسبب هذه الشروط أو بسبب أي محتوي "
+"منشور على أي \"موقع\" أو أي نزاع متعلق بها -بما في ذلك النُسخ و الطبعات "
+"الجديدة منها- سواء استند هذا النزاع إلى العقد أم المسؤولية التقصيرية أم "
+"القوانين التشريعية أم القوانين الأخرى - يخضع لقوانين ولاية كاليفورنيا "
+"باستثناء الأحكام المتعلقة بتعارض القوانين. كما تقر بموافقتك على الاختصاص "
+"القضائي الشخصي والحصري للمحاكم الفيدرالية والتابعة للولاية الواقعة في مقاطعة"
+" سانتا كلارا بولاية كاليفورنيا بوصفها المقر القانوني لتسوية أي نزاع من هذا "
+"القبيل. وباستثناء الدعاوى المقدمة لطلب تعويض زجري أو منصف، يجوز لك أو "
+"لستانفورد بخصوص الدعاوي المتعلقة \"بالموقع\" والتي من المتوقع أن يكون إجمالي"
+" المبلغ الإجمالي المطلوب فيها أقل من عشرة آلاف دولار أمريكي (10,000.00 "
+"دولار) الاختيار في أي وقت خلال هذا النزاع تسوية هذه الدعاوي من خلال تحكيم "
+"ملزم غيابي. وسوف يُسّوى هذا النزاع عندئذ باستخدام جهة معترف بها لتسوية "
+"المنازعات (\"ADR\") بطرق بديلة متُفق عليها بينك وبين ستانفورد. ولا يستلزم "
+"على الطرفين ولا الجهة المختارة لتسوية النزاعات أن تتضمن أي حضور شخصي من قبل "
+"الطرفين أو الشهود إلا إذا اتفق الطرفان على خلاف ذلك، وبدلاً من ذلك، يُجرى "
+"التحكيم عبر الإنترنت أو من خلال مكالمة هاتفية أو من خلال دفوع خطية فقط وفقًا"
+" لما يختاره الطرف الطالب للتعويض. ويجوز تسجيل أي قرار يصدر من المُحكّم في "
+"أية محكمة تتمتع بالاختصاص القضائي. ويجب الشروع في تقديم أي دعوى أو أسباب لها"
+" قد تكون لديك بخصوص ستانفورد أو \"الموقع\" خلال سنة واحدة (1) عقب ظهور هذه "
+"الدعوى أو أسبابها."
+
+#: templates/static_templates/theme-tos.html:403
+msgid "Disclaimer of Warranties"
+msgstr "إخلاء المسؤولية عن الضمانات:"
+
+#: templates/static_templates/theme-tos.html:406
+msgid ""
+"THESE SITES AND ANY INFORMATION, PRODUCTS OR SERVICES THEREIN ARE PROVIDED \"AS IS\" WITHOUT WARRANTY OF\n"
+"            ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF\n"
+"            MERCHANTABILITY, FITNESS FOR USE OF A PARTICULAR PURPOSE, OR NONINFRINGEMENT.\n"
+"        "
+msgstr ""
+"تم توفير هذه \"المواقع\" وأي معلومات أو منتجات أو خدمات موجودة بها \"كما "
+"هي\" دون أي ضمان من أي نوع، صريح أم ضمني، بما في ذلك على سبيل المثال لا "
+"الحصر، الضمانات الضمنية المتعلقة بالقابلية للاتجار أو الملاءمة للاستخدام من "
+"أجل غرض معين أو عدم الانتهاك."
+
+#: templates/static_templates/theme-tos.html:413
+msgid ""
+"STANFORD DOES NOT WARRANT, AND HEREBY DISCLAIMS ANY WARRANTIES, EITHER EXPRESS OR IMPLIED, WITH RESPECT\n"
+"            TO THE ACCURACY, ADEQUACY OR COMPLETENESS OF ANY SITE, INFORMATION OBTAINED FROM A SITE, OR LINK TO A SITE.\n"
+"            STANFORD DOES NOT WARRANT THAT THE SITE WILL OPERATE IN AN UNINTERRUPTED OR ERROR-FREE MANNER OR THAT THE\n"
+"            SITE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. USE OF INFORMATION OBTAINED FROM OR THROUGH THE SITE\n"
+"            IS AT YOUR OWN RISK.\n"
+"        "
+msgstr ""
+"لا تضمن ستانفورد وأيضًا تخلي مسؤوليتها بموجب هذا عن أي ضمانات، سواء كانت "
+"صريحة أو ضمنية، فيما يتعلق بدقة أو كفاية أو اكتمال أي موقع أو أي معلومات تم "
+"الحصول عليها من أي موقع أو رابط لأي موقع. لا تضمن ستانفورد أن \"الموقع\" "
+"سيعمل بصورة متواصلة أو دون أخطاء، أو أن \"الموقع\" خالٍ من الفيروسات أو أي "
+"محتويات ضارة أخرى. تتحمل وحدك المسؤولية عن مخاطر استخدام أي معلومات تحصل "
+"عليها من \"الموقع\" أو من خلاله."
+
+#: templates/static_templates/theme-tos.html:422
+msgid ""
+"WITHOUT LIMITING THE FOREGOING, STANFORD DOES NOT WARRANT THAT (A) THE SITE WILL MEET YOUR REQUIREMENTS\n"
+"            OR EXPECTATIONS OR ACHIEVE THE INTENDED PURPOSES, (B) THE SITE WILL BE FREE OF OUTAGES, INTERRUPTIONS,\n"
+"            DELAYS, SECURITY FLAWS, AND ERRORS, (C) THE INFORMATION OBTAINED FROM THE SITE WILL BE ACCURATE, COMPLETE,\n"
+"            CURRENT, ERROR-FREE, COMPLETELY SECURE OR RELIABLE, (D) THAT YOU WILL BE ABLE TO TRANSMIT OR RECEIVE\n"
+"            INFORMATION FROM OR THROUGH THE SITE OR (E) THAT DEFECTS IN OR ON THE SITE WILL BE CORRECTED.\n"
+"        "
+msgstr ""
+"ودون تقييد لما سبق، لا تضمن ستانفورد (أ) أن \"الموقع\" سيلبي جميع متطلباتك "
+"أو توقعاتك أو سيحقق الأغراض المطلوبة، (ب) أن \"الموقع\" سيكون خالياً من أي "
+"انقطاعات للخدمة أو أعطال أو تأخر أو عيوب أمنية أو أخطاء، (ج) أن المعلومات "
+"التي ستحصل عليها من \"الموقع\" ستكون دقيقة وكاملة وحديثة و خالية من الأخطاء "
+"وآمنة للغاية أو موثوقة، (د) أنك ستكون قادرًا على نقل أو استلام المعلومات من "
+"\"الموقع\" أو من خلاله، أو (هـ) أن العيوب الموجودة في \"الموقع\" سيتم "
+"إصلاحها."
+
+#: templates/static_templates/theme-tos.html:430
+msgid "Limitation of Liability"
+msgstr "محدودية المسؤولية"
+
+#: templates/static_templates/theme-tos.html:433
+msgid ""
+"YOU AGREE THAT STANFORD WILL NOT BE LIABLE TO YOU FOR ANY LOSS OR DAMAGES, EITHER ACTUAL OR\n"
+"            CONSEQUENTIAL, ARISING OUT OF OR RELATING TO THESE TERMS, OR TO YOUR (OR ANY THIRD PARTY/'S) USE OR\n"
+"            INABILITY TO USE THE SITE, OR TO YOUR PLACEMENT OF CONTENT ON THE SITE, OR TO YOUR RELIANCE UPON\n"
+"            INFORMATION OBTAINED FROM OR THROUGH THE SITE. IN PARTICULAR, STANFORD WILL HAVE NO LIABILTY FOR ANY\n"
+"            CONSEQUENTIAL, INDIRECT, PUNITIVE, SPECIAL OR INCIDENTAL DAMAGES, WHETHER FORESEEABLE OR UNFORESEEABLE,\n"
+"            (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR DEFAMATION, ERRORS, LOSS OF DATA, OR INTERRUPTION IN\n"
+"            AVAILABILITY OF DATA), ARISING OUT OF OR RELATING TO THESE TERMS, YOUR USE OR INABILITY TO USE THE SITE,\n"
+"            OR YOUR PLACEMENT OF CONTENT ON A SITE, OR TO YOUR RELIANCE UPON INFORMATION OBTAINED FROM OR THROUGH A\n"
+"            SITE, WHETHER BASED IN CONTRACT, TORT, STATUTORY OR OTHER LAW, EVEN IF STANFORD OR ITS REPRESENTATIVES\n"
+"            HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR\n"
+"            EXCLUSION OF LIABILITY SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU. IN NO EVENT SHALL THE TOTAL\n"
+"            LIABILITY OF STANFORD TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION ARISING FROM THE TERMS OR YOUR\n"
+"            USE OF THE SITE EXCEED, IN THE AGGREGATE, $100.00.\n"
+"        "
+msgstr ""
+"وعلاوة على ما سبق، أنت توافق على أن جامعة ستانفورد لن تكون مسؤولة أمامك عن "
+"أي خسارة أو أضرار فعلية أم تبعية، تنشأ عن هذه الشروط أو تتعلق بها أو تتعلق "
+"باستخدامك (أو باستخدام أي طرف ثالث) \"للموقع\" أو بعدم القدرة على استخدامه "
+"أو بوضعك لمحتوى على \"الموقع\" أو باعتمادك على معلومات حصلت عليها من "
+"\"الموقع\" أو من خلاله. وعلى وجه التحديد، لن تتحمل جامعة ستانفورد أي مسؤولية"
+" عن أي أضرار تبعية أو غير مباشرة أو عقابية أو خاصة أو عرضية، سواء كانت "
+"متوقعة أم غير متوقعة (بما في ذلك، على سبيل المثال لا الحصر، الدعاوي المقامة "
+"بسبب تشويه السمعة أو الأخطاء أو فقدان البيانات أو إتاحة البيانات بصورة "
+"متقطعة) التي تنشأ جراء هذه الشروط أو تتعلق بها أو باستخدامك \"للموقع\" أو "
+"بعدم قدرتك على استخدامه أو بوضعك لمحتوى على \"الموقع\" أو باعتمادك على "
+"معلومات حصلت عليها من \"الموقع\" أو من خلاله، سواء كانت مستندة على عقد أم "
+"مسؤولية تقصيرية أم تشريع أم قانون آخر، حتى ولو تم تنبيه جامعة ستانفورد أو "
+"ممثليها باحتمال وقوع هذه الأضرار. بعض الولايات القضائية لا تجيز محدودية "
+"المسؤولية أو استبعادها، وبناء عليه قد لا تسري عليك بعض المحدوديات المذكورة "
+"سلفًا. وفي أي حال من الأحوال، لا تزيد قيمة إجمالي المسؤولية التي تتحملها "
+"جامعة ستانفورد وتدفعها لك عن جميع الأضرار والخسائر وأسباب الدعاوي الناشئة عن"
+" الشروط أو عن استخدامك \"للموقع\" عن 100.00 دولار أمريكي إجمالاً."
+
+#: templates/static_templates/theme-tos.html:449
+msgid "Termination Rights"
+msgstr "حقوق الإنهاء"
+
+#: templates/static_templates/theme-tos.html:452
+msgid ""
+"You agree that: Stanford, in its sole discretion, may terminate your use of the Site or your\n"
+"            participation in an online course activity, for any reason or no reason and at any time; Stanford shall not\n"
+"            have any liability to you for the termination; and that you are not entitled to any course credit or to any\n"
+"            student or academic grievance procedures in connection with such a termination.\n"
+"        "
+msgstr ""
+"وبالإضافة إلى ما سبق توافق على ما يلي: يجوز لجامعة ستانفورد، وفق تقديرها "
+"الحصريّ، أن تنهي استخدامك \"للموقع\" أو مشاركتك في أحد أنشطة المقررات "
+"الدراسية على الإنترنت، سواء بسبب أو بدون سبب، وفي أي وقت؛ ولا تتحمل الجامعة "
+"أي مسؤولية تجاهك جراء ذلك الإنهاء؛ كما لا يحق لك أي اعتماد للمقرر الدراسي أو"
+" اتخاذ أي إجراء من إجراءات التظلم الطلابية أو الأكاديمية تتعلق بهذا الإنهاء."
+
+#: templates/static_templates/theme-tos.html:459
+msgid "Consumer Notice"
+msgstr "إشعار المستهلكين"
+
+#: templates/static_templates/theme-tos.html:462
+msgid ""
+"If you have any questions regarding services provided through the Site, you may contact Stanford's\n"
+"            Course Operations Lead at {contact_email} or 425 Santa Teresa Street, Stanford CA, 94305-2261, USA. The\n"
+"            Public Inquiry Unit of the Office of the California Attorney General may be contacted at P.O. Box 944255,\n"
+"            Sacramento, CA 94244-2550.\n"
+"        "
+msgstr ""
+"إذا كانت لديك أي أسئلة تتعلق بالخدمات المقدمة عبر \"الموقع\"، يمكنك مراسلة "
+"إدارة عمليات المقررات الدراسية بجامعة ستانفورد من خلال البريد الإلكتروني "
+"التالي {contact_email} أو على 425 Santa Teresa Street, Stanford CA, "
+"94305-2261, USA يمكن الاتصال بوحدة الاستفسارات العامة لمكتب النائب العام "
+"بولاية كاليفورنيا على ص ب 944255 مقاطعة سكرامنتو، كاليفورنيا 94244-2550."
+
+#: templates/static_templates/theme-tos.html:471
+msgid "Proprietary Rights"
+msgstr "حقوق الملكية"
+
+#: templates/static_templates/theme-tos.html:474
+msgid ""
+"The logos, names and graphics on the Site of Stanford or any of its affiliates, may be trademarks of\n"
+"            Stanford or its affiliates. Use, reproduction, copying or redistribution of Stanford trademarks, without\n"
+"            the prior written permission of Stanford or its affiliates, is prohibited. All other trademarks or\n"
+"            servicemarks appearing on the Site are the marks of their respective owners. Information about Stanford\n"
+"            trademarks may be found at {trademark_link}.\n"
+"        "
+msgstr ""
+"الشعارات والأسماء والرسومات الواردة في \"موقع\" جامعة ستانفورد أو أي من "
+"الفروع التابعة لها هي علامات تجارية للجامعة أو فروعها. ويُحظر استخدام "
+"العلامات التجارية لجامعة ستانفورد أو نسخها أو تصويرها أو إعادة توزيعها، دون "
+"موافقة خطية مسبقة من ستانفورد أو فروعها. وجميع العلامات التجارية أو العلامات"
+" الخدمية الأخرى الظاهرة على \"الموقع\" هي علامات مملوكة لأصحابها. يمكن "
+"العثور على معلومات عن العلامات التجارية لستانفورد على {trademark_link}."
+
+#: templates/static_templates/theme-tos.html:485
+msgid ""
+"Except as otherwise provided herein, use of the Site does not grant you a license to any content,\n"
+"            features or Material you may access on the Site, and you may not modify, rent, lease, loan, sell,\n"
+"            distribute or create derivative works of such content, features or Material, in whole or in part. Any\n"
+"            commercial use of the Site is strictly prohibited except as allowed herein or otherwise approved by us.\n"
+"            You may not download or save a copy of any of the content or screens for any purpose except as otherwise\n"
+"            provided by Stanford. If you make use of the Site, other than as provided herein, in doing so you may\n"
+"            violate copyright and other laws of the United States, other countries, as well as applicable state laws\n"
+"            and may be subject to liability for such unauthorized use. We do not grant any license or other\n"
+"            authorization to any user of our trademarks, registered trademarks, service marks, other copyrightable\n"
+"            material or any other intellectual property by including them on the Site.\n"
+"        "
+msgstr ""
+"باستثناء ما ينص بغير ذلك في شروط الاستخدام، لا يمنحك استخدام \"الموقع\" "
+"ترخيصًا لأي محتوى أو خصائص أو مواد يجوز لك الدخول إليها على \"الموقع\"، ولا "
+"يجوز لك تعديل هذا المحتوى أو الخصائص أو المواد أو تأجيرها أو استئجارها أو "
+"إقراضها أو بيعها أو توزيعها أو إنشاء أعمال مشتقة من كل ذلك بشكلٍ كلي أو "
+"جزئي. ويُحظر حظرًا تامًا أي استخدام تجاري \"للموقع\" باستثناء ما هو مسموح به"
+" في شروط الاستخدام أو ما نوافق عليه. فلا يجوز لك تنزيل نسخة من أي محتوى أو "
+"شاشات أو حفظ نسخة منها لأي غرض باستثناء ما تجيزه ستانفورد. وإذا استخدمت "
+"\"الموقع\"، على نحو يخالف ما هو منصوص عليه في شروط الاستخدام، فبذلك قد تنتهك"
+" قوانين حقوق الملكية وغيرها من قوانين الولايات المتحدة وغيرها من البلدان، "
+"فضلًا عن القوانين النافذة في الولاية، وقد تخضع للمسؤولية القانونية عن هذا "
+"الاستخدام غير المصرح به. ونحن لا نمنح أي ترخيص أو تفويض آخر إلى أي من "
+"مستخدمي علاماتنا التجارية أو العلامات التجارية المسجلة أو العلامات الخدمية "
+"أو المواد الأخرى المحمية بحقوق النشر أو غيرها من حقوق الملكية الفكرية "
+"بإدراجها على \"الموقع\"."
+
+#: templates/static_templates/theme-tos.html:498
+msgid "Indemnification"
+msgstr "التعويضات"
+
+#: templates/static_templates/theme-tos.html:501
+msgid ""
+"You agree to indemnify and hold Stanford and its instructors, trustees, officers, agents, employees, and\n"
+"            assignees, harmless from any claims, actions, demands, losses or damages, including legal fees, arising out\n"
+"            of, resulting from or in any way related to your participation in an online course, use of a Site, placement\n"
+"            of any content onto a Site or violation of these Terms. You further agree to fully cooperate in Stanford's\n"
+"            defense against any such claims.\n"
+"        "
+msgstr ""
+"أنت توافق على تعويض جامعة ستانفورد ومعلميها وأمنائها وموظفيها ووكلائها "
+"والعاملين بها ودرء الضرر عنهم فيما يتعلق بأي دعاوي قضائية أو مطالبات أو "
+"خسائر أو أضرار بما في ذلك الرسوم القانونية الناشئة أو الناتجة عن مشاركتك في "
+"مقرر دراسي عبر الإنترنت أو استخدام \"الموقع\" أو وضع أي محتوى على \"الموقع\""
+" أو انتهاك هذه الشروط. وتوافق على التعاون الكامل في دفوع ستانفورد ضد أي من "
+"هذه الدعاوي."
+
+#: templates/static_templates/theme-tos.html:511
+msgid "Copyright Complaints"
+msgstr "شكاوى حقوق النشر"
+
+#: templates/static_templates/theme-tos.html:514
+msgid ""
+"Stanford respects the intellectual property rights of others. In accordance with Title II of the Digital\n"
+"            Millennium Copyright Act (DMCA), an agent has been designated to receive notification of a claimed\n"
+"            copyright infringement for the Stanford University Network domains: Stanford.EDU, Stanford.ORG and\n"
+"            Stanford.COM. If you believe that your copyrighted work has been copied in a way that constitutes\n"
+"            copyright infringement, please contact Stanford's DMCA Designated Agent at DMCA-Claim@Stanford.EDU with\n"
+"            a copy to {contact_email} and provide the following written information: (i) an electronic or physical\n"
+"            signature of the person authorized to act on behalf of the owner of the copyright interest; (ii) a\n"
+"            description of the copyrighted work that you claim has been infringed upon; (iii) a description of where\n"
+"            the material that you claim is infringing is located on the Site; (iv) your address, telephone number, and\n"
+"            email address; (v) a statement by you that you have a good-faith belief that the disputed use is not\n"
+"            authorized by the copyright owner, its agent or the law; and (vi) a statement by you, made under penalty\n"
+"            of perjury, that the above information in your notice is accurate and that you are the copyright owner or\n"
+"            authorized to act on the copyright owner's behalf.\n"
+"        "
+msgstr ""
+"تحترم جامعة ستانفورد حقوق الملكية الفكرية للآخرين. وطبقًا للباب الثاني في "
+"قانون الألفية لحقوق النشر الرقمية (DMCA)، قد تم تعيين وكيل لتلقي الإشعارات "
+"المعنية بانتهاك حقوق النشر لنطاقات شبكة جامعة ستانفورد: Stanford.EDU و "
+"Stanford.ORG و Stanford.COM. إذا كنت تعتقد أن عملك المحمي بحقوق النشر قد "
+"نُسِخ بطريقة تمثل انتهاكًا لحقوق النشر، فيرجى الاتصال بالوكيل المعني بقانون "
+"الألفية لحقوق النشر الرقمية بجامعة ستانفورد عبر البريد الإلكتروني  DMCA-"
+"Claim@Stanford.EDU مع إرسال نسخة إلى البريد الإلكتروني {contact_email} "
+"وتقديم المعلومات المكتوبة التالية: (1) توقيع إلكتروني أو يدوي للشخص المفوض "
+"بالتصرف نيابة عن صاحب مصلحة حقوق النشر؛ (2) وصف للعمل المحمي بحقوق النشر "
+"التي تدعي انتهاكها؛ (3) وصف للمكان الذي توجد به المادة التي تدعي انتهاكها "
+"على \"الموقع\"؛ (4) عنوانك ورقم هاتفك وعنوان بريدك الإلكتروني؛ (5) بيان من "
+"جانبك تؤكد فيه على أنك تعتقد عن حُسن نية بأن الاستخدام محل النزاع غير مصرح "
+"من جانب صاحب حقوق النشر أو وكيله أو القانون؛ و (6) بيان من جانبك، يقع تحت "
+"طائلة عقوبة الإدلاء بشهادة زور، تؤكد فيه على أن المعلومات الواردة أعلاه من "
+"وجهة نظرك دقيقة وبأنك صاحب حقوق النشر أو مفوض بالتصرف نيابة عن صاحب حقوق "
+"النشر."
+
+#: templates/static_templates/theme-tos.html:532
+msgid "Notices"
+msgstr "الإشعارات"
+
+#: templates/static_templates/theme-tos.html:535
+msgid ""
+"Notices to you may be made via either email or regular mail. Notices to Stanford should be directed to\n"
+"            the email listed below. The Site may also provide notices of changes to these Terms or other matters by\n"
+"            displaying notices or links to notices to you on the Site.\n"
+"        "
+msgstr ""
+"يمكن إرسال الإشعارات إليك إما عبر البريد الإلكتروني أو البريد العادي. يجب أن"
+" تُوجه الإشعارات المرسلة إلى ستانفورد عبر البريد الإلكتروني الوارد أدناه. "
+"وربما يوفر \"الموقع\" إشعارات بالتغييرات لهذه الشروط أو أمور أخرى عن طريق "
+"عرض الإشعارات أو روابط الإشعارات على \"الموقع\"."
+
+#: templates/static_templates/theme-tos.html:541
+msgid "General Information"
+msgstr "معلومات عامة"
+
+#: templates/static_templates/theme-tos.html:544
+msgid ""
+"Stanford's failure to exercise or enforce any right or provision of the Terms shall not constitute a\n"
+"            waiver of such right or provision. If any provision of the Terms is found by a court of competent\n"
+"            jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect\n"
+"            to the parties' intentions as reflected in the provision, and the other provisions of the Terms remain in\n"
+"            full force and effect.\n"
+"        "
+msgstr ""
+"إذا لم تمارس ستانفورد أو تطبق أي حق أو بند من هذه الشروط فلا يعتبر ذلك "
+"تنازلاً عن هذا الحق أو البند. إذا ارتأت محكمة ذات اختصاص قضائي أن أي بند من "
+"هذه الشروط غير صالح، فبرغم ذلك يوافق الأطراف على أن المحكمة يجب أن تسعى "
+"لتفعيل نوايا الأطراف كما هو مبين في البند، وتظل بنود الشروط الأخرى سارية "
+"بكامل الأثر والمفعول."
+
+#: templates/static_templates/theme-tos.html:553
+msgid ""
+"You may not assign the Terms or any of your rights or obligations under the Terms without Stanford's\n"
+"            express prior written consent.\n"
+"        "
+msgstr ""
+"ولا يجوز لك التنازل عن الشروط أو أي من حقوقك أو التزاماتك بموجب هذه الشروط "
+"بدون موافقة كتابية صريحة ومسبقة من ستانفورد."
+
+#: templates/static_templates/theme-tos.html:559
+msgid ""
+"The Terms inure to the benefit of Stanford's successors, assigns and licensees. The section titles in\n"
+"            the Terms are for convenience only and have no legal or contractual effect.\n"
+"        "
+msgstr ""
+"تؤول هذه الشروط لصالح خلفاء ستانفورد أو المتنازل لهم أو المرخص لهم. عناوين "
+"الفقرات في الشروط هي لأغراض التسهيل فقط وليس لها أي تأثير قانوني أو تعاقدي."
+
+#: templates/static_templates/theme-tos.html:566
+msgid "Honor Code"
+msgstr "ميثاق الشرف"
+
+#: templates/static_templates/theme-tos.html:569
+msgid ""
+"By registering in an online course, you agree to: rely solely on your own work in connection with all\n"
+"            assessments, problems, homework and assignments (unless collaboration is expressly permitted); acknowledge\n"
+"            any and all external sources used in your work; refrain from any activity that would dishonestly or\n"
+"            fraudulently improve your results or disadvantage others in the course; maintain only one user account and\n"
+"            not let anyone else use your username and/or password; and not access or attempt to access any other\n"
+"            user's account, or misrepresent or attempt to misrepresent your identity while using the Sites. This\n"
+"            Honor Code is not intended to prohibit discussion of course material. While users must submit work that\n"
+"            is their own, you should feel free to discuss lectures or other course material with others either\n"
+"            in-person or online.\n"
+"        "
+msgstr ""
+"بالتسجيل في أحد المقررات الدراسية على الإنترنت أنت توافق على: الاعتماد على "
+"عملك الخاص فقط فيما يتعلق بالتقييمات والمشكلات والفروض المنزلية والمهام (ما "
+"لم يُسمح بالتعاون صراحةً)؛ والاعتراف بأي مصادر خارجية تستخدمها في عملك "
+"وجميعها؛ والامتناع عن أي نشاط من شأنه أن يُحسِّن من نتائجك أو يضر الآخرين في"
+" المقرر الدراسي بطريق الخداع أو الاحتيال؛ والاحتفاظ بحساب مستخدم واحد فقط "
+"وعدم السماح لأي شخص آخر باستخدام اسم المستخدم الخاص بك و/أو كلمة المرور "
+"الخاصة بك؛ وعدم الدخول أو محاولة الدخول إلى أي حساب مستخدم آخر، أو تزييف "
+"هويتك أو محاولة تزييفها أثناء استخدام \"المواقع\". لا يقصد من ميثاق الشرف "
+"الحالي حظر مناقشة مواد المقرر الدراسي. في حين يجب على المستخدمين تقديم العمل"
+" الخاص بكل منهم، فلا تشعر بأي حرج في مناقشة محاضرات أو مواد مقررات دراسية "
+"أخرى مع الآخرين سواء بشكل شخصي أو عبر الإنترنت."
+
+#: templates/static_templates/theme-tos.html:582
+msgid ""
+"Stanford employees using this Site are expected to abide by the University Code of Conduct,\n"
+"            Administrative Guide Memo 1.\n"
+"        "
+msgstr ""
+"ومن المتوقع من موظفي جامعة ستانفورد الذين يستخدمون هذا \"الموقع\" الالتزام "
+"بقواعد السلوك المهني الخاصة بالجامعة، ومذكرة الدليل الإداري 1."
+
+#: templates/static_templates/theme-tos.html:589
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: templates/static_templates/theme-tos.html:592
+msgid ""
+"Stanford respects your privacy, will use reasonable efforts to keep your Personally Identifiable\n"
+"            Information (i.e., information that can be used to identify you) private, and will not share it with third\n"
+"            parties, except as otherwise provided in this Privacy Policy, or unless Stanford has a good faith belief\n"
+"            that such disclosure is necessary in special cases, such as a physical threat to you or others.\n"
+"        "
+msgstr ""
+"تحترم ستانفورد خصوصيتك وستبذل كافة الجهود المعقولة للحفاظ على خصوصية معلومات"
+" تحديد الهوية الشخصية (أي المعلومات التي يمكن استخدامها لتحديد هويتك)، ولن "
+"تشاركها مع أطراف ثالثة باستثناء ما هو منصوص عليه في سياسة الخصوصية أو ما لم "
+"تعتقد ستانفورد عن حُسن نية بأن مثل هذا الكشف ضروري في حالات خاصة مثل التهديد"
+" البدني لك أو للآخرين."
+
+#: templates/static_templates/theme-tos.html:599
+msgid "What Information this Privacy Policy Covers"
+msgstr "المعلومات التي تغطيها سياسة الخصوصية"
+
+#: templates/static_templates/theme-tos.html:602
+msgid ""
+"Some of our Site's functionality can be used without revealing any personal information; however, for\n"
+"            features or services related to an online course registration and participation, personal information is\n"
+"            required. If you do not use these specific features or services on the Site, then the only information\n"
+"            Stanford collects will be \"Non-Personal Information\" (i.e., information that cannot be used to identify\n"
+"            you). Non-Personal Information includes information such as the web pages that you have viewed.\n"
+"        "
+msgstr ""
+"يمكن استخدام بعض وظائف مواقعنا دون الكشف عن أي معلومات شخصية، ومع ذلك، تكون "
+"المعلومات الشخصية مطلوبة فيما يتعلق بالخصائص أو الخدمات المتعلقة بالتسجيل "
+"لمقرر دراسي عبر الإنترنت والمشاركة فيه. إذا لم تستخدم هذه الخصائص أو الخدمات"
+" المحددة على \"الموقع\" فإن المعلومات الوحيدة التي ستجمعها ستانفورد \"ستكون "
+"معلومات غير شخصية\" (أي معلومات لا يمكن استخدامها لتحديد هويتك). تشمل "
+"المعلومات غير الشخصية معلومات مثل صفحات الويب التي زرتها."
+
+#: templates/static_templates/theme-tos.html:611
+msgid ""
+"In order to access certain features and benefits on our Site, you may need to submit \"Personally\n"
+"            Identifiable Information\". Personally Identifiable Information can include information such as your name\n"
+"            and email address, among other things. You are responsible for ensuring the accuracy of the Personally\n"
+"            Identifiable Information you submit to Stanford. Inaccurate information may affect your ability to use the\n"
+"            Site, the information you receive when using the Site, and our ability to contact you. For example, your\n"
+"            email address should be kept current because that is one of the primary means by which we communicate with\n"
+"            you.\n"
+"        "
+msgstr ""
+"قد تحتاج إلى تقديم \"معلومات تحديد الهوية الشخصية\" من أجل الوصول إلى خصائص "
+"ومزايا معينة على موقعنا. ويمكن أن تشمل معلومات تحديد الهوية الشخصية معلومات "
+"مثل اسمك وعنوان بريدك الإلكتروني، من بين أمور أخرى. ويقع على عاتقك مسؤولية "
+"ضمان دقة معلومات تحديد الهوية الشخصية التي تقدمها لستانفورد. فربما تؤثر "
+"المعلومات غير الدقيقة على قدرتك على استخدام \"الموقع\"، وعلى المعلومات التي "
+"تتلقاها عند استخدامك \"للموقع\"، وعلى قدرتنا على الاتصال بك. على سبيل "
+"المثال، يجب أن تبقي على عنوان البريد الإلكتروني الخاص بك كما هو لأنه إحدى "
+"الوسائل الرئيسية التي نتواصل معك من خلالها."
+
+#: templates/static_templates/theme-tos.html:622
+msgid ""
+"Please note that this Privacy Policy only applies to information that we collect through the Site and\n"
+"            does not apply to information that we may collect from you through other means such as by mail or over\n"
+"            the phone.\n"
+"        "
+msgstr ""
+"برجاء ملاحظة أن سياسة الخصوصية الحالية لا تنطبق إلا على المعلومات التي "
+"نجمعها من خلال \"الموقع\" ولا تنطبق على المعلومات التي يمكن أن نجمعها منك عن"
+" طريق وسائل أخرى مثل البريد العادي أو عبر الهاتف."
+
+#: templates/static_templates/theme-tos.html:628
+msgid "What You Consent to by Using Our Site"
+msgstr "البنود التي توافق عليها باستخدام موقعنا"
+
+#: templates/static_templates/theme-tos.html:631
+msgid ""
+"Please understand that by submitting any Personally Identifiable Information to us, you consent and\n"
+"            agree that Stanford may collect, use and disclose such Personally Identifiable Information in accordance\n"
+"            with this Privacy Policy and our Terms of Use, and as permitted or required by law. If you do not agree\n"
+"            with these terms, then please do not provide any Personally Identifiable Information to us. If you refuse\n"
+"            or withdraw your consent, or if you choose not to provide us with any required Personally Identifiable\n"
+"            Information, Stanford may not be able to provide you with the services and courses that can be offered on\n"
+"            our Site.\n"
+"        "
+msgstr ""
+"يرجى أن تدرك أن بإفصاحك عن أي بيانات لتحديد هويتك الشخصية، فأنت بذلك موافق "
+"على إمكانية استخدام الجامعة لهذه البيانات وتجميعها والإفصاح عنها وفقًا "
+"لسياسة الخصوصية وشروط الاستخدام وكما هو مسموح أو مطلوب بموجب القانون. إن كنت"
+" غير موافق على هذه الشروط، فيرجى ألا تمدنا بأي من بيانات تحديد هويتك "
+"الشخصية. إذا رفضت أو سحبت موافقتك أو إذا اخترت عدم تزويدنا بأي بيانات مطلوبة"
+" لتحديد هويتك الشخصية فإن ستانفورد ربما لا تستطيع تزويدك بالخدمات والمقررات "
+"الدراسية التي يمكن تقديمها على \"الموقع\"."
+
+#: templates/static_templates/theme-tos.html:641
+msgid "The Information We Collect"
+msgstr "المعلومات التي نجمعها"
+
+#: templates/static_templates/theme-tos.html:643
+msgid ""
+"We gather the following types of information about users through the Site:"
+msgstr "نجمع الأنواع التالية من المعلومات عن المستخدمين من خلال \"الموقع\":"
+
+#: templates/static_templates/theme-tos.html:646
+#: templates/static_templates/theme-tos.html:719
+msgid "Non-Personal Information"
+msgstr "معلومات غير شخصية. "
+
+#: templates/static_templates/theme-tos.html:647
+msgid ""
+"When users come to our Site, Stanford may track, collect and aggregate Non-Personal Information\n"
+"            indicating, among other things, which pages of our Site were visited, the order in which they were\n"
+"            visited, when they were visited, and which hyperlinks were \"clicked.\" We also collect information from the\n"
+"            URLs from which you linked to our Site. Collecting such information may involve logging the IP address,\n"
+"            operating system and browser software used by each user of the Site. Although such information is not\n"
+"            Personally Identifiable Information, we may be able to determine from an IP address a user's Internet\n"
+"            Service Provider and the geographic location of his or her point of connectivity.\n"
+"        "
+msgstr ""
+"عندما يدخل المستخدمون إلى موقعنا، فربما تتعقب ستانفورد وتجمع معلومات غير "
+"شخصية، من بين أمور أخرى، تشير إلى الصفحات التي زاروها في موقعنا والترتيب "
+"الذي زاروا به هذه الصفحات والتوقيت الذي زاروها فيه بالإضافة إلى الروابط "
+"التشعبية التي \"نقروا فوقها\". كما نجمع أيضًا معلومات من محددات مواقع "
+"المعلومات (URL) التي ارتبطتَ من خلالها بموقعنا. ربما يتطلب جمع مثل هذه "
+"المعلومات تسجيل عنوان بروتوكول الإنترنت ونظام التشغيل وبرنامج المتصفح الذي "
+"يستخدمه كل مستخدم \"للموقع\". بالرغم من أن هذه المعلومات ليست معلومات تحديد "
+"هوية شخصية، فربما نكون قادرين على تحديد مقدم خدمة الإنترنت للمستخدم والمكان "
+"الجغرافي لنقطة اتصاله من خلال عنوان بروتوكول الإنترنت الخاص بالمستخدم."
+
+#: templates/static_templates/theme-tos.html:658
+msgid "Cookies"
+msgstr "ملفات تعريف الارتباط. "
+
+#: templates/static_templates/theme-tos.html:659
+msgid ""
+"Stanford also uses or may use cookies and/or web beacons to help us determine and identify repeat\n"
+"            visitors, the type of content and sites to which a user of our Site links, the length of time each user\n"
+"            spends at any particular area of our Site, and the specific functionalities that users choose to use.\n"
+"            Essentially, cookies are a user's identification card for the Stanford servers. Web beacons are small\n"
+"            graphic files linked to our servers that allow us to track your use of our Site and related\n"
+"            functionalities. Cookies and web beacons allow Stanford to serve you better and more efficiently, and to\n"
+"            personalize your experience at our Site. Cookies and web beacons are not used to retain Personally\n"
+"            Identifiable Information. From time to time Stanford may also use additional methods of collecting data.\n"
+"            Stanford does not provide any data collected through cookies to third parties.\n"
+"        "
+msgstr ""
+"تستخدم ستانفورد أيضًا أو قد تستخدم ملفات تعريف الارتباط و/أو إشارات الويب "
+"لمساعدتنا في تحديد الزوار الدائمين والتعرف على هويتهم وكذلك نوع المحتوى "
+"والمواقع التي يرتبط بها مستخدم موقعنا والمدة التي يقضيها كل مستخدم في أي "
+"منطقة محددة على موقعنا والوظائف المحددة التي سيختارها مستخدمونا لاستخدامها. "
+"ملفات تعريف الارتباط هي في الأساس بطاقة تحديد هوية المستخدم لخوادم ستانفورد."
+" وتعد إشارات الويب ملفات رسومية صغيرة مرتبطة بالخوادم المملوكة لنا التي تتيح"
+" لنا تتبع استخدامك لموقعنا والوظائف ذات الصلة. وتتيح ملفات تعريف الارتباط "
+"وإشارات الويب لستانفورد تقديم خدمة أفضل وأكثر فاعلية وتخصيص تجربتك على "
+"موقعنا. ولا تُستخدم ملفات تعريف الارتباط وإشارات الويب في حفظ معلومات تحديد "
+"الهوية الشخصية. وقد تستخدم ستانفورد أيضًا من حين إلى آخر طرقًا إضافية لجمع "
+"البيانات. ولا تقدم ستانفورد أي بيانات مجمعة من خلال ملفات تعريف الارتباط إلى"
+" أطراف ثالثة."
+
+#: templates/static_templates/theme-tos.html:672
+msgid ""
+"You should be able to control how and whether cookies will be accepted by your web browser. Most\n"
+"            browsers offer instructions, in the \"Help\" section of the toolbar, on how to reset the browser to reject\n"
+"            cookies. If you reject our cookies, many functions and conveniences of this Site may not work properly.\n"
+"        "
+msgstr ""
+"يجب أن تكون قادرًا على التحكم في كيفية قبول متصفح الإنترنت لديك لملفات تعريف"
+" الارتباط وفيما إذا كان سيقبلها أم لا. وتوفر معظم متصفحات الإنترنت، في قسم "
+"\"التعليمات\" بشريط الأدوات، تعليمات عن كيفية إعادة ضبط المتصفح لرفض ملفات "
+"تعريف الارتباط. وفي حالة رفضك لملفات تعريف الارتباط الخاصة بنا، فقد لا تعمل "
+"العديد من الوظائف والمواءمات بشكل صحيح في \"الموقع\"."
+
+#: templates/static_templates/theme-tos.html:679
+#: templates/static_templates/theme-tos.html:730
+msgid "Personally Identifiable Information"
+msgstr "معلومات تحديد الهوية الشخصية. "
+
+#: templates/static_templates/theme-tos.html:680
+msgid ""
+"This Privacy Policy serves as notice that Stanford collects Personally Identifiable Information in the\n"
+"            manner described herein. Such information may include but is not limited to: username, email address, home\n"
+"            address, IP address, postal code, gender and year of birth. Stanford collects Personally Identifiable Information that\n"
+"            you provide to us when you sign-up for email updates, participate in online courses or services through\n"
+"            our Site, participate in our public forums, send us email messages, and/or or otherwise contact us. In\n"
+"            order to subscribe to services, you may be required to provide us with Personally Identifiable Information\n"
+"            such as your user name, name, postal address, and email address. You may also be asked to provide\n"
+"            demographic information such as date of birth, gender and educational and vocational information. Stanford\n"
+"            may also receive Personally Identifiable Information when you access or log-in to a third party site,\n"
+"            e.g., Facebook, from our Site. This may include the text and/or images of your Personally Identifiable\n"
+"            Information available from the third party site. Personally Identifiable Information shall not include\n"
+"            any information posted or sent by or to you via any public forum.\n"
+"        "
+msgstr ""
+"تعمل سياسة الخصوصية هذه كإشعار بأن ستانفورد تجمع معلومات تحديد الهوية "
+"الشخصية بالطريقة الموضحة في هذه الشروط. وقد تشمل هذه المعلومات على سبيل "
+"المثال لا الحصر اسم المستخدم وعنوان البريد الإلكتروني وعنوان المنزل وعنوان "
+"بروتوكول الإنترنت والرمز البريدي والجنسانية (ذكر أو أنثى) وسنة الميلاد. تجمع"
+" ستانفورد معلومات تحديد الهوية الشخصية التي تقدمها لنا عند التسجيل للحصول "
+"على تحديثات عبر البريد الإلكتروني و/أو المشاركة في المقررات الدراسية عبر "
+"الإنترنت أو الخدمات التي يقدمها موقعنا و/أو المشاركة في منتدياتنا العامة "
+"و/أو إرسال رسائل بريد إلكتروني إلينا و/أو الاتصال بنا. وللاشتراك في خدماتنا،"
+" قد نطلب منك تزويدنا بمعلومات تحديد الهوية الشخصية مثل اسم المستخدم والاسم "
+"الحقيقي والعنوان البريدي وعنوان البريد الإلكتروني. وقد نطلب منك أيضًا "
+"تزويدنا بمعلومات ديموغرافية مثل تاريخ الميلاد والجنسانية ومعلومات تعليمية "
+"ومهنية. وقد تستلم ستانفورد أيضًا معلومات تحديد الهوية الشخصية عندما تدخل على"
+" أو تسجل دخولك على موقع طرف ثالث مثل الفيس بوك من خلال موقعنا. وقد يتضمن ذلك"
+" نصوصًا و/أو صوراً من معلومات تحديد الهوية الشخصية المتاحة من موقع الطرف "
+"الثالث. ولا تتضمن معلومات تحديد الهوية الشخصية أي معلومات تُرسل لك أو تنشرها"
+" عبر أي منتدى عام."
+
+#: templates/static_templates/theme-tos.html:695
+msgid "Collection of Information by Third Parties"
+msgstr "البيانات التي يجمعها الطرف الثالث"
+
+#: templates/static_templates/theme-tos.html:698
+msgid ""
+"We may permit a limited number of authorized third parties, such as analytics partners, to place cookies\n"
+"            through the Site to provide us with better insights into the use of the Site or user demographics. These\n"
+"            third parties may collect information, including non-personal information, about a consumer's online\n"
+"            activities over time and across different websites when he or she uses our website.\n"
+"        "
+msgstr ""
+"قد نسمح لعدد محدود من الأطراف الثالثة المعتمدين، مثل شركاء التحليلات، بوضع "
+"ملفات تعريف الارتباط على \"الموقع\" من أجل إمدادنا برؤى أفضل بشأن استخدام "
+"\"الموقع\" أو ديموغرافية المستخدم. وقد تجمع هذه الأطراف الثالثة معلومات، من "
+"بينها معلومات غير شخصية، حول نشاطات المستهلك على الإنترنت بمرور الوقت وعبر "
+"مواقع إلكترونية مختلفة عند استخدامه لموقعنا."
+
+#: templates/static_templates/theme-tos.html:705
+msgid "Do Not Track"
+msgstr "عدم التعقب"
+
+#: templates/static_templates/theme-tos.html:707
+msgid ""
+"We do not use technology that recognizes a \"do-not-track\" signal from your"
+" web browser."
+msgstr ""
+"لا نستخدم تكنولوجيا تستطيع أن تتعرف على إشارة \"عدم التعقب\" الصادرة من "
+"متصفح الانترنت الخاص بك."
+
+#: templates/static_templates/theme-tos.html:709
+msgid "How We Use and Share the Information"
+msgstr "كيف نقوم باستخدام المعلومات ومشاركتها"
+
+#: templates/static_templates/theme-tos.html:712
+msgid ""
+"Please take some time to familiarize yourself with the different ways Stanford uses and may disclose the\n"
+"            information that we gather. We do not share your Personally Identifiable Information with third parties for\n"
+"            their direct marketing use.\n"
+"        "
+msgstr ""
+"يُرجى تخصيص بعض الوقت للتعرف على الطرق المختلفة التي تستخدمها ستانفورد وقد "
+"تكشف المعلومات التي نجمعها. ونحن لا نشارك معلومات تحديد الهوية الشخصية "
+"الخاصة بك مع أي أطراف ثالثة من أجل استخدامهم التسويقي المباشر."
+
+#: templates/static_templates/theme-tos.html:720
+msgid ""
+"Stanford uses Non-Personal Information in aggregate form to build higher quality, more useful services\n"
+"            by performing statistical analyses of the collective characteristics and behavior of our users, and by\n"
+"            measuring demographics and interests regarding specific areas of our Site. Such aggregate information may\n"
+"            include but is not limited to video player interactions, views of posts, views and actions on pages,\n"
+"            assessment results and completion rates and assignments. We may share Non-Personal Information with\n"
+"            service providers and others to assist us in operating and enhancing our programs and site.\n"
+"        "
+msgstr ""
+"معلومات غير شخصية. تستخدم ستانفورد المعلومات غير الشخصية في صورة تراكمية من "
+"أجل تحقيق جودة أعلى وخدمات أكثر إفادة وذلك من خلال التحليلات الإحصائية "
+"للسمات والسلوكيات الجماعية لمستخدمينا و أيضًا من خلال قياس العوامل "
+"الديمغرافية والاهتمامات المتعلقة بمجالات محددة على موقعنا. وتشمل هذه "
+"المعلومات التراكمية على سبيل المثال لا الحصر التفاعلات على مشغل الفيديو وعدد"
+" مرات مشاهدة المنشورات وعدد مرات زيارة الصفحة والتفاعل عليها ونتائج التقييم "
+"ومعدلات الاستكمال ومهامها. وقد نشارك المعلومات غير الشخصية مع مقدمي الخدمات "
+"وآخرين لكي يساعدونا في تشغيل وتحسين برامجنا وموقعنا."
+
+#: templates/static_templates/theme-tos.html:731
+msgid ""
+"Among other things, Stanford may use the Personally Identifiable Information that you provide to\n"
+"            respond to your questions, provide you the specific course and/or services you select, send you updates\n"
+"            about online courses offered by Stanford or other Stanford events, and send you email messages about Site\n"
+"            maintenance or updates. Except as set forth in this Privacy Policy or as specifically agreed to by you,\n"
+"            Stanford will not disclose any Personally Identifiable Information we gather from you on the Site. In\n"
+"            addition to the other uses set forth in this Privacy Policy, Stanford may disclose and otherwise use\n"
+"            Personally Identifiable Information as described below.\n"
+"        "
+msgstr ""
+"معلومات تحديد الهوية الشخصية. ومن بين أمور أخرى، قد تستخدم ستانفورد معلومات "
+"تحديد الهوية الشخصية التي تقدمها حتى تجيب عن استفساراتك و/أو تقدم لك المقرر "
+"الدراسي المحدد الذي تختاره و/أو الخدمات التي تختارها، وترسل لك كل ما هو جديد"
+" حول المقررات الدراسية عبر الإنترنت التي تقدمها ستانفورد أو أي فعاليات أخرى "
+"تطلقها ستانفورد، وأيضًا لترسل لك رسائل بريد إلكتروني عن صيانة \"الموقع\" أو "
+"تحديثات. ولن تفصح ستانفورد عن أي معلومات تحديد هوية شخصية جمعناها منك عبر "
+"\"الموقع\"، باستثناء ما هو مبين في سياسة الخصوصية الحالية أو على النحو "
+"المتفق عليه من جانبك على وجه التحديد. بالإضافة إلى الاستخدامات الأخرى "
+"الواردة في سياسية الخصوصية، يجوز لستانفورد الإفصاح عن معلومات تحديد الهوية "
+"الشخصية واستخدامها كما هو موضح أدناه."
+
+#: templates/static_templates/theme-tos.html:742
+msgid "Updates"
+msgstr "التحديثات. "
+
+#: templates/static_templates/theme-tos.html:743
+msgid ""
+"We use Personally Identifiable Information collected when you sign-up for our various email or update\n"
+"            services to send you the messages in connection with the Site or an online course. Stanford may also\n"
+"            archive this information and/or use it for future communications with you.\n"
+"        "
+msgstr ""
+"نحن نستخدم معلومات تحديد الهوية الشخصية المجمعة عند تسجيل الدخول على خدمات "
+"البريد الإلكتروني أو التحديثات المختلفة من أجل أن نرسل إليك رسائل متعلقة "
+"\"بالموقع\" أو أحد المقررات الدراسية عبر الإنترنت. وقد تحفظ ستانفورد هذه "
+"المعلومات في الأرشيف و/أو تستخدمها في التواصل معك مستقبلاً."
+
+#: templates/static_templates/theme-tos.html:750
+msgid "Forums"
+msgstr "المنتديات. "
+
+#: templates/static_templates/theme-tos.html:751
+msgid ""
+"Stanford uses Personally Identifiable Information collected during your use of forums to facilitate your\n"
+"            use of the forums. In addition Stanford may display this information either on the Site and/or in other\n"
+"            publications. Stanford may also archive this information and/or use it for future communications with you\n"
+"            and/or your designee(s). Since the forum is open to the public, you may wish to select a username which\n"
+"            does not disclose your identity when you post on the forum.\n"
+"        "
+msgstr ""
+"تستخدم ستانفورد معلومات تحديد الهوية الشخصية المجمعة خلال استخدامك للمنتديات"
+" لتسهيل استخدامك لها. وقد تعرض ستانفورد هذه المعلومات على \"الموقع\" و/أو في"
+" منشورات أخرى. وقد تحفظ ستانفورد أيضًا هذه المعلومات في الأرشيف و/أو "
+"تستخدمها في التواصل معك و/أو مع من تفوضه مستقبلاً. ولما كان هذا المنتدى "
+"مفتوحًا أمام الجمهور، يمكنك أن تختار اسم مستخدم لا يكشف عن هويتك عندما تنشر "
+"شيئًا على المنتدى."
+
+#: templates/static_templates/theme-tos.html:760
+msgid "Participation in Online Courses"
+msgstr "المشاركة في المقررات الدراسية عبر الإنترنت. "
+
+#: templates/static_templates/theme-tos.html:761
+msgid ""
+"We use the Personally Identifiable Information, including but not limited to username and email\n"
+"            address, that we collect from you when you participate in an online course through the Site for processing\n"
+"            purposes, including but not limited to tracking attendance, progress and completion of an online course.\n"
+"            Also, Stanford may archive this information and/or use it for future communications with you. This\n"
+"            information may be shared with the content providers or contractors.\n"
+"        "
+msgstr ""
+"نستخدم معلومات تحديد الهوية الشخصية بما في ذلك على سبيل المثال لا الحصر اسم "
+"المستخدم وعنوان البريد الإلكتروني التي نجمعها عند مشاركتك في مقرر دراسي عبر "
+"الإنترنت من خلال \"الموقع\" لأغراض المعالجة، والتي تشمل على سبيل المثال لا "
+"الحصر متابعة الحضور والتقدم المحرز في المقرر الدراسي عبر الإنترنت واستكماله."
+" قد تحفظ أيضًا ستانفورد هذه المعلومات في الأرشيف و/أو تستخدمها في التواصل "
+"معك مستقبلاً. قد يتم مشاركة هذه المعلومات مع مقدمي المحتوى أو المتعاقدين."
+
+#: templates/static_templates/theme-tos.html:770
+msgid "Communications with Stanford"
+msgstr "المراسلات مع ستانفورد. "
+
+#: templates/static_templates/theme-tos.html:771
+msgid ""
+"When you send us an email message or otherwise contact us, we may use the information provided by you\n"
+"            to respond to your communication and/or as described in this Privacy Policy. We may also archive this\n"
+"            information and/or use it for future communications with you.\n"
+"        "
+msgstr ""
+"عندما ترسل لنا بريدًا إلكترونيًا أو تتصل بنا، فقد نستخدم المعلومات التي "
+"تقدمها للرد على رسالتك و/أو كما هو موضح في سياسة الخصوصية. وقد نحفظ هذه "
+"المعلومات في الأرشيف و/أو نستخدمها في التواصل معك مستقبلاً."
+
+#: templates/static_templates/theme-tos.html:778
+msgid "Research"
+msgstr "الأبحاث. "
+
+#: templates/static_templates/theme-tos.html:779
+msgid ""
+"We will study course participation to learn how to enhance both our course offerings and the online\n"
+"            learning experience. Records of your participation may be used by Stanford for these research studies.\n"
+"            Such records may include but will not be limited to: username, email address, home address, IP address, postal code,\n"
+"            gender, year of birth and your interactions with the platform such as video player usage, forum posts,\n"
+"            actions on class pages, assignments, and assessment results. For purposes of research, we may share\n"
+"            information we collect from online learning activities, including Personally Identifiable Information\n"
+"            (\"PII\"), with researchers beyond Stanford. However, your PII will only be shared as permitted by\n"
+"            applicable law, will be limited to what is necessary to perform the research and will be subject to an\n"
+"            agreement to protect the data. We may also share with the public or third parties aggregated information\n"
+"            that does not personally identify you. Similarly, any research findings will be reported at the aggregate\n"
+"            level and will not expose your personal identity.\n"
+"        "
+msgstr ""
+"سندرس مدى المشاركة في المقررات الدراسية لمعرفة طرق لتحسين عروض المقررات "
+"الدراسية وأيضًا خبرات التعلم عبر الإنترنت. وقد تستخدم ستانفورد سجلات مشاركتك"
+" لأغراض هذه الدراسات البحثية. قد تشمل هذه السجلات على سبيل المثال لا الحصر: "
+"اسم المستخدم وعنوان البريد الإلكتروني وعنوان المنزل وعنوان بروتوكول الإنترنت"
+" والرمز البريدي والجنسانية وسنة الميلاد وتفاعلاتك مع المنصة مثل استخدام مشغل"
+" الفيديو ومنشورات المنتدى والتفاعل على صفحات الصف والمهام ونتائج التقييم. "
+"للأغراض البحثية، قد نشارك المعلومات التي نجمعها من أنشطة التعلم عبر "
+"الإنترنت، بما فيها معلومات تحديد الهوية الشخصية، مع الباحثين خارج ستانفورد. "
+"ومع ذلك، ستتم مشاركة معلومات تحديد الهوية الشخصية في الإطار المسموح به بموجب"
+" القانون المعمول به، وستقتصر على ما هو ضروري لإجراء البحث، وستخضع لاتفاق "
+"لحماية البيانات. وقد نشارك المعلومات المجمعة التي لا تحدد هويتك الشخصية مع "
+"الجمهور أو مع أطراف ثالثة. وعلى نحو مماثل، سيتم الإبلاغ عن أي نتائج بحثية "
+"بشكل تراكمي، ولن تكشف عن هويتك الشخصية."
+
+#: templates/static_templates/theme-tos.html:794
+msgid "Third Party Sites"
+msgstr "مواقع الطرف الثالث. "
+
+#: templates/static_templates/theme-tos.html:795
+msgid ""
+"We use the Personally Identifiable Information collected from third party sites for research and\n"
+"            teaching purposes. To the extent such Personally Identifiable Information contains images of you; you\n"
+"            grant Stanford a limited, non-exclusive right to use, reproduce, distribute, prepare derivative works of\n"
+"            or publicly display such images and/or your likeness for educational purposes.\n"
+"        "
+msgstr ""
+"نستخدم بيانات تحديد الهوية الشخصية المجمعة من مواقع الطرف الثالث لأغراض "
+"بحثية وتعليمية. وبقدر ما تحتوي معلومات تحديد الهوية الشخصية على صور لك، فإنك"
+" تمنح ستانفورد حقًا محدودًا غير حصري لاستخدام هذه الصور و/أو هيئتك أو أعمال "
+"مشتقة منهما أو إعادة إنتاجها أو توزيعها أو إعدادها أو عرضها علانية لأغراض "
+"تعليمية."
+
+#: templates/static_templates/theme-tos.html:803
+msgid "Disclosure to Complete Transactions"
+msgstr "الإفصاح لإكمال المعاملات. "
+
+#: templates/static_templates/theme-tos.html:804
+msgid ""
+"We may disclose your Personally Identifiable Information in order to help complete a transaction that\n"
+"            you have requested. This may include, for example, disclosure of credit card information to a payment\n"
+"            processor.\n"
+"        "
+msgstr ""
+"قد نفصح عن معلومات تحديد الهوية الشخصية الخاصة بك من أجل مساعدتك في إكمال "
+"معاملة طلبتها. قد يتضمن هذا، على سبيل المثال، الإفصاح عن معلومات تخص البطاقة"
+" الائتمانية إلى معالج الدفع."
+
+#: templates/static_templates/theme-tos.html:811
+msgid "Disclosure to Stanford Contractors"
+msgstr "الإفصاح إلى متعاقدي ستانفورد. "
+
+#: templates/static_templates/theme-tos.html:812
+msgid ""
+"Our contractors may have limited access to your Personally Identifiable Information in the course of\n"
+"            providing products or services to us. These contractors may include vendors and suppliers that provide\n"
+"            us with technology, services, marketing assistance, and/or content related to the operation and\n"
+"            maintenance of the Site or the online course. Access to your Personally Identifiable Information by these\n"
+"            contractors is limited to the information reasonably necessary for the contractor to perform its limited\n"
+"            function for us.\n"
+"        "
+msgstr ""
+"قد يحظى متعاقدونا بدخول محدود إلى معلومات تحديد هويتك الشخصية في سياق تقديم "
+"منتجات أو خدمات إلينا. وقد يكون من بين هؤلاء المتعاقدين البائعون والموردون "
+"الذين يقدمون لنا التكنولوجيا و/أو الخدمات و/أو المساعدة التسويقية و/أو "
+"المحتوى المتعلق بتشغيل وصيانة \"الموقع\" أو المقرر الدراسي عبر الإنترنت. "
+"ويقتصر دخول هؤلاء المتعاقدين إلى معلومات تحديد هويتك الشخصية على المعلومات "
+"اللازمة بصورة معقولة للمتعاقد لأداء وظيفته المحدودة لصالحنا."
+
+#: templates/static_templates/theme-tos.html:822
+msgid "Government Authorities, Legal Rights and Actions"
+msgstr "الجهات الحكومية و الحقوق والإجراءات القانونية. "
+
+#: templates/static_templates/theme-tos.html:823
+msgid ""
+"Stanford may share your Personally Identifiable Information with various government authorities in\n"
+"            response to subpoenas, court orders, or other legal process; to establish or exercise our legal rights or\n"
+"            to protect our property, rights or safety or the property, rights or safety of others; to prosecute or to\n"
+"            defend against legal claims; or as otherwise required by law or applicable regulations. In such cases\n"
+"            Stanford reserves the right to raise or waive any legal objection or right available to us. We also may\n"
+"            share your Personally Identifiable Information when Stanford believes it is appropriate to investigate,\n"
+"            prevent, or take action regarding illegal or suspected illegal activities; to protect and defend the\n"
+"            rights, property, or safety of Stanford, the Site, our users or others; and in connection with our Terms\n"
+"            of Use and other agreements.\n"
+"        "
+msgstr ""
+"قد تشارك ستانفورد معلومات تحديد هويتك الشخصية مع مختلف الجهات الحكومية "
+"استجابةً لمذكرات الإحضار أو أوامر المحكمة أو أي إجراءات قانونية أخرى، أو من "
+"أجل إرساء حقوقنا القانونية وممارستها، أو لحماية ممتلكاتنا أو حقوقنا أو "
+"سلامتنا، أو لحماية ممتلكات الآخرين أو حقوقهم أو سلامتهم؛ أو لرفع دعاوى "
+"قضائية أو التصدي لها ، أو بحسب ما يقتضيه القانون أو اللوائح المعمول بها. وفي"
+" مثل هذه الحالات يكون لستانفورد الحق في رفع أي اعتراض قانوني أو حق متاح لنا "
+"أو التنازل عنهما. وقد نشارك أيضًا معلومات تحديد هويتك الشخصية عندما ترى "
+"ستانفورد أنه من الملائم التحقيق في أنشطة غير قانونية أو يُشتبه بأنها غير "
+"قانونية أو منعها أو اتخاذ أي إجراء بشأنها؛ ومن أجل حماية حقوق ستانفورد أو "
+"\"الموقع\" أو مستخدمينا أو آخرين أو ممتلكاتهم أو سلامتهم، ووفقًا لشروط "
+"الاستخدام الخاصة بنا والاتفاقيات الأخرى."
+
+#: templates/static_templates/theme-tos.html:835
+msgid "Security"
+msgstr "الأمن"
+
+#: templates/static_templates/theme-tos.html:838
+#, python-format
+msgid ""
+"Stanford takes reasonable measures to protect your Personally Identifiable Information from disclosure\n"
+"            to or access by third parties. However, no method of electronic transmission or storage is 100% secure.\n"
+"            Please note that Stanford does not guarantee the security of Personally Identifiable Information, and\n"
+"            there is some risk that an unauthorized third party may find a way to circumvent our security systems or\n"
+"            that transmission of your information over the Internet will be intercepted. Any information that you post\n"
+"            on our site or send to us in an email is not secure.\n"
+"        "
+msgstr ""
+"تتخذ ستانفورد إجراءات معقولة لحماية معلومات تحديد هويتك الشخصية من النشر أو "
+"وصول أطراف ثالثة إليها. وبالرغم من ذلك، فلا توجد طريقة نقل أو تخزين "
+"إلكترونية آمنة 100% s. يُرجى العلم أن ستانفورد لا تضمن أمن معلومات تحديد "
+"الهوية الشخصية، وهناك بعض الخطر من أن طرفاً ثالثاً غير موثوق به قد يجد طريقة"
+" لخرق أنظمتنا الأمنية أو أن نقل معلوماتك عبر الإنترنت قد يتم اعتراضها. أي "
+"معلومات تنشرها على موقعنا أو ترسلها لنا عبر البريد الإلكتروني غير آمنة."
+
+#: templates/static_templates/theme-tos.html:848
+msgid ""
+"You also play a role in protecting your information. Please safeguard your user name and password and do\n"
+"            not share them with others. If we receive instructions using your log-in information we will consider that\n"
+"            you have authorized the instructions. You agree to notify us immediately of any unauthorized use of your\n"
+"            account or any other breach of security. We reserve the right to refuse service, terminate accounts, or\n"
+"            remove or edit content in our sole discretion.\n"
+"        "
+msgstr ""
+"فأنت أيضًا تؤدي دورًا في حماية معلوماتك. يرجى حماية اسم المستخدم الخاص بك "
+"وكلمة المرور ولا تشاركهما مع الآخرين. في حالة استلمنا تعليمات باستخدام "
+"بيانات تسجيل الدخول الخاصة بك فسنعتبر أنك قد تحققت من التعليمات. وأنت توافق "
+"على إخبارنا فورًا بأي استخدام غير مصرح به لحسابك أو أي خرق للأمن. ونحتفظ بحق"
+" رفض خدمة أو إنهاء حسابات أو مسح محتوى أو تعديله بحسب تقديرنا الحصريّ."
+
+#: templates/static_templates/theme-tos.html:856
+msgid "External Links"
+msgstr "روابط خارجية"
+
+#: templates/static_templates/theme-tos.html:859
+msgid ""
+"For your convenience we may provide links to sites operated by organizations other than Stanford (\"Third\n"
+"            Party Sites\") that we believe may be of interest to you. Stanford does not disclose your Personally\n"
+"            Identifiable Information to these Third Party Sites without obtaining your consent. Stanford does not\n"
+"            endorse and is not responsible for the privacy practices of these Third Party Sites. If you choose to\n"
+"            click on a link to one of these Third Party Sites, you should review the terms of service and privacy\n"
+"            policy posted on the other site to understand how that Third Party Site collects and uses your Personally\n"
+"            Identifiable Information.\n"
+"        "
+msgstr ""
+"ولتلبية احتياجاتك قد نوفر روابط لمواقع تشغّلها منظمات أخرى غير ستانفورد "
+"(\"مواقع أطراف ثالثة\") بحيث نرى أنها قد تهمّك. لا تفصح ستانفورد عن أي من "
+"معلومات تحديد هويتك الشخصية \"لمواقع أطراف ثالثة\" دون الحصول على موافقتك. "
+"لا تقر ستانفورد ممارسات الخصوصية الخاصة \"بمواقع الأطراف الثالثة\" هذه ولا "
+"تتحمل المسؤولية عنها. في حالة اختيارك النقر فوق أي رابط من روابط \"مواقع "
+"أطراف ثالثة\" يجب عليك مراجعة شروط الخدمة وسياسة الخصوصية المنشورة على "
+"\"الموقع\" الآخر لتعرف الطريقة التي يجمع بها \"موقع الطرف الثالث\" معلومات "
+"تحديد هويتك الشخصية ويستخدمها."
+
+#: templates/static_templates/theme-tos.html:869
+msgid "Updating or Deleting Your Personally Identifiable Information"
+msgstr "تحديث معلومات تحديد هويتك الشخصية أو حذفها"
+
+#: templates/static_templates/theme-tos.html:872
+msgid ""
+"You may update or delete your Personally Identifiable Information by logging into the Site and visiting\n"
+"            your user account page. Keep in mind, however, that there will be residual information that will remain\n"
+"            within our databases, access logs and other records, which may or may not contain your Personally\n"
+"            Identifiable Information. You may also submit a request to update your Personally Identifiable Information\n"
+"            to {contact_email}. We try to answer every email promptly, but may not always be able to do so.\n"
+"        "
+msgstr ""
+"يمكنك تحديث معلومات تحديد هويتك الشخصية أو حذفها عن طريق الدخول إلى "
+"\"الموقع\" وزيارة صفحة حساب المستخدم الخاصة بك، وتذكر رغم ذلك أنه ستبقى "
+"معلومات ضمن قواعد بياناتنا وسجلات الدخول وغيرها من السجلات التي قد تحتوي على"
+" معلومات تحديد هويتك الشخصية أو ربما لا تحتوي عليها. وبإمكانك أيضا إرسال طلب"
+" لتحديث معلومات تحديد هويتك الشخصية إلى العنوان التالي: {contact_email}، "
+"ونحن نحاول جاهدين الرد على كل بريد إلكتروني على وجه السرعة، لكننا قد نكون "
+"غير قادرين على القيام بذلك بشكل دائم."
+
+#: templates/static_templates/theme-tos.html:882
+msgid "Opt-Out Rights"
+msgstr "حقوق الانسحاب"
+
+#: templates/static_templates/theme-tos.html:885
+msgid ""
+"If you do not wish to receive information or other notices from us in the future, you can \"opt out\" by\n"
+"            contacting us at the address indicated at the end of this policy or by following the \"unsubscribe\"\n"
+"            instructions in any communication you receive from us. Please be aware that you are not able to opt out of\n"
+"            receiving communications about your account or your transactions with us.\n"
+"        "
+msgstr ""
+"يمكنك الانسحاب من الخدمة إذا كنت لا ترغب في استلام معلومات أو إشعارات أخرى "
+"منا في المستقبل، وذلك عن طريق التواصل معنا على العنوان المشار إليه في نهاية "
+"سياسة الخصوصية الحالية أو عن طريق اتباع إرشادات \"إلغاء الاشتراك\" في أي "
+"رسالة تستلمها منا، كما نرجو منك أخذ العلم بأنه لا يمكنك الانسحاب من خدمة "
+"استلام الرسائل الخاصة بحسابك أو تعاملاتك معنا."
+
+#: templates/static_templates/theme-tos.html:892
+msgid "Changing Our Privacy Policy"
+msgstr "تغيير سياسة الخصوصية الخاصة بنا"
+
+#: templates/static_templates/theme-tos.html:895
+msgid ""
+"Please note that we review our privacy practices from time to time, and that these practices are subject\n"
+"            to change. Any change, update, or modification will be effective immediately upon posting on our Site. We\n"
+"            will notify you of any material change to this Privacy Policy by posting a notice on our Site's homepage\n"
+"            for a reasonable period of time following such update, and by changing the effective date (located at the\n"
+"            bottom of this Policy). Be sure to return to this page periodically to ensure familiarity with the most\n"
+"            current version of this Privacy Policy. If you have any privacy-related questions, you may contact\n"
+"            Stanford at {privacy_email}.\n"
+"        "
+msgstr ""
+"يرجى الانتباه إلى أننا نراجع ممارسات الخصوصية الخاصة بنا من حين لآخر وأن هذه"
+" الممارسات عرضة للتغيير، وسيصبح أي تغيير أو تحديث أو تعديل ساري المفعول "
+"فورًا عقب نشره على موقعنا. وسوف نعلمك بأي تغيير جوهري لسياسة الخصوصية "
+"الحالية عن طريق نشر إشعار على صفحة موقعنا الرئيسية خلال مدة زمنية معقولة عقب"
+" تلك التحديثات وعن طريق تغيير تاريخ السريان (الموجود أسفل السياسة الحالة). "
+"كما نرجو منك التأكد من العودة إلى الصفحة الحالية بشكل دوري من أجل ضمان "
+"البقاء على دراية بأحدث نسخة من السياسة الحالية. إذا كانت لديك أية أسئلة "
+"متعلقة بالخصوصية، فبإمكانك مراسلة ستانفورد على البريد التالي: "
+"{privacy_email}."
+
+#: templates/static_templates/theme-tos.html:907
+msgid "Protecting Children's Privacy"
+msgstr "حماية خصوصية الأطفال"
+
+#: templates/static_templates/theme-tos.html:910
+msgid ""
+"Stanford does not knowingly collect or maintain Personally Identifiable Information on our Site from\n"
+"            persons under 13 years of age, and no part of our Site is directed to persons under 13 years of age. If you\n"
+"            are under 13 years of age, then please do not use or access this Site at any time or in any manner. Stanford\n"
+"            will take appropriate steps to delete any Personally Identifiable Information of persons less than 13 years of\n"
+"            age that has been collected on our Site without verified parental consent upon learning of the existence of\n"
+"            such Personally Identifiable Information. If you have any concerns with respect to data collected on the site,\n"
+"            please contact us at {contact_email}.\n"
+"        "
+msgstr ""
+" لا تجمع ستانفورد ولا تحفظ عن عمد على موقعها معلومات تحديد الهوية الشخصية "
+"للأفراد تحت سن 13ولا يوجد أي قسم من موقعنا موجه لهم. فيرجى عدم استخدام أو "
+"دخول هذا \"الموقع\" في أي وقت أو بأي طريقة إن كنت تحت سن 13. وسوف تتخذ "
+"ستانفورد الخطوات المناسبة لحذف أي معلومات لتحديد الهوية الشخصية للأفراد تحت "
+"سن 13والتي جُمعت على موقعنا دون موافقة مصدقة من ولي الأمر بمجرد العلم بوجود "
+"تلك المعلومات. إذا كانت لديك أية مخاوف تتعلق بالبيانات المجمعة على "
+"\"الموقع\"، فيرجى التواصل معنا على عنوان البريد الإلكتروني التالي: "
+"{contact_email}."
+
+#: templates/static_templates/theme-tos.html:922
+msgid "Entire Agreement"
+msgstr "الاتفاقية الكاملة"
+
+#: templates/static_templates/theme-tos.html:925
+msgid ""
+"These Terms of Service, including the Honor Code and Privacy Policy, constitute the entire agreement\n"
+"            between you and Stanford and its affiliates with respect to the subject matter herein and supersedes any\n"
+"            and all prior or contemporaneous oral or written agreements.\n"
+"        "
+msgstr ""
+"تشكل شروط الخدمة الحالية بما في ذلك ميثاق الشرف وسياسة الخصوصية الاتفاقية "
+"الكاملة بينك وبين ستانفورد والمؤسسات التابعة لها فيما يتعلق بالموضوع المحدد "
+"في هذه الاتفاقية وتحل هذه الشروط محل كل وأي من الاتفاقيات الكتابية أو "
+"الشفهية السابقة أو الحالية."
+
+#: templates/static_templates/theme-tos.html:931
+msgid "Contacting Stanford"
+msgstr "التواصل مع ستانفورد"
+
+#: templates/static_templates/theme-tos.html:933
+msgid ""
+"If you have a disability-related question, email us at "
+"{accessibility_email}."
+msgstr ""
+"راسلنا على البريد الإلكتروني التالي: {accessibility_email} إذا كانت لديك أية"
+" أسئلة تتعلق بالإعاقة."
+
+#: templates/static_templates/theme-tos.html:938
+msgid "If you have a privacy-related question, email us at {privacy_email}."
+msgstr ""
+"راسلنا على البريد الإلكتروني التالي: {privacy_email} إذا كانت لديك أية أسئلة"
+" متعلقة بالخصوصية."
+
+#: templates/static_templates/theme-tos.html:943
+msgid "If you would like to report a concern, email us at {concern_email}."
+msgstr ""
+"راسلنا على البريد الإلكتروني التالي: {concern_email} إن كنت تود الإبلاغ عن "
+"أية مخاوف."
+
+#: templates/static_templates/theme-tos.html:948
+msgid "For any other questions, please contact us at {contact_email}."
+msgstr ""
+"راسلنا على البريد الإلكتروني التالي: {contact_email} إذا كانت لديك أية أسئلة"
+" أخرى."
+
+#: templates/static_templates/theme-tos.html:955
+msgid "Effective date: {date}"
+msgstr "تاريخ السريان: {date}"
+
+#: templates/static_templates/theme-tos.html:963
+msgid "Print Terms of Service"
+msgstr "إطبع شروط الخدمة"
+
+#: cms/djangoapps/contentstore/views/course.py:923
+msgid "Error while sending test email."
+msgstr "خطأ أثنا ارسال البريد التجريبي."
+
+#: cms/djangoapps/contentstore/views/utilities/captions.py:187
+msgid "Invalid locations."
+msgstr "مواقع غير موجودة."
+
+#: cms/djangoapps/contentstore/views/utilities/captions.py:190
+msgid "Incoming update_array data is empty."
+msgstr "تحديث وارد_مجموع البيانات فارغ"
+
+#: common/djangoapps/student/views.py:1171
+msgid "Could not send enrollment email to the user"
+msgstr "غير قادر على ارسال بريد التسجيل للمستخدم"
+
+#: common/djangoapps/util/keyword_substitution.py:45
+msgid "anonymous_user_id (for use in survey links)"
+msgstr "هوية_مستخدم_مجهول ( للاستخدام في روابط الاستبان)"
+
+#: common/djangoapps/util/keyword_substitution.py:49
+msgid "user profile name"
+msgstr "اسم ملف المستخدم"
+
+#: common/djangoapps/util/keyword_substitution.py:53
+msgid "display name of the course"
+msgstr "عرض اسم الدورة"
+
+#: common/djangoapps/util/keyword_substitution.py:57
+msgid "course identifier"
+msgstr "معرف الدورة"
+
+#: common/djangoapps/util/keyword_substitution.py:61
+msgid "start date of the course"
+msgstr "تاريخ بداية الدورة"
+
+#: common/djangoapps/util/keyword_substitution.py:65
+msgid "end date of the course"
+msgstr "تاريخ نهاية الدورة"
+
+#: common/lib/xmodule/xmodule/capa_base.py:110
+msgid ""
+"Defines the number of times a student can try to answer this problem. If the"
+" value is not set, infinite attempts are allowed. NOTE: If a problem is "
+"timed, we only allow a single attempt, and ignore the value in this field."
+msgstr ""
+"حدد عدد المرات التي يمكن للطالب اجابة المسألة. اذا القيمة غير محددة, عدد "
+"لانهائي من المحاولات مسموح.ملاحظة: اذا المسألة موقوتة, نسمح لمحاولة واحدة, و"
+" تجاهل القيمة في الحقل. "
+
+#: common/lib/xmodule/xmodule/capa_base.py:118
+msgid ""
+"Number of minutes at which the student will be issued a time warning. Works "
+"only when minutes_allowed is non-zero"
+msgstr ""
+"عدد الدقائق التي طالب سوف يعطى انذار وقتي. يعمل فقط عند الدقائق_المسموحة "
+"ليست صفر "
+
+#: common/lib/xmodule/xmodule/capa_base.py:182
+msgid ""
+"Number of minutes allowed to finish this assessment. Set 0 for no time-"
+"limit. If there is a time-limit, the student will only be given one attempt."
+msgstr ""
+"عدد الدقائق المسموحة لانهاء هذا التقييم.ضبط  0 لحد زمني لامحدود.اذا هناك حد "
+"زمني محدد, الطالب سيعطى محاولة واحدة. "
+
+#: common/lib/xmodule/xmodule/capa_base.py:186
+msgid ""
+"Setting minutes allowed means that this question can only have one attempt, "
+"regardless of the value of the maximum attempts field."
+msgstr ""
+"تحديد الدقائق المسموحة يعني ان للسؤال  محاولة واحدة بغض النظر عن القيمة "
+"المحاولات القصوى."
+
+#: common/lib/xmodule/xmodule/capa_base.py:192
+msgid "time student started this assessment"
+msgstr "الوقت الذي بدأ الطالب فيه التقييم"
+
+#: common/lib/xmodule/xmodule/capa_base.py:458
+msgid "Final Submit"
+msgstr "التسليم النهائي"
+
+#: common/lib/xmodule/xmodule/capa_base.py:1138
+msgid "Time has expired"
+msgstr "الوقت قد انتهى"
+
+#: common/lib/xmodule/xmodule/capa_module.py:90
+msgid "This problem's time has expired. Please refresh your page."
+msgstr "وقت المسألة قد انتهى, الرجاء اعادة تحميل الصفحة."
+
+#: lms/djangoapps/courseware/views.py:1285
+msgid ""
+"A problem has occurred retrieving the data, to report the problem click "
+"{zendesk_url}here{tag}"
+msgstr ""
+"حدث خطاء استرداد البيانات, للاعلام عن المشكلة اضغط {zendesk_url}هنا{tag}"
+
+#: lms/djangoapps/courseware/views.py:1288
+msgid "A problem has occurred retrieving the data."
+msgstr "حدث خطاء استرداد البيانات."
+
+#: lms/djangoapps/courseware/views.py:1309
+msgid ""
+"There are no student answers for this problem yet; please try again later."
+msgstr "لاتوجد اجابات للطالب لهذه المسألة حتى الان. حاول مرة اخرى لاحقا."
+
+#: lms/djangoapps/courseware/views.py:1466
+msgid ""
+"The analytics cannot be displayed as there is an inconsistency in the data."
+msgstr "لايمكن عرض التحاليل لعدم التنسيق في البيانات. "
+
+#: lms/djangoapps/courseware/views.py:1472
+msgid ""
+"The analytics cannot be displayed for this question as randomization was set"
+" at one time."
+msgstr "لايمكن عرض التحاليل لهذا السؤال لحديد العشوائية في وقت واحد."
+
+#: lms/djangoapps/courseware/views.py:1478
+#: lms/djangoapps/courseware/views.py:1486
+msgid ""
+"The analytics cannot be displayed for this question as the number of rows "
+"returned did not match the question definition."
+msgstr ""
+"لا يمكن عرض التحاليل لهذا السؤال لعدد الصفوف المرجعة التى لم تطابق تعريف "
+"السؤال."
+
+#: lms/djangoapps/dashboard/sysadmin.py:274
+msgid "Usernames cannot be blank"
+msgstr "اسماء المستخدمين لايمكن ان تكون فارغة"
+
+#: lms/djangoapps/dashboard/sysadmin.py:279
+msgid "User '{username_old}' does not exist"
+msgstr "مستخدم '{username_old}' غير موجود"
+
+#: lms/djangoapps/dashboard/sysadmin.py:283
+msgid "User '{username_new}' already exists"
+msgstr "مستخدم '{username_new}' موجود"
+
+#: lms/djangoapps/dashboard/sysadmin.py:287
+msgid "Failed to modify username for user '{username_old}'"
+msgstr "فشل في تعديل اسم المستخدم للمستخدم '{username_old}'"
+
+#: lms/djangoapps/dashboard/sysadmin.py:291
+msgid "Changed username of user '{username_old}' to '{username_new}'"
+msgstr ""
+
+#: lms/djangoapps/dashboard/sysadmin.py:369
+msgid "Rename User Results"
+msgstr "اعد تسمية نتائج المستخدم"
+
+#: lms/djangoapps/dashboard/sysadmin.py:871
+msgid "Command failed"
+msgstr "فشل الامر"
+
+#: lms/djangoapps/dashboard/sysadmin.py:921
+msgid "Must provide an ID"
+msgstr "يجب توفير هوية"
+
+#: lms/djangoapps/dashboard/sysadmin.py:926
+msgid "ID must be an integer"
+msgstr "هوية المعرف يجب ان تكون عدد صحيح"
+
+#: lms/djangoapps/dashboard/sysadmin.py:935
+msgid "Cannot find task with ID {row_id} and task_state QUEUING - {error}"
+msgstr ""
+"لايمكن ايجاد المهمة مع هوية المعرف {row_id} و مهمة_حالة انتظار - {error}"
+
+#: lms/djangoapps/dashboard/sysadmin.py:944
+msgid "Task with id {row_id} was successfully killed!"
+msgstr "مهمة مع معرف {row_id} تم التخلص منه بنجاح!"
+
+#: lms/djangoapps/dashboard/sysadmin.py:972
+msgid "List of Queueing Tasks"
+msgstr "قائمة المهمات المنتظرة"
+
+#: lms/djangoapps/dashboard/sysadmin.py:1013
+msgid "Kill Task Results"
+msgstr "تخلص من نتائج المهمة"
+
+#: lms/djangoapps/dashboard/sysadmin.py:1018
+msgid "Unrecognized action"
+msgstr "نشاط غير معرف"
+
+#: lms/djangoapps/instructor/lti_grader.py:38
+msgid "The CSV file contains no useful data!"
+msgstr ""
+
+#: lms/djangoapps/instructor/lti_grader.py:58
+msgid ""
+"LTI passport sanity check failed. Your lti_key ({key}) or lti_secret "
+"({secret}) are probably incorrect."
+msgstr ""
+
+#: lms/djangoapps/instructor/lti_grader.py:69
+msgid "Grade post successful: user id {user_id} (email: {email})."
+msgstr ""
+
+#: lms/djangoapps/instructor/lti_grader.py:76
+msgid "Grade post failed: user id {user_id} (email: {email})."
+msgstr ""
+
+#: lms/djangoapps/instructor/lti_grader.py:96
+msgid "Bad row: grading_csv row {row_number} ({row}) doesn't have enough info"
+msgstr ""
+
+#: lms/djangoapps/instructor/lti_grader.py:121
+msgid "Bad row: grading_csv row {row_number} ({row}) has bad values"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2712
+msgid ""
+"Your student responses report is being generated! You can view the status of"
+" the generation task in the 'Pending Instructor Tasks' section."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2715
+msgid ""
+"A student responses report generation task is already in progress. Check the"
+" 'Pending Instructor Tasks' table for the status of the task. When "
+"completed, the report will be available for download in the table below."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2821
+msgid "The report was successfully deleted!"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2836
+msgid "The student forums usage report is being generated."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2840
+msgid ""
+"A student forums usage report task is already in progress. Check the "
+"'Pending Instructor Tasks' table for the status of the task. When completed,"
+" the report will be available for download in the table below."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2861
+msgid "The ORA2 responses report is being generated."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2865
+msgid ""
+"An ORA2 responses report generation task is already in progress. Check the "
+"'Pending Instructor Tasks' table for the status of the task. When completed,"
+" the report will be available for download in the table below."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2886
+msgid "The course forums usage report is being generated."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2890
+msgid ""
+"A course forums usage report task is already in progress. Check the 'Pending"
+" Instructor Tasks' table for the status of the task. When completed, the "
+"report will be available for download in the table below."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:453
+msgid "Queries"
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/views.py:687
+msgid "I agree to the {platform_name} {terms_of_service} and {privacy_policy}."
+msgstr "أوافق على {terms_of_service} و{privacy_policy} الخاصين بمنصّة {platform_name}."
+
+#: openedx/core/djangoapps/user_api/views.py:697
+msgid "You must agree to the {platform_name} {terms_of_service} and {privacy_policy}."
+msgstr "يجب الموافقة على {terms_of_service} و{privacy_policy} الخاصين بمنصّة {platform_name}."
+
+#: openedx/core/lib/inline_analytics_utils.py:94
+msgid "The analytics cannot be displayed for this type of question."
+msgstr ""
+
+#: openedx/core/lib/inline_analytics_utils.py:102
+msgid ""
+"The analytics cannot be displayed for this question as it uses "
+"randomization."
+msgstr ""
+
+#: cms/templates/asset_index.html:62
+msgid ""
+"Materials uploaded here are viewable by the general public in addition to "
+"your registered Stanford students. Such publicly-viewable content is subject"
+" to copyright exemptions more restrictive than material viewable only by "
+"registered Stanford students. Therefore, before uploading any content that "
+"has not been created by you or content to which neither you nor Stanford "
+"owns all of the rights, you must obtain the permissions (releases, waivers, "
+"licenses, etc.) necessary to distribute such materials to the public through"
+" the Internet. If you have any questions, please send an email to "
+"{copyright_email}"
+msgstr ""
+"يمكن الاطلاع على المواد التي يتم تحميلها هنا من قبل العامة بالإضافة إلى "
+"طلابك المسجلين من جامعة ستانفورد. يخضع هذا المحتوى الممكن الاطلاع عليه من "
+"قبل العامة إلى استثناءات حقوق النشر أكثر تقييداً من المواد التي يمكن الاطلاع"
+" عليها من قبل طلاب ستانفورد المسجلين فقط. وبالتالي، قبل تحميل أي محتوى لم "
+"تعمل على إنشائه بنفسك أو محتوى لا تملك لا أنت ولا جامعة ستانفورد كافة الحقوق"
+" الخاصة به، يجب أن تحصل على الأذونات (نشرات، وثائق تنازل، رخص، إلخ.) "
+"الضرورية لتوزيع هذه المواد عبر الإنترنت. في حال كانت لديكم أي أسئلة يرجى "
+"إرسال بريد إلكتروني إلى {copyright_email}"
+
+#: cms/templates/bulksettings.html:16
+msgid "Tools / Course Utilities"
+msgstr "الأدوات / منافع المنهاج"
+
+#: cms/templates/bulksettings.html:17
+msgid "Problem Settings"
+msgstr "إعدادات المشاكل"
+
+#: cms/templates/bulksettings.html:105
+msgid "What is problem settings?"
+msgstr "ما هي إعدادات المشاكل؟"
+
+#: cms/templates/bulksettings.html:107
+msgid ""
+"The problem settings page provides a way to view all problem settings of the"
+" current course in one page."
+msgstr ""
+"تقدّم صفحة إعدادات المشاكل وسيلة للاطلاع على كافة إعدادات المشاكل الخاصة "
+"بالمنهاج الحالي في صفحة واحدة."
+
+#: cms/templates/bulksettings.html:114
+msgid "Settings Keys"
+msgstr "مفاتيح الإعدادات"
+
+#: cms/templates/captions.html:6
+msgid "Update Video Captions"
+msgstr "تحديث عناوين شرح الفيديوات"
+
+#: cms/templates/course_info.html:57
+msgid "Updates support {link_start}keyword substitution{link_end}."
+msgstr "تحديث دعم {link_start}استبدال الكلمات المفاتبح{link_end}"
+
+#: cms/templates/keyword_sub_modal.html:11
+#: lms/templates/instructor/instructor_dashboard_2/keyword_sub_modal.html:16
+msgid "Keyword Substitution"
+msgstr "استبدال الكلمات المفاتيح"
+
+#: cms/templates/keyword_sub_modal.html:20
+msgid ""
+"Copy and paste keywords on the left into your {content_type}. They will be "
+"replaced by the values on the right."
+msgstr ""
+"قم بنسخ وإلصاق الكلمات المفاتيح إلى اليسار في {content_type}. ستستبدل بالقيم"
+" إلى اليمين."
+
+#: lms/templates/forgot_password_modal.html:23
+msgid ""
+"Please enter your email address below, and we will email instructions for "
+"setting a new password."
+msgstr ""
+"يُرجى إدخال عنوانك البريديّ أدناه، وسنرسل لك التعليمات لاختيار كلمة سرّ "
+"جديدة عبر البريد الإلكتروني."
+
+#: lms/templates/forgot_password_modal.html:34
+msgid "This should be the email address you used to register with {platform}"
+msgstr ""
+"يجب أن يكون هذا عنوانَ البريد الإلكتروني الذي استخدمته للتسجيل في  "
+"{platform}"
+
+#: lms/templates/help_modal.html:48
+msgid ""
+"For <strong>questions on course lectures, homework, tools, or materials for "
+"this course</strong>, post in the course discussion forum."
+msgstr ""
+"لطرح <strong/>سؤال بشأن محاضرات المقرّر الدراسي، أو الفروض المنزلية، أو "
+"الأدوات، أو الموادّ الخاصة بهذا المقرّر<strong>، أنشر سؤالك في منتدى النقاش "
+"الخاص بالمقرّر. "
+
+#: lms/templates/help_modal.html:51
+msgid "Post in the Forum"
+msgstr "أنشر في المنتدى"
+
+#: lms/templates/help_modal.html:56
+msgid ""
+"Have <strong>general questions about {platform_name}</strong>? You can find "
+"lots of helpful information in the {platform_name} Help Center."
+msgstr ""
+"هل لديك <strong>أسئلة عامة بشأن {platform_name} أو عنها<strong/>؟ يمكنك "
+"إيجاد معلومات مفيدة كثيرة في مركز المساعدة الخاص بـ {platform_name}."
+
+#: lms/templates/help_modal.html:60
+msgid "Access the Help Center"
+msgstr "الوصول إلى مركز المساعدة"
+
+#: lms/templates/help_modal.html:66
+msgid ""
+"Can't find an answer to your question? You can contact the {platform_name} "
+"general support team directly {link_start}by clicking here{link_end}."
+msgstr ""
+"ألم تجد إجابةً عن سؤالك؟ يمكنك الاتصال بفريق المساعدة الخاص بـ "
+"{platform_name} مباشرةً عبر {link_start}هذا الرابط{link_end}."
+
+#: lms/templates/help_modal.html:76
+msgid "Here are some of the most popular articles from the Help Center:"
+msgstr "في ما يلي بعض من أكثر المقالات رواجاً من مركز المساعدة:"
+
+#: lms/templates/help_modal.html:143
+msgid ""
+"Thank you for your inquiry or feedback. We typically respond to a request "
+"within three business days. In the meantime, please review our "
+"{link_start}Help Center articles{link_end}, where answers to many common "
+"questions have been posted."
+msgstr ""
+"شكراً على استفسارك أو ملاحظاتك. عادةً ما نردّ على الأسئلة خلال ثلاثة أيام "
+"عمل. في غضون ذلك الوقت، راجع {link_start}مقالات مركز المساعدة{link_end}، حيث"
+" تمّ نشر الإجابات عن عدّة أسئلة شائعة. "
+
+#: lms/templates/index.html:29
+msgid "The Future of Online Education"
+msgstr "مستقبل التعليم الإلكتروني"
+
+#: lms/templates/problem.html:18
+msgid "At {start_time}, you started this exam."
+msgstr "عند  {start_time}، بدأت هذا الامتحان."
+
+#: lms/templates/problem.html:22
+msgid ""
+"By {end_time}, you must manually click the '{check_button}' button below!"
+msgstr "عند {end_time}، يجب أن تنقر زرّ  '{check_button}'  يدوياً أدناه!"
+
+#: lms/templates/problem.html:31
+msgid "You have {minutes_left} minutes left to complete these questions."
+msgstr "لديك {minutes_left} دقيقة للإجابة عن هذه الأسئلة. "
+
+#: lms/templates/problem.html:38
+msgid "You have exceeded the time limit for this problem."
+msgstr "لقد تجاوزتَ الوقت المحدّد لهذه المشكلة."
+
+#: lms/templates/problem.html:68
+msgid "Deadline has passed, you can no longer submit."
+msgstr "انتهت المهلة النهائية، لم يعد بإمكانك تقديم إجابتك. "
+
+#: lms/templates/problem_interstitial.html:17
+msgid ""
+"You are about to start a timed problem. The allotted time for this problem "
+"is {minutes_allowed} minutes."
+msgstr ""
+"أنت على وشك المباشرة بمشكلة لها وقت محدّد. إنّ الوقت المخصّص لهذه المشكلة هو"
+" {minutes_allowed} دقيقة."
+
+#: lms/templates/problem_interstitial.html:21
+msgid ""
+"At {end_time}, you must manually click the '{check_button}' button below."
+msgstr "عند  {end_time}، يجب أن تنقر زرّ  '{check_button}' يدوياً أدناه."
+
+#: lms/templates/problem_interstitial.html:32
+msgid "Start Timer"
+msgstr "بدء التوقيت"
+
+#: lms/templates/register.html:18
+msgid "Create your {platform_name} learning and research account!"
+msgstr "أنشئ حسابك الخاص في  {platform_name} للتعلّم والبحث!ّ"
+
+#: lms/templates/register.html:105
+msgid "Welcome to the {platform_name} Learning and Research Community"
+msgstr "مرحباً بك في مجتمع التعلّم والبحث في {platform_name}"
+
+#: lms/templates/register.html:106
+msgid "Create your account"
+msgstr "أنشئ حسابك"
+
+#: lms/templates/register.html:342
+msgid ""
+"I agree to the {link_start1}Terms of Service{link_end} and "
+"{link_start2}Privacy Policy{link_end}"
+msgstr ""
+"أوافق على {link_start1}شروط الخدمة{link_end} و {link_start2}سياسة "
+"الخصوصية{link_end}"
+
+#: lms/templates/courseware/course_about.html:201
+msgid ""
+"By exploring the course, you are agreeing to our Terms of Service. Please "
+"read them carefully."
+msgstr ""
+"من خلال استطلاع هذا المقرّر الدراسي، أنت توافق على شروط الخدمة التي "
+"حدّدناها. يرجى قراءتها بانتباه."
+
+#: lms/templates/courseware/course_about.html:201
+msgid "Explore Course"
+msgstr "اكتشف المقرّر الدراسي"
+
+#: lms/templates/courseware/course_about.html:250
+#: lms/templates/courseware/courseware.html:200
+msgid ""
+"By exploring the course, you are agreeing to our {tos_link_start}Terms of "
+"Service{link_end} and {privacy_link_start}Privacy Policy{link_end}. Please "
+"read them carefully."
+msgstr ""
+"من خلال استطلاع هذا المقرّر الدراسي، أنت توافق على {tos_link_start}شروط "
+"الخدمة{link_end} و {privacy_link_start}سياسة الخصوصية{link_end} التي "
+"حدّدناها. يرجى قراءتها بانتباه."
+
+#: lms/templates/courseware/course_navigation.html:46
+msgid ""
+"Non-registered mode.  {tag_start}Register{tag_end} to save your course "
+"progress."
+msgstr ""
+"أنت في نمط غير مسجّل.  {tag_start}تسجّل{tag_end} لحفظ مدى تقدّمك في المقرّر "
+"الدراسي. "
+
+#: lms/templates/courseware/progress.html:53
+msgid ""
+"Note: Submitted assignments will appear as bars in the Progress chart.\n"
+"                Mouse over a bar to see more information about the relevant assignment.\n"
+"            "
+msgstr ""
+"ملاحظة: ستظهر الفروض المقدّمة كشريط في جدول التقدّم. مرّر الفأرة فوق الشريط "
+"لتطّلع على المزيد من المعلومات بشأن الفرض المطلوب."
+
+#: lms/templates/emails/activation_email.txt:5
+msgid ""
+"Start learning today by activating your {platform_name} account. Click on "
+"the link below or copy and paste it into your browser's address bar."
+msgstr ""
+"إبدأ التعلم اليوم من خلال تفعيل حسابك على {platform_name}. أنقر الرابط أدناه"
+" أو إنسخه والصقه في شريط العناوين في متصفحك. "
+
+#: lms/templates/emails/activation_email.txt:43
+#: lms/templates/emails/activation_email.txt:49
+msgid ""
+"If you didn't request this, you don't need to do anything; you won't receive"
+" any more email from us. Please do not reply to this email. For more "
+"information, check our Help Center here: "
+msgstr ""
+"إذا لم يكن هذا طلبك، لست بحاجة لفعل شيء؛ لن تتلقى أيّ بريد إلكتروني آخر منا."
+" نرجو منك عدم الرد على هذه الرسالة الإلكترونية. للمزيد من المعلومات، زر مركز"
+" المساعدة هنا: "
+
+#: lms/templates/emails/add_beta_tester_email_message.txt:12
+msgid ""
+"To start accessing course materials, please visit "
+"https://{site_name}/dashboard"
+msgstr ""
+"للبدء بالاطلاع على مواد المقرّر الدراسي، يرجى زيارة: "
+"https://{site_name}/dashboard"
+
+#: lms/templates/registration/password_reset_done.html:3
+msgid "Password reset initiated"
+msgstr "بدء عملية تغيير كلمة السرّ"
+
+#: lms/templates/registration/password_reset_done.html:8
+msgid ""
+"The system is looking for your account. You should receive an email with "
+"password reset instructions shortly. If you don't see it within a few "
+"minutes (and it's not in your email's Spam or Trash), your account may be "
+"under a different email address. Try {start_link}logging in{end_link} again "
+"with some other email addresses you maintain."
+msgstr ""
+"النظام يدرس حسابك حالياً. يفترض أن تتلقى قريباً رسالة إلكترونية تتضمّن "
+"تعليمات لتغيير كلمة السر. إذا لم تصلك الرسالة خلال بضع دقائق (وإذا لم تكن في"
+" بريدك المزعج أو بريد المهملات)، قد يكون حسابك مسجّلاً تحت عنوان بريديّ "
+"مختلف. حاول {start_link}تسجيل دخولك{end_link} من جديد بواسطة عناوين بريدية "
+"أخرى مرتبطة باسمك."
+
+#: lms/templates/student_account/email_change_failed.html:7
+msgid "Email change failed."
+msgstr "فشلت عملية تغيير البريد الإلكتروني"
+
+#: lms/templates/student_account/email_change_failed.html:12
+msgid "Something went wrong. Please contact {support} for help."
+msgstr "أمرٌ ما لم يسر على ما يرام. يرجى الاتصال بـ{support} للمساعدة. "
+
+#: lms/templates/student_account/email_change_failed.html:18
+msgid ""
+"The email address you wanted to use is already used by another "
+"{platform_name} account."
+msgstr ""
+"إنّ عنوان البريد الإلكتروني الذي أردتَ استخدامه مستخدم من قبل حساب "
+"{platform_name} آخر."
+
+#: lms/templates/student_account/email_change_failed.html:24
+msgid ""
+"You can try again from the {link_start}account settings{link_end} page."
+msgstr "يمكنك المحاولة من جديد من صفحة {link_start}إعدادات الحساب{link_end}."
