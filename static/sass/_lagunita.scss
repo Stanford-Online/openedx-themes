@@ -256,8 +256,14 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
             &.user-link {
                 padding: 6px 8px 9px 10px
             }
+        }
+        .primary button {
             &.dropdown {
-                padding: 5px 10px 11px 10px;
+                padding: 1px 10px 6px 10px;
+                background-color: $button-bg-color;
+                border-radius: 0;
+                box-shadow: 0 1px 0 0 rgba(255,255,255, 0.6);
+                line-height: 1.6rem;
             }
         }
     }
