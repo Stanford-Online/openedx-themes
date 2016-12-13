@@ -251,6 +251,8 @@ $video-thumb-url: '../themes/lagunita/images/stanford-online-video-thumb.png';
 }
 
 #global-navigation {
+    z-index: 100;
+    
     .nav-wrapper .user {
         .primary a {
             &.user-link {
