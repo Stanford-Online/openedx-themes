@@ -147,58 +147,12 @@ msgid ""
 "Is this OK?"
 msgstr ""
 
-#: lms/static/js/student_account/views/account_settings_factory.js:33
-msgid ""
-"The name that identifies you throughout {platform_name}. You cannot change "
-"your username."
-msgstr ""
-"En nombre que lo identifica en el sitio de {platform_name}. No podrá ser "
-"cambiado."
-
 #: lms/static/js/student_account/views/account_settings_factory.js:83
 #: lms/static/js/student_account/views/account_settings_factory.js:114
 msgid ""
 "The name that appears on your Statements of Accomplishment. Other learners "
 "never see your full name."
 msgstr "El nombre que aparecerá en sus declaraciones de logro. Otros usuarios nunca verán su nombre completo."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:91
-#: lms/static/js/student_account/views/account_settings_factory.js:122
-msgid ""
-"The email address you use to sign in. Communications from {platform_name} "
-"and your courses are sent to this address."
-msgstr ""
-"La dirección de correo que usa para iniciar sesión. Las comunicaciones de "
-"{platform_name} y las relacionadas con sus cursos serán enviadas a esta "
-"dirección."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:139
-msgid ""
-"The language used throughout this site. The site is currently available in "
-"a limited number of languages."
-msgstr "El idioma que usará para el sitio. Actualmente solo hay disponibilidad de usar un número limitado de idiomas."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:42
-msgid "You must sign out and sign back in before your language "
-msgstr ""
-
-#: lms/static/js/student_profile/views/learner_profile_factory.js:48
-msgid "{platform_name} learners can see my:"
-msgstr "Los usuarios de {platform_name} pueden ver mi:"
-
-#: lms/static/js/student_profile/views/learner_profile_factory.js:74
-msgid "Country"
-msgstr "País"
-
-#: lms/static/js/student_profile/views/learner_profile_factory.js:79
-msgid "Add Country"
-msgstr "Añadir país"
-
-#: lms/static/js/student_profile/views/learner_profile_factory.js:104
-msgid ""
-"Tell other learners a little about yourself: where you live, what your "
-"interests are, why you're taking courses, or what you hope to learn."
-msgstr "Comparta con otros usuarios algo sobre usted: donde vive, cuales son sus intereses, porque está tomando estos cursos, o cuales son sus expectativas de aprendizaje."
 
 #: lms/static/js/sysadmin/course_tabs.js:5
 msgid ""
