@@ -181,28 +181,6 @@ msgstr "المحاولة الأخيرة"
 msgid "First Attempt"
 msgstr "المحاولة الأولى"
 
-#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js:84
-msgid "Started entrance exam rescore task for student '{student_id}'."
-msgstr ""
-"بدأت مهمة إعادة تحديد/تسجيل علامات امتحان الدخول للطالب '{student_id}'."
-
-#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js:124
-msgid ""
-"Error starting a task to rescore entrance exam for student '{student_id}'."
-msgstr ""
-"حدث خطأ في بدء مهمة إعادة تحديد/تسجيل علامات امتحان الدخول للطالب "
-"'{student_id}'."
-
-#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js:224
-msgid "Error deleting entrance exam state for student '{student_id}'. "
-msgstr "حدث خطأ في حذف وضع امتحان الدخول للطالب '{student_id}'."
-
-#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js:288
-msgid "Error getting entrance exam task history for student '{student_id}'. "
-msgstr ""
-"حدث خطأ في الحصول على/الاطّلاع على تاريخ مهمة امتحان الدخول للطالب "
-"'{student_id}'."
-
 #: lms/static/js/student_account/views/account_settings_factory.js:89
 #: lms/static/js/student_account/views/account_settings_factory.js:124
 msgid ""
