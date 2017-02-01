@@ -790,11 +790,11 @@ msgstr "Aviso a consumidores"
 #: templates/static_templates/theme-tos.html:462
 msgid ""
 "If you have any questions regarding services provided through the Site, you may contact Stanford's\n"
-"            Course Operations Lead at {contact_email} or 425 Santa Teresa Street, Stanford CA, 94305-2261, USA. The\n"
+"            Course Operations Lead at {contact_email} or 408 Panama Mall, Stanford, CA 94305, USA. The\n"
 "            Public Inquiry Unit of the Office of the California Attorney General may be contacted at P.O. Box 944255,\n"
 "            Sacramento, CA 94244-2550.\n"
 "        "
-msgstr "Si tiene alguna pregunta con respecto a los servicios prestados a través del Sitio, puede ponerse en contacto con el Jefe de Operaciones de Cursos de Stanford por correo electrónico a {contact_email} o por correo postal a 425 Santa Teresa Street, Stanford CA, 94305-2261, Estados Unidos. Comuníquese con la Unidad de Consultas Públicas de la Oficina del Fiscal General de California a P.O. Box 944255, Sacramento, CA 94244-2550."
+msgstr "Si tiene alguna pregunta con respecto a los servicios prestados a través del Sitio, puede ponerse en contacto con el Jefe de Operaciones de Cursos de Stanford por correo electrónico a {contact_email} o por correo postal a 408 Panama Mall, Stanford, CA 94305, Estados Unidos. Comuníquese con la Unidad de Consultas Públicas de la Oficina del Fiscal General de California a P.O. Box 944255, Sacramento, CA 94244-2550."
 
 #: templates/static_templates/theme-tos.html:471
 msgid "Proprietary Rights"
