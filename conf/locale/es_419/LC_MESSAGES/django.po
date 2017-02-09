@@ -60,6 +60,10 @@ msgstr "Revisado {date}"
 msgid "Honor Code"
 msgstr "Código de Honor"
 
+#: templates/theme-footer.html:32
+msgid "Copyright"
+msgstr "Código de Honor"
+
 #: templates/theme-footer.html:40
 msgid "Powered by {platform_name}"
 msgstr "Impulsado por {platform_name}"
