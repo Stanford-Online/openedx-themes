@@ -62,7 +62,7 @@ msgstr "Código de Honor"
 
 #: templates/theme-footer.html:32
 msgid "Copyright"
-msgstr "Código de Honor"
+msgstr "Derechos de Autor"
 
 #: templates/theme-footer.html:40
 msgid "Powered by {platform_name}"
