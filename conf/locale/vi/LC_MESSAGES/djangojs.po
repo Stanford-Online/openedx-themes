@@ -1,0 +1,568 @@
+# Stanford OpenEdX translation file.
+# Copyright (C) 2017 Stanford University
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stanford-openedx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-25 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Hang Pham <hpham3@stanford.edu>, 2017\n"
+"Language-Team: Vietnamese (https://www.transifex.com/stanford-online/teams/22259/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Translators: %(earned)s is the number of points earned. %(total)s is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:180
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:180
+msgid "(%(earned)s/%(possible)s point)"
+msgid_plural "(%(earned)s/%(possible)s points)"
+msgstr[0] "(%(earned)s/%(possible)s points)"
+
+#. Translators: %(num_points)s is the number of points possible (examples: 1,
+#. 3, 10). There will always be at least 1 point possible.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:190
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:190
+msgid "(%(num_points)s point possible)"
+msgid_plural "(%(num_points)s points possible)"
+msgstr[0] "(%(num_points)s points possible)"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:334
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:334
+msgid "Timer has expired"
+msgstr "Đã hết thời gian"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:591
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:606
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:591
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:606
+msgid "Answer:"
+msgstr "Trả lời:"
+
+#. Translators: the word Answer here refers to the answer to a problem the
+#. student must solve.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:632
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:632
+msgid "Hide Answer"
+msgstr "Ẩn câu trả lời"
+
+#. Translators: the word Answer here refers to the answer to a problem the
+#. student must solve.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:644
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:644
+msgid "Show Answer"
+msgstr "Hiện câu trả lời"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:645
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:645
+msgid "Answer hidden"
+msgstr "Câu trả lời bị ẩn"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:810
+#: common/static/xmodule/modules/js/001-43c61749a3d92c9f11aedb6312828966.js:810
+msgid "Status: unsubmitted"
+msgstr "Tình trạng: Chưa gửi kết quả"
+
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:35
+#: common/static/xmodule/modules/js/018-8d126ebee9e9078d0f4ae1f8171e32e4.js:35
+msgid ""
+"Speed: Press UP to enter the speed menu then use the UP and DOWN arrow keys "
+"to navigate the different speeds, then press ENTER to change to the selected"
+" speed."
+msgstr ""
+"Tốc độ: Ấn nút UP để vào thanh công cụ điều chỉnh tốc độ sau đó dùng nút UP "
+"và DOWN để thử các tốc độ khác nhau, sau đó ấn nút ENTER để thay đổi sang "
+"tốc độ đã chọn."
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:60
+#: common/static/xmodule/modules/js/019-91e2687a6b501a001a568b6d43c7f06d.js:60
+msgid "Turn off transcript"
+msgstr "Tắt chế độ hiện lời thoại"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:67
+#: common/static/xmodule/modules/js/019-91e2687a6b501a001a568b6d43c7f06d.js:67
+msgid ""
+"Language: Press the UP arrow key to enter the language menu, then use UP and"
+" DOWN arrow keys to navigate language options. Press ENTER to change to the "
+"selected language."
+msgstr ""
+"Ngôn ngữ: Ấn nút mũi tên UP để vào thanh công cụ ngôn ngữ, sau đó dùng nút "
+"mũi tên UP and DOWN để tìm kiếm các tuỳ chọn ngôn ngữ. Ấn nút ENTER để thay "
+"đổi sang ngôn ngữ đã chọn"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:83
+#: common/static/xmodule/modules/js/019-91e2687a6b501a001a568b6d43c7f06d.js:83
+msgid ""
+"Activating an item in this group will spool the video to the corresponding "
+"time point. To skip transcript, go to previous item."
+msgstr ""
+"Chọn bất kỳ điểm nào trong nhóm này sẽ kéo video đến thời điểm tương ứng. Để"
+" bỏ qua phần lời thoại, hãy quay lại điểm trước. "
+
+#: common/static/coffee/src/discussion/discussion_module_view.js:114
+#: common/static/coffee/src/discussion/discussion_module_view.js:236
+#: common/static/coffee/src/discussion/utils.js:191
+#: common/static/coffee/src/discussion/utils.js:214
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:326
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:232
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:234
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:236
+#: common/static/coffee/src/discussion/views/discussion_user_profile_view.js:78
+#: common/static/coffee/src/discussion/views/response_comment_view.js:103
+msgid "Sorry"
+msgstr "Rất tiếc"
+
+#: common/static/coffee/src/discussion/discussion_module_view.js:114
+msgid "We had some trouble loading the discussion. Please try again."
+msgstr "Có lỗi kỹ thuật khi tải phần thảo luận. XIn vui lòng thử lại."
+
+#: common/static/coffee/src/discussion/discussion_module_view.js:236
+msgid ""
+"We had some trouble loading the threads you requested. Please try again."
+msgstr "Có lỗi kỹ thuật khi tải phần bạn yêu cầu. Xin vui lòng thử lại."
+
+#: common/static/coffee/src/discussion/utils.js:191
+msgid ""
+"We had some trouble processing your request. Please ensure you have copied "
+"any unsaved work and then reload the page."
+msgstr ""
+"Có lỗi kỹ thuật khi xử lý yêu cầu của bạn. Hãy chắc chắn bạn đã sao chép các"
+" hoạt động chưa được lưu và sau đó tải lại trang."
+
+#: common/static/coffee/src/discussion/utils.js:254
+msgid "We had some trouble processing your request. Please try again."
+msgstr "Có lỗi kỹ thuật khi xử lý yêu cầu của bạn. Xin vui lòng thử lại."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:225
+msgid "there is currently %(numVotes)s vote"
+msgid_plural "there are currently %(numVotes)s votes"
+msgstr[0] "hiện nay có %(numVotes)s phiếu bầu. "
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:228
+msgid "%(numVotes)s Vote"
+msgid_plural "%(numVotes)s Votes"
+msgstr[0] "%(numVotes)s Phiếu bầu"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:294
+msgid "We had some trouble subscribing you to this thread. Please try again."
+msgstr "Có lỗi kỹ thuật khi bạn đăng ký vào phần này. Xin vui lòng thử lại."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:296
+msgid ""
+"We had some trouble unsubscribing you from this thread. Please try again."
+msgstr ""
+"Có lỗi kỹ thuật khi huỷ đăng đăng ký của bạn ở phần này. Xin vui lòng thử "
+"lại."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:323
+msgid ""
+"We had some trouble marking this response as an answer.  Please try again."
+msgstr "Có lỗi kỹ thuật trong việc nhận câu trả lời. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:325
+msgid ""
+"We had some trouble removing this response as an answer.  Please try again."
+msgstr "Có lỗi kỹ thuật khi huỷ câu trả lời. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:329
+msgid "We had some trouble marking this response endorsed.  Please try again."
+msgstr "Có lỗi kỹ thuật khi xác nhận câu trả lời. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:331
+msgid "We had some trouble removing this endorsement.  Please try again."
+msgstr ""
+"Có lỗi kỹ thuật khi huỷ việc xác nhận câu trả lời. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:362
+msgid "We had some trouble saving your vote.  Please try again."
+msgstr "Có lỗi kỹ thuật khi lưu lại phiếu bầu của bạn. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:377
+msgid "We had some trouble pinning this thread. Please try again."
+msgstr "Có lỗi kỹ thuật khi gắn chủ đề này. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:379
+msgid "We had some trouble unpinning this thread. Please try again."
+msgstr "Có lỗi kỹ thuật khi huỷ gắn chủ đề này. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:395
+msgid ""
+"We had some trouble removing your flag on this post.  Please try again."
+msgstr ""
+"Có lỗi kỹ thuật khi huỷ bỏ lệnh gắn cờ của bạn trong bài đăng này. Xin vui "
+"lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:398
+msgid "We had some trouble reporting this post.  Please try again."
+msgstr "Có lỗi kỹ thuật khi báo cáo bài đăng này. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:416
+msgid "We had some trouble closing this thread.  Please try again."
+msgstr "Có lỗi kỹ thuật khi đóng chủ đề này. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js:418
+msgid "We had some trouble reopening this thread.  Please try again."
+msgstr "Có lỗi kỹ thuật khi mở lại chủ đề này. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:270
+msgid "Load more"
+msgstr "Tải thêm"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:326
+msgid "We had some trouble loading more threads. Please try again."
+msgstr "Có lỗi kỹ thuật khi tải thêm chủ để. Xin vui lòng thử lại"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:338
+msgid "%(unread_count)s new comment"
+msgid_plural "%(unread_count)s new comments"
+msgstr[0] "%(unread_count)s bình luận mới"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:623
+msgid "Loading thread list"
+msgstr "Tải danh mục chủ đề"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:636
+msgid ""
+"No results found for %(original_query)s. Showing results for "
+"%(suggested_query)s."
+msgstr ""
+"Không tìm thấy kết quả cho %(original_query)s. Hiện kết quả cho "
+"%(suggested_query)s."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:642
+msgid "No threads matched your query."
+msgstr "Không có chủ đề nào hợp với yêu cầu của bạn."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:666
+msgid "Show posts by %(username)s."
+msgstr "Hiện các bài đăng bởi %(username)s."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:232
+msgid ""
+"The thread you selected has been deleted. Please select another thread."
+msgstr "Chủ đề bạn lựa chọn đã bị xoá. Xin vui lòng chọn chủ đề khác."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:234
+msgid "We had some trouble loading responses. Please reload the page."
+msgstr "Có lỗi kỹ thuật khi tải. Xin vui lòng tải lại trang này."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:236
+msgid "We had some trouble loading more responses. Please try again."
+msgstr "Có lỗi kỹ thuật khi tải thêm kết quả. Xin vui lòng tải lại."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:250
+msgid "%(numResponses)s other response"
+msgid_plural "%(numResponses)s other responses"
+msgstr[0] "%(numResponses)s các trang khác"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:252
+msgid "%(numResponses)s response"
+msgid_plural "%(numResponses)s responses"
+msgstr[0] "%(numResponses)s kết quả"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js:271
+msgid "Load next %(numResponses)s responses"
+msgstr "Tải %(numResponses)s kết quả tiếp theo."
+
+#: common/static/coffee/src/discussion/views/discussion_user_profile_view.js:78
+msgid "We had some trouble loading the page you requested. Please try again."
+msgstr "Có lỗi kỹ thuật khi tải trang bạn yêu cầu. Xin vui lòng thử lại."
+
+#: common/static/coffee/src/discussion/views/response_comment_view.js:103
+msgid "We had some trouble deleting this comment. Please try again."
+msgstr "Có lỗi kỹ thuật khi xoá bình luận này. Xin vui lòng tải lại."
+
+#: common/static/common/js/components/views/paging_header.js:29
+msgid "Showing %(first_index)s out of %(num_items)s total"
+msgstr "Hiện %(first_index)s trong số %(num_items)s tổng"
+
+#: common/static/common/js/components/views/paging_header.js:32
+msgid "Showing %(first_index)s-%(last_index)s out of %(num_items)s total"
+msgstr "Hiện %(first_index)s-%(last_index)s trong sốf %(num_items)s tổng"
+
+#: lms/static/js/Markdown.Editor.js:30
+msgid "e.g. 'http://google.com/'"
+msgstr "ví dụ. 'http://google.com/'"
+
+#: lms/static/js/edxnotes/views/search_box.js:14
+msgid ""
+"Please enter a term in the %(anchor_start)s search field%(anchor_end)s."
+msgstr ""
+"Xin vui lòng nhập từ khoá vào %(anchor_start)s ô tìm kiếm%(anchor_end)s."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:25
+msgid "Basic Account Information (required)"
+msgstr "Thông tin cơ bản về tài khoản (bắt buộc)"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:40
+msgid "Additional Information (optional)"
+msgstr "Các thông tin khác (không bắt buộc)"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:89
+#: lms/static/js/student_account/views/account_settings_factory.js:124
+msgid ""
+"The name that appears on your Statements of Accomplishment. Other learners "
+"never see your full name."
+msgstr ""
+"Họ và tên sẽ xuất hiện trong Chứng nhận hoàn thành khoá học của bạn. Các học"
+" viên khác sẽ không nhìn thấy họ tên đầy đủ của bạn"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:108
+msgid "Reset your Password"
+msgstr "Cài đặt lại mật khẩu của bạn"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:111
+msgid "Reset Password"
+msgstr "Cài đặt lại mật khẩu"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:113
+msgid ""
+"When you click \"Reset Password\", a message will be sent to your email "
+"address. Click the link in the message to reset your password."
+msgstr ""
+"Khi bạn chọn nút \"Cài lại mật khẩu\", chúng tôi sẽ gửi tin nhắn tới địa chỉ"
+" email của bạn. Hãy nhấn vào đường dẫn trong tin nhắn để cài lại mật khẩu."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:171
+msgid "Connected Accounts"
+msgstr "Tài khoản đã kết nối."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:177
+msgid "Connect your {accountName} account"
+msgstr "Kết nối tới {accountName} tài khoản"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:121
+msgid "Unlink"
+msgstr "Huỷ kết nối"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:123
+msgid "Link"
+msgstr "Kết nối"
+
+#: common/static/common/templates/components/paging-footer.underscore:5
+msgid "Page number"
+msgstr "Trang số"
+
+#: common/static/common/templates/discussion/discussion-home.underscore:3
+msgid "DISCUSSION HOME:"
+msgstr "TRANG CHỦ THẢO LUẬN:"
+
+#: common/static/common/templates/discussion/discussion-home.underscore:21
+msgid "Focus in on specific topics"
+msgstr "Tập trung vào các chủ đề cụ thể"
+
+#: common/static/common/templates/discussion/discussion-home.underscore:25
+msgid "Search for specific posts"
+msgstr "Tìm kiếm chủ đề cụ thể"
+
+#: common/static/common/templates/discussion/discussion-home.underscore:29
+msgid "Sort by date, vote, or comments"
+msgstr "Sắp xếp theo ngày, bình chọn, hoặc bình luận"
+
+#: common/static/common/templates/discussion/discussion-home.underscore:36
+msgid "Upvote posts and good responses"
+msgstr "Các bài đăng có phản hồi tốt"
+
+#: common/static/common/templates/discussion/discussion-home.underscore:40
+msgid "Report Forum Misuse"
+msgstr "Báo cáo lạm dụng việc sử dụng diễn đàn"
+
+#: common/static/common/templates/discussion/discussion-home.underscore:44
+msgid "Follow posts for updates"
+msgstr "Theo dõi cập nhật của các bài đăng"
+
+#: common/static/common/templates/discussion/new-post.underscore:9
+msgid "Visible To:"
+msgstr "Ẩn đối với:"
+
+#: common/static/common/templates/discussion/new-post.underscore:23
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: common/static/common/templates/discussion/new-post.underscore:29
+msgid "Enter your question or comment"
+msgstr "Nhập câu hỏi hoặc bình luận của bạn:"
+
+#: common/static/common/templates/discussion/new-post.underscore:49
+msgid "Add Post"
+msgstr "Thêm bài đăng"
+
+#: common/static/common/templates/discussion/thread-edit.underscore:5
+msgid "Edit post title"
+msgstr "Chỉnh sửa tiêu đề bài đăng"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore:45
+msgid "By: Staff"
+msgstr "Bởi: Giảng viên"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore:52
+msgid "By: Community TA"
+msgstr "Bởi: Cộng đồng"
+
+#: common/static/common/templates/discussion/thread-type.underscore:5
+#: common/static/common/templates/discussion/thread-type.underscore:6
+msgid "Post type:"
+msgstr "Loại bài đăng:"
+
+#: common/static/common/templates/discussion/thread.underscore:26
+msgid "Post a response:"
+msgstr "Đăng phản hồi:"
+
+#: common/static/common/templates/discussion/thread.underscore:37
+msgid "Expand discussion"
+msgstr "Mở rộng thảo luận:"
+
+#: common/static/common/templates/discussion/thread.underscore:38
+msgid "Collapse discussion"
+msgstr "Thu gọn thảo luận:"
+
+#: common/static/common/templates/discussion/topic.underscore:3
+msgid "Topic Area:"
+msgstr "Chủ đề"
+
+#: common/static/common/templates/discussion/topic.underscore:5
+msgid "Discussion topics; current selection is: "
+msgstr "Các chủ đề thảo luận; lựa chọn hiện tại là:"
+
+#: common/static/common/templates/discussion/topic.underscore:11
+#: common/static/common/templates/discussion/topic.underscore:12
+msgid "Filter topics"
+msgstr "Lọc chủ đề"
+
+#: common/static/common/templates/discussion/user-profile.underscore:1
+msgid "Active Threads"
+msgstr "Các chủ đề đang hoạt động"
+
+#: lms/templates/student_account/account_settings.underscore:4
+msgid ""
+"These settings include basic information about your account. You can also "
+"specify additional information and see your linked social accounts on this "
+"page."
+msgstr ""
+"Các cài đặt này bao gồm thông tin cơ bản về tài khoản của bạn. Bạn có thể "
+"thêm các thông tin khác và xem các liên kết với tài khoản mạng xã hội khác "
+"của mình trên trang này."
+
+#: lms/templates/student_account/login.underscore:4
+#, python-format
+msgid ""
+"You have successfully signed into %(currentProvider)s, but your "
+"%(currentProvider)s account does not have a linked %(platformName)s account."
+" To link your accounts, sign in now using your %(platformName)s password."
+msgstr ""
+"Bạn đã đăng nhập thành công vào %(currentProvider)s, nhưng tài khoản "
+"%(currentProvider)s của bạn không có tài khoản %(platformName)s tương ứng. "
+"Để kết nối với tài khoản của bạn, hãy đăng nhập sử dụng mật khẩu của "
+"%(platformName)s tài khoản."
+
+#: lms/templates/student_account/login.underscore:10
+msgid "Password Reset Email Sent"
+msgstr "Đã gử email cài đặt lại mật khẩu"
+
+#: lms/templates/student_account/login.underscore:13
+msgid ""
+"We've sent instructions for resetting your password to the email address you"
+" provided."
+msgstr ""
+"Chúng tôi đã gửi hướng dẫn cài đặt lại mật khẩu của bạn tới địa chỉ email "
+"bạn cung cấp."
+
+#: lms/templates/student_account/login.underscore:19
+msgid "We couldn't sign you in."
+msgstr "Bạn không thể đăng nhập."
+
+#: lms/templates/student_account/login.underscore:25
+#, python-format
+msgid "An error occurred when signing you in to %(platformName)s."
+msgstr "Có lỗi kỹ thuật khi đăng nhập bạn vào tài khoản %(platformName)s."
+
+#: lms/templates/student_account/password_reset.underscore:2
+#: lms/templates/student_account/register.underscore:10
+msgid "An error occurred."
+msgstr "Có lỗi xảy ra."
+
+#: lms/templates/student_account/register.underscore:2
+msgid "We couldn't create your account."
+msgstr "Không thể tạo tài khoản của bạn."
+
+#: lms/templates/student_account/register.underscore:18
+#, python-format
+msgid "You've successfully signed into %(currentProvider)s."
+msgstr "Bạn đã đăng nhập thành công vào %(currentProvider)s."
+
+#: lms/templates/student_account/register.underscore:19
+#, python-format
+msgid ""
+"We just need a little more information before you start learning with "
+"%(platformName)s."
+msgstr ""
+"Cần thêm một số thông tin trước khi bạn bắt đầu học với %(platformName)s."
+
+#: lms/templates/student_account/register.underscore:62
+#, python-format
+msgid ""
+"%(university_name)s pursues the science of learning. Online learners are "
+"important participants in that pursuit. The information we gather from your "
+"engagement with our instructional offerings makes it possible for faculty, "
+"researchers, designers and engineers to continuously improve their work and,"
+" in that process, build learning science."
+msgstr ""
+"%(university_name)s ứng dụng khoa học trong đào tạo. Học viên học qua mạng "
+"là những nhân tố quan trọng trong cam kết của chúng tôi. Các thông tin thu "
+"nhận được từ sự tham gia của các bạn theo hướng dẫn từ chương trình sẽ giúp "
+"các giảng viên, hướng dẫn viên, nhà nghiên cứu và các nhân viên kỹ thuật "
+"tiếp tục nâng cao chất lượng, và từ đó, tạo dựng nên khoa học đào tạo"
+
+#: lms/templates/student_account/register.underscore:64
+#, python-format
+msgid ""
+"By registering as an online learner, you are also participating in research "
+"intended to enhance Stanford's instructional offerings as well as the "
+"quality of learning and related sciences worldwide. In the interest of "
+"research, you may be exposed to some variations in the course materials. "
+"Stanford does not use learner data for any purpose beyond the University's "
+"stated missions of education and research. For purposes of research, we may "
+"share information we collect from online learning activities, including "
+"%(link_start)sPersonally Identifiable Information%(link_end)s, with "
+"researchers beyond Stanford. However, your Personally Identifiable "
+"Information will only be shared as permitted by applicable law, will be "
+"limited to what is necessary to perform the research, and will be subject to"
+" an agreement to protect the data. We may also share with the public or "
+"third parties aggregated information that does not personally identify you. "
+"Similarly, any research findings will be reported at the aggregate level and"
+" will not expose your personal identity."
+msgstr ""
+"Khi đăng ký là học viên qua mạng, đồng nghĩa với việc bạn tham gia nghiên "
+"cứu để nâng cao chất lượng đào tạo tại đại học Stanford cũng như khoa học "
+"đào tạo nói chung trên thế giới. VÌ mục đích nghiên cứu, một số khoá học có "
+"thể được thiết kế khác nhau. Stanford không sử dụng thông tin về học viên "
+"vào bất kỳ mục đích gì khác ngoài việc đóng góp vào sứ mệnh nghiên cứu và "
+"đào tạo của trường. Để nghiên cứu, chúng tôi có thể sẽ chia sẻ thông tin thu"
+" được từ các hoạt động đào tạo, bao gồm%(link_start)s và các thông tin cá "
+"nhân về học viên %(link_end)s, với các nhà nghiên cứu ngoài Stanford. Tuy "
+"nhiên, những thông tin cá nhân của học viên sẽ chỉ được chia sẻ theo quy "
+"định của pháp luật, và chỉ giới hạn tới các thông tin phục vụ mục đích "
+"nghiên cứu, và sẽ phải tuân theo các quy định chặt chẽ về bảo mật thông tin."
+" Chúng tôi có thể sẽ chia sẻ với bên thứ 3 hoặc công bố một số thông tin "
+"không liên quan đến định danh của học viên. Tương tự, các tổng hợp kết quả "
+"nghiên cứu sẽ không đề cập đến thông tin định danh của học viên."
+
+#: lms/templates/student_account/register.underscore:67
+#, python-format
+msgid ""
+"Please read our %(link_start)sPrivacy Policy%(link_end)s for more "
+"information regarding the processing, transmission and use of data collected"
+" through the Stanford Online website and Stanford's Lagunita platform."
+msgstr ""
+"Xin vui lòng đọc thông tin trong đường dẫn %(link_start)s Chính sách bảo mật"
+" thông tin %(link_end)s để có thêm thông tin về quá trình xử lý, chuyển và "
+"sử dụng số liệu thu thập từ trang web Đào tạo qua mạng tại Stanford và nền "
+"tảng Lagunita."
