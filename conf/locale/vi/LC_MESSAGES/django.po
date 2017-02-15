@@ -1,0 +1,2667 @@
+# Stanford OpenEdX translation file
+# Copyright (C) 2017 Stanford University
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stanford-openedx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-19 22:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Hang Pham <hpham3@stanford.edu>, 2017\n"
+"Language-Team: Vietnamese (https://www.transifex.com/stanford-online/teams/22259/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: templates/theme-dashboard_extra.html:3
+#: templates/courseware/theme-course_about-sidebar_extra.html:5
+msgid "Our Research Community"
+msgstr "Nhóm nghiên cứu của chúng tôi"
+
+#: templates/theme-dashboard_extra.html:4
+#: templates/theme-register_extra.html:2
+#: templates/courseware/theme-course_about-sidebar_extra.html:6
+msgid ""
+"{university_name} pursues the science of learning. Online learners are "
+"important participants in that pursuit. The information we gather from your "
+"engagement with our instructional offerings makes it possible for faculty, "
+"researchers, designers and engineers to continuously improve their work and,"
+" in that process, build learning science."
+msgstr ""
+"{university_name} ứng dụng khoa học trong đào tạo. Học viên học qua mạng là "
+"những nhân tố quan trọng trong cam kết của chúng tôi. Các thông tin thu nhận"
+" được từ sự tham gia của các bạn theo hướng dẫn từ chương trình sẽ giúp các "
+"giảng viên, hướng dẫn viên, nhà nghiên cứu và các nhân viên kỹ thuật tiếp "
+"tục nâng cao chất lượng, và từ đó, tạo dựng nên khoa học đào tạo"
+
+#: templates/theme-dashboard_extra.html:5
+#: templates/courseware/theme-course_about-sidebar_extra.html:7
+msgid ""
+"By registering as an online learner, you are also participating in "
+"research..."
+msgstr "Khi tham gia học qua mạng, bạn cũng đã tham gia vào nghiên cứu..."
+
+#: templates/theme-dashboard_extra.html:5
+#: templates/courseware/theme-course_about-sidebar_extra.html:7
+msgid "Read Terms of Service and Privacy Policy."
+msgstr "Đọc các Điều khoản thực hiện và Chính sách bảo mật"
+
+#: templates/theme-footer.html:26 templates/theme-footer.html:29
+msgid "Revised {date}"
+msgstr "Đã chỉnh sửa {date}"
+
+#: templates/theme-footer.html:32
+msgid "Copyright"
+msgstr "Bản quyền"
+
+#: templates/theme-footer.html:40
+msgid "Powered by {platform_name}"
+msgstr "Nguồn từ {platform_name}"
+
+#: templates/theme-header.html:22
+msgid "{platform_name}, Courses List"
+msgstr "{platform_name}, Danh mục khoá học"
+
+#: templates/theme-homepage_overlay.html:6
+msgid "Learn from <strong>{university_name}</strong>"
+msgstr "Học từ <strong>{university_name}</strong>"
+
+#: templates/theme-register_extra.html:4
+msgid ""
+"By registering as an online learner, you are also participating in research "
+"intended to enhance Stanford's instructional offerings as well as the "
+"quality of learning and related sciences worldwide. In the interest of "
+"research, you may be exposed to some variations in the course materials. "
+"Stanford does not use learner data for any purpose beyond the University's "
+"stated missions of education and research. For purposes of research, we may "
+"share information we collect from online learning activities, including "
+"{link_start}Personally Identifiable Information{link_end}, with researchers "
+"beyond Stanford. However, your Personally Identifiable Information will only"
+" be shared as permitted by applicable law, will be limited to what is "
+"necessary to perform the research, and will be subject to an agreement to "
+"protect the data. We may also share with the public or third parties "
+"aggregated information that does not personally identify you. Similarly, any"
+" research findings will be reported at the aggregate level and will not "
+"expose your personal identity."
+msgstr ""
+"Khi đăng ký là học viên qua mạng, đồng nghĩa với việc bạn tham gia nghiên "
+"cứu để nâng cao chất lượng đào tạo tại đại học Stanford cũng như khoa học "
+"đào tạo nói chung trên thế giới. VÌ mục đích nghiên cứu, một số khoá học có "
+"thể được thiết kế khác nhau. Stanford không sử dụng thông tin về học viên "
+"vào bất kỳ mục đích gì khác ngoài việc đóng góp vào sứ mệnh nghiên cứu và "
+"đào tạo của trường. Để nghiên cứu, chúng tôi có thể sẽ chia sẻ thông tin thu"
+" được từ các hoạt động đào tạo, bao gồm{link_start} và các thông tin cá nhân"
+" về học viên {link_end}, với các nhà nghiên cứu ngoài Stanford. Tuy nhiên, "
+"những thông tin cá nhân của học viên sẽ chỉ được chia sẻ theo quy định của "
+"pháp luật, và chỉ giới hạn tới các thông tin phục vụ mục đích nghiên cứu, và"
+" sẽ phải tuân theo các quy định chặt chẽ về bảo mật thông tin. Chúng tôi có "
+"thể sẽ chia sẻ với bên thứ 3 hoặc công bố một số thông tin không liên quan "
+"đến định danh của học viên. Tương tự, các tổng hợp kết quả nghiên cứu sẽ "
+"không đề cập đến thông tin định danh của học viên."
+
+#: templates/theme-register_extra.html:9
+msgid ""
+"Please read our {link_start}Privacy Policy{link_end} for more information "
+"regarding the processing, transmission and use of data collected through the"
+" Stanford Online website and Stanford's Lagunita platform."
+msgstr ""
+"Xin vui lòng đọc thông tin trong đường dẫn {link_start} Chính sách bảo mật "
+"thông tin {link_end} để có thêm thông tin về quá trình xử lý, chuyển và sử "
+"dụng số liệu thu thập từ trang web Đào tạo qua mạng tại Stanford và nền tảng"
+" Lagunita."
+
+#: templates/theme-register_sidebar.html:6
+msgid ""
+"You will receive an activation email.  You must click on the activation link"
+" to complete the process.  Don't see the email?  Check your spam folder and "
+"mark emails from lagunita.stanford.edu as 'not spam', since you'll want to "
+"be able to receive email from your courses."
+msgstr ""
+"Bạn sẽ nhận được email để kích hoạt tài khoản. Bạn cần bấm vào đường dẫn "
+"trong email để hoàn thành việc đăng ký. Nếu bạn không nhận được email? Hay "
+"kiểm tra hòm thư rác để tìm email từ lagunita.stanford.edu và đánh dấu "
+"'không phải thư rác\", bởi vì bạn muốn nhận được email từ khoá học của mình"
+
+#: templates/courseware/theme-course_about-social_sharing.html:8
+msgid "Tweet that you've registered for this course"
+msgstr "Tweet là bạn đã đăng ký vào khoá học"
+
+#: templates/courseware/theme-course_about-social_sharing.html:11
+msgid "Email someone to say you've registered for this course"
+msgstr "Email cho ai đó để thông báo bạn đã đăng ký khóa học này"
+
+#: templates/courseware/theme-course_index_overlay.html:9
+msgid "Public courses from {university_name}."
+msgstr "Khoá học mở từ {university_name}."
+
+#: templates/courseware/theme-course_info_extra.html:3
+msgid ""
+"We encourage you to review our {tos_link_start}Terms of Service{link_end} "
+"and {privacy_link_start}Privacy Policy{link_end} before beginning the "
+"course."
+msgstr ""
+"Chúng tôi khuyến khích bạn đọc kỹ {tos_link_start} điều khoản{link_end} và "
+"{privacy_link_start} chính sách bảo mật{link_end} trước khi bắt đầu khoá "
+"học."
+
+#: templates/static_templates/theme-about.html:20
+msgid "About {PLATFORM_NAME}"
+msgstr "Về  {PLATFORM_NAME}"
+
+#: templates/static_templates/theme-about.html:60
+#: templates/static_templates/theme-about.html:89
+msgid "Stanford Quad with Hoover Tower"
+msgstr "Stanford Quad với Tháp Hoover"
+
+#: templates/static_templates/theme-about.html:66
+msgid ""
+"{Lagunita} is {Stanford}'s instance of the open-source software release of "
+"the {Open_edX} platform, which was developed by the joint {Harvard_MIT} non-"
+"profit organization, and which {Stanford} engineers have been collaborating "
+"on since April 2013. {Lagunita} hosts many of the free, online courses that "
+"are taught by {Stanford} faculty and made available to lifelong learners "
+"around the world for self-enrichment. {Lagunita} also hosts a variety of "
+"professional education opportunities in conjunction with many of "
+"{Stanford_University}'s schools and departments."
+msgstr ""
+"{Lagunita} là chương trình của {Stanford}'s sử dụng phần mền mở sử dụng kết "
+"cấu {Open_edX}, được xây dựng từ sự hợp tác giữa tổ chức phi lợi nhuận "
+"{Harvard_MIT}, và các kỹ sư {Stanford} từ tháng 4 năm 2013. {Lagunita} làm "
+"máy chủ cho nhiều khoá học miễn phí qua mạng do các giảng viên tại đại học "
+"{Stanford} biên soạn và chia sẻ rộng rãi qua mạng cho các học viên trên thế "
+"giới tự học. {Lagunita} cũng làm máy chủ cho nhiều hoạt động đào tạo chuyên "
+"gia với các khoa phòng của {Stanford_University}."
+
+#: templates/static_templates/theme-about.html:75
+msgid ""
+"All of the personal and professional learning opportunities that are hosted "
+"on {Lagunita} and open to the public are made available through Stanford "
+"Online and listed at {lagunita_courses_link}.  To see our complete catalog "
+"of {Stanford_Online} courses on {Lagunita} and other platforms, you can "
+"visit {online_courses_link}."
+msgstr ""
+"Tất cả các chương trình học tập chuyên nghiệp hoặc cá nhân trên máy chủ "
+"{Lagunita}  sẽ được chia sẻ rộng rãi cho người đọc tại Học qua mạng tại "
+"Stanford và có trong danh mục {lagunita_courses_link}. Để xem danh mục khoá "
+"học của {Stanford_Online} trên {Lagunita} và các kết cấu khác, hãy truy cập"
+"  {online_courses_link}."
+
+#: templates/static_templates/theme-about.html:95
+msgid ""
+"Technology is disrupting higher education.  We believe universities can "
+"benefit from this if it's done right.  Supporting basic education and "
+"computer science research is core to what we do.  We also believe that "
+"universities should be in control of how this space evolves, and that an "
+"open-source platform is the best way to do that."
+msgstr ""
+"Công nghệ có thể cản trở tiếp cận giáo dục. Chúng tôi tin rằng các trường "
+"đại học có thể tận dụng công nghệ nếu sử dụng đúng cách. Hỗ trợ nghiên cứu "
+"công nghệ máy tính và giáo dục cơ bản là giá trị cốt lõi của chúng tôi. "
+"Chúng tôi cũng tin rằng các trường đại học nên kiểm soát  chặt chẽ việc lĩnh"
+" vực này tiến triển ra sao, và một kết cấu mở là cách tốt nhất để làm việc "
+"đó "
+
+#: templates/static_templates/theme-about.html:98
+msgid ""
+"Our engineering team is small and productive: five engineers, one PM, and "
+"two course ops staff.  We do our own operations and QA.  We install several "
+"times per week.  We like being close to our customers (faculty, staff, "
+"students) since that motivates the right kind of innovation.  We run a "
+"lightweight, mostly-Agile development process with quick daily standups, "
+"group planning, and frequent demos.  We work on the {Stanford_Campus}."
+msgstr ""
+"Nhóm kỹ sư của chúng tôi ít người và làm việc hiệu quả: 5 kỹ sư, 1 quản lý "
+"và 2 nhân viên hành chính. Chúng tôi vận hành hệ thống và trả lời các câu "
+"hỏi. Chúng tôi cài đặt vài lần mỗi tuần. Chúng tôi muốn kết nối chặt chẽ với"
+" khách hàng (giảng viên, nhân viên và sinh viên) bởi vì điều đó tạo ra động "
+"lực làm việc thực sự. Chúng tôi vận hành tiến trình Agile qua công việc hàng"
+" ngày, lập kế hoạch nhóm và làm mẫu. Chúng tôi làm việc tại "
+"{Stanford_Campus}."
+
+#: templates/static_templates/theme-about.html:103
+msgid ""
+"What we work on is mostly driven by our customers, but we also commit to the"
+" core {edX} platform repo.  We collaborate with other {Open_edX} adopters, "
+"including {Google}."
+msgstr ""
+"Chúng tôi làm việc chủ yếu để đáp ứng nhu cầu khách hàng, đồng thời cam kết "
+"với kết cấu {edX} cốt lõi. Chúng tôi hợp tác với những người sử dụng "
+"{Open_edX} khác, bao gồm {Google}."
+
+#: templates/static_templates/theme-about.html:118
+msgid "Stanford Dish by Twilight"
+msgstr "Stanford chiều tà"
+
+#: templates/static_templates/theme-about.html:122
+msgid "Platform Help Center and Contact Emails"
+msgstr "Trung tâm hỗ trợ kết cấu và Email liên hệ"
+
+#: templates/static_templates/theme-about.html:126
+msgid ""
+"The {help_link_start}Help Center{link_end} contains a FAQ that answers all "
+"of the most common tech support questions for the courses available through "
+"{lagunita_home_link}. If you can't find what you're looking for there, or if"
+" you have a suggestion or bug report to make, you can also file a support "
+"ticket from the Help Center."
+msgstr ""
+"Trung tâm {help_link_start} Hỗ trợ{link_end}bao gồm các câu hỏi thường gặp "
+"nhất khi trợ giúp kỹ thuật cho học viên qua  {lagunita_home_link}. Nếu bạn "
+"không tìm thấy câu trả lời cho câu hỏi cần tìm, hoặc nếu bạn có góp ý, thông"
+" báo về vi rút, hãy liên h với Trung tâm hỗ trợ."
+
+#: templates/static_templates/theme-about.html:132
+msgid "For disability-related questions email us at:"
+msgstr "Với các câu hỏi liên quan đến người khuyết tật, vui lòng email tới:"
+
+#: templates/static_templates/theme-about.html:135
+msgid "For privacy-related questions email us at:"
+msgstr "Với các câu hỏi liên quan đến bảo mật, vui lòng email tới:"
+
+#: templates/static_templates/theme-embargo.html:7
+msgid ""
+"Our system indicates that you are trying to access a course at {SITE_NAME} "
+"from an IP address associated with a country currently subject to "
+"comprehensive U.S. economic and trade sanctions.  {university_name} is "
+"required to comply with these sanctions regulations, and regretfully, we are"
+" not permitted to allow you to access this particular course.  Feel free to "
+"browse our catalogue to find other courses you may be interested in taking."
+msgstr ""
+"Hệ thống của chúng tôi cho thấy nếu bạn đang truy cập khoá học  tại  "
+"{SITE_NAME} từ một địa chỉ IP có liên quan đến cấm vận về kinh tế và thương "
+"mại với Mỹ. {university_name}  được yêu cầu tuân theo các quy định về cấm "
+"vận này, vì vậy rất tiếc bạn không có quyền truy cập tới khoá học này. Xin "
+"vui lòng xem danh mục khoá học của chúng tôi để tìm các khoá học khắc mà bạn"
+" có thể quan tâm."
+
+#: templates/static_templates/theme-tos.html:26
+msgid ""
+"NOTICE: On {date}, Stanford amended its Terms of Service and Privacy Policy "
+"as follows:"
+msgstr ""
+"THÔNG BÁO: VÀO NGÀY {date}, STANFORD ĐÃ SỬA ĐỔI CÁC ĐIỀU KHOẢN DỊCH VỤ VÀ "
+"CHÍNH SÁCH VỀ QUYỀN RIÊNG TƯ CỦA MÌNH NHƯ SAU: "
+
+#: templates/static_templates/theme-tos.html:33
+msgid "Welcome to the Stanford Online Learning and Research Community"
+msgstr ""
+"Chào mừng bạn đến với Cộng Đồng Học Tập và Nghiên Cứu Trực Tuyến của "
+"Stanford"
+
+#: templates/static_templates/theme-tos.html:36
+msgid ""
+"Stanford University pursues the science of learning. Online learners are important participants in that\n"
+"            pursuit. The information we gather from your engagement with our instructional offerings makes it possible\n"
+"            for faculty, researchers, designers and engineers to continuously improve their work and, in that process,\n"
+"            build learning science.\n"
+"        "
+msgstr ""
+"Stanford University mưu cầu khoa học học hỏi. Học viên trực tuyến là những "
+"người tham gia quan trọng trong cuộc mưu cầu đó. Thông tin chúng tôi thu "
+"thập từ việc bạn tham gia các chương trình học của chúng tôi giúp cho ban "
+"giảng viên, các nhà nghiên cứu, các nhà thiết kế và các kỹ sư không ngừng "
+"cải thiện công việc của mình, và trong quá trình đó, xây dựng môn khoa học "
+"học hỏi. "
+
+#: templates/static_templates/theme-tos.html:44
+msgid ""
+" By registering as an online learner, you are also participating in {research_link_start}research{link_end} intended to enhance\n"
+"            Stanford's instructional offerings as well as the quality of learning and related sciences worldwide. In\n"
+"            the interest of research, you may be exposed to some variations in the course materials. Stanford does not\n"
+"            use learner data for any purpose beyond the University's stated missions of education and research. For\n"
+"            purposes of research, we may share information we collect from online learning activities, including\n"
+"            {pii_link_start}Personally Identifiable Information {link_end}, with researchers beyond Stanford. However,\n"
+"            your Personally Identifiable Information will only be shared as permitted by applicable law, will be\n"
+"            limited to what is necessary to perform the research, and will be subject to an agreement to protect the\n"
+"            data. We may also share with the public or third parties aggregated information that does not personally\n"
+"            identify you. Similarly, any research findings will be reported at the aggregate level and will not expose\n"
+"            your personal identity.\n"
+"        "
+msgstr ""
+"Bằng cách đăng ký học trực tuyến, bạn cũng tham gia "
+"{research_link_start}nghiên cứu{link_end} nhằm cải thiện các chương trình "
+"học của Stanford cũng như chất lượng học và các môn khoa học liên quan trên "
+"toàn thế giới. Vì lợi ích của nghiên cứu, bạn có thể tiếp xúc với một số "
+"biến thể của các tài liệu trong khóa học. Stanford không sử dụng dữ liệu của"
+" học viên phục vụ bất kỳ mục đích nào ngoài các sứ mệnh về giáo dục và "
+"nghiên cứu như đã được nêu rõ của nhà trường. Vì mục đích nghiên cứu, chúng "
+"tôi có thể chia sẻ thông tin chúng tôi thu thập từ các hoạt động học tập "
+"trực tuyến, bao gồm {pii_link_start}Thông Tin Nhận Dạng Cá Nhân {link_end}, "
+"với các nhà nghiên cứu bên ngoài Stanford. Tuy nhiên, Thông Tin Nhận Dạng Cá"
+" Nhân của bạn sẽ chỉ được chia sẻ khi luật pháp hiện hành cho phép, sẽ giới "
+"hạn ở những nội dung cần thiết để tiến hành nghiên cứu, và sẽ tuân thủ một "
+"thỏa thuận bảo vệ dữ liệu. Chúng tôi cũng có thể chia sẻ thông tin tổng hợp "
+"không nhận dạng cá nhân bạn với công chúng hoặc các bên thứ ba. Tương tự, "
+"bất kỳ kết luận nghiên cứu nào sẽ được báo cáo ở cấp tổng hợp và sẽ không để"
+" lộ danh tính cá nhân của bạn."
+
+#: templates/static_templates/theme-tos.html:63
+msgid ""
+"Please read our {link_start}Privacy Policy{link_end} for more information regarding the processing,\n"
+"            transmission and use of data collected through the Stanford Online website and Stanford's Lagunita\n"
+"            platform.\n"
+"        "
+msgstr ""
+"Vui lòng đọc {link_start}Chính Sách về Quyền Riêng Tư{link_end} của chúng "
+"tôi cho việc xử lý, truyền gửi và sử dụng dữ liệu được thu thập thông qua "
+"trang web Stanford Online và nền ứng dụng Lagunita của Stanford."
+
+#: templates/static_templates/theme-tos.html:74
+msgid "Terms of Service for Stanford Online Courses"
+msgstr "ĐIỀU KHOẢN DỊCH VỤ CỦA CÁC KHÓA HỌC TRÊN STANFORD ONLINE"
+
+#: templates/static_templates/theme-tos.html:77
+msgid ""
+"These Terms of Service govern the Stanford Online website and Stanford's OpenEdX platform,\n"
+"            {site_name} (\"Site\") which is owned by Stanford University (\"Stanford\") and operated by Stanford or its\n"
+"            service providers. You should not access or use this Site until you have carefully read and agreed to the\n"
+"            following Terms of Service.\n"
+"        "
+msgstr ""
+"Các Điều Khoản Dịch Vụ này chi phối trang web Stanford Online và nền ứng "
+"dụng OpenEdX của Stanford, {site_name} (\"Trang Web\") thuộc sở hữu của "
+"Stanford University (\"Stanford\") và do Stanford hoặc các nhà cung cấp dịch"
+" vụ của Stanford điều hành. Bạn không được truy cập hay sử dụng Trang Web "
+"này cho đến khi bạn đã đọc kỹ và đồng ý với các Điều Khoản Dịch Vụ sau đây. "
+
+#: templates/static_templates/theme-tos.html:86
+msgid "Use of the Site"
+msgstr "Sử Dụng Trang Web"
+
+#: templates/static_templates/theme-tos.html:89
+msgid ""
+"In order to participate in Stanford Online courses or access any online resources offered by\n"
+"            Stanford you must first carefully read and agree to these Terms of Service, Honor Code and Privacy Policy\n"
+"            (collectively \"Terms\"). BY ACCESSING AND PARTICIPATING IN THE SITE, YOU HAVE INDICATED THAT YOU HAVE READ\n"
+"            THESE TERMS AND AGREE TO BE BOUND BY AND COMPLY WITH THEM. If you do not agree to be bound by these Terms,\n"
+"            please promptly exit the Site.\n"
+"        "
+msgstr ""
+"Để tham gia các khóa học trên Stanford Online hoặc truy cập bất kỳ tài "
+"nguyên trực tuyến nào do Stanford cung cấp, trước tiên bạn phải đọc kỹ và "
+"đồng ý với các Điều Khoản Dịch Vụ này, Quy Tắc Danh Dự (Honor Code) và Chính"
+" Sách về Quyền Riêng Tư (gọi chung là \"Các Điều Khoản\"). BẰNG VIỆC TRUY "
+"CẬP VÀ THAM GIA TRANG WEB, BẠN CHO BIẾT RẰNG BẠN ĐÃ ĐỌC CÁC ĐIỀU KHOẢN NÀY "
+"VÀ ĐỒNG Ý CHỊU RÀNG BUỘC VÀ TUÂN THỦ CHÚNG. Nếu bạn không đồng ý chịu sự "
+"ràng buộc của Các Điều Khoản này, vui lòng nhanh chóng thoát ra khỏi Trang "
+"Web. "
+
+#: templates/static_templates/theme-tos.html:98
+msgid ""
+"STANFORD RESERVES THE RIGHT TO MODIFY THESE TERMS AT ANY TIME AND WILL PUBLISH NOTICE OF ANY\n"
+"            MODIFICATIONS ON-LINE AT THIS SITE. BY CONTINUING TO ACCESS A SITE AFTER NOTICE OF SUCH MODIFICATIONS HAS\n"
+"            BEEN PUBLISHED, YOU SIGNIFY YOUR AGREEMENT TO BE BOUND BY THEM.\n"
+"        "
+msgstr ""
+"STANFORD CÓ QUYỀN ĐIỀU CHỈNH CÁC ĐIỀU KHOẢN NÀY VÀO BẤT KỲ LÚC NÀO VÀ SẼ "
+"THÔNG BÁO VỀ BẤT KỲ SỰ ĐIỀU CHỈNH NÀO TRÊN TRANG NÀY. BẰNG VIỆC TIẾP TỤC "
+"TRUY CẬP MỘT TRANG WEB SAU KHI THÔNG BÁO ĐIỀU CHỈNH NHƯ THẾ ĐÃ ĐƯỢC CÔNG BỐ,"
+" BẠN CHO BIẾT RẰNG BẠN ĐỒNG Ý CHỊU SỰ RÀNG BUỘC CỦA CHÚNG. "
+
+#: templates/static_templates/theme-tos.html:104
+msgid "User Age and Eligibility"
+msgstr "Độ Tuổi và Điều Kiện Tham Gia của Người Dùng"
+
+#: templates/static_templates/theme-tos.html:106
+msgid ""
+"Participation in the Site and Stanford Online Courses is restricted to those individuals who have\n"
+"            registered, who are 18 years of age and over, emancipated minors, or those who possess parental or legal\n"
+"            guardian consent, and who are fully able and competent to enter into these terms, conditions, obligations,\n"
+"            affirmations, representations and warranties herein. By accessing the Site you affirm that you are at least\n"
+"            13 years old and meet the eligibility requirements. This Site is not intended for children under 13. If you\n"
+"            are under 13 years of age, do not use the Site. If you have questions about your eligibility, please\n"
+"            contact us at {contact_email}.\n"
+"        "
+msgstr ""
+"Việc tham gia Trang Web và Các Khóa Học trên Stanford Online được giới hạn ở"
+" những ai đã đăng ký, 18 tuổi trở lên, là trẻ vị thành niên được công nhận "
+"quyền tự do, hoặc những ai có sự đồng ý của cha mẹ hoặc người giám hộ hợp "
+"pháp, và những ai có năng lực đầy đủ để ký kết các điều khoản, điều kiện, "
+"nghĩa vụ, xác nhận, cam đoan và đảm bảo trong đây. Bằng việc truy cập Trang "
+"Web, bạn xác nhận rằng bạn được ít nhất 13 tuổi và đáp ứng các yêu cầu về "
+"điều kiện tham gia. Trang Web này không dành cho trẻ em dưới 13 tuổi. Nếu "
+"bạn dưới 13 tuổi, vui lòng không sử dụng Trang Web này. Nếu bạn có thắc mắc "
+"về điều kiện tham gia của mình, vui lòng liên hệ chúng tôi qua "
+"{contact_email}."
+
+#: templates/static_templates/theme-tos.html:119
+msgid ""
+"Certain courses may also have additional eligibility requirements as specified in the specific course\n"
+"            description. If you are not eligible for registration and participation or do not agree to the Terms, you\n"
+"            may not use the Site.\n"
+"        "
+msgstr ""
+"Các khóa học nhất định cũng có các yêu cầu bổ sung về điều kiện tham gia như"
+" được cho biết trong mô tả khóa học cụ thể. Nếu bạn không đủ điều kiện đăng "
+"ký và tham gia hoặc không đồng ý với Các Điều Khoản, bạn không được sử dụng "
+"Trang Web này. "
+
+#: templates/static_templates/theme-tos.html:125
+msgid "Access to the Site"
+msgstr "Truy Cập Trang Web"
+
+#: templates/static_templates/theme-tos.html:128
+msgid ""
+"While portions of the Site may be available to the general public, portions of the Site are restricted\n"
+"            to registered users who meet eligibility criteria. You agree that you will not access any registration-only\n"
+"            portions of the Site if you do not meet the eligibility requirements. Stanford is not responsible for any\n"
+"            delay, inability or failure to access the Site due to any cause, including but not limited to acts of God,\n"
+"            natural disasters, government orders, labor unrest, malfunction of user hardware or software, interruption\n"
+"            in internet service, loss or corruption of data, and unanticipated suspension or cessation of service from\n"
+"            any underlying service provider.\n"
+"        "
+msgstr ""
+"Trong khi các phần của Trang Web có thể dành cho công chúng, các phần khác "
+"của Trang Web được giới hạn ở những người dùng có đăng ký, đáp ứng các tiêu "
+"chí về điều kiện tham gia. Bạn đồng ý rằng bạn sẽ không truy cập bất kỳ phần"
+" nào của Trang Web chỉ dành cho người dùng có đăng ký nếu bạn không đáp ứng "
+"các yêu cầu về điều kiện tham gia. Stanford không chịu trách nhiệm đối với "
+"bất kỳ sự trì hoãn, không thể hoặc không truy cập được Trang Web vì bất kỳ "
+"nguyên nhân nào, bao gồm nhưng không giới hạn ở trường hợp bất khả "
+"kháng, thiên tai, lệnh của chính phủ, đình công, sự cố phần cứng hoặc phần "
+"mềm của người dùng, gián đoạn dịch vụ internet, mất hoặc hư hỏng dữ liệu, và"
+" đình chỉ hoặc chấm dứt dịch vụ ngoài dự kiến của bất kỳ nhà cung cấp dịch "
+"vụ cơ bản nào."
+
+#: templates/static_templates/theme-tos.html:138
+msgid "User Accounts"
+msgstr "Tài Khoản Người Dùng"
+
+#: templates/static_templates/theme-tos.html:141
+msgid "Site Registration"
+msgstr "Đăng Ký Trang Web"
+
+#: templates/static_templates/theme-tos.html:142
+msgid ""
+"In order to fully participate in all Site activities, you must register and create a User Account. You\n"
+"            are required to provide a valid email address (\"Email Address\") and create a user password (\"User\n"
+"            Password\") and a unique username, which will be publicly visible on the forum and other locations on the\n"
+"            Site. In setting up your User Account, you may also be prompted or required to enter additional\n"
+"            information, including but not limited to your name, location or other information required to confirm\n"
+"            your identity.\n"
+"        "
+msgstr ""
+"Để tham gia đầy đủ mọi hoạt động của Trang Web, bạn phải đăng ký và tạo Tài "
+"Khoản Người Dùng. Bạn phải cung cấp một địa chỉ email hợp lệ (\"Địa Chỉ "
+"Email\") và tạo mật khẩu người dùng (\"Mật Khẩu Người Dùng\") và tên người "
+"dùng duy nhất, tên người dùng sẽ hiển thị trên diễn đàn và các vị trí khác "
+"trên Trang Web. Khi cài đặt Tài Khoản Người Dùng, bạn cũng có thể được nhắc "
+"hoặc yêu cầu nhập thông tin bổ sung, bao gồm nhưng không giới hạn ở tên, địa"
+" điểm hoặc thông tin khác của bạn cần thiết để xác nhận danh tính của bạn. "
+
+#: templates/static_templates/theme-tos.html:152
+msgid "Course Registration"
+msgstr "Đăng Ký Khóa Học"
+
+#: templates/static_templates/theme-tos.html:153
+msgid ""
+"In order to participate in an online course you may be required to register in the course by selecting\n"
+"            the course from the list of offered courses. You may be required to provide additional information at the\n"
+"            time of registration including, without limitation, evidence of eligibility or of successful completion of\n"
+"            prerequisite courses. You may be required to pay a fee to register in some courses.\n"
+"        "
+msgstr ""
+"Để tham gia một khóa học trực tuyến, bạn có thể được yêu cầu đăng ký khóa "
+"học bằng cách chọn khóa học từ danh sách các khóa học được đề nghị. Bạn có "
+"thể phải cung cấp thông tin bổ sung tại thời điểm đăng ký bao gồm nhưng "
+"không giới hạn ở bằng chứng về điều kiện tham gia hoặc hoàn thành thành công"
+" các khóa học tiên quyết. Bạn cũng có thể phải đóng lệ phí đăng ký trong một"
+" số khóa học. "
+
+#: templates/static_templates/theme-tos.html:161
+msgid ""
+"You understand and agree that all information provided by you is accurate, current and complete and that\n"
+"            you will maintain and update your information to keep it accurate, current and complete. You acknowledge\n"
+"            that if any information provided by you is untrue, inaccurate, not current or incomplete, we reserve the\n"
+"            right to refuse access to the selected course or to terminate your use of the Site. You agree that you\n"
+"            will never divulge or share access or access information to your User Account with any third party for any\n"
+"            reason.\n"
+"        "
+msgstr ""
+"Bạn hiểu và đồng ý rằng mọi thông tin do bạn cung cấp là chính xác, hiện "
+"hành và hoàn chỉnh đồng thời bạn sẽ duy trì và cập nhật thông tin của mình "
+"để đảm bảo nó được chính xác, hiện hành và hoàn chỉnh. Bạn xác nhận rằng nếu"
+" bất kỳ thông tin nào do bạn cung cấp là không đúng sự thực, không chính "
+"xác, không hiện hành hoặc không hoàn chỉnh, chúng tôi có quyền từ chối cho "
+"phép truy cập khóa học đã chọn hoặc chấm dứt quyền sử dụng Trang Web của "
+"bạn. Bạn đồng ý rằng bạn sẽ không bao giờ tiết lộ hoặc chia sẻ quyền truy "
+"cập hoặc thông tin truy cập vào Tài Khoản Người Dùng của bạn với bất kỳ bên "
+"thứ ba nào vì bất kỳ lý do gì. "
+
+#: templates/static_templates/theme-tos.html:170
+msgid "Fees and Refunds"
+msgstr "Lệ Phí và Hoàn Tiền"
+
+#: templates/static_templates/theme-tos.html:173
+msgid ""
+"Courses may be made available for free or for a fee at the sole discretion of Stanford. Course fees, if\n"
+"            applicable, are due and payable at the time of registration for the course or at the time of requesting a\n"
+"            service or materials for which a fee is required. Stanford expressly reserves the right to refuse to\n"
+"            permit access to any fee-based course if the fee is not paid, is cancelled or not processed for any\n"
+"            reason. For a period of fourteen (14) calendar days from the course start date (\"Refund Period\"), you\n"
+"            may withdraw or unenroll from the course by clicking on the unregister link and request a refund of the\n"
+"            registration fee by emailing {contact_email}. Please include your full name and username in your request.\n"
+"            Refunds will be credited to the credit card used when you registered and may take up to two billing cycles\n"
+"            to process. Stanford has no obligation to issue a refund after the Refund Period, but if you believe a\n"
+"            refund is warranted, please email us at {contact_email}.\n"
+"        "
+msgstr ""
+"Các khóa học có thể được cung cấp miễn phí hoặc có tính phí tùy quyết định "
+"của Stanford. Học phí, nếu áp dụng, sẽ đến hạn và phải thanh toán tại thời "
+"điểm đăng ký khóa học hoặc tại thời điểm yêu cầu dịch vụ hoặc tài liệu có áp"
+" dụng lệ phí. Stanford có quyền từ chối cho phép truy cập bất kỳ khóa học "
+"tính phí nào nếu không đóng phí, hủy lệ phí hoặc lệ phí không được xử lý vì "
+"bất kỳ lý do gì. Trong thời gian mười bốn (14) ngày theo lịch kể từ ngày bắt"
+" đầu khóa học (\"Thời Gian Hoàn Tiền\"), bạn có thể rút tên hoặc hủy ghi "
+"danh khóa học bằng cách nhấp vào liên kết hủy đăng ký và yêu cầu hoàn tiền "
+"phí đăng ký bằng cách gửi email đến {contact_email}. Vui lòng cung cấp họ "
+"tên và tên người dùng của bạn trong yêu cầu. Khoản tiền hoàn lại sẽ được ghi"
+" có vào thẻ tín dụng được sử dụng khi bạn đăng ký và có thể mất đến hai kỳ "
+"lập hóa đơn để xử lý. Stanford không có nghĩa vụ hoàn tiền sau Thời Gian "
+"Hoàn Tiền, nhưng nếu bạn cho rằng bạn có quyền được hoàn tiền, vui lòng gửi "
+"email cho chúng tôi tại {contact_email}."
+
+#: templates/static_templates/theme-tos.html:188
+msgid "Course Modification or Cancellation"
+msgstr "Điều Chỉnh hoặc Hủy Khóa Học"
+
+#: templates/static_templates/theme-tos.html:191
+msgid ""
+"The Site, including the course materials, may contain errors and omissions. We reserve the right to\n"
+"            correct errors or omissions without prior notice. We also reserve the right to cancel, discontinue,\n"
+"            reschedule, delay, change instructors or modify any course or service. You acknowledge that the course\n"
+"            content of the online course does not reflect the complete curriculum of a course that may be offered to\n"
+"            students enrolled at Stanford.\n"
+"        "
+msgstr ""
+"Trang Web, bao gồm tài liệu khóa học, có thể có lỗi và thiếu sót. Chúng tôi "
+"có quyền sửa lỗi hoặc thiếu sót mà không cần thông báo trước. Chúng tôi cũng"
+" có quyền hủy, ngưng, xếp lịch lại, hoãn, thay đổi giảng viên hoặc điều "
+"chỉnh bất kỳ khóa học hay dịch vụ nào. Bạn xác nhận rằng nội dung của khóa "
+"học trực tuyến không phản ánh chương trình học đầy đủ của khóa học mà có thể"
+" được tổ chức cho học viên ghi danh tại Stanford. "
+
+#: templates/static_templates/theme-tos.html:199
+msgid "License to use Site Materials"
+msgstr "Giấy Phép Sử Dụng Tài Liệu Trang Web"
+
+#: templates/static_templates/theme-tos.html:202
+msgid ""
+"Unless otherwise indicated, the Site and all its content, such as text, images, and the HTML used to\n"
+"            generate the pages (\"Material\") are the property of Stanford or that of our suppliers or licensors and are\n"
+"            protected by patent, trademark and/or copyright under US or foreign laws. In consideration for your\n"
+"            agreement to the terms and conditions contained here, Stanford grants you a personal, non-exclusive,\n"
+"            non-transferable license to access and use the Site and the Material. Registered users may download\n"
+"            Material from the Site only for such user's own personal, non-commercial use. No user may otherwise copy,\n"
+"            reproduce, duplicate, retransmit, distribute, publish, scrape, download in bulk, sell, resell,\n"
+"            commercially exploit or otherwise transfer any Material or modify or create derivative works of the\n"
+"            Material. The burden of determining that use of any information, software, material or any other content\n"
+"            on the Site is permissible rests with User. Some content on the Site is provided by third parties, and the\n"
+"            use of that content is subject to rules and restrictions as indicated on the Site. You agree to be bound\n"
+"            by all such rules and restrictions.\n"
+"        "
+msgstr ""
+"Trừ phi được cho biết khác, Trang Web và tất cả nội dung của nó, chẳng hạn "
+"như văn bản, hình ảnh, và HTML được sử dụng để tạo ra các trang (\"Tài "
+"Liệu\") là tài sản của Stanford hoặc của các nhà cung ứng hoặc các bên cấp "
+"phép của chúng tôi và được bảo hộ bằng bằng sáng chế, thương hiệu và/hoặc "
+"bản quyền theo quy định luật pháp Hoa Kỳ hoặc nước ngoài. Đổi lại việc bạn "
+"đồng ý với các điều khoản và điều kiện có trong đây, Stanford cấp cho bạn "
+"một giấy phép cá nhân, phi độc quyền, không thể chuyển nhượng để truy cập và"
+" sử dụng Trang Web và Tài Liệu. Người dùng đã đăng ký chỉ có thể tải Tài "
+"Liệu về từ Trang Web phục vụ mục đích sử dụng cá nhân, phi thương mại. Người"
+" dùng không được sao chép, tái tạo, sao đôi, gửi cho người khác, phát tán, "
+"xuất bản, scrape dữ liệu, tải về hàng loạt, bán, bán lại, khai thác thương "
+"mại hoặc chuyển nhượng theo cách khác bất kỳ Tài Liệu nào hay điều chỉnh "
+"hoặc tạo phó bản của Tài Liệu. Người Dùng có nghĩa vụ xác định rằng việc sử "
+"dụng bất kỳ thông tin, phần mềm, tài liệu nào hoặc bất kỳ nội dung nào khác "
+"trên Trang Web này là được phép. Một số nội dung trên Trang Web được cung "
+"cấp bởi các bên thứ ba, và việc sử dụng nội dung đó tuân thủ các quy tắc và "
+"hạn chế được cho biết trên Trang Web. Bạn đồng ý chịu sự ràng buộc của bất "
+"kỳ quy tắc và hạn chế nào như thế. "
+
+#: templates/static_templates/theme-tos.html:217
+msgid "Modifications to Site"
+msgstr "Điều Chỉnh Đối Với Trang Web"
+
+#: templates/static_templates/theme-tos.html:220
+msgid ""
+"Stanford reserves the right, for any reason or no reason, in our sole discretion and without notice, to\n"
+"            terminate, change, suspend or discontinue any aspect of the Site, including without limitation, information,\n"
+"            data, text, music, sound, photographs, graphics, video, messages, courses, Materials, features and/or hours\n"
+"            of availability, and we will not be liable to you or to any third party for doing so. We may also impose\n"
+"            rules and limits on the use of the Site or restrict your access to part, or the entire, Site without notice\n"
+"            or penalty.\n"
+"        "
+msgstr ""
+"Stanford có quyền, vì bất kỳ lý do gì hoặc không có lý do, toàn quyền quyết "
+"định của chúng tôi và không cần thông báo, đối với việc chấm dứt, thay đổi, "
+"đình chỉ hoặc ngưng bất kỳ phần nào của Trang Web, bao gồm, nhưng không giới"
+" hạn ở, thông tin, dữ liệu, văn bản, nhạc, âm thanh, hình ảnh, đồ họa, "
+"video, thông báo, các khóa học, Tài Liệu, các tính năng và/hoặc giờ khả "
+"dụng, và chúng tôi sẽ không chịu trách nhiệm pháp lý đối với bạn hoặc bất kỳ"
+" bên thứ ba nào khi làm như thế. Chúng tôi cũng có thể áp dụng các quy tắc "
+"và giới hạn đối với việc sử dụng Trang Web hoặc hạn chế quyền truy cập của "
+"bạn đối với một phần, hoặc toàn bộ, Trang Web mà không cần thông báo hay "
+"phải chịu phạt. "
+
+#: templates/static_templates/theme-tos.html:229
+msgid "Rules for Online Conduct"
+msgstr "Quy Định về Ứng Xử Trực Tuyến"
+
+#: templates/static_templates/theme-tos.html:231
+msgid ""
+"You agree to use the Sites in accordance with all applicable laws. You are responsible for your own\n"
+"            communications, including the upload, transmission and posting of information, and are responsible for the\n"
+"            consequences of their posting on or through the Site. You further agree that you will not email or post\n"
+"            malicious or harmful content anywhere on the Site, or on any other Stanford computing resources including\n"
+"            without limitation the following:\n"
+"        "
+msgstr ""
+"Bạn đồng ý sử dụng Trang Web tuân thủ mọi điều luật hiện hành. Bạn có trách "
+"nhiệm đối với việc giao tiếp liên lạc của riêng mình, bao gồm tải lên, gửi "
+"và đăng thông tin, và chịu trách nhiệm đối với hậu quả của việc đăng lên "
+"hoặc thông qua Trang Web. Bạn đồng ý thêm rằng bạn sẽ không gửi email hay "
+"đăng nội dung độc hại hay gây hại ở bất kỳ đâu trên Trang Web, hoặc trên bất"
+" kỳ tài nguyên máy tính nào khác của Stanford bao gồm nhưng không giới hạn ở"
+" nội dung sau đây: "
+
+#: templates/static_templates/theme-tos.html:240
+msgid "Content that defames or threatens others"
+msgstr "Nội dung xúc phạm hoặc đe dọa người khác"
+
+#: templates/static_templates/theme-tos.html:241
+msgid "Harassing statements or content that violates federal or state law"
+msgstr ""
+"Phát biểu quấy rối hoặc nội dung vi phạm luật pháp liên bang hoặc tiểu bang"
+
+#: templates/static_templates/theme-tos.html:242
+msgid ""
+"Content that discusses illegal activities with the intent to commit them"
+msgstr ""
+"Nội dung thảo luận về các hoạt động phi pháp với ý định thực hiện các hoạt "
+"động đó"
+
+#: templates/static_templates/theme-tos.html:243
+msgid ""
+"Content that is not your own, or infringes another's intellectual property, "
+"including, but not limited to, copyrights, trademarks or trade secrets"
+msgstr ""
+"Nội dung không phải của bạn, hoặc xâm phạm tài sản trí tuệ của người khác, "
+"bao gồm, nhưng không giới hạn ở, bản quyền, thương hiệu hoặc bí mật thương "
+"mại"
+
+#: templates/static_templates/theme-tos.html:244
+msgid "Content related to partisan political activities"
+msgstr "Nội dung liên quan đến các hoạt động chính trị đảng phái"
+
+#: templates/static_templates/theme-tos.html:245
+msgid "Material that contains obscene (i.e. pornographic) language or images"
+msgstr "Tài liệu chứa ngôn ngữ hoặc hình ảnh tục tĩu (có nghĩa là khiêu dâm)"
+
+#: templates/static_templates/theme-tos.html:246
+msgid ""
+"Advertising or any form of commercial solicitation or promotion, including "
+"links to other sites"
+msgstr ""
+"Quảng cáo hoặc bất kỳ hình thức mời gọi thương mại hay quảng bá nào, bao gồm"
+" liên kết đến các trang web khác"
+
+#: templates/static_templates/theme-tos.html:247
+msgid "Content that is otherwise unlawful"
+msgstr "Nội dung phi pháp theo cách khác"
+
+#: templates/static_templates/theme-tos.html:248
+msgid "Intentionally incomplete, misleading or inaccurate content"
+msgstr ""
+"Nội dung không hoàn chỉnh, gây sai lạc hoặc không chính xác theo cách cố "
+"tình"
+
+#: templates/static_templates/theme-tos.html:249
+msgid "Violations of Honor Code"
+msgstr "Vi Phạm Quy Tắc Danh Dự"
+
+#: templates/static_templates/theme-tos.html:253
+msgid ""
+"Copyrighted material, including without limitation software, graphics, text, photographs, sound, video\n"
+"            and musical recordings, may not be placed on the Site without the express permission of the owner of the\n"
+"            copyright in the material, or other legal entitlement to use the material.\n"
+"        "
+msgstr ""
+"Không được đăng tài liệu có bảo hộ bản quyền bao gồm nhưng không giới hạn ở "
+"phần mềm, đồ họa, văn bản, hình ảnh, âm thanh, video và băng nhạc lên Trang "
+"Web nếu không có sự cho phép rõ ràng của chủ sở hữu bản quyền đối với tài "
+"liệu đó, hoặc có quyền hợp pháp khác được sử dụng tài liệu đó. "
+
+#: templates/static_templates/theme-tos.html:259
+msgid "Security Rules"
+msgstr "Các Quy Tắc An Ninh"
+
+#: templates/static_templates/theme-tos.html:262
+msgid ""
+"Violations of system or network security may result in civil or criminal liability. Stanford will\n"
+"            investigate occurrences and may involve, and cooperate with, law enforcement authorities in prosecuting the\n"
+"            use or users who are involved in such violations. You agree that you will not violate or attempt to violate\n"
+"            the security of the Site, including without limitation:\n"
+"        "
+msgstr ""
+"Vi phạm an ninh hệ thống hoặc mạng có thể dẫn đến trách nhiệm pháp lý dân sự"
+" hoặc hình sự. Stanford sẽ điều tra các trường hợp vi phạm và có thể kêu gọi"
+" sự vào cuộc của, và hợp tác với, các cơ quan thực thi pháp luật trong truy "
+"tố việc sử dụng hoặc người dùng tham gia hành vi vi phạm như thế. Bạn đồng ý"
+" rằng bạn sẽ không vi phạm hoặc tìm cách vi phạm an ninh của Trang Web, bao "
+"gồm nhưng không giới hạn ở: "
+
+#: templates/static_templates/theme-tos.html:270
+msgid ""
+"attacking, probing, scanning or testing the vulnerability of, breaching "
+"security of, disrupting, disabling or harming the Site, or servers or "
+"networks connected to the Site"
+msgstr ""
+"tấn công, thăm dò, scan hoặc kiểm tra các lỗ hổng an ninh, xâm phạm an ninh,"
+" gây ảnh hưởng, vô hiệu hoặc gây hại cho Trang Web, hoặc các máy chủ hoặc "
+"các mạng kết nối với Trang Web"
+
+#: templates/static_templates/theme-tos.html:271
+msgid ""
+"using the Site via any automated means, such as a screen-scraper or robot. "
+"This is not intended to exclude the use of assistive technology for your own"
+" use, such as screen-readers"
+msgstr ""
+"sử dụng Trang Web thông qua bất kỳ phương thức tự động hóa nào, chẳng hạn "
+"như công cụ scraper màn hình hoặc robot. Trường hợp này không nhằm loại trừ "
+"việc sử dụng công nghệ hỗ trợ cho mục đích sử dụng cá nhân của bạn, chẳng "
+"hạn như công cụ đọc màn hình"
+
+#: templates/static_templates/theme-tos.html:272
+msgid ""
+"sending any unsolicited emails to other Site Users or forging any TCP/IP "
+"packet header or any part of the header information in any email"
+msgstr ""
+"gửi bất kỳ email rác nào đến Người Dùng khác của Trang Web hoặc giả mạo tiêu"
+" đề gói tin TCP/IP hoặc bất kỳ thông tin tiêu đề nào trong bất kỳ email nào"
+
+#: templates/static_templates/theme-tos.html:273
+msgid ""
+"displaying the Site within a frame on another website without consent, or "
+"place pop-up windows or other disruptive technologies over it"
+msgstr ""
+"hiển thị Trang Web trong một khung trên một trang web khác mà không có sự "
+"đồng ý, hoặc đặt cửa sổ pop-up hoặc các công nghệ gây ảnh hưởng khác lên "
+"trên nó"
+
+#: templates/static_templates/theme-tos.html:274
+msgid ""
+"accessing data not intended for you or logging into a server or account you "
+"are not authorized to access"
+msgstr ""
+"truy cập dữ liệu không dành cho bạn hoặc đăng nhập vào một máy chủ hoặc tài "
+"khoản bạn không được phép truy cập"
+
+#: templates/static_templates/theme-tos.html:275
+msgid ""
+"attempting to interfere with service to any user, host or network, including"
+" without limitation, via means of submitting a virus to the Site, "
+"overloading, \"flooding\", \"Mailbombing\" or \"Crashing\""
+msgstr ""
+"tìm cách gây ảnh hưởng đến dịch vụ dành cho bất kỳ người dùng, máy chủ hay "
+"mạng nào, bao gồm nhưng không giới hạn ở, bằng cách gửi virus đến Trang Web,"
+" làm quá tải, \"làm ngập\", \"gửi bom thư\" hoặc \"gây crash\""
+
+#: templates/static_templates/theme-tos.html:276
+msgid ""
+"impersonating another person or improperly allowing another to use your "
+"registration information to access the Site."
+msgstr ""
+"mạo danh một người khác hoặc cho phép người khác sử dụng thông tin đăng ký "
+"của bạn một cách không thích hợp để truy cập Trang Web."
+
+#: templates/static_templates/theme-tos.html:279
+msgid "Content Disclaimer"
+msgstr "Tuyên Bố Khước Từ Về Nội Dung"
+
+#: templates/static_templates/theme-tos.html:282
+msgid ""
+"The text and other material on the Sites may include the opinion of the specific instructor and are not\n"
+"            statements of advice, endorsement, opinion, or information of Stanford. If you feel you might be offended\n"
+"            by the content of the Sites, you should not continue.\n"
+"        "
+msgstr ""
+"Văn bản và tài liệu khác trên Trang Web có thể gồm có ý kiến của một giảng "
+"viên cụ thể và không phải là các tuyên bố tư vấn, đảm bảo, ý kiến hay thông "
+"tin của Stanford. Nếu bạn thấy rằng mình có thể bị xúc phạm bởi nội dung của"
+" Trang Web, bạn không nên tiếp tục. "
+
+#: templates/static_templates/theme-tos.html:289
+msgid ""
+"Sites may also include the personal opinions and other expressions by Users who post entries on a wide\n"
+"            range of topics. Neither the content of the forums, nor the links to other web sites, are screened,\n"
+"            approved, reviewed or endorsed by Stanford or any other related entity. Stanford is not a publisher of any\n"
+"            of the content of the forums, or of any content that may be available through links to and from them.\n"
+"        "
+msgstr ""
+"Trang Web cũng có thể bao gồm các ý kiến cá nhân và bày tỏ khác của những "
+"Người Dùng đăng các mục thông tin về các chủ đề khác nhau. Nội dung của các "
+"diễn đàn, hoặc liên kết đến các trang web khác không được sàng lọc, phê "
+"duyệt, xem xét hay đảm bảo bởi Stanford hay bất kỳ tổ chức liên quan nào "
+"khác. Stanford không phải là đơn vị xuất bản của bất kỳ nội dung nào của các"
+" diễn đàn, hay bất kỳ nội dung nào có thể được cung cấp thông qua các liên "
+"kết đến và từ chúng. "
+
+#: templates/static_templates/theme-tos.html:296
+msgid "User Content"
+msgstr "Nội Dung Của Người Dùng"
+
+#: templates/static_templates/theme-tos.html:299
+msgid ""
+"You may be permitted to submit and distribute materials in connection with an online course (\"User\n"
+"            Content\"). You represent and warrant that any material you submit to the Site, instructors or other Users\n"
+"            is accurate and complete and will not violate or infringe the rights of any third party, including without\n"
+"            limitation privacy, publicity, intellectual property and any other proprietary rights, such as copyright,\n"
+"            trademark and patent rights. You represent and warrant that you have all the necessary rights and licenses\n"
+"            to use the material and to permit use of the material by Stanford and other researchers.\n"
+"        "
+msgstr ""
+"Bạn có thể được phép gửi và phân phối tài liệu liên quan đến một khóa học "
+"trực tuyến (\"Nội Dung của Người Dùng\"). Bạn đảm bảo và cam đoan rằng bất "
+"kỳ tài liệu nào bạn gửi cho Trang Web, các giảng viên hoặc Người Dùng khác "
+"là chính xác và hoàn chỉnh và sẽ không vi phạm hoặc xâm phạm quyền của bất "
+"kỳ bên thứ ba nào, bao gồm nhưng không giới hạn ở quyền riêng tư, tính công "
+"khai, tài sản trí tuệ và bất kỳ độc quyền nào, chẳng hạn như bản quyền, "
+"thương hiệu và bằng sáng chế. Bạn đảm bảo và cam đoan rằng bạn có mọi quyền "
+"và giấy phép cần thiết để sử dụng tài liệu và để cho phép Stanford hoặc các "
+"nhà nghiên cứu khác sử dụng tài liệu. "
+
+#: templates/static_templates/theme-tos.html:309
+msgid ""
+"You agree that, if a third party claims that any material you have contributed to a Site is unlawful,\n"
+"            you will bear the burden of establishing that the material complies with all applicable laws. Although\n"
+"            Stanford does not monitor the content of the Site, Stanford has the right to remove material from the\n"
+"            Site, block access, or take other action with respect to the material in its sole discretion.\n"
+"        "
+msgstr ""
+"Bạn đồng ý rằng, nếu một bên thứ ba khẳng định rằng bất kỳ tài liệu nào bạn "
+"đóng góp cho một Trang Web là phi pháp, bạn sẽ có trách nhiệm chứng minh "
+"rằng tài liệu đó tuân thủ mọi điều luật hiện hành. Mặc dù Stanford không "
+"giám sát nội dung của Trang Web, nhưng Stanford có toàn quyền gỡ tài liệu ra"
+" khỏi Trang Web, chặn truy cập, hoặc thực hiện biện pháp khác liên quan đến "
+"tài liệu đó. "
+
+#: templates/static_templates/theme-tos.html:317
+msgid "Grant of license"
+msgstr "Cấp giấy phép"
+
+#: templates/static_templates/theme-tos.html:318
+msgid ""
+"By your submission of any material in connection with this course, you hereby grant Stanford an\n"
+"            irrevocable, non-exclusive, royalty free, fully transferable, worldwide license to use, disclose,\n"
+"            reproduce, distribute, prepare derivative works of, publicly perform, publicly display and provide to\n"
+"            other researchers any such submission. You hereby grant Users in your online course a license to use your\n"
+"            User Content (including the right to copy, modify and distribute such content) in conjunction with their\n"
+"            participation in the course.\n"
+"        "
+msgstr ""
+"Bằng việc gửi bất kỳ tài liệu nào liên quan đến khóa học này, theo đây bạn "
+"cấp cho Stanford giấy phép không rút lại, không độc quyền, không tính tác "
+"quyền, hoàn toàn có thể chuyển nhượng, trên toàn cầu, để sử dụng, tiết lộ, "
+"sao chép, phân phối, lập phó bản, thực hiện công khai, trưng bày công khai "
+"và cung cấp bất kỳ tài liệu nào như thế cho các nhà nghiên cứu khác. Theo "
+"đây, bạn cấp cho những Người Dùng trong khóa học trực tuyến của bạn giấy "
+"phép để sử dụng Nội Dung của Người Dùng của bạn (bao gồm quyền sao chép, "
+"điều chỉnh và phân phối nội dung đó) liên quan đến việc họ tham gia khóa "
+"học."
+
+#: templates/static_templates/theme-tos.html:327
+msgid "User Status and Statement of Accomplishment"
+msgstr "Trạng Thái Người Dùng và Chứng Nhận Hoàn Thành"
+
+#: templates/static_templates/theme-tos.html:330
+msgid ""
+"You agree and acknowledge that your access to the Site, participation in an online course and your\n"
+"            agreement to these Terms do not confer any right to access or use the resources of Stanford or establish\n"
+"            any relationship with Stanford or its instructors beyond the Site, that you are not enrolled, admitted or\n"
+"            in attendance at Stanford and that you are not entitled to any student or academic grievance procedures.\n"
+"            You agree that no joint venture, partnership, employment, or agency relationship exists between Stanford\n"
+"            and you as a result of these Terms or your use of the Site.\n"
+"        "
+msgstr ""
+"Bạn đồng ý và xác nhận rằng việc bạn truy cập Trang Web, tham gia một khóa "
+"học trực tuyến và việc bạn đồng ý với Các Điều Khoản này không trao bất kỳ "
+"quyền truy cập hay sử dụng nào đối với các tài nguyên của Stanford hoặc xác "
+"lập bất kỳ mối quan hệ nào với Stanford hoặc các giảng viên của Stanford "
+"ngoài Trang Web, rằng bạn không được ghi danh, tiếp nhận hoặc đang theo học "
+"tại Stanford và bạn không có quyền được tham gia bất kỳ thủ tục giải quyết "
+"khiếu nại nào dành cho học viên hoặc về học thuật. Bạn đồng ý rằng không tồn"
+" tại quan hệ liên doanh, hợp danh, tuyển dụng hay đại lý nào giữa Stanford "
+"và bạn vì có Các Điều Khoản này hoặc vì bạn sử dụng Trang Web. "
+
+#: templates/static_templates/theme-tos.html:340
+msgid ""
+"Subject to satisfactory performance and course completion, you may receive a Statement of Accomplishment\n"
+"            (\"Statement\") signed by the instructor(s). Stanford reserves the right to determine whether a Statement\n"
+"            will be issued for the online course and the nature of the information to be provided in the Statement. You\n"
+"            acknowledge that any Statement will not stand in the place of a course taken at Stanford or an accredited\n"
+"            institution or confer any academic credit, grade or degree or indicate enrollment at Stanford. You further\n"
+"            acknowledge that instructors of any online course are not required to participate in any attempts to get\n"
+"            the course recognized by any educational or accredited institution.\n"
+"        "
+msgstr ""
+"Dựa trên thành tích đạt yêu cầu và hoàn thành khóa học, bạn có thể nhận được"
+" Chứng Nhận Hoàn Thành (\"Chứng Nhận\") có chữ ký của (các) giảng viên. "
+"Stanford có quyền xác định xem có cấp Chứng Nhận cho khóa học trực tuyến đó "
+"và bản chất của thông tin có cần được cung cấp trong Chứng Nhận hay không. "
+"Bạn xác nhận rằng bất kỳ Chứng Nhận nào sẽ không thay thế cho một khóa học "
+"được học tại Stanford hoặc một tổ chức có chứng nhận hoặc trao bất kỳ chứng "
+"chỉ, điểm số hay bằng cấp nào hay thể hiện việc ghi danh tại Stanford. Bạn "
+"xác nhận thêm rằng các giảng viên của bất kỳ khóa học trực tuyến nào không "
+"buộc phải tham gia bất kỳ nỗ lực nào để khóa học được công nhận bởi bất kỳ "
+"tổ chức giáo dục hay tổ chức có chứng nhận nào. "
+
+#: templates/static_templates/theme-tos.html:350
+msgid "International Use and Consent to Processing"
+msgstr "Sử Dụng Trên Phạm Vi Quốc Tế và Đồng Ý Cho Phép Xử Lý"
+
+#: templates/static_templates/theme-tos.html:353
+msgid ""
+"Stanford controls and operates this Site within the United States of America, and all information is\n"
+"            collected, transmitted, processed and stored within the United States. We do not represent that materials\n"
+"            on the Site are appropriate or available for use in other locations. Persons who choose to access the Site\n"
+"            from other locations do so on their own initiative, and are responsible for compliance with local laws, if\n"
+"            and to the extent local laws are applicable. You agree to comply with all applicable laws, rules and\n"
+"            regulations in connection with your use of the Site. Without limiting the generality of the foregoing, you\n"
+"            agree to comply with all applicable laws regarding the transmission of technical data exported from the\n"
+"            United States or the country in which you reside. By providing any personal information to the Site, all\n"
+"            users, including without limitation users in the European Union, fully understand and unambiguously\n"
+"            consent to the collection, transmission processing and storage of such information in the United States\n"
+"            and the use of such information for research by Stanford and other U.S. and international researchers.\n"
+"        "
+msgstr ""
+"Stanford kiểm soát và điều hành Trang Web này trong địa phận Hợp Chủng Quốc "
+"Hoa Kỳ, và mọi thông tin được thu thập, truyền gửi, xử lý và lưu trữ trong "
+"địa phận Hoa Kỳ. Chúng tôi không đảm bảo rằng tài liệu trên Trang Web là "
+"thích hợp hay khả dụng ở các địa điểm khác. Những ai muốn truy cập Trang Web"
+" này từ các địa điểm khác là chủ động làm như thế, và có trách nhiệm tuân "
+"thủ luật pháp địa phương, nếu và trong trường hợp luật địa phương áp dụng. "
+"Bạn đồng ý tuân thủ mọi điều luật, quy tắc và quy định hiện hành liên quan "
+"đến việc bạn sử dụng Trang Web. Không giới hạn ở tính tổng quát của nội dung"
+" bên trên, bạn đồng ý tuân thủ mọi điều luật hiện hành về việc truyền gửi dữ"
+" liệu kỹ thuật được xuất khẩu từ Hoa Kỳ hoặc quốc gia nơi bạn cư trú. Bằng "
+"việc cung cấp bất kỳ thông tin cá nhân nào cho Trang Web, tất cả người dùng,"
+" bao gồm nhưng không giới hạn ở người dùng ở Liên Minh Châu Âu, hoàn toàn "
+"hiểu và đồng ý rõ ràng đối với việc cho phép thu thập, truyền gửi, xử lý và "
+"lưu trữ thông tin đó tại Hoa Kỳ cũng như cho phép Stanford và các nhà nghiên"
+" cứu khác tại Hoa Kỳ và quốc tế sử dụng thông tin đó cho mục đích nghiên "
+"cứu. "
+
+#: templates/static_templates/theme-tos.html:367
+msgid "Links to Other Sites"
+msgstr "Liên Kết đến Các Trang Khác"
+
+#: templates/static_templates/theme-tos.html:370
+msgid ""
+"The Site may include hyperlinks to sites maintained or controlled by others. Stanford is not responsible\n"
+"            for and does not routinely screen, approve, review or endorse the contents of or use of any of the\n"
+"            products or services that may be offered at other sites. These links do not imply Stanford's endorsement\n"
+"            of or association with the linked sites. Stanford is not responsible for and shall in no event be liable,\n"
+"            directly or indirectly, to anyone for any loss or damage arising from or occasioned by the creation or use\n"
+"            of the linked sites or the information or material accessed through those linked sites. If you choose to\n"
+"            use Social Auth login, we may receive from the authenticator your name, email, and public profile\n"
+"            information, and the authenticator is notified of your login to this site.\n"
+"        "
+msgstr ""
+"Trang Web có thể gồm có các siêu liên kết đến các trang web được duy trì "
+"hoặc kiểm soát bởi các đơn vị khác. Stanford không chịu trách nhiệm đối với "
+"và không định kỳ sàng lọc, phê duyệt, xem xét hay đảm bảo nội dung của hoặc "
+"việc sử dụng bất kỳ sản phẩm hoặc dịch vụ nào có thể được đề nghị tại các "
+"trang web khác. Các liên kết này không ngụ ý về việc đảm bảo hay liên kết "
+"của Stanford với các trang web được liên kết. Stanford không chịu trách "
+"nhiệm đối với và trong mọi trường hợp không chịu trách nhiệm pháp lý, trực "
+"tiếp hay gián tiếp, đối với bất kỳ ai cho bất kỳ tổn thất hay thiệt hại nào "
+"phát sinh từ hoặc liên quan đến việc tạo hoặc sử dụng các trang web được "
+"liên kết hoặc thông tin hay tài liệu được truy cập thông qua các trang web "
+"được liên kết đó. Nếu bạn chọn sử dụng đăng nhập Social Auth, chúng tôi có "
+"thể nhận tên, email, và thông tin hồ sơ công khai của bạn từ đơn vị xác "
+"thực, và đơn vị xác thực được thông báo về việc bạn đăng nhập trang web này."
+" "
+
+#: templates/static_templates/theme-tos.html:381
+msgid "Choice of Law/Forum Selection"
+msgstr "Lựa Chọn Điều Luật/Lựa Chọn Diễn Đàn"
+
+#: templates/static_templates/theme-tos.html:384
+msgid ""
+"The Sites are managed by Stanford, located in Santa Clara County, California. You agree that any dispute\n"
+"            arising out of or relating to these Terms or any content posted to a Site, including copies and\n"
+"            republication thereof, whether based in contract, tort, statutory or other law, will be governed by the\n"
+"            laws of the State of California, excluding its conflicts of law provisions. You further consent to the\n"
+"            personal jurisdiction of and exclusive venue in the federal and state courts located in and serving Santa\n"
+"            Clara County, California as the legal forum for any such dispute. Excluding claims for injunctive or other\n"
+"            equitable relief, for claims related to the Site where the total amount sought is less than ten thousand\n"
+"            U.S. Dollars ($10,000.00 USD), either you or Stanford may elect at any point during the dispute to resolve\n"
+"            the claim through binding, non-appearance-based arbitration. The dispute will then be resolved using an\n"
+"            established alternative dispute resolution (\"ADR\") provider, mutually agreed upon by you and Stanford. The\n"
+"            parties and the selected ADR provider shall not involve any personal appearance by the parties or\n"
+"            witnesses, unless otherwise mutually agreed by the parties; rather, the arbitration shall be conducted, at\n"
+"            the option of the party seeking relief, online, by telephone or via written submissions alone. Any\n"
+"            judgment rendered by the arbitrator may be entered in any court of competent jurisdiction. Any claim or\n"
+"            cause of action you may have with respect to Stanford or the Site must be commenced within one (1) year\n"
+"            after the claim or cause of action arose.\n"
+"        "
+msgstr ""
+"Các Trang Web này được quản lý bởi Stanford, đặt tại Hạt Santa Clara, "
+"California. Bạn đồng ý rằng bất kỳ bất đồng nào phát sinh từ hoặc liên quan "
+"đến Các Điều Khoản này hoặc bất kỳ nội dung nào được đăng lên một Trang Web,"
+" bao gồm các bản sao và tái bản của chúng, cho dù dựa trên hợp đồng, giao "
+"kèo, pháp định hay điều luật khác, sẽ được chi phối bởi luật pháp Tiểu Bang "
+"California, ngoại trừ các điểm mâu thuẫn đối với quy định pháp luật. Bạn "
+"đồng ý thêm về thẩm quyền pháp lý và nơi xử án duy nhất tại các tòa án liên "
+"bang và tiểu bang đặt tại và phục vụ Hạt Santa Clara, California như diễn "
+"đàn pháp lý để giải quyết bất kỳ tranh chấp nào như thế. Trừ các khiếu kiện "
+"yêu cầu bồi thường theo lệnh tòa hoặc bồi thường bình đẳng khác, đối với các"
+" khiếu kiện liên quan đến Trang Web trong đó tổng số tiền yêu cầu thấp hơn "
+"mười ngàn Dollar Mỹ ($10.000,00 USD), bạn hoặc Stanford có thể chọn bất kỳ "
+"điểm nào trong quá trình tranh chấp để giải quyết khiếu kiện thông qua thủ "
+"tục trọng tài ràng buộc, không cần trình diện. Tranh chấp lúc đó sẽ được "
+"giải quyết bằng một đơn vị cung cấp dịch vụ giải quyết bất đồng thay thế "
+"(\"ADR\"), được bạn và Stanford cùng đồng ý. Các bên và đơn vị cung cấp ADR "
+"đã chọn sẽ không yêu cầu sự có mặt đích thân của các bên hoặc người làm "
+"chứng, trừ phi các bên có thỏa thuận chung khác; mà, thủ tục trọng tài sẽ "
+"được tiến hành, theo lựa chọn của bên yêu cầu bồi thường, trực tuyến, qua "
+"điện thoại hoặc qua hồ sơ văn bản. Bất kỳ phán quyết nào được trọng tài viên"
+" đưa ra đều có thể được nộp cho bất kỳ tòa án nào có thẩm quyền xét xử. Bất "
+"kỳ khiếu nại hay nguyên nhân kiện nào của bạn liên quan đến Stanford hoặc "
+"Trang Web phải được khởi phát trong vòng một (1) năm sau khi phát sinh khiếu"
+" nại hoặc nguyên nhân kiện. "
+
+#: templates/static_templates/theme-tos.html:403
+msgid "Disclaimer of Warranties"
+msgstr "Tuyên Bố Khước Từ Đối Với Các Bảo Đảm"
+
+#: templates/static_templates/theme-tos.html:406
+msgid ""
+"THESE SITES AND ANY INFORMATION, PRODUCTS OR SERVICES THEREIN ARE PROVIDED \"AS IS\" WITHOUT WARRANTY OF\n"
+"            ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF\n"
+"            MERCHANTABILITY, FITNESS FOR USE OF A PARTICULAR PURPOSE, OR NONINFRINGEMENT.\n"
+"        "
+msgstr ""
+"CÁC TRANG WEB NÀY VÀ BẤT KỲ THÔNG TIN, SẢN PHẨM HAY DỊCH VỤ NÀO TRONG ĐÓ "
+"ĐƯỢC CUNG CẤP \"THEO NGUYÊN TRẠNG\" MÀ KHÔNG CÓ SỰ ĐẢM BẢO DƯỚI BẤT KỲ HÌNH "
+"THỨC NÀO, HOẶC THÀNH VĂN HOẶC BẤT THÀNH VĂN, BAO GỒM NHƯNG KHÔNG GIỚI HẠN Ở,"
+" ĐẢM BẢO BẤT THÀNH VĂN VỀ TÍNH KHẢ MẠI, TÍNH PHÙ HỢP ĐỂ SỬ DỤNG CHO MỘT MỤC "
+"ĐÍCH CỤ THỂ, HOẶC KHÔNG XÂM PHẠM. "
+
+#: templates/static_templates/theme-tos.html:413
+msgid ""
+"STANFORD DOES NOT WARRANT, AND HEREBY DISCLAIMS ANY WARRANTIES, EITHER EXPRESS OR IMPLIED, WITH RESPECT\n"
+"            TO THE ACCURACY, ADEQUACY OR COMPLETENESS OF ANY SITE, INFORMATION OBTAINED FROM A SITE, OR LINK TO A SITE.\n"
+"            STANFORD DOES NOT WARRANT THAT THE SITE WILL OPERATE IN AN UNINTERRUPTED OR ERROR-FREE MANNER OR THAT THE\n"
+"            SITE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. USE OF INFORMATION OBTAINED FROM OR THROUGH THE SITE\n"
+"            IS AT YOUR OWN RISK.\n"
+"        "
+msgstr ""
+"STANFORD KHÔNG ĐẢM BẢO, VÀ THEO ĐÂY KHƯỚC TỪ BẤT KỲ SỰ ĐẢM BẢO NÀO, HOẶC "
+"THÀNH VĂN HOẶC BẤT THÀNH VĂN, LIÊN QUAN ĐẾN TÍNH CHÍNH XÁC, TÍNH ĐẦY ĐỦ HOẶC"
+" TÍNH HOÀN CHỈNH CỦA BẤT KỲ TRANG WEB, THÔNG TIN NÀO CÓ ĐƯỢC TỪ MỘT TRANG "
+"WEB, HOẶC LIÊN KẾT ĐẾN MỘT TRANG WEB. STANFORD KHÔNG ĐẢM BẢO RẰNG TRANG WEB "
+"SẼ HOẠT ĐỘNG KHÔNG BỊ GIÁN ĐOẠN HAY KHÔNG CÓ LỖI HOẶC TRANG WEB KHÔNG CÓ "
+"VIRUS HOẶC THÀNH PHẦN CÓ HẠI KHÁC. BẠN CHẤP NHẬN TỰ CHỊU MỌI RỦI RO KHI SỬ "
+"DỤNG THÔNG TIN CÓ ĐƯỢC TỪ HOẶC THÔNG QUA TRANG WEB. "
+
+#: templates/static_templates/theme-tos.html:422
+msgid ""
+"WITHOUT LIMITING THE FOREGOING, STANFORD DOES NOT WARRANT THAT (A) THE SITE WILL MEET YOUR REQUIREMENTS\n"
+"            OR EXPECTATIONS OR ACHIEVE THE INTENDED PURPOSES, (B) THE SITE WILL BE FREE OF OUTAGES, INTERRUPTIONS,\n"
+"            DELAYS, SECURITY FLAWS, AND ERRORS, (C) THE INFORMATION OBTAINED FROM THE SITE WILL BE ACCURATE, COMPLETE,\n"
+"            CURRENT, ERROR-FREE, COMPLETELY SECURE OR RELIABLE, (D) THAT YOU WILL BE ABLE TO TRANSMIT OR RECEIVE\n"
+"            INFORMATION FROM OR THROUGH THE SITE OR (E) THAT DEFECTS IN OR ON THE SITE WILL BE CORRECTED.\n"
+"        "
+msgstr ""
+"KHÔNG GIỚI HẠN Ở NỘI DUNG BÊN TRÊN, STANFORD KHÔNG ĐẢM BẢO RẰNG (A) TRANG "
+"WEB SẼ ĐÁP ỨNG CÁC YÊU CẦU HOẶC KỲ VỌNG CỦA BẠN HOẶC ĐẠT ĐƯỢC CÁC MỤC ĐÍCH "
+"MONG MUỐN, (B) TRANG WEB SẼ KHÔNG BỊ GIÁN ĐOẠN, TRÌ HOÃN, LỖI BẢO MẬT, VÀ SƠ"
+" XUẤT, (C) THÔNG TIN CÓ ĐƯỢC TỪ TRANG WEB SẼ LÀ CHÍNH XÁC, HOÀN CHỈNH, HIỆN "
+"HÀNH, KHÔNG CÓ LỖI, HOÀN TOÀN AN TOÀN HOẶC ĐÁNG TIN CẬY, (D) BẠN SẼ CÓ THỂ "
+"GỬI HOẶC NHẬN THÔNG TIN TỪ HOẶC THÔNG QUA TRANG WEB HOẶC (E) CÁC KHIẾM "
+"KHUYẾT TRONG HOẶC TRÊN TRANG WEB SẼ ĐƯỢC KHẮC PHỤC. "
+
+#: templates/static_templates/theme-tos.html:430
+msgid "Limitation of Liability"
+msgstr "Giới Hạn Trách Nhiệm Pháp Lý"
+
+#: templates/static_templates/theme-tos.html:433
+msgid ""
+"YOU AGREE THAT STANFORD WILL NOT BE LIABLE TO YOU FOR ANY LOSS OR DAMAGES, EITHER ACTUAL OR\n"
+"            CONSEQUENTIAL, ARISING OUT OF OR RELATING TO THESE TERMS, OR TO YOUR (OR ANY THIRD PARTY/'S) USE OR\n"
+"            INABILITY TO USE THE SITE, OR TO YOUR PLACEMENT OF CONTENT ON THE SITE, OR TO YOUR RELIANCE UPON\n"
+"            INFORMATION OBTAINED FROM OR THROUGH THE SITE. IN PARTICULAR, STANFORD WILL HAVE NO LIABILTY FOR ANY\n"
+"            CONSEQUENTIAL, INDIRECT, PUNITIVE, SPECIAL OR INCIDENTAL DAMAGES, WHETHER FORESEEABLE OR UNFORESEEABLE,\n"
+"            (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR DEFAMATION, ERRORS, LOSS OF DATA, OR INTERRUPTION IN\n"
+"            AVAILABILITY OF DATA), ARISING OUT OF OR RELATING TO THESE TERMS, YOUR USE OR INABILITY TO USE THE SITE,\n"
+"            OR YOUR PLACEMENT OF CONTENT ON A SITE, OR TO YOUR RELIANCE UPON INFORMATION OBTAINED FROM OR THROUGH A\n"
+"            SITE, WHETHER BASED IN CONTRACT, TORT, STATUTORY OR OTHER LAW, EVEN IF STANFORD OR ITS REPRESENTATIVES\n"
+"            HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR\n"
+"            EXCLUSION OF LIABILITY SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU. IN NO EVENT SHALL THE TOTAL\n"
+"            LIABILITY OF STANFORD TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION ARISING FROM THE TERMS OR YOUR\n"
+"            USE OF THE SITE EXCEED, IN THE AGGREGATE, $100.00.\n"
+"        "
+msgstr ""
+"BẠN ĐỒNG Ý RẰNG STANFORD SẼ KHÔNG CHỊU TRÁCH NHIỆM PHÁP LÝ ĐỐI VỚI BẠN CHO "
+"BẤT KỲ TỔN THẤT HAY THIỆT HẠI NÀO, HOẶC CÓ THỰC HOẶC LÀ HẬU QUẢ, PHÁT SINH "
+"TỪ HOẶC LIÊN QUAN ĐẾN CÁC ĐIỀU KHOẢN NÀY, HOẶC VIỆC BẠN (HOẶC BẤT KỲ BÊN THỨ"
+" BA NÀO) SỬ DỤNG HAY KHÔNG THỂ SỬ DỤNG TRANG WEB, HOẶC VIỆC BẠN DỰA VÀO "
+"THÔNG TIN CÓ ĐƯỢC TỪ HOẶC THÔNG QUA TRANG WEB. CỤ THỂ LÀ, STANFORD SẼ KHÔNG "
+"CHỊU TRÁCH NHIỆM PHÁP LÝ CHO BẤT KỲ THIỆT HẠI HẬU QUẢ, GIÁN TIẾP, TRỪNG "
+"PHẠT, ĐẶC BIỆT HAY VÔ TÌNH NÀO, DÙ CÓ THỂ THẤY TRƯỚC HAY KHÔNG (BAO GỒM "
+"NHƯNG KHÔNG GIỚI HẠN Ở KHIẾU KIỆN VỀ TỔN THẤT DANH DỰ, SƠ XUẤT, MẤT DỮ LIỆU,"
+" HOẶC GIÁN ĐOẠN TÍNH KHẢ DỤNG CỦA DỮ LIỆU), PHÁT SINH TỪ HOẶC LIÊN QUAN ĐẾN "
+"CÁC ĐIỀU KHOẢN NÀY, VIỆC BẠN SỬ DỤNG HAY KHÔNG THỂ SỬ DỤNG TRANG WEB, HOẶC "
+"VIỆC BẠN ĐĂNG NỘI DUNG LÊN MỘT TRANG WEB, HOẶC VIỆC BẠN DỰA VÀO THÔNG TIN CÓ"
+" ĐƯỢC TỪ HOẶC THÔNG QUA MỘT TRANG WEB, DÙ DỰA TRÊN HỢP ĐỒNG, KHẾ ƯỚC, PHÁP "
+"ĐỊNH HOẶC ĐIỀU LUẬT KHÁC, NGAY CẢ KHI STANFORD HOẶC ĐẠI DIỆN CỦA STANFORD ĐÃ"
+" ĐƯỢC THÔNG BÁO VỀ KHẢ NĂNG XẢY RA THIỆT HẠI NHƯ THẾ. MỘT SỐ KHU VỰC KHÔNG "
+"CHO PHÉP GIỚI HẠN HAY LOẠI TRỪ TRÁCH NHIỆM PHÁP LÝ, DO ĐÓ MỘT SỐ GIỚI HẠN "
+"BÊN TRÊN CÓ THỂ KHÔNG ÁP DỤNG ĐỐI VỚI BẠN. TRONG MỌI TRƯỜNG HỢP, TỔNG TRÁCH "
+"NHIỆM PHÁP LÝ ĐỐI VỚI MỌI THIỆT HẠI, TỔN THẤT VÀ NGUYÊN NHÂN KIỆN PHÁT SINH "
+"TỪ CÁC ĐIỀU KHOẢN HOẶC VIỆC BẠN SỬ DỤNG TRANG WEB KHÔNG VƯỢT QUÁ TỔNG CỘNG "
+"$100,00. "
+
+#: templates/static_templates/theme-tos.html:449
+msgid "Termination Rights"
+msgstr "Các Quyền Chấm Dứt"
+
+#: templates/static_templates/theme-tos.html:452
+msgid ""
+"You agree that: Stanford, in its sole discretion, may terminate your use of the Site or your\n"
+"            participation in an online course activity, for any reason or no reason and at any time; Stanford shall not\n"
+"            have any liability to you for the termination; and that you are not entitled to any course credit or to any\n"
+"            student or academic grievance procedures in connection with such a termination.\n"
+"        "
+msgstr ""
+"Bạn đồng ý rằng: Stanford có toàn quyền chấm dứt quyền sử dụng của bạn đối "
+"với Trang Web hoặc việc bạn tham gia một hoạt động khóa học trực tuyến, vì "
+"bất kỳ lý do gì hoặc không có lý do và vào bất kỳ lúc nào; Stanford sẽ không"
+" chịu bất kỳ trách nhiệm pháp lý nào đối với bạn về việc chấm dứt; và bạn "
+"không có quyền nhận bất kỳ tín chỉ khóa học nào hoặc bất kỳ thủ tục giải "
+"quyết khiếu kiện nào liên quan đến học viên hoặc học thuật đối với sự chấm "
+"dứt như thế. "
+
+#: templates/static_templates/theme-tos.html:459
+msgid "Consumer Notice"
+msgstr "Thông Báo Cho Người Tiêu Dùng"
+
+#: templates/static_templates/theme-tos.html:462
+msgid ""
+"If you have any questions regarding services provided through the Site, you may contact Stanford's\n"
+"            Course Operations Lead at {contact_email} or 425 Santa Teresa Street, Stanford CA, 94305-2261, USA. The\n"
+"            Public Inquiry Unit of the Office of the California Attorney General may be contacted at P.O. Box 944255,\n"
+"            Sacramento, CA 94244-2550.\n"
+"        "
+msgstr ""
+"Nếu bạn có bất kỳ thắc mắc nào về các dịch vụ được cung cấp thông qua Trang "
+"Web, bạn có thể liên hệ Trưởng Phòng Điều Hành Khóa Học của Stanford qua "
+"{contact_email} hoặc 425 Santa Teresa Street, Stanford CA, 94305-2261, USA. "
+"Có thể liên hệ Đơn Vị Giải Đáp Thắc Mắc Công Chúng của Văn Phòng Bộ Trưởng "
+"Tư Pháp California qua P.O. Box 944255, Sacramento, CA 94244-2550. "
+
+#: templates/static_templates/theme-tos.html:471
+msgid "Proprietary Rights"
+msgstr "Các Quyền Về Sở Hữu Độc Quyền"
+
+#: templates/static_templates/theme-tos.html:474
+msgid ""
+"The logos, names and graphics on the Site of Stanford or any of its affiliates, may be trademarks of\n"
+"            Stanford or its affiliates. Use, reproduction, copying or redistribution of Stanford trademarks, without\n"
+"            the prior written permission of Stanford or its affiliates, is prohibited. All other trademarks or\n"
+"            servicemarks appearing on the Site are the marks of their respective owners. Information about Stanford\n"
+"            trademarks may be found at {trademark_link}.\n"
+"        "
+msgstr ""
+"Logo, tên và hình ảnh trên Trang Web của Stanford hoặc bất kỳ đơn vị liên "
+"kết nào của Stanford, có thể là thương hiệu của Stanford hoặc các đơn vị "
+"liên kết. Cấm sử dụng, sao chép hoặc tái phân phối thương hiệu của Stanford,"
+" nếu không có sự cho phép trước bằng văn bản của Stanford hoặc các đơn vị "
+"liên kết. Mọi thương hiệu hoặc nhãn hiệu dịch vụ khác xuất hiện trên Trang "
+"Web là thương hiệu hay nhãn hiệu của các chủ sở hữu tương ứng. Thông tin về "
+"các thương hiệu của Stanford có thể được tìm thấy tại {trademark_link}."
+
+#: templates/static_templates/theme-tos.html:485
+msgid ""
+"Except as otherwise provided herein, use of the Site does not grant you a license to any content,\n"
+"            features or Material you may access on the Site, and you may not modify, rent, lease, loan, sell,\n"
+"            distribute or create derivative works of such content, features or Material, in whole or in part. Any\n"
+"            commercial use of the Site is strictly prohibited except as allowed herein or otherwise approved by us.\n"
+"            You may not download or save a copy of any of the content or screens for any purpose except as otherwise\n"
+"            provided by Stanford. If you make use of the Site, other than as provided herein, in doing so you may\n"
+"            violate copyright and other laws of the United States, other countries, as well as applicable state laws\n"
+"            and may be subject to liability for such unauthorized use. We do not grant any license or other\n"
+"            authorization to any user of our trademarks, registered trademarks, service marks, other copyrightable\n"
+"            material or any other intellectual property by including them on the Site.\n"
+"        "
+msgstr ""
+"Trừ phi được quy định khác trong đây, việc sử dụng Trang Web không cấp cho "
+"bạn giấy phép đối với bất kỳ nội dung, tính năng hay Tài Liệu nào mà bạn có "
+"thể truy cập trên Trang Web, và bạn không được điều chỉnh, thuê, cho thuê, "
+"cho mượn, bán, phân phối hay tạo tác phẩm phó bản của nội dung, tính năng "
+"hay Tài Liệu như thế, toàn bộ hoặc một phần. Bất kỳ trường hợp sử dụng "
+"thương mại nào đối với Trang Web đều bị nghiêm cấm trừ phi được cho phép "
+"trong đây hoặc trừ phi được chúng tôi cho phép khác. Bạn không được tải về "
+"hoặc lưu một bản sao của bất kỳ nội dung hay màn hình nào vì bất kỳ mục đích"
+" nào trừ phi được Stanford quy định khác. Nếu bạn sử dụng Trang Web, khác "
+"với quy định trong đây, khi làm như thế bạn có thể vi phạm bản quyền và bất "
+"kỳ điều luật nào khác của Hoa Kỳ, các quốc gia khác, cũng như các điều luật "
+"hiện hành của tiểu bang và có thể phải chịu trách nhiệm pháp lý đối với việc"
+" sử dụng trái phép như thế. Chúng tôi không cấp bất kỳ giấy phép hay ủy "
+"quyền nào khác cho bất kỳ người dùng nào đối với thương hiệu, thương hiệu đã"
+" đăng ký, nhãn hiệu dịch vụ, tài liệu có bảo hộ bản quyền khác của chúng tôi"
+" hoặc bất kỳ tài sản trí tuệ nào khác bằng cách cung cấp chúng trên Trang "
+"Web. "
+
+#: templates/static_templates/theme-tos.html:498
+msgid "Indemnification"
+msgstr "Miễn trách nhiệm"
+
+#: templates/static_templates/theme-tos.html:501
+msgid ""
+"You agree to indemnify and hold Stanford and its instructors, trustees, officers, agents, employees, and\n"
+"            assignees, harmless from any claims, actions, demands, losses or damages, including legal fees, arising out\n"
+"            of, resulting from or in any way related to your participation in an online course, use of a Site, placement\n"
+"            of any content onto a Site or violation of these Terms. You further agree to fully cooperate in Stanford's\n"
+"            defense against any such claims.\n"
+"        "
+msgstr ""
+"Bạn đồng ý miễn trách nhiệm cho Stanford và các giảng viên, ủy viên hội đồng"
+" quản trị, viên chức, đại diện, nhân viên, và những người được chỉ định của "
+"Stanford, đối với bất kỳ khiếu kiện, kiện tụng, yêu cầu, tổn thất hay thiệt "
+"hại nào, bao gồm phí pháp lý, phát sinh từ, do có hoặc liên quan dưới bất kỳ"
+" hình thức nào đến việc bạn tham gia một khóa học trực tuyến, sử dụng một "
+"Trang Web, đăng nội dung lên một Trang Web hoặc vi phạm Các Điều Khoản này. "
+"Bạn đồng ý thêm là sẽ hoàn toàn hợp tác trong qua trình biện hộ của Stanford"
+" đối với bất kỳ khiếu kiện nào như thế. "
+
+#: templates/static_templates/theme-tos.html:511
+msgid "Copyright Complaints"
+msgstr "KHIẾU NẠI VỀ BẢN QUYỀN"
+
+#: templates/static_templates/theme-tos.html:514
+msgid ""
+"Stanford respects the intellectual property rights of others. In accordance with Title II of the Digital\n"
+"            Millennium Copyright Act (DMCA), an agent has been designated to receive notification of a claimed\n"
+"            copyright infringement for the Stanford University Network domains: Stanford.EDU, Stanford.ORG and\n"
+"            Stanford.COM. If you believe that your copyrighted work has been copied in a way that constitutes\n"
+"            copyright infringement, please contact Stanford's DMCA Designated Agent at DMCA-Claim@Stanford.EDU with\n"
+"            a copy to {contact_email} and provide the following written information: (i) an electronic or physical\n"
+"            signature of the person authorized to act on behalf of the owner of the copyright interest; (ii) a\n"
+"            description of the copyrighted work that you claim has been infringed upon; (iii) a description of where\n"
+"            the material that you claim is infringing is located on the Site; (iv) your address, telephone number, and\n"
+"            email address; (v) a statement by you that you have a good-faith belief that the disputed use is not\n"
+"            authorized by the copyright owner, its agent or the law; and (vi) a statement by you, made under penalty\n"
+"            of perjury, that the above information in your notice is accurate and that you are the copyright owner or\n"
+"            authorized to act on the copyright owner's behalf.\n"
+"        "
+msgstr ""
+"Stanford tôn trọng các quyền sở hữu tài sản trí tuệ của người khác. Tuân "
+"theo Tiêu Đề II của Đạo Luật về Bản Quyền trong Thiên Niên Kỷ Kỹ Thuật Số "
+"(Digital Millennium Copyright Act, DMCA), chúng tôi đã chỉ định một đại diện"
+" để nhận thông báo về xâm phạm bản quyền đối với các tên miền của Stanford "
+"University Network: Stanford.EDU, Stanford.ORG và Stanford.COM. Nếu bạn cho "
+"rằng tác phẩm có bảo hộ bản quyền của bạn đã bị sao chép theo bất kỳ cách "
+"nào cấu thành xâm phạm bản quyền, vui lòng liên hệ Đại Diện Chỉ Định DMCA "
+"của Stanford tại DMCA-Claim@Stanford.EDU đồng gửi đến {contact_email} và "
+"cung cấp thông tin bằng văn bản sau đây: (i) chữ ký điện tử hoặc chữ ký viết"
+" tay của người được ủy quyền thay mặt chủ sở hữu bản quyền; (ii) một bản mô "
+"tả tác phẩm có bảo hộ bản quyền mà bạn khẳng định là bị xâm phạm; (iii) một "
+"bản mô tả về vị trí của tài liệu trên Trang Web mà bạn khẳng định là vi "
+"phạm; (iv) địa chỉ, số điện thoại, và địa chỉ email của bạn; (v) bản tuyên "
+"bố của bạn rằng bạn có thiện chí tin rằng việc sử dụng có bất đồng là không "
+"được phép của chủ sở hữu bản quyền, đại diện của họ hay luật pháp; và (vi) "
+"bản tuyên bố của bạn, và bạn chịu trách nhiệm nếu khai man, rằng thông tin "
+"bên trên trong thông báo của bạn là chính xác và bạn là chủ sở hữu bản quyền"
+" hoặc được ủy quyền thay mặt chủ sở hữu bản quyền. "
+
+#: templates/static_templates/theme-tos.html:532
+msgid "Notices"
+msgstr "Thông báo"
+
+#: templates/static_templates/theme-tos.html:535
+msgid ""
+"Notices to you may be made via either email or regular mail. Notices to Stanford should be directed to\n"
+"            the email listed below. The Site may also provide notices of changes to these Terms or other matters by\n"
+"            displaying notices or links to notices to you on the Site.\n"
+"        "
+msgstr ""
+"Thông báo cho bạn có thể được thực hiện qua email hoặc thư thường. Thông báo"
+" cho Stanford phải được chuyển đến email được liệt kê bên dưới. Trang Web "
+"cũng có thể gửi thông báo về thay đổi đối với Các Điều Khoản này hoặc các "
+"vấn đề khác bằng cách hiển thị thông báo hoặc liên kết đến các thông báo cho"
+" bạn trên Trang Web. "
+
+#: templates/static_templates/theme-tos.html:541
+msgid "General Information"
+msgstr "Thông Tin Tổng Quát"
+
+#: templates/static_templates/theme-tos.html:544
+msgid ""
+"Stanford's failure to exercise or enforce any right or provision of the Terms shall not constitute a\n"
+"            waiver of such right or provision. If any provision of the Terms is found by a court of competent\n"
+"            jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect\n"
+"            to the parties' intentions as reflected in the provision, and the other provisions of the Terms remain in\n"
+"            full force and effect.\n"
+"        "
+msgstr ""
+"Việc Stanford không thực thi bất kỳ quyền hay quy định nào của Các Điều "
+"Khoản này sẽ không cấu thành việc miễn trừ các quyền hay quy định như thế. "
+"Nếu bất kỳ quy định nào của Các Điều Khoản bị một tòa án có thẩm quyền thấy "
+"là không hợp lệ, các bên đồng ý rằng tòa sẽ nỗ lực thực thi ý định của các "
+"bên như được phản ánh trong quy định, và các quy định khác của Các Điều "
+"Khoản vẫn có hiệu lực đầy đủ. "
+
+#: templates/static_templates/theme-tos.html:553
+msgid ""
+"You may not assign the Terms or any of your rights or obligations under the Terms without Stanford's\n"
+"            express prior written consent.\n"
+"        "
+msgstr ""
+"Bạn không được chỉ định Các Điều Khoản hoặc bất kỳ quyền hay nghĩa vụ nào "
+"của bạn theo Các Điều Khoản này mà không có sự đồng ý rõ bằng văn bản của "
+"Stanford. "
+
+#: templates/static_templates/theme-tos.html:559
+msgid ""
+"The Terms inure to the benefit of Stanford's successors, assigns and licensees. The section titles in\n"
+"            the Terms are for convenience only and have no legal or contractual effect.\n"
+"        "
+msgstr ""
+"Các Điều Khoản có hiệu lực vì lợi ích của những người thừa nhiệm, người được"
+" chỉ định và các bên được cấp phép của Stanford. Các tiêu đề của mỗi mục "
+"trong Các Điều Khoản chỉ để cho tiện và không có hiệu lực pháp lý hay hợp "
+"đồng. "
+
+#: templates/static_templates/theme-tos.html:566
+msgid "Honor Code"
+msgstr "Quy Tắc Danh Dự"
+
+#: templates/static_templates/theme-tos.html:569
+msgid ""
+"By registering in an online course, you agree to: rely solely on your own work in connection with all\n"
+"            assessments, problems, homework and assignments (unless collaboration is expressly permitted); acknowledge\n"
+"            any and all external sources used in your work; refrain from any activity that would dishonestly or\n"
+"            fraudulently improve your results or disadvantage others in the course; maintain only one user account and\n"
+"            not let anyone else use your username and/or password; and not access or attempt to access any other\n"
+"            user's account, or misrepresent or attempt to misrepresent your identity while using the Sites. This\n"
+"            Honor Code is not intended to prohibit discussion of course material. While users must submit work that\n"
+"            is their own, you should feel free to discuss lectures or other course material with others either\n"
+"            in-person or online.\n"
+"        "
+msgstr ""
+"Bằng cách đăng ký một khóa học trực tuyến, bạn đồng ý: chỉ dựa vào bài làm "
+"của bạn liên quan đến tất cả đánh giá, bài tập, bài tập về nhà và bài tập "
+"được giao (trừ phi được phép hợp tác); xác nhận bất kỳ và tất cả các nguồn "
+"bên ngoài được sử dụng trong bài làm của bạn; tránh bất kỳ hoạt động nào "
+"giúp cải thiện kết quả của bạn theo cách không trung thực hoặc gian lận hoặc"
+" gây bất lợi cho những người khác trong khóa học; chỉ duy trì một tài khoản "
+"người dùng và không cho phép bất kỳ ai khác sử dụng tên người dùng và/hoặc "
+"mật khẩu của bạn; và không truy cập hay tìm cách truy cập tài khoản của bất "
+"kỳ người dùng nào khác, hoặc cung cấp sai hoặc tìm cách cung cấp sai thông "
+"tin nhận dạng của bạn khi sử dụng các Trang Web. Quy Tắc Danh Dự này không "
+"nhằm cấm thảo luận về tài liệu khóa học. Mặc dù người dùng phải nộp bài làm "
+"là bài của chính mình, bạn nên thoải mái thảo luận trực tiếp hoặc trực tuyến"
+" về các bài giảng hoặc tài liệu khác của khóa học với người khác. "
+
+#: templates/static_templates/theme-tos.html:582
+msgid ""
+"Stanford employees using this Site are expected to abide by the University Code of Conduct,\n"
+"            Administrative Guide Memo 1.\n"
+"        "
+msgstr ""
+"Nhân viên của Stanford sử dụng Trang Web được kỳ vọng tuân thủ Quy Tắc Ứng "
+"Xử của Nhà Trường, Ghi Nhớ Hướng Dẫn Quản Lý Hành Chính Số 1. "
+
+#: templates/static_templates/theme-tos.html:589
+msgid "Privacy Policy"
+msgstr "CHÍNH SÁCH VỀ QUYỀN RIÊNG TƯ"
+
+#: templates/static_templates/theme-tos.html:592
+msgid ""
+"Stanford respects your privacy, will use reasonable efforts to keep your Personally Identifiable\n"
+"            Information (i.e., information that can be used to identify you) private, and will not share it with third\n"
+"            parties, except as otherwise provided in this Privacy Policy, or unless Stanford has a good faith belief\n"
+"            that such disclosure is necessary in special cases, such as a physical threat to you or others.\n"
+"        "
+msgstr ""
+"Stanford tôn trọng quyền riêng tư của bạn, sẽ cố gắng hợp lý để bảo mật "
+"Thông Tin Nhận Dạng Cá Nhân của bạn (có nghĩa là thông tin có thể được sử "
+"dụng để nhận dạng bạn), và sẽ không chia sẻ với các bên thứ ba, trừ phi được"
+" quy định khác trong Chính Sách về Quyền Riêng Tư này, hoặc trừ phi Stanford"
+" có thiện chí cho rằng sự tiết lộ như thế là cần thiết trong các trường hợp "
+"đặc biệt, chẳng hạn như mối đe dọa về thân thể đối với bạn hoặc người khác. "
+
+#: templates/static_templates/theme-tos.html:599
+msgid "What Information this Privacy Policy Covers"
+msgstr "Chính Sách về Quyền Riêng Tư Này Bao Quát Những Thông Tin Gì"
+
+#: templates/static_templates/theme-tos.html:602
+msgid ""
+"Some of our Site's functionality can be used without revealing any personal information; however, for\n"
+"            features or services related to an online course registration and participation, personal information is\n"
+"            required. If you do not use these specific features or services on the Site, then the only information\n"
+"            Stanford collects will be \"Non-Personal Information\" (i.e., information that cannot be used to identify\n"
+"            you). Non-Personal Information includes information such as the web pages that you have viewed.\n"
+"        "
+msgstr ""
+"Một số chức năng của Trang Web có thể được sử dụng mà không tiết lộ bất kỳ "
+"thông tin cá nhân nào; tuy nhiên, đối với các tính năng hoặc dịch vụ liên "
+"quan đến việc đăng ký và tham gia một khóa học trực tuyến, thông tin cá nhân"
+" là bắt buộc. Nếu bạn không sử dụng các tính năng hay dịch vụ cụ thể này "
+"trên Trang Web, thì thông tin duy nhất mà Stanford thu thập sẽ là \"Thông "
+"Tin Phi Cá Nhân\" (có nghĩa là thông tin không thể dùng để nhận dạng bạn). "
+"Thông Tin Phi Cá Nhân bao gồm thông tin chẳng hạn như các trang web mà bạn "
+"đã xem. "
+
+#: templates/static_templates/theme-tos.html:611
+msgid ""
+"In order to access certain features and benefits on our Site, you may need to submit \"Personally\n"
+"            Identifiable Information\". Personally Identifiable Information can include information such as your name\n"
+"            and email address, among other things. You are responsible for ensuring the accuracy of the Personally\n"
+"            Identifiable Information you submit to Stanford. Inaccurate information may affect your ability to use the\n"
+"            Site, the information you receive when using the Site, and our ability to contact you. For example, your\n"
+"            email address should be kept current because that is one of the primary means by which we communicate with\n"
+"            you.\n"
+"        "
+msgstr ""
+"Để truy cập các tính năng và lợi ích nhất định trên Trang Web của chúng tôi,"
+" bạn cần phải gửi \"Thông Tin Nhận Dạng Cá Nhân\". Thông Tin Nhận Dạng Cá "
+"Nhân có thể bao gồm thông tin như tên và địa chỉ email của bạn, ngoài các "
+"thông tin khác. Bạn có trách nhiệm đảm bảo tính chính xác của Thông Tin Nhận"
+" Dạng Cá Nhân mà bạn gửi cho Stanford. Thông tin không chính xác có thể ảnh "
+"hưởng đến khả năng của bạn trong việc sử dụng Trang Web, thông tin bạn nhận "
+"được khi sử dụng Trang Web, và khả năng chúng tôi liên hệ bạn. Ví dụ, phải "
+"cập nhật địa chỉ email của bạn vì đây là phương thức liên lạc chính giữa "
+"chúng tôi và bạn. "
+
+#: templates/static_templates/theme-tos.html:622
+msgid ""
+"Please note that this Privacy Policy only applies to information that we collect through the Site and\n"
+"            does not apply to information that we may collect from you through other means such as by mail or over\n"
+"            the phone.\n"
+"        "
+msgstr ""
+"Vui lòng lưu ý rằng Chính Sách về Quyền Riêng Tư này chỉ áp dụng cho thông "
+"tin chúng tôi thu thập thông qua Trang Web và không áp dụng cho thông tin "
+"chúng tôi có thể thu thập từ bạn qua cách khác chẳng hạn như qua đường bưu "
+"điện hoặc qua điện thoại. "
+
+#: templates/static_templates/theme-tos.html:628
+msgid "What You Consent to by Using Our Site"
+msgstr "Bạn Đồng Ý Với Điều Gì Khi Sử Dụng Trang Web Của Chúng Tôi"
+
+#: templates/static_templates/theme-tos.html:631
+msgid ""
+"Please understand that by submitting any Personally Identifiable Information to us, you consent and\n"
+"            agree that Stanford may collect, use and disclose such Personally Identifiable Information in accordance\n"
+"            with this Privacy Policy and our Terms of Use, and as permitted or required by law. If you do not agree\n"
+"            with these terms, then please do not provide any Personally Identifiable Information to us. If you refuse\n"
+"            or withdraw your consent, or if you choose not to provide us with any required Personally Identifiable\n"
+"            Information, Stanford may not be able to provide you with the services and courses that can be offered on\n"
+"            our Site.\n"
+"        "
+msgstr ""
+"Vui lòng hiểu rằng bằng việc gửi bất kỳ Thông Tin Nhận Dạng Cá Nhân nào cho "
+"chúng tôi, bạn đồng ý rằng Stanford có thể thu thập, sử dụng và tiết lộ "
+"Thông Tin Nhận Dạng Cá Nhân đó theo Chính Sách về Quyền Riêng Tư này và Các "
+"Điều Khoản Sử Dụng của chúng tôi, và khi được pháp luật cho phép hoặc quy "
+"định. Nếu bạn không đồng ý với các điều khoản này, thì vui lòng không cung "
+"cấp bất kỳ Thông Tin Nhận Dạng Cá Nhân nào cho chúng tôi. Nếu bạn từ chối "
+"hoặc rút lại sự đồng ý, hoặc nếu bạn không muốn cung cấp cho chúng tôi bất "
+"kỳ Thông Tin Nhận Dạng Cá Nhân nào được yêu cầu, Stanford có thể không cung "
+"cấp dịch vụ và các khóa học đề nghị trên Trang Web của chúng tôi cho bạn "
+"được. "
+
+#: templates/static_templates/theme-tos.html:641
+msgid "The Information We Collect"
+msgstr "Thông Tin Chúng Tôi Thu Thập"
+
+#: templates/static_templates/theme-tos.html:643
+msgid ""
+"We gather the following types of information about users through the Site:"
+msgstr ""
+"Chúng tôi thu thập các loại thông tin sau đây về người dùng thông qua Trang "
+"Web:"
+
+#: templates/static_templates/theme-tos.html:646
+#: templates/static_templates/theme-tos.html:719
+msgid "Non-Personal Information"
+msgstr "Thông Tin Phi Cá Nhân"
+
+#: templates/static_templates/theme-tos.html:647
+msgid ""
+"When users come to our Site, Stanford may track, collect and aggregate Non-Personal Information\n"
+"            indicating, among other things, which pages of our Site were visited, the order in which they were\n"
+"            visited, when they were visited, and which hyperlinks were \"clicked.\" We also collect information from the\n"
+"            URLs from which you linked to our Site. Collecting such information may involve logging the IP address,\n"
+"            operating system and browser software used by each user of the Site. Although such information is not\n"
+"            Personally Identifiable Information, we may be able to determine from an IP address a user's Internet\n"
+"            Service Provider and the geographic location of his or her point of connectivity.\n"
+"        "
+msgstr ""
+"Khi người dùng truy cập Trang Web của chúng tôi, Stanford có thể theo dõi, "
+"thu thập và tổng hợp Thông Tin Phi Cá Nhân cho biết, ngoài các thông tin "
+"khác, các trang nào thuộc Trang Web của chúng tôi đã được truy cập, thứ tự "
+"truy cập, thời điểm truy cập, và các siêu liên kết nào đã được \"nhấp vào\"."
+" Chúng tôi cũng thu thập thông tin từ các URL từ đó bạn liên kết đến Trang "
+"Web của chúng tôi. Việc thu thập thông tin như thế có thể bao gồm việc ghi "
+"chép lại địa chỉ IP, hệ điều hành và phần mềm trình duyệt được sử dụng bởi "
+"từng người dùng của Trang Web. Mặc dù thông tin như thế không phải là Thông "
+"Tin Nhận Dạng Cá Nhân, nhưng chúng tôi có thể xác định Nhà Cung Cấp Dịch Vụ "
+"Internet của người dùng từ địa chỉ IP và vị trí địa lý của điểm kết nối của "
+"họ. "
+
+#: templates/static_templates/theme-tos.html:658
+msgid "Cookies"
+msgstr "Cookie"
+
+#: templates/static_templates/theme-tos.html:659
+msgid ""
+"Stanford also uses or may use cookies and/or web beacons to help us determine and identify repeat\n"
+"            visitors, the type of content and sites to which a user of our Site links, the length of time each user\n"
+"            spends at any particular area of our Site, and the specific functionalities that users choose to use.\n"
+"            Essentially, cookies are a user's identification card for the Stanford servers. Web beacons are small\n"
+"            graphic files linked to our servers that allow us to track your use of our Site and related\n"
+"            functionalities. Cookies and web beacons allow Stanford to serve you better and more efficiently, and to\n"
+"            personalize your experience at our Site. Cookies and web beacons are not used to retain Personally\n"
+"            Identifiable Information. From time to time Stanford may also use additional methods of collecting data.\n"
+"            Stanford does not provide any data collected through cookies to third parties.\n"
+"        "
+msgstr ""
+"Stanford cũng sử dụng hoặc có thể sử dụng cookie và/hoặc web beacon để giúp "
+"chúng tôi xác định và nhận dạng khách truy cập trở lại, loại nội dung và "
+"trang web mà người dùng Trang Web của chúng tôi liên kết đến, thời lượng mỗi"
+" người dùng dành ra ở một khu vực cụ thể của Trang Web của chúng tôi, và các"
+" chức năng cụ thể mà người dùng chọn sử dụng. Về cơ bản, cookie là \"thẻ căn"
+" cước\" của một người dùng đối với các máy chủ của Stanford. Web beacon là "
+"các tập tin đồ họa nhỏ liên kết đến các máy chủ của chúng tôi, cho phép "
+"chúng tôi theo dõi việc bạn sử Trang Web của chúng tôi và các chức năng liên"
+" quan. Cookie và web beacon cho phép Stanford phục vụ bạn tốt hơn và hiệu "
+"quả hơn, và tùy chỉnh trải nghiệm của bạn tại Trang Web của chúng tôi. "
+"Cookie và web beacon không được sử dụng để lưu lại Thông Tin Nhận Dạng Cá "
+"Nhân. Đôi khi, Stanford cũng có thể sử dụng các phương pháp khác để thu thập"
+" dữ liệu. Stanford không cung cấp bất kỳ dữ liệu nào được thu thập thông qua"
+" cookie cho các bên thứ ba. "
+
+#: templates/static_templates/theme-tos.html:672
+msgid ""
+"You should be able to control how and whether cookies will be accepted by your web browser. Most\n"
+"            browsers offer instructions, in the \"Help\" section of the toolbar, on how to reset the browser to reject\n"
+"            cookies. If you reject our cookies, many functions and conveniences of this Site may not work properly.\n"
+"        "
+msgstr ""
+"Bạn sẽ có thể kiểm soát trình duyệt web của bạn chấp nhận cookie như thế nào"
+" và có chấp nhận hay không. Hầu hết các trình duyệt đều có hướng dẫn trong "
+"phần \"Help\" (Trợ Giúp) của thanh công cụ, về cách cài đặt lại trình duyệt "
+"để từ chối cookie. Nếu bạn từ chối cookie của chúng tôi, nhiều chức năng và "
+"tiện ích của Trang Web này có thể không hoạt động chính xác. "
+
+#: templates/static_templates/theme-tos.html:679
+#: templates/static_templates/theme-tos.html:730
+msgid "Personally Identifiable Information"
+msgstr "Thông Tin Nhận Dạng Cá Nhân"
+
+#: templates/static_templates/theme-tos.html:680
+msgid ""
+"This Privacy Policy serves as notice that Stanford collects Personally Identifiable Information in the\n"
+"            manner described herein. Such information may include but is not limited to: username, email address, home\n"
+"            address, IP address, postal code, gender and year of birth. Stanford collects Personally Identifiable Information that\n"
+"            you provide to us when you sign-up for email updates, participate in online courses or services through\n"
+"            our Site, participate in our public forums, send us email messages, and/or or otherwise contact us. In\n"
+"            order to subscribe to services, you may be required to provide us with Personally Identifiable Information\n"
+"            such as your user name, name, postal address, and email address. You may also be asked to provide\n"
+"            demographic information such as date of birth, gender and educational and vocational information. Stanford\n"
+"            may also receive Personally Identifiable Information when you access or log-in to a third party site,\n"
+"            e.g., Facebook, from our Site. This may include the text and/or images of your Personally Identifiable\n"
+"            Information available from the third party site. Personally Identifiable Information shall not include\n"
+"            any information posted or sent by or to you via any public forum.\n"
+"        "
+msgstr ""
+"Chính Sách về Quyền Riêng Tư này đóng vai trò như thông báo rằng Stanford "
+"thu thập Thông Tin Nhận Dạng Cá Nhân theo cách được mô tả trong đây. Thông "
+"tin như thế có thể bao gồm nhưng không giới hạn ở: tên người dùng, địa chỉ "
+"email, địa chỉ nhà, địa chỉ IP, mã bưu chính, giới tính và năm sinh. "
+"Stanford thu thập Thông Tin Nhận Dạng Cá Nhân mà bạn cung cấp cho chúng tôi "
+"khi bạn đăng ký nhận cập nhật email, tham gia các khóa học trực tuyến hoặc "
+"các dịch vụ thông qua Trang Web của chúng tôi, tham gia các diễn đàn công "
+"khai của chúng tôi, gửi email cho chúng tôi, và/hoặc liên hệ chúng tôi theo "
+"cách khác. Để đăng ký nhận các dịch vụ của chúng tôi, bạn phải cung cấp "
+"Thông Tin Nhận Dạng Cá Nhân cho chúng tôi chẳng hạn như tên người dùng, tên,"
+" địa chỉ bưu chính, và địa chỉ email của bạn. Bạn cũng có thể được yêu cầu "
+"cung cấp thông tin về nhân khẩu học chẳng hạn như ngày sinh, giới tính và "
+"thông tin trình độ và nghề nghiệp. Stanford cũng có thể nhận Thông Tin Nhận "
+"Dạng Cá Nhân khi bạn truy cập hoặc đăng nhập một trang web bên thứ ba ví dụ "
+"như Facebook từ Trang Web của chúng tôi. Trường hợp này có thể gồm có văn "
+"bản và/hoặc hình ảnh Thông Tin Nhận Dạng Cá Nhân của bạn được cung cấp từ "
+"trang web bên thứ ba. Thông Tin Nhận Dạng Cá Nhân sẽ không bao gồm bất kỳ "
+"thông tin nào được đăng hoặc gửi bởi hoặc cho bạn qua bất kỳ diễn đàn công "
+"khai nào. "
+
+#: templates/static_templates/theme-tos.html:695
+msgid "Collection of Information by Third Parties"
+msgstr "Thu Thập Thông Tin bởi Các Bên Thứ Ba"
+
+#: templates/static_templates/theme-tos.html:698
+msgid ""
+"We may permit a limited number of authorized third parties, such as analytics partners, to place cookies\n"
+"            through the Site to provide us with better insights into the use of the Site or user demographics. These\n"
+"            third parties may collect information, including non-personal information, about a consumer's online\n"
+"            activities over time and across different websites when he or she uses our website.\n"
+"        "
+msgstr ""
+"Chúng tôi có thể cho phép một số lượng hạn chế các bên thứ ba được phép, "
+"chẳng hạn như các đối tác phân tích, đặt cookie thông qua Trang Web để cung "
+"cấp cho chúng tôi thông tin chi tiết hơn về việc sử dụng Trang Web hoặc "
+"thông tin nhân khẩu học của người dùng. Các bên thứ ba này có thể thu thập "
+"thông tin, bao gồm thông tin phi cá nhân, về các hoạt động trực tuyến của "
+"người tiêu dùng theo thời gian và ở các trang web khác nhau khi họ sử dụng "
+"trang web của chúng tôi. "
+
+#: templates/static_templates/theme-tos.html:705
+msgid "Do Not Track"
+msgstr "Không Được Theo Dõi"
+
+#: templates/static_templates/theme-tos.html:707
+msgid ""
+"We do not use technology that recognizes a \"do-not-track\" signal from your"
+" web browser."
+msgstr ""
+"Chúng tôi không sử dụng công nghệ nhận biết tín hiệu \"không được theo dõi\""
+" từ trang web của bạn."
+
+#: templates/static_templates/theme-tos.html:709
+msgid "How We Use and Share the Information"
+msgstr "Chúng Tôi Sử Dụng và Chia Sẻ Thông Tin Như Thế Nào"
+
+#: templates/static_templates/theme-tos.html:712
+msgid ""
+"Please take some time to familiarize yourself with the different ways Stanford uses and may disclose the\n"
+"            information that we gather. We do not share your Personally Identifiable Information with third parties for\n"
+"            their direct marketing use.\n"
+"        "
+msgstr ""
+"Vui lòng dành ra một chút thời gian tự làm quen với các cách khác nhau theo "
+"đó Stanford sử dụng và có thể tiết lộ thông tin mà chúng tôi thu thập. Chúng"
+" tôi không chia sẻ Thông Tin Nhận Dạng Cá Nhân của bạn với các bên thứ ba "
+"cho mục đích tiếp thị trực tiếp của họ. "
+
+#: templates/static_templates/theme-tos.html:720
+msgid ""
+"Stanford uses Non-Personal Information in aggregate form to build higher quality, more useful services\n"
+"            by performing statistical analyses of the collective characteristics and behavior of our users, and by\n"
+"            measuring demographics and interests regarding specific areas of our Site. Such aggregate information may\n"
+"            include but is not limited to video player interactions, views of posts, views and actions on pages,\n"
+"            assessment results and completion rates and assignments. We may share Non-Personal Information with\n"
+"            service providers and others to assist us in operating and enhancing our programs and site.\n"
+"        "
+msgstr ""
+"Stanford sử dụng Thông Tin Phi Cá Nhân dưới hình thức tổng hợp để xây dựng "
+"các dịch vụ có chất lượng cao hơn, hữu dụng hơn bằng cách thực hiện phân "
+"tích thống kê về các đặc điểm và hành vi chung của người dùng, và bằng cách "
+"đánh giá thông tin nhân khẩu học và mối quan tâm đối với các khu vực cụ thể "
+"của Trang Web của chúng tôi. Thông tin tổng hợp như thế có thể bao gồm nhưng"
+" không giới hạn ở tương tác công cụ phát video, lượt xem các bài viết, lượt "
+"xem và thao tác trên các trang, kết quả đánh giá và tỉ lệ hoàn thành và "
+"nhiệm vụ được giao. Chúng tôi có thể chia sẻ Thông Tin Phi Cá Nhân với các "
+"nhà cung cấp dịch vụ và những người khác để giúp chúng tôi điều hành và cải "
+"thiện các chương trình và trang web của chúng tôi."
+
+#: templates/static_templates/theme-tos.html:731
+msgid ""
+"Among other things, Stanford may use the Personally Identifiable Information that you provide to\n"
+"            respond to your questions, provide you the specific course and/or services you select, send you updates\n"
+"            about online courses offered by Stanford or other Stanford events, and send you email messages about Site\n"
+"            maintenance or updates. Except as set forth in this Privacy Policy or as specifically agreed to by you,\n"
+"            Stanford will not disclose any Personally Identifiable Information we gather from you on the Site. In\n"
+"            addition to the other uses set forth in this Privacy Policy, Stanford may disclose and otherwise use\n"
+"            Personally Identifiable Information as described below.\n"
+"        "
+msgstr ""
+"Ngoài các trường hợp khác, Stanford có thể sử dụng Thông Tin Nhận Dạng Cá "
+"Nhân mà bạn cung cấp để giải đáp các thắc mắc của bạn, cung cấp cho bạn khóa"
+" học cụ thể và/hoặc các dịch vụ bạn chọn, gửi cho bạn thông tin cập nhật về "
+"các khóa học trực tuyến do Stanford đề nghị hoặc các sự kiện khác của "
+"Stanford, và gửi email cho bạn về việc bảo trì hoặc cập nhật Trang Web. Trừ "
+"phi được quy định trong Chính Sách về Quyền Riêng Tư này hoặc được bạn đồng "
+"ý cụ thể, Stanford sẽ không tiết lộ bất kỳ Thông Tin Nhận Dạng Cá Nhân nào "
+"mà chúng tôi thu thập từ bạn trên Trang Web. Ngoài các trường hợp sử dụng "
+"khác được quy định trong Chính Sách về Quyền Riêng Tư này, Stanford có thể "
+"tiết lộ và sử dụng Thông Tin Nhận Dạng Cá Nhân theo cách khác như mô tả bên "
+"dưới."
+
+#: templates/static_templates/theme-tos.html:742
+msgid "Updates"
+msgstr "Cập nhật"
+
+#: templates/static_templates/theme-tos.html:743
+msgid ""
+"We use Personally Identifiable Information collected when you sign-up for our various email or update\n"
+"            services to send you the messages in connection with the Site or an online course. Stanford may also\n"
+"            archive this information and/or use it for future communications with you.\n"
+"        "
+msgstr ""
+"Chúng tôi sử dụng Thông Tin Nhận Dạng Cá Nhân đã thu thập khi bạn đăng ký "
+"nhận email hoặc cập nhật dịch vụ để gửi thông báo cho bạn liên quan đến "
+"Trang Web hoặc một khóa học trực tuyến. Stanford cũng có thể lưu trữ thông "
+"tin này và/hoặc sử dụng nó để liên lạc với bạn trong tương lai."
+
+#: templates/static_templates/theme-tos.html:750
+msgid "Forums"
+msgstr "Các diễn đàn"
+
+#: templates/static_templates/theme-tos.html:751
+msgid ""
+"Stanford uses Personally Identifiable Information collected during your use of forums to facilitate your\n"
+"            use of the forums. In addition Stanford may display this information either on the Site and/or in other\n"
+"            publications. Stanford may also archive this information and/or use it for future communications with you\n"
+"            and/or your designee(s). Since the forum is open to the public, you may wish to select a username which\n"
+"            does not disclose your identity when you post on the forum.\n"
+"        "
+msgstr ""
+"Stanford sử dụng Thông Tin Nhận Dạng Cá Nhân đã thu thập trong quá trình bạn"
+" sử dụng các diễn đàn để tạo điều kiện cho bạn sử dụng các diễn đàn. Ngoài "
+"ra, Stanford có thể hiển thị thông tin này hoặc trên Trang Web và/hoặc trong"
+" các ấn phẩm khác. Stanford cũng có thể lưu trữ thông tin này và/hoặc sử "
+"dụng nó để liên lạc với bạn và/hoặc (những) người được bạn chỉ định trong "
+"tương lai. Vì diễn đàn dành cho công chúng, bạn có thể muốn chọn một tên "
+"người dùng không tiết lộ danh tính của bạn khi bạn đăng bài lên diễn đàn. "
+
+#: templates/static_templates/theme-tos.html:760
+msgid "Participation in Online Courses"
+msgstr "Tham Gia Các Khóa Học Trực Tuyến"
+
+#: templates/static_templates/theme-tos.html:761
+msgid ""
+"We use the Personally Identifiable Information, including but not limited to username and email\n"
+"            address, that we collect from you when you participate in an online course through the Site for processing\n"
+"            purposes, including but not limited to tracking attendance, progress and completion of an online course.\n"
+"            Also, Stanford may archive this information and/or use it for future communications with you. This\n"
+"            information may be shared with the content providers or contractors.\n"
+"        "
+msgstr ""
+"Chúng tôi sử dụng Thông Tin Nhận Dạng Cá Nhân, bao gồm nhưng không giới hạn "
+"ở tên người dùng và địa chỉ email, mà chúng tôi thu thập từ bạn khi bạn tham"
+" gia một khóa học trực tuyến thông qua Trang Web phục vụ mục đích xử lý, bao"
+" gồm nhưng không giới hạn ở theo dõi chuyên cần, tiến bộ và việc hoàn thành "
+"một khóa học trực tuyến. Ngoài ra, Stanford có thể lưu trữ thông tin này "
+"và/hoặc sử dụng nó để liên lạc với bạn trong tương lai. Thông tin này có thể"
+" được chia sẻ với các nhà cung cấp nội dung hoặc các nhà thầu. "
+
+#: templates/static_templates/theme-tos.html:770
+msgid "Communications with Stanford"
+msgstr "Liên Lạc với Stanford"
+
+#: templates/static_templates/theme-tos.html:771
+msgid ""
+"When you send us an email message or otherwise contact us, we may use the information provided by you\n"
+"            to respond to your communication and/or as described in this Privacy Policy. We may also archive this\n"
+"            information and/or use it for future communications with you.\n"
+"        "
+msgstr ""
+"Khi bạn gửi email hoặc liên lạc chúng tôi theo cách khác, chúng tôi có thể "
+"sử dụng thông tin do bạn cung cấp để trả lời thư từ của bạn và/hoặc như được"
+" mô tả trong Chính Sách về Quyền Riêng Tư này. Chúng tôi cũng có thể lưu trữ"
+" thông tin này và/hoặc sử dụng nó để liên lạc với bạn trong tương lai. "
+
+#: templates/static_templates/theme-tos.html:778
+msgid "Research"
+msgstr "Nghiên cứu"
+
+#: templates/static_templates/theme-tos.html:779
+msgid ""
+"We will study course participation to learn how to enhance both our course offerings and the online\n"
+"            learning experience. Records of your participation may be used by Stanford for these research studies.\n"
+"            Such records may include but will not be limited to: username, email address, home address, IP address, postal code,\n"
+"            gender, year of birth and your interactions with the platform such as video player usage, forum posts,\n"
+"            actions on class pages, assignments, and assessment results. For purposes of research, we may share\n"
+"            information we collect from online learning activities, including Personally Identifiable Information\n"
+"            (\"PII\"), with researchers beyond Stanford. However, your PII will only be shared as permitted by\n"
+"            applicable law, will be limited to what is necessary to perform the research and will be subject to an\n"
+"            agreement to protect the data. We may also share with the public or third parties aggregated information\n"
+"            that does not personally identify you. Similarly, any research findings will be reported at the aggregate\n"
+"            level and will not expose your personal identity.\n"
+"        "
+msgstr ""
+"Chúng tôi sẽ nghiên cứu việc tham gia khóa học để tìm hiểu cách cải thiện cả"
+" các chương trình khóa học và trải nghiệm học trực tuyến. Hồ sơ về việc tham"
+" gia của bạn có thể được Stanford sử dụng cho các nghiên cứu này. Các hồ sơ "
+"đó có thể bao gồm nhưng sẽ không giới hạn ở: tên người dùng, địa chỉ email, "
+"địa chỉ nhà, địa chỉ IP, mã bưu chính, giới tính, ngày sinh và sự tương tác "
+"của bạn với nền ứng dụng như sử dụng công cụ phát video, bài viết diễn đàn, "
+"thao tác trên các trang của lớp, bài tập được giao, và kết quả đánh giá. Vì "
+"mục đích nghiên cứu, chúng tôi có thể chia sẻ thông tin chúng tôi thu thập "
+"từ các hoạt động học tập trực tuyến, bao gồm Thông Tin Nhận Dạng Cá Nhân "
+"(\"PII\"), với các nhà nghiên cứu bên ngoài Stanford. Tuy nhiên, PII của bạn"
+" sẽ chỉ được chia sẻ khi luật pháp hiện hành cho phép, sẽ giới hạn ở những "
+"nội dung cần thiết để tiến hành nghiên cứu, và sẽ tuân thủ một thỏa thuận "
+"bảo vệ dữ liệu. Chúng tôi cũng có thể chia sẻ thông tin tổng hợp không nhận "
+"dạng cá nhân bạn với công chúng hoặc các bên thứ ba. Tương tự, bất kỳ kết "
+"luận nghiên cứu nào sẽ được báo cáo ở cấp tổng hợp và sẽ không để lộ danh "
+"tính cá nhân của bạn. "
+
+#: templates/static_templates/theme-tos.html:794
+msgid "Third Party Sites"
+msgstr "Các Trang Bên Thứ Ba"
+
+#: templates/static_templates/theme-tos.html:795
+msgid ""
+"We use the Personally Identifiable Information collected from third party sites for research and\n"
+"            teaching purposes. To the extent such Personally Identifiable Information contains images of you; you\n"
+"            grant Stanford a limited, non-exclusive right to use, reproduce, distribute, prepare derivative works of\n"
+"            or publicly display such images and/or your likeness for educational purposes.\n"
+"        "
+msgstr ""
+"Chúng tôi sử dụng Thông Tin Nhận Dạng Cá Nhân đã thu thập từ các trang của "
+"bên thứ ba phục vụ mục đích nghiên cứu và giảng dạy. Trong trường hợp Thông "
+"Tin Nhận Dạng Cá Nhân như thế chứa hình ảnh về bạn; bạn cho phép Stanford có"
+" quyền ở mức hạn chế, không độc quyền để sử dụng, sao chép, phân phối, lập "
+"phó bản hoặc trưng bày công khai hình ảnh đó và/hoặc hình ảnh của bạn để "
+"phục vụ mục đích giáo dục. "
+
+#: templates/static_templates/theme-tos.html:803
+msgid "Disclosure to Complete Transactions"
+msgstr "Tiết Lộ để Hoàn Tất Giao Dịch"
+
+#: templates/static_templates/theme-tos.html:804
+msgid ""
+"We may disclose your Personally Identifiable Information in order to help complete a transaction that\n"
+"            you have requested. This may include, for example, disclosure of credit card information to a payment\n"
+"            processor.\n"
+"        "
+msgstr ""
+"Chúng tôi có thể tiết lộ Thông Tin Nhận Dạng Cá Nhân của bạn để giúp hoàn "
+"tất một giao dịch mà bạn đã yêu cầu. Trường hợp này có thể bao gồm, ví dụ, "
+"tiết lộ thông tin thẻ tín dụng cho một đơn vị xử lý thanh toán. "
+
+#: templates/static_templates/theme-tos.html:811
+msgid "Disclosure to Stanford Contractors"
+msgstr "Tiết Lộ cho Các Nhà Thầu của Stanford"
+
+#: templates/static_templates/theme-tos.html:812
+msgid ""
+"Our contractors may have limited access to your Personally Identifiable Information in the course of\n"
+"            providing products or services to us. These contractors may include vendors and suppliers that provide\n"
+"            us with technology, services, marketing assistance, and/or content related to the operation and\n"
+"            maintenance of the Site or the online course. Access to your Personally Identifiable Information by these\n"
+"            contractors is limited to the information reasonably necessary for the contractor to perform its limited\n"
+"            function for us.\n"
+"        "
+msgstr ""
+"Các nhà thầu của chúng tôi có thể có tiếp cận hạn chế đối với Thông Tin Nhận"
+" Dạng Cá Nhân của bạn trong quá trình cung cấp các sản phẩm hoặc dịch vụ cho"
+" chúng tôi. Các nhà thầu này có thể bao gồm các nhà cung ứng và các nhà cung"
+" cấp công nghệ, dịch vụ, hỗ trợ tiếp thị, và/hoặc nội dung liên quan đến "
+"điều hành và bảo trì Trang Web hoặc khóa học trực tuyến cho chúng tôi. Việc "
+"tiếp cận Thông Tin Nhận Dạng Cá Nhân của bạn bởi các nhà thầu này được giới "
+"hạn ở thông tin cần thiết hợp lý để nhà thầu thực hiện chức năng hạn chế của"
+" mình cho chúng tôi."
+
+#: templates/static_templates/theme-tos.html:822
+msgid "Government Authorities, Legal Rights and Actions"
+msgstr "Các Cơ Quan Quản Lý của Chính Phủ, Quyền và Hành Động Hợp Pháp"
+
+#: templates/static_templates/theme-tos.html:823
+msgid ""
+"Stanford may share your Personally Identifiable Information with various government authorities in\n"
+"            response to subpoenas, court orders, or other legal process; to establish or exercise our legal rights or\n"
+"            to protect our property, rights or safety or the property, rights or safety of others; to prosecute or to\n"
+"            defend against legal claims; or as otherwise required by law or applicable regulations. In such cases\n"
+"            Stanford reserves the right to raise or waive any legal objection or right available to us. We also may\n"
+"            share your Personally Identifiable Information when Stanford believes it is appropriate to investigate,\n"
+"            prevent, or take action regarding illegal or suspected illegal activities; to protect and defend the\n"
+"            rights, property, or safety of Stanford, the Site, our users or others; and in connection with our Terms\n"
+"            of Use and other agreements.\n"
+"        "
+msgstr ""
+"Stanford có thể chia sẻ Thông Tin Nhận Dạng Cá Nhân của bạn với các cơ quan "
+"khác nhau của chính phủ để đáp lại trát tòa, lệnh tòa, hoặc thủ tục pháp lý "
+"khác; để xác lập hoặc thực thi các quyền hợp pháp của chúng tôi hoặc để bảo "
+"vệ tài sản, quyền hoặc sự an toàn của chúng tôi hoặc tài sản, quyền hoặc sự "
+"an toàn của người khác; để truy tố hoặc biện hộ trước khiếu kiện pháp lý; "
+"hoặc theo quy định khác của pháp luật hoặc quy định hiện hành. Trong những "
+"trường hợp như thế, Stanford có quyền đưa ra hoặc từ bỏ bất kỳ ý kiến phản "
+"bác hay quyền hợp pháp nào dành cho chúng tôi. Chúng tôi cũng có thể chia sẻ"
+" Thông Tin Nhận Dạng Cá Nhân của bạn khi Stanford cho rằng việc điều tra, "
+"ngăn chặn, hoặc có hành động đối với các hoạt động phi pháp hoặc nghi ngờ "
+"phi pháp là thích hợp; để bảo vệ quyền, tài sản hoặc sự an toàn của "
+"Stanford, Trang Web, người dùng của chúng tôi hoặc những người khác; và liên"
+" quan đến Các Điều Khoản Sử Dụng của chúng tôi và các thỏa thuận khác. "
+
+#: templates/static_templates/theme-tos.html:835
+msgid "Security"
+msgstr "Bảo mật"
+
+#: templates/static_templates/theme-tos.html:838
+msgid ""
+"Stanford takes reasonable measures to protect your Personally Identifiable Information from disclosure\n"
+"            to or access by third parties. However, no method of electronic transmission or storage is 100% secure.\n"
+"            Please note that Stanford does not guarantee the security of Personally Identifiable Information, and\n"
+"            there is some risk that an unauthorized third party may find a way to circumvent our security systems or\n"
+"            that transmission of your information over the Internet will be intercepted. Any information that you post\n"
+"            on our site or send to us in an email is not secure.\n"
+"        "
+msgstr ""
+"Stanford thực hiện các biện pháp hợp lý để bảo vệ Thông Tin Nhận Dạng Cá "
+"Nhân của bạn khỏi việc bị tiết lộ cho hoặc tiếp cận bởi các bên thứ ba. Tuy "
+"nhiên, không có phương thức truyền gửi điện tử hay lưu trữ nào là an "
+"toàn 100%. Vui lòng lưu ý rằng Stanford không đảm bảo bảo mật Thông Tin Nhận"
+" Dạng Cá Nhân, và có rủi ro là một bên thứ ba trái phép có thể tìm cách vượt"
+" qua các hệ thống an ninh của chúng tôi hoặc quá trình gửi thông tin của bạn"
+" qua Internet bị chặn lấy mất. Bất kỳ thông tin nào bạn đăng lên trang web "
+"của chúng tôi hoặc gửi cho chúng tôi trong email là không an toàn. "
+
+#: templates/static_templates/theme-tos.html:848
+msgid ""
+"You also play a role in protecting your information. Please safeguard your user name and password and do\n"
+"            not share them with others. If we receive instructions using your log-in information we will consider that\n"
+"            you have authorized the instructions. You agree to notify us immediately of any unauthorized use of your\n"
+"            account or any other breach of security. We reserve the right to refuse service, terminate accounts, or\n"
+"            remove or edit content in our sole discretion.\n"
+"        "
+msgstr ""
+"Bạn cũng đóng vai trò trong việc bảo vệ thông tin của mình. Vui lòng bảo vệ "
+"tên người dùng và mật khẩu của bạn và không chia sẻ với người khác. Nếu "
+"chúng tôi nhận được hướng dẫn dùng thông tin đăng nhập của bạn, chúng tôi sẽ"
+" coi rằng bạn đã cho phép hướng dẫn đó. Bạn đồng ý thông báo ngay cho chúng "
+"tôi biết bất kỳ trường hợp nào tài khoản của bạn bị sử dụng trái phép hoặc "
+"bất kỳ sự vi phạm an ninh nào khác. Chúng tôi có toàn quyền từ chối dịch vụ,"
+" chấm dứt tài khoản, hoặc xóa hay sửa nội dung. "
+
+#: templates/static_templates/theme-tos.html:856
+msgid "External Links"
+msgstr "Liên Kết Bên Ngoài"
+
+#: templates/static_templates/theme-tos.html:859
+msgid ""
+"For your convenience we may provide links to sites operated by organizations other than Stanford (\"Third\n"
+"            Party Sites\") that we believe may be of interest to you. Stanford does not disclose your Personally\n"
+"            Identifiable Information to these Third Party Sites without obtaining your consent. Stanford does not\n"
+"            endorse and is not responsible for the privacy practices of these Third Party Sites. If you choose to\n"
+"            click on a link to one of these Third Party Sites, you should review the terms of service and privacy\n"
+"            policy posted on the other site to understand how that Third Party Site collects and uses your Personally\n"
+"            Identifiable Information.\n"
+"        "
+msgstr ""
+"Để tiện lợi cho bạn, chúng tôi có thể cung cấp các liên kết đến các trang "
+"điều hành bởi các tổ chức không phải Stanford (\"Các Trang Bên Thứ Ba\") mà "
+"chúng tôi cho là có thể bạn quan tâm. Stanford không tiết lộ Thông Tin Nhận "
+"Dạng Cá Nhân của bạn cho Các Trang Bên Thứ Ba này nếu không có sự đồng ý của"
+" bạn. Stanford không đảm bảo và không chịu trách nhiệm đối với các phương "
+"pháp bảo vệ quyền riêng tư của Các Trang Bên Thứ Ba này. Nếu bạn chọn nhấp "
+"vào một liên kết đến một trong Các Trang Bên Thứ Ba này, bạn nên xem xét các"
+" điều khoản dịch vụ và chính sách về quyền riêng tư đăng trên trang kia để "
+"hiểu cách Trang Bên Thứ Ba đó thu thập và sử dụng Thông Tin Nhận Dạng Cá "
+"Nhân của bạn. "
+
+#: templates/static_templates/theme-tos.html:869
+msgid "Updating or Deleting Your Personally Identifiable Information"
+msgstr "Cập Nhật hoặc Xóa Thông Tin Nhận Dạng Cá Nhân Của Bạn"
+
+#: templates/static_templates/theme-tos.html:872
+msgid ""
+"You may update or delete your Personally Identifiable Information by logging into the Site and visiting\n"
+"            your user account page. Keep in mind, however, that there will be residual information that will remain\n"
+"            within our databases, access logs and other records, which may or may not contain your Personally\n"
+"            Identifiable Information. You may also submit a request to update your Personally Identifiable Information\n"
+"            to {contact_email}. We try to answer every email promptly, but may not always be able to do so.\n"
+"        "
+msgstr ""
+"Bạn có thể cập nhật hoặc xóa Thông Tin Nhận Dạng Cá Nhân của bạn bằng cách "
+"đăng nhập vào Trang Web và truy cập trang tài khoản người dùng của bạn. Tuy "
+"nhiên, lưu ý rằng sẽ có thông tin còn lại vẫn nằm trong các cơ sở dữ liệu, "
+"nhật ký truy cập và hồ sơ khác của chúng tôi, có thể hoặc có thể không chứa "
+"Thông Tin Nhận Dạng Cá Nhân của bạn. Bạn cũng có thể gửi yêu cầu cập nhật "
+"Thông Tin Nhận Dạng Cá Nhân của bạn đến {contact_email}. Chúng tôi cố gắng "
+"trả lời mọi email một cách nhanh chóng, nhưng có thể không phải lúc nào cũng"
+" làm được như vậy. "
+
+#: templates/static_templates/theme-tos.html:882
+msgid "Opt-Out Rights"
+msgstr "Quyền Rút Tên"
+
+#: templates/static_templates/theme-tos.html:885
+msgid ""
+"If you do not wish to receive information or other notices from us in the future, you can \"opt out\" by\n"
+"            contacting us at the address indicated at the end of this policy or by following the \"unsubscribe\"\n"
+"            instructions in any communication you receive from us. Please be aware that you are not able to opt out of\n"
+"            receiving communications about your account or your transactions with us.\n"
+"        "
+msgstr ""
+"Nếu bạn không muốn nhận thông tin hoặc thông báo khác từ chúng tôi trong "
+"tương lai, bạn có thể \"rút tên\" bằng cách liên hệ chúng tôi qua địa chỉ "
+"được cho biết ở phần cuối của chính sách này hoặc bằng cách thực hiện theo "
+"các hướng dẫn \"hủy đăng ký\" trong bất kỳ thư từ nào bạn nhận được từ chúng"
+" tôi. Vui lòng lưu ý rằng bạn không thể rút tên nhận thư từ liên quan đến "
+"tài khoản của bạn hoặc giao dịch của bạn với chúng tôi. "
+
+#: templates/static_templates/theme-tos.html:892
+msgid "Changing Our Privacy Policy"
+msgstr "Thay Đổi Chính Sách về Quyền Riêng Tư của Chúng Tôi"
+
+#: templates/static_templates/theme-tos.html:895
+msgid ""
+"Please note that we review our privacy practices from time to time, and that these practices are subject\n"
+"            to change. Any change, update, or modification will be effective immediately upon posting on our Site. We\n"
+"            will notify you of any material change to this Privacy Policy by posting a notice on our Site's homepage\n"
+"            for a reasonable period of time following such update, and by changing the effective date (located at the\n"
+"            bottom of this Policy). Be sure to return to this page periodically to ensure familiarity with the most\n"
+"            current version of this Privacy Policy. If you have any privacy-related questions, you may contact\n"
+"            Stanford at {privacy_email}.\n"
+"        "
+msgstr ""
+"Vui lòng lưu ý rằng thỉnh thoảng chúng tôi xem lại các phương pháp bảo vệ "
+"quyền riêng tư của mình, và các phương pháp này có thể thay đổi. Bất kỳ thay"
+" đổi, cập nhật hay điều chỉnh nào sẽ có hiệu lực ngay sau khi đăng lên Trang"
+" Web của chúng tôi. Chúng tôi sẽ thông báo cho bạn bất kỳ thay đổi quan "
+"trọng nào đối với Chính Sách về Quyền Riêng Tư này bằng cách đăng thông báo "
+"lên trang chủ Trang Web của chúng tôi trong một khoảng thời gian hợp lý sau "
+"khi có cập nhật như thế, và bằng cách thay đổi ngày có hiệu lực (ở dưới cùng"
+" của Chính Sách này). Hãy nhớ định kỳ trở lại trang này để đảm bảo bạn nắm "
+"được phiên bản mới nhất của Chính Sách về Quyền Riêng Tư này. Nếu bạn có bất"
+" kỳ thắc mắc nào liên quan đến quyền riêng tư, bạn có thể liên hệ Stanford "
+"tại {privacy_email}."
+
+#: templates/static_templates/theme-tos.html:907
+msgid "Protecting Children's Privacy"
+msgstr "Bảo Vệ Quyền Riêng Tư Của Trẻ Em"
+
+#: templates/static_templates/theme-tos.html:910
+msgid ""
+"Stanford does not knowingly collect or maintain Personally Identifiable Information on our Site from\n"
+"            persons under 13 years of age, and no part of our Site is directed to persons under 13 years of age. If you\n"
+"            are under 13 years of age, then please do not use or access this Site at any time or in any manner. Stanford\n"
+"            will take appropriate steps to delete any Personally Identifiable Information of persons less than 13 years of\n"
+"            age that has been collected on our Site without verified parental consent upon learning of the existence of\n"
+"            such Personally Identifiable Information. If you have any concerns with respect to data collected on the site,\n"
+"            please contact us at {contact_email}.\n"
+"        "
+msgstr ""
+"Stanford không cố tình thu thập hay lưu giữ Thông Tin Nhận Dạng Cá Nhân trên"
+" Trang Web của chúng tôi từ người dưới 13 tuổi, và không phần nào thuộc "
+"Trang Web của chúng tôi nhắm đến người dưới 13 tuổi. Nếu bạn dưới 13 tuổi, "
+"vui lòng không sử dụng hay truy cập Trang Web này vào bất kỳ lúc nào hoặc "
+"theo bất kỳ cách nào. Stanford sẽ thực hiện các bước thích hợp để xóa bất kỳ"
+" Thông Tin Nhận Dạng Cá Nhân nào của người dưới 13 tuổi đã được thu thập "
+"trên Trang Web của chúng tôi mà không có sự đồng ý của cha mẹ, đã được xác "
+"minh, sau khi biết được sự tồn tại của Thông Tin Nhận Dạng Cá Nhân đó. Nếu "
+"bạn có bất kỳ quan ngại nào về dữ liệu được thu thập trên trang web, vui "
+"lòng liên hệ chúng tôi tại {contact_email}."
+
+#: templates/static_templates/theme-tos.html:922
+msgid "Entire Agreement"
+msgstr "Toàn Bộ Thỏa Thuận"
+
+#: templates/static_templates/theme-tos.html:925
+msgid ""
+"These Terms of Service, including the Honor Code and Privacy Policy, constitute the entire agreement\n"
+"            between you and Stanford and its affiliates with respect to the subject matter herein and supersedes any\n"
+"            and all prior or contemporaneous oral or written agreements.\n"
+"        "
+msgstr ""
+"Các Điều Khoản Dịch Vụ này, bao gồm Quy Tắc Danh Dự và Chính Sách về Quyền "
+"Riêng Tư, cấu thành toàn bộ thỏa thuận giữa bạn và Stanford và các đơn vị "
+"liên kết của Stanford liên quan đến chủ đề trong đây và thay thế bất kỳ và "
+"tất cả thỏa thuận bằng lời hoặc văn bản trước đây hoặc hiện nay. "
+
+#: templates/static_templates/theme-tos.html:931
+msgid "Contacting Stanford"
+msgstr "Liên Hệ Stanford"
+
+#: templates/static_templates/theme-tos.html:933
+msgid ""
+"If you have a disability-related question, email us at "
+"{accessibility_email}."
+msgstr ""
+"Nếu bạn có thắc mắc liên quan đến tình trạng khuyết tật, hãy gửi email cho "
+"chúng tôi tại {accessibility_email}."
+
+#: templates/static_templates/theme-tos.html:938
+msgid "If you have a privacy-related question, email us at {privacy_email}."
+msgstr ""
+"Nếu bạn có thắc mắc liên quan đến quyền riêng tư, hãy gửi email cho chúng "
+"tôi tại {privacy_email}."
+
+#: templates/static_templates/theme-tos.html:943
+msgid "If you would like to report a concern, email us at {concern_email}."
+msgstr ""
+"Nếu bạn muốn báo cáo quan ngại, hãy gửi email cho chúng tôi tại "
+"{concern_email}."
+
+#: templates/static_templates/theme-tos.html:948
+msgid "For any other questions, please contact us at {contact_email}."
+msgstr ""
+"Với bất kỳ thắc mắc nào khác, vui lòng liên hệ chúng tôi tại "
+"{contact_email}."
+
+#: templates/static_templates/theme-tos.html:955
+msgid "Effective date: {date}"
+msgstr "Ngày có hiệu lực: {date}"
+
+#: templates/static_templates/theme-tos.html:966
+msgid "Print Terms of Service"
+msgstr "In Điều khoản thực hiện"
+
+#: common/djangoapps/student/forms.py:127
+msgid ""
+"Usernames must contain only letters, numbers, underscores (_), and hyphens "
+"(-)."
+msgstr ""
+"Tên tài khoản chỉ được phép bao gồm các chữ cái, số, dấu gạch chân (_) và "
+"dấu gạch ngang (-)"
+
+#. Translators: 'None' refers to the student's level of education
+#: common/djangoapps/student/models.py:268
+msgid "No Formal Education"
+msgstr "Không được đào tạo chính quy"
+
+#. Translators: 'Other' refers to the student's level of education
+#: common/djangoapps/student/models.py:270
+msgid "Other Education"
+msgstr "Các đào tạo khác"
+
+#: common/djangoapps/student/views.py:1205
+msgid "Could not send enrollment email to the user"
+msgstr "Không thể sử dụng email đăng ký tới người sử dụng"
+
+#: common/djangoapps/student/views.py:1333
+msgid ""
+"This account has been temporarily locked due to excessive login failures. "
+"Try again in {minutes} minute.  For security reasons, resetting the password"
+" will NOT lift the lockout. Please wait for {minutes} minute."
+msgid_plural ""
+"This account has been temporarily locked due to excessive login failures. "
+"Try again in {minutes} minutes.  For security reasons, resetting the "
+"password will NOT lift the lockout. Please wait for {minutes} minutes."
+msgstr[0] ""
+"Tài khoản này tạm thời bị khoá do đăng nhập không thành công nhiều lần. Hãy "
+"đăng nhập lại trong {minutes} phút. Vì lý do bảo mật, mật mã đăng nhập sẽ "
+"không có tác dụng mở khoá. XIn vui lòng chờ trong {minutes} phút."
+
+#: common/djangoapps/student/views.py:1453
+msgid ""
+"This account has not been activated. We have sent another activation "
+"message. Please check your email for the activation instructions."
+msgstr ""
+"Tài khoản này chưa được kích hoạt. Chúng tôi đã gửi một tin nhắn kích hoạt "
+"khác. Xin vui lòng kiểm tra email và xem hướng dẫn kích hoạt tài khoản."
+
+#. Translators: these are tooltips that indicate the state of an assessment
+#. question
+#: common/lib/capa/capa/inputtypes.py:96
+msgid "This is correct."
+msgstr "Đúng"
+
+#: common/lib/capa/capa/inputtypes.py:97
+msgid "This is incorrect."
+msgstr "Đúng"
+
+#: common/lib/capa/capa/inputtypes.py:98
+msgid "This is partially correct."
+msgstr "Đúng một phần"
+
+#: common/lib/capa/capa/inputtypes.py:99
+#: common/lib/capa/capa/inputtypes.py:100
+msgid "This is unanswered."
+msgstr "Chưa trả lời"
+
+#: common/lib/capa/capa/inputtypes.py:101
+msgid "This is being processed."
+msgstr "Đang xử lý"
+
+#: common/lib/xmodule/xmodule/capa_base.py:457
+msgid "Final Submit"
+msgstr "Nộp lần cuối"
+
+#: common/lib/xmodule/xmodule/capa_base.py:488
+msgid "Checking..."
+msgstr "Kiểm tra..."
+
+#: common/lib/xmodule/xmodule/capa_base.py:657
+msgid "Hint: "
+msgstr "Gợi ý:"
+
+#: common/lib/xmodule/xmodule/capa_base.py:1137
+msgid "Time has expired"
+msgstr "Hết thời gian"
+
+#: common/lib/xmodule/xmodule/capa_base.py:1147
+msgid "Problem must be reset before it can be checked again."
+msgstr "Cần khởi động lại câu hỏi trước khi chọn câu trả lời."
+
+#. Translators: A student must "make an attempt" to solve the problem on the
+#. page before they can reset it.
+#: common/lib/xmodule/xmodule/capa_base.py:1570
+msgid "Refresh the page and make an attempt before resetting."
+msgstr "Làm mới lại trang và thử thực hiện trước khi khởi động lại."
+
+#: common/lib/xmodule/xmodule/capa_module.py:90
+msgid "This problem's time has expired. Please refresh your page."
+msgstr "Đã hết thời gian cho câu hỏi này. Hãy làm mới lại trang của bạn"
+
+#: lms/djangoapps/courseware/date_summary.py:155
+msgid "Today is {date}"
+msgstr "Hôm nay là ngày {date}"
+
+#: lms/djangoapps/courseware/views.py:1855
+msgid "income in US Dollars ($)"
+msgstr "Thu nhập tính theo Đôla Mỹ ($)"
+
+#: lms/djangoapps/student_account/views.py:174
+msgid "No user with the provided email address exists."
+msgstr "Không có người sử dụng nào đăng ký với email này"
+
+#: lms/templates/registration/password_reset_complete.html:48
+#, python-format
+msgid ""
+"\n"
+"      Your password has been set.  You may go ahead and %(link_start)slog in%(link_end)s now.\n"
+"      "
+msgstr ""
+"\n"
+"      Mật khẩu của bạn đã được cài đặt lại. Bạn có thể tiếp tục và %(link_start)sđăng nhập vào%(link_end)s bây giờ.\n"
+"      "
+
+#: lms/templates/registration/password_reset_confirm.html:6
+#, python-format
+msgid ""
+"\n"
+"      Reset Your %(platform_name)s Password\n"
+"  "
+msgstr ""
+"\n"
+"     Cài đặt lại %(platform_name)s mật khẩu của\n"
+"  "
+
+#: lms/templates/registration/password_reset_confirm.html:43
+#, python-format
+msgid ""
+"\n"
+"          Reset Your %(platform_name)s Password\n"
+"          "
+msgstr ""
+"\n"
+"     Cài đặt lại %(platform_name)s mật khẩu của bạn"
+
+#: lms/templates/registration/password_reset_confirm.html:55
+msgid "Password Reset Form"
+msgstr "Phiếu yêu cầu cài đặt lại mật khẩu"
+
+#: lms/templates/registration/password_reset_confirm.html:73
+msgid "The following errors occurred while processing your registration: "
+msgstr "Có các lỗi sau đây xảy ra khi xử lý phiếu đăng ký của bạn:"
+
+#: lms/templates/registration/password_reset_confirm.html:78
+msgid "You must complete all fields."
+msgstr "Bạn cần hoàn thành tất cả các ô"
+
+#: lms/templates/registration/password_reset_confirm.html:79
+msgid "The two password fields didn't match."
+msgstr "Hai mật khẩu không khớp nhau."
+
+#: lms/templates/registration/password_reset_confirm.html:85
+msgid ""
+"We're sorry, our systems seem to be having trouble processing your password "
+"reset"
+msgstr ""
+"Xin lỗi. Hệ thống của chúng tôi gặp lỗi kỹ thuật khi thay đổi mật khẩu của "
+"bạn"
+
+#: lms/templates/registration/password_reset_confirm.html:87
+#, python-format
+msgid ""
+"\n"
+"                Someone has been made aware of this issue. Please try again shortly. Please %(start_link)scontact us%(end_link)s about any concerns you have.\n"
+"            "
+msgstr ""
+"\n"
+"             Đã thông báo về vấn đề này. Hãy quay lại sau. Xin vui lòng liên hệ %(start_link)s với chúng tôi %(end_link)s về thắc mắc của bạn.\n"
+"            "
+
+#: lms/templates/registration/password_reset_confirm.html:94
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr "Vui lòng nhập lại mật khẩu 2 lần để khẳng định chính xác mật khẩu."
+
+#: lms/templates/registration/password_reset_confirm.html:96
+#, python-format
+msgid ""
+"\n"
+"        Required fields are noted by %(bold_start)sbold text and an asterisk (*)%(bold_end)s.\n"
+"        "
+msgstr ""
+"\n"
+"        Ô yêu cầu được ghi chú lại bởi %(bold_start)s chữ đậm và một dấu hoa thị (*)%(bold_end)s.\n"
+"        "
+
+#: lms/templates/registration/password_reset_confirm.html:102
+msgid "Required Information"
+msgstr "Thông tin bắt buộc"
+
+#: lms/templates/registration/password_reset_confirm.html:106
+msgid "Your New Password"
+msgstr "Mật khẩu mới của bạn"
+
+#: lms/templates/registration/password_reset_confirm.html:110
+msgid "Your New Password Again"
+msgstr "Nhập lại mật khẩu mới của bạn"
+
+#: lms/templates/registration/password_reset_confirm.html:117
+msgid "Change My Password"
+msgstr "Thay đổi mật khẩu của tôi"
+
+#: lms/templates/registration/password_reset_confirm.html:124
+msgid "Your Password Reset Was Unsuccessful"
+msgstr "Cài đặt lại mật khẩu không thành công"
+
+#: lms/templates/registration/password_reset_confirm.html:127
+#, python-format
+msgid ""
+"\n"
+"            The password reset link was invalid, possibly because the link has already been used.  Please return to the %(start_link)slogin page%(end_link)s and start the password reset process again.\n"
+"        "
+msgstr ""
+"\n"
+"         Đường dẫn cài đặt lại mật khẩu không hợp lệ, có thể do đường dẫn đã bị sử dụng trước đó. Xin vui lòng quay lại %(start_link)s trang đăng nhập %(end_link)s và thực hiện lại việc đổi mật khẩu.\n"
+"        "
+
+#: lms/templates/registration/password_reset_confirm.html:137
+msgid "Password Reset Help"
+msgstr "Hỗ trợ thay đổi mật khẩu"
+
+#: lms/templates/registration/password_reset_confirm.html:141
+msgid "Need Help?"
+msgstr "Cần trợ giúp?"
+
+#: lms/templates/registration/password_reset_confirm.html:143
+#, python-format
+msgid ""
+"\n"
+"              View our %(start_link)shelp section for contact information and answers to commonly asked questions%(end_link)s\n"
+"          "
+msgstr ""
+"\n"
+"              Xem %(start_link)s trang trợ giúp của chúng tôi để có địa chỉ liên hệ và những phần hỏi đáp các câu hỏi thường gặp%(end_link)s\n"
+"          "
+
+#. Translators: "Terms of Service" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/views.py:666
+msgid "I agree to the {platform_name} {terms_of_service}."
+msgstr "Tôi đồng ý với {platform_name} {terms_of_service}."
+
+#. Translators: "Terms of Service" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/views.py:673
+msgid "You must agree to the {platform_name} {terms_of_service}."
+msgstr "Bạn phải đồng ý với {platform_name} {terms_of_service}."
+
+#. Translators: "Terms of service" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/views.py:717
+msgid ""
+"I agree to the {platform_name} {terms_of_service} and {privacy_policy}."
+msgstr ""
+"Tôi đồng ý với {platform_name} {terms_of_service} và {privacy_policy}."
+
+#. Translators: "Terms of service" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/views.py:725
+msgid ""
+"You must agree to the {platform_name} {terms_of_service} and "
+"{privacy_policy}."
+msgstr ""
+"Bạn cần đồng ý với {platform_name} {terms_of_service} và {privacy_policy}."
+
+#: lms/templates/help-center-link.html:7
+msgid "Access the Help Center"
+msgstr "Truy cập Trung tâm hỗ trợ"
+
+#: lms/templates/help-contact-link.html:7
+msgid ""
+"Can't find an answer to your question? You can contact the {platform_name} "
+"general support team directly {link_start}by clicking here{link_end}."
+msgstr ""
+"Không tìm thấy câu trả lời cho câu hỏi của bạn. Bạn có thể liên hệ "
+"{platform_name} trực tiếp tới nhóm hỗ trợ chung  {link_start}bằng cách nhấn "
+"con trỏ vào đây{link_end}."
+
+#: lms/templates/help_modal.html:47
+msgid ""
+"For <strong>questions on course lectures, homework, tools, or materials for "
+"this course</strong>, post in the course discussion forum."
+msgstr ""
+"Với các câu hỏi <strong>trong bài học, bài tập, công cụ hoặc tài liệu cho "
+"khoá học</strong>, hãy đăng lên diễn đàn thảo luận"
+
+#: lms/templates/help_modal.html:50
+msgid "Post in the Forum"
+msgstr "Đăng lên Diễn đàn"
+
+#: lms/templates/help_modal.html:55
+msgid ""
+"Have <strong>general questions about {platform_name}</strong>? You can find "
+"lots of helpful information in the {platform_name} Help Center."
+msgstr ""
+"Có câu hỏi chung <strong>về{platform_name}</strong>? Bạn có thể tìm thấy rất"
+" nhiều thông tin hữu ích trong {platform_name}Trung tâm hỗ trợ"
+
+#: lms/templates/help_modal.html:69
+msgid "Here are some of the most popular articles from the Help Center:"
+msgstr "Đây là một số bài viết phổ biến nhất từ Trung tâm hỗ trợ"
+
+#: lms/templates/help_modal.html:136
+msgid ""
+"Thank you for your inquiry or feedback. We typically respond to a request "
+"within three business days. In the meantime, please review our "
+"{link_start}Help Center articles{link_end}, where answers to many common "
+"questions have been posted."
+msgstr ""
+"Cám ơn bạn về câu hỏi và ý kiến phản hồi. Thông thường chúng tôi sẽ trả lời "
+"câu hỏi trong vòng 3 ngày làm việc. Trong lúc đó, xin vui lòng tham khảo bài"
+" viết {đường dẫn_bắt đầu} tại Trung tâm hỗ trợ {đường dẫn_kết thúc}, tại đó "
+"có đăng câu trả lời cho nhiều câu hỏi thường gặp "
+
+#: lms/templates/index.html:18
+msgid "The Future of Online Education"
+msgstr "Tương lai của Đào tạo qua mạng"
+
+#: lms/templates/navigation-edx.html:86 lms/templates/navigation.html:112
+#: themes/edx.org/lms/templates/header.html:85
+msgid "Profile image for {username}"
+msgstr "Hình ảnh đại diện cho {username}"
+
+#: lms/templates/navigation.html:90
+msgid "Choose Language"
+msgstr "Chọn ngôn ngữ"
+
+#: lms/templates/problem.html:17
+msgid "At {start_time}, you started this exam."
+msgstr "Vào {start_time}, bạn đã bắt đầu bài kiểm tra này"
+
+#: lms/templates/problem.html:21
+msgid ""
+"By {end_time}, you must manually click the '{check_button}' button below!"
+msgstr "Vào {end_time}, bạn cần bấm nút '{check_button}' dưới đây!"
+
+#: lms/templates/problem.html:30
+msgid "You have {minutes_left} minutes left to complete these questions."
+msgstr "Bạn có {minutes_left} để hoàn thành câu hỏi này"
+
+#: lms/templates/problem.html:37
+msgid "You have exceeded the time limit for this problem."
+msgstr "Bạn đã hết thời gian cho câu hỏi này"
+
+#: lms/templates/problem.html:67
+msgid "Deadline has passed, you can no longer submit."
+msgstr "Đã quá thời gian, bạn không thể gửi câu trả lời"
+
+#: lms/templates/problem_interstitial.html:17
+msgid ""
+"You are about to start a timed problem. The allotted time for this problem "
+"is {minutes_allowed} minutes."
+msgstr ""
+"Bạn chuẩn bị bắt đầu một câu hỏi tính thời gian. Thời gian cho phép để trả "
+"lời câu hỏi này là {minutes_allowed} phút"
+
+#: lms/templates/problem_interstitial.html:21
+msgid ""
+"At {end_time}, you must manually click the '{check_button}' button below."
+msgstr "Vào {end_time}, bạn cần bấm nút '{check_button}' dưới đây"
+
+#: lms/templates/problem_interstitial.html:32
+msgid "Start Timer"
+msgstr "Bắt đầu tính giờ"
+
+#: lms/templates/register-form.html:238
+msgid ""
+"I agree to the {link_start1}Terms of Service{link_end} and "
+"{link_start2}Privacy Policy{link_end}"
+msgstr ""
+"Tôi đồng ý với {link_start1}các điều khoản{link_end} và {link_start2}quy "
+"định bảo mật{link_end}"
+
+#: lms/templates/register.html:16
+msgid "Create your {platform_name} learning and research account!"
+msgstr "Tạo  {platform_name} tài khoản học và nghiên cứu của bạn"
+
+#: lms/templates/register.html:103
+msgid "Welcome to the {platform_name} Learning and Research Community"
+msgstr "Chào mừng bạn đến với {platform_name} Nhóm nghiên cứu và học tập"
+
+#: lms/templates/register.html:104
+msgid "Create your account"
+msgstr "Tạo tài khoản của bạn"
+
+#: lms/templates/courseware/course_about.html:189
+msgid ""
+"By exploring the course, you are agreeing to our Terms of Service. Please "
+"read them carefully."
+msgstr ""
+"Với việc tham gia khoá học, bạn sẽ đồng ý với các điều khoản thực hiện. Xin "
+"vui lòng đọc kỹ "
+
+#: lms/templates/courseware/course_about.html:189
+msgid "Explore Course"
+msgstr "Khai thác Khoá học"
+
+#: lms/templates/courseware/course_about.html:238
+#: lms/templates/courseware/courseware.html:226
+msgid ""
+"By exploring the course, you are agreeing to our {tos_link_start}Terms of "
+"Service{link_end} and {privacy_link_start}Privacy Policy{link_end}. Please "
+"read them carefully."
+msgstr ""
+"Với việc tham gia khoá học, bạn sẽ đồng ý với {tos_link_start}  các điều "
+"khoản{link_end}  và {privacy_link_start} chính sách bảo mật {link_end}. Xin "
+"vui lòng đọc kỹ "
+
+#: lms/templates/courseware/course_navigation-sneak-peek-warning.html:17
+msgid ""
+"Non-registered mode.  {tag_start}Register{tag_end} to save your course "
+"progress."
+msgstr ""
+"Chế độ không đăng ký. {tag_start}Đăng ký{tag_end} để bắt đầu quá trình học "
+"tập"
+
+#: lms/templates/courseware/course_updates.html:8
+#: lms/templates/courseware/course_updates.html:20
+msgid "Show"
+msgstr "Xem"
+
+#: lms/templates/courseware/course_updates.html:27
+msgid "Show Earlier Course Updates"
+msgstr "Xem các cập nhật trước đây về khoá học "
+
+#: lms/templates/courseware/info.html:57
+msgid "Welcome to {org}'s {course_name}!"
+msgstr "Chào mừng bạn đến với  {org}'s {course_name}!"
+
+#: lms/templates/courseware/info.html:62
+msgid "Resume Course"
+msgstr "Quay lại khoá học"
+
+#: lms/templates/courseware/info.html:77
+msgid "Course Updates and News"
+msgstr "Tin tức và cập nhập khoá học"
+
+#: lms/templates/courseware/progress-info.html:6
+msgid ""
+"Note: Submitted assignments will appear as bars in the Progress chart.\n"
+"                Mouse over a bar to see more information about the relevant assignment.\n"
+"        "
+msgstr ""
+"Ghi chú: Các bài tập đã gửi sẽ xuất hiện trên thanh công cụ Quá trình\n"
+"Di chuyển con trỏ tới thanh công cụ để xem thêm thông tin về các bài tập"
+
+#: lms/templates/emails/activation_email.txt:5
+msgid ""
+"Start learning today by activating your {platform_name} account. Click on "
+"the link below or copy and paste it into your browser's address bar."
+msgstr ""
+"Bắt đầu học hôm nay bằng cách kích hoạt tài khoản {platform_name} của bạn. "
+"Chọn đường dẫn dưới đây hoặc sao chép đường dẫn vào thanh địa chỉ của trình "
+"duyệt "
+
+#: lms/templates/emails/activation_email.txt:18
+#: lms/templates/emails/activation_email.txt:24
+msgid ""
+"If you didn't request this, you don't need to do anything; you won't receive"
+" any more email from us. Please do not reply to this email. For more "
+"information, check our Help Center here: "
+msgstr ""
+"Nếu bạn không gửi yêu cầu này, bạn không cần làm gì tiếp theo; bạn sẽ không "
+"nhận thêm email từ nhóm quản trị. Vui lòng không trả lời email này. Để có "
+"thêm thông tin, hãy truy cập Trung tâm hỗ trợ tại đây:"
+
+#: lms/templates/emails/add_beta_tester_email_message.txt:12
+msgid ""
+"To start accessing course materials, please visit "
+"https://{site_name}/dashboard"
+msgstr ""
+"Để bắt đầu xem các tài liệu của khoá học, vui vòng truy cập trang "
+"https://{site_name}/dashboard"
+
+#: lms/templates/registration/password_reset_done.html:8
+msgid ""
+"The system is looking for your account. You should receive an email with "
+"password reset instructions shortly. If you don't see it within a few "
+"minutes (and it's not in your email's Spam or Trash), your account may be "
+"under a different email address. Try {start_link}logging in{end_link} again "
+"with some other email addresses you maintain."
+msgstr ""
+"Hệ thống đang tìm kiếm tài khoản của bạn. Bạn sẽ nhận được email cùng với "
+"hướng dẫn cài đặt lại mật khẩu ngay. Nếu bạn không nhận được email trong "
+"vòng ít phút nữa (hãy kiểm tra thư mục rác trong hòm thư), tài khoản của bạn"
+" có thể được đăng ký bằng một địa chỉ email khác. Hãy thử  {start_link} đăng"
+" nhập{end_link} lại với các địa chỉ email khác của bạn."
+
+#: lms/templates/student_account/email_change_failed.html:7
+msgid "Email change failed."
+msgstr "Thay đổi địa chỉ email không thành công"
+
+#: lms/templates/student_account/email_change_failed.html:12
+msgid "Something went wrong. Please contact {support} for help."
+msgstr "Có lỗi kỹ thuật. Xin vui lòng liên hệ {support}  để được trợ giúp."
+
+#: lms/templates/student_account/email_change_failed.html:18
+msgid ""
+"The email address you wanted to use is already used by another "
+"{platform_name} account."
+msgstr ""
+"Địa chỉ email bạn muốn dùng đã được sử dụng để đăng ký bởi tài khoản "
+"{platform_name} khác "
+
+#: lms/templates/student_account/email_change_failed.html:24
+msgid ""
+"You can try again from the {link_start}account settings{link_end} page."
+msgstr ""
+"Bạn có thể thử lại từ trang {link_start} cài đặt tài khoản {link_end} trang"
