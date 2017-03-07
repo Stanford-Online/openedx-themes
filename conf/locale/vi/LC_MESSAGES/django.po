@@ -21,7 +21,7 @@ msgstr ""
 #: templates/theme-dashboard_extra.html:3
 #: templates/courseware/theme-course_about-sidebar_extra.html:5
 msgid "Our Research Community"
-msgstr "Nhóm nghiên cứu của chúng tôi"
+msgstr "Cộng Đồng Nghiên Cứu của Stanford"
 
 #: templates/theme-dashboard_extra.html:4
 #: templates/theme-register_extra.html:2
@@ -33,23 +33,24 @@ msgid ""
 "researchers, designers and engineers to continuously improve their work and,"
 " in that process, build learning science."
 msgstr ""
-"{university_name} ứng dụng khoa học trong đào tạo. Học viên học qua mạng là "
-"những nhân tố quan trọng trong cam kết của chúng tôi. Các thông tin thu nhận"
-" được từ sự tham gia của các bạn theo hướng dẫn từ chương trình sẽ giúp các "
-"giảng viên, hướng dẫn viên, nhà nghiên cứu và các nhân viên kỹ thuật tiếp "
-"tục nâng cao chất lượng, và từ đó, tạo dựng nên khoa học đào tạo"
+"{university_name} mưu cầu khoa học học hỏi. Học viên trực tuyến là những "
+"người tham gia quan trọng trong cuộc mưu cầu đó. Thông tin chúng tôi thu "
+"thập từ việc bạn tham gia các chương trình học của chúng tôi giúp cho ban "
+"giảng viên, các nhà nghiên cứu, các nhà thiết kế và các kỹ sư không ngừng "
+"cải thiện công việc của mình, và trong quá trình đó, xây dựng môn khoa học "
+"học hỏi. "
 
 #: templates/theme-dashboard_extra.html:5
 #: templates/courseware/theme-course_about-sidebar_extra.html:7
 msgid ""
 "By registering as an online learner, you are also participating in "
 "research..."
-msgstr "Khi tham gia học qua mạng, bạn cũng đã tham gia vào nghiên cứu..."
+msgstr "Bằng cách đăng ký học trực tuyến, bạn cũng tham gia nghiên cứu..."
 
 #: templates/theme-dashboard_extra.html:5
 #: templates/courseware/theme-course_about-sidebar_extra.html:7
 msgid "Read Terms of Service and Privacy Policy."
-msgstr "Đọc các Điều khoản thực hiện và Chính sách bảo mật"
+msgstr "Đọc các Điều Khoản Dịch Vụ và Chính Sách về Quyền Riêng Tư"
 
 #: templates/theme-footer.html:26 templates/theme-footer.html:29
 msgid "Revised {date}"
@@ -89,20 +90,21 @@ msgid ""
 " research findings will be reported at the aggregate level and will not "
 "expose your personal identity."
 msgstr ""
-"Khi đăng ký là học viên qua mạng, đồng nghĩa với việc bạn tham gia nghiên "
-"cứu để nâng cao chất lượng đào tạo tại đại học Stanford cũng như khoa học "
-"đào tạo nói chung trên thế giới. VÌ mục đích nghiên cứu, một số khoá học có "
-"thể được thiết kế khác nhau. Stanford không sử dụng thông tin về học viên "
-"vào bất kỳ mục đích gì khác ngoài việc đóng góp vào sứ mệnh nghiên cứu và "
-"đào tạo của trường. Để nghiên cứu, chúng tôi có thể sẽ chia sẻ thông tin thu"
-" được từ các hoạt động đào tạo, bao gồm{link_start} và các thông tin cá nhân"
-" về học viên {link_end}, với các nhà nghiên cứu ngoài Stanford. Tuy nhiên, "
-"những thông tin cá nhân của học viên sẽ chỉ được chia sẻ theo quy định của "
-"pháp luật, và chỉ giới hạn tới các thông tin phục vụ mục đích nghiên cứu, và"
-" sẽ phải tuân theo các quy định chặt chẽ về bảo mật thông tin. Chúng tôi có "
-"thể sẽ chia sẻ với bên thứ 3 hoặc công bố một số thông tin không liên quan "
-"đến định danh của học viên. Tương tự, các tổng hợp kết quả nghiên cứu sẽ "
-"không đề cập đến thông tin định danh của học viên."
+"Bằng cách đăng ký học trực tuyến, bạn cũng tham gia nghiên cứu nhằm cải "
+"thiện các chương trình học của Stanford cũng như chất lượng học và các môn "
+"khoa học liên quan trên toàn thế giới. Vì lợi ích của nghiên cứu, bạn có thể"
+" tiếp xúc với một số biến thể của các tài liệu trong khóa học. Stanford "
+"không sử dụng dữ liệu của học viên phục vụ bất kỳ mục đích nào ngoài các sứ "
+"mệnh về giáo dục và nghiên cứu như đã được nêu rõ của nhà trường. Vì mục "
+"đích nghiên cứu, chúng tôi có thể chia sẻ thông tin chúng tôi thu thập từ "
+"các hoạt động học tập trực tuyến, bao gồm {link_start}Thông Tin Nhận Dạng "
+"Cá Nhân{link_end}, với các nhà nghiên cứu bên ngoài Stanford. Tuy nhiên, "
+"Thông Tin Nhận Dạng Cá Nhân của bạn sẽ chỉ được chia sẻ khi luật pháp hiện "
+"hành cho phép, sẽ giới hạn ở những nội dung cần thiết để tiến hành nghiên "
+"cứu, và sẽ tuân thủ một thỏa thuận bảo vệ dữ liệu. Chúng tôi cũng có thể "
+"chia sẻ thông tin tổng hợp không nhận dạng cá nhân bạn với công chúng hoặc "
+"các bên thứ ba. Tương tự, bất kỳ kết luận nghiên cứu nào sẽ được báo cáo ở "
+"cấp tổng hợp và sẽ không để lộ danh tính cá nhân của bạn."
 
 #: templates/theme-register_extra.html:9
 msgid ""
@@ -110,10 +112,9 @@ msgid ""
 "regarding the processing, transmission and use of data collected through the"
 " Stanford Online website and Stanford's Lagunita platform."
 msgstr ""
-"Xin vui lòng đọc thông tin trong đường dẫn {link_start} Chính sách bảo mật "
-"thông tin {link_end} để có thêm thông tin về quá trình xử lý, chuyển và sử "
-"dụng số liệu thu thập từ trang web Đào tạo qua mạng tại Stanford và nền tảng"
-" Lagunita."
+"Vui lòng đọc {link_start}Chính Sách về Quyền Riêng Tư{link_end} của "
+"chúng tôi cho việc xử lý, truyền gửi và sử dụng dữ liệu được thu thập thông "
+"qua trang web Stanford Online và nền ứng dụng Lagunita của Stanford."
 
 #: templates/theme-register_sidebar.html:6
 msgid ""
@@ -125,7 +126,7 @@ msgstr ""
 "Bạn sẽ nhận được email để kích hoạt tài khoản. Bạn cần bấm vào đường dẫn "
 "trong email để hoàn thành việc đăng ký. Nếu bạn không nhận được email? Hay "
 "kiểm tra hòm thư rác để tìm email từ lagunita.stanford.edu và đánh dấu "
-"'không phải thư rác\", bởi vì bạn muốn nhận được email từ khoá học của mình"
+"'không phải thư rác', bởi vì bạn muốn nhận được email từ khoá học của mình."
 
 #: templates/courseware/theme-course_about-social_sharing.html:8
 msgid "Tweet that you've registered for this course"
@@ -145,13 +146,13 @@ msgid ""
 "and {privacy_link_start}Privacy Policy{link_end} before beginning the "
 "course."
 msgstr ""
-"Chúng tôi khuyến khích bạn đọc kỹ {tos_link_start} điều khoản{link_end} và "
-"{privacy_link_start} chính sách bảo mật{link_end} trước khi bắt đầu khoá "
+"Chúng tôi khuyến khích bạn đọc kỹ {tos_link_start}Điều Khoản Dịch Vụ{link_end} và "
+"{privacy_link_start}Chính Sách về Quyền Riêng Tư{link_end} trước khi bắt đầu khoá "
 "học."
 
 #: templates/static_templates/theme-about.html:20
 msgid "About {PLATFORM_NAME}"
-msgstr "Về  {PLATFORM_NAME}"
+msgstr "Về {PLATFORM_NAME}"
 
 #: templates/static_templates/theme-about.html:60
 #: templates/static_templates/theme-about.html:89
@@ -239,7 +240,7 @@ msgstr "Stanford chiều tà"
 
 #: templates/static_templates/theme-about.html:122
 msgid "Platform Help Center and Contact Emails"
-msgstr "Trung tâm hỗ trợ kết cấu và Email liên hệ"
+msgstr "Trung Tâm Hỗ Trợ kết cấu và Email liên hệ"
 
 #: templates/static_templates/theme-about.html:126
 msgid ""
@@ -249,18 +250,18 @@ msgid ""
 " you have a suggestion or bug report to make, you can also file a support "
 "ticket from the Help Center."
 msgstr ""
-"Trung tâm {help_link_start} Hỗ trợ{link_end}bao gồm các câu hỏi thường gặp "
+"{help_link_start}Trung Tâm Hỗ Trợ{link_end}bao gồm các câu hỏi thường gặp "
 "nhất khi trợ giúp kỹ thuật cho học viên qua  {lagunita_home_link}. Nếu bạn "
 "không tìm thấy câu trả lời cho câu hỏi cần tìm, hoặc nếu bạn có góp ý, thông"
 " báo về vi rút, hãy liên h với Trung tâm hỗ trợ."
 
 #: templates/static_templates/theme-about.html:132
 msgid "For disability-related questions email us at:"
-msgstr "Với các câu hỏi liên quan đến người khuyết tật, vui lòng email tới:"
+msgstr "Với các thắc mắc liên quan đến người khuyết tật, vui lòng email tới:"
 
 #: templates/static_templates/theme-about.html:135
 msgid "For privacy-related questions email us at:"
-msgstr "Với các câu hỏi liên quan đến bảo mật, vui lòng email tới:"
+msgstr "Với các thắc mắc nào liên quan đến quyền riêng tư, vui lòng email tới:"
 
 #: templates/static_templates/theme-embargo.html:7
 msgid ""
@@ -1196,14 +1197,14 @@ msgstr "Thông Báo Cho Người Tiêu Dùng"
 #: templates/static_templates/theme-tos.html:462
 msgid ""
 "If you have any questions regarding services provided through the Site, you may contact Stanford's\n"
-"            Course Operations Lead at {contact_email} or 425 Santa Teresa Street, Stanford CA, 94305-2261, USA. The\n"
+"            Course Operations Lead at {contact_email} or 408 Panama Mall, Stanford, CA 94305, USA. The\n"
 "            Public Inquiry Unit of the Office of the California Attorney General may be contacted at P.O. Box 944255,\n"
 "            Sacramento, CA 94244-2550.\n"
 "        "
 msgstr ""
 "Nếu bạn có bất kỳ thắc mắc nào về các dịch vụ được cung cấp thông qua Trang "
 "Web, bạn có thể liên hệ Trưởng Phòng Điều Hành Khóa Học của Stanford qua "
-"{contact_email} hoặc 425 Santa Teresa Street, Stanford CA, 94305-2261, USA. "
+"{contact_email} hoặc 408 Panama Mall, Stanford, CA 94305, USA. "
 "Có thể liên hệ Đơn Vị Giải Đáp Thắc Mắc Công Chúng của Văn Phòng Bộ Trưởng "
 "Tư Pháp California qua P.O. Box 944255, Sacramento, CA 94244-2550. "
 
@@ -1422,7 +1423,7 @@ msgstr ""
 
 #: templates/static_templates/theme-tos.html:589
 msgid "Privacy Policy"
-msgstr "CHÍNH SÁCH VỀ QUYỀN RIÊNG TƯ"
+msgstr "Chính Sách về Quyền Riêng Tư"
 
 #: templates/static_templates/theme-tos.html:592
 msgid ""
@@ -2147,25 +2148,7 @@ msgstr "Ngày có hiệu lực: {date}"
 
 #: templates/static_templates/theme-tos.html:966
 msgid "Print Terms of Service"
-msgstr "In Điều khoản thực hiện"
-
-#: common/djangoapps/student/forms.py:127
-msgid ""
-"Usernames must contain only letters, numbers, underscores (_), and hyphens "
-"(-)."
-msgstr ""
-"Tên tài khoản chỉ được phép bao gồm các chữ cái, số, dấu gạch chân (_) và "
-"dấu gạch ngang (-)"
-
-#. Translators: 'None' refers to the student's level of education
-#: common/djangoapps/student/models.py:268
-msgid "No Formal Education"
-msgstr "Không được đào tạo chính quy"
-
-#. Translators: 'Other' refers to the student's level of education
-#: common/djangoapps/student/models.py:270
-msgid "Other Education"
-msgstr "Các đào tạo khác"
+msgstr "In Điều Khoản Dịch Vụ"
 
 #: common/djangoapps/student/views.py:1205
 msgid "Could not send enrollment email to the user"
@@ -2185,224 +2168,17 @@ msgstr[0] ""
 "đăng nhập lại trong {minutes} phút. Vì lý do bảo mật, mật mã đăng nhập sẽ "
 "không có tác dụng mở khoá. XIn vui lòng chờ trong {minutes} phút."
 
-#: common/djangoapps/student/views.py:1453
-msgid ""
-"This account has not been activated. We have sent another activation "
-"message. Please check your email for the activation instructions."
-msgstr ""
-"Tài khoản này chưa được kích hoạt. Chúng tôi đã gửi một tin nhắn kích hoạt "
-"khác. Xin vui lòng kiểm tra email và xem hướng dẫn kích hoạt tài khoản."
-
-#. Translators: these are tooltips that indicate the state of an assessment
-#. question
-#: common/lib/capa/capa/inputtypes.py:96
-msgid "This is correct."
-msgstr "Đúng"
-
-#: common/lib/capa/capa/inputtypes.py:97
-msgid "This is incorrect."
-msgstr "Đúng"
-
-#: common/lib/capa/capa/inputtypes.py:98
-msgid "This is partially correct."
-msgstr "Đúng một phần"
-
-#: common/lib/capa/capa/inputtypes.py:99
-#: common/lib/capa/capa/inputtypes.py:100
-msgid "This is unanswered."
-msgstr "Chưa trả lời"
-
-#: common/lib/capa/capa/inputtypes.py:101
-msgid "This is being processed."
-msgstr "Đang xử lý"
-
 #: common/lib/xmodule/xmodule/capa_base.py:457
 msgid "Final Submit"
 msgstr "Nộp lần cuối"
-
-#: common/lib/xmodule/xmodule/capa_base.py:488
-msgid "Checking..."
-msgstr "Kiểm tra..."
-
-#: common/lib/xmodule/xmodule/capa_base.py:657
-msgid "Hint: "
-msgstr "Gợi ý:"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1137
 msgid "Time has expired"
 msgstr "Hết thời gian"
 
-#: common/lib/xmodule/xmodule/capa_base.py:1147
-msgid "Problem must be reset before it can be checked again."
-msgstr "Cần khởi động lại câu hỏi trước khi chọn câu trả lời."
-
-#. Translators: A student must "make an attempt" to solve the problem on the
-#. page before they can reset it.
-#: common/lib/xmodule/xmodule/capa_base.py:1570
-msgid "Refresh the page and make an attempt before resetting."
-msgstr "Làm mới lại trang và thử thực hiện trước khi khởi động lại."
-
 #: common/lib/xmodule/xmodule/capa_module.py:90
 msgid "This problem's time has expired. Please refresh your page."
-msgstr "Đã hết thời gian cho câu hỏi này. Hãy làm mới lại trang của bạn"
-
-#: lms/djangoapps/courseware/date_summary.py:155
-msgid "Today is {date}"
-msgstr "Hôm nay là ngày {date}"
-
-#: lms/djangoapps/courseware/views.py:1855
-msgid "income in US Dollars ($)"
-msgstr "Thu nhập tính theo Đôla Mỹ ($)"
-
-#: lms/djangoapps/student_account/views.py:174
-msgid "No user with the provided email address exists."
-msgstr "Không có người sử dụng nào đăng ký với email này"
-
-#: lms/templates/registration/password_reset_complete.html:48
-#, python-format
-msgid ""
-"\n"
-"      Your password has been set.  You may go ahead and %(link_start)slog in%(link_end)s now.\n"
-"      "
-msgstr ""
-"\n"
-"      Mật khẩu của bạn đã được cài đặt lại. Bạn có thể tiếp tục và %(link_start)sđăng nhập vào%(link_end)s bây giờ.\n"
-"      "
-
-#: lms/templates/registration/password_reset_confirm.html:6
-#, python-format
-msgid ""
-"\n"
-"      Reset Your %(platform_name)s Password\n"
-"  "
-msgstr ""
-"\n"
-"     Cài đặt lại %(platform_name)s mật khẩu của\n"
-"  "
-
-#: lms/templates/registration/password_reset_confirm.html:43
-#, python-format
-msgid ""
-"\n"
-"          Reset Your %(platform_name)s Password\n"
-"          "
-msgstr ""
-"\n"
-"     Cài đặt lại %(platform_name)s mật khẩu của bạn"
-
-#: lms/templates/registration/password_reset_confirm.html:55
-msgid "Password Reset Form"
-msgstr "Phiếu yêu cầu cài đặt lại mật khẩu"
-
-#: lms/templates/registration/password_reset_confirm.html:73
-msgid "The following errors occurred while processing your registration: "
-msgstr "Có các lỗi sau đây xảy ra khi xử lý phiếu đăng ký của bạn:"
-
-#: lms/templates/registration/password_reset_confirm.html:78
-msgid "You must complete all fields."
-msgstr "Bạn cần hoàn thành tất cả các ô"
-
-#: lms/templates/registration/password_reset_confirm.html:79
-msgid "The two password fields didn't match."
-msgstr "Hai mật khẩu không khớp nhau."
-
-#: lms/templates/registration/password_reset_confirm.html:85
-msgid ""
-"We're sorry, our systems seem to be having trouble processing your password "
-"reset"
-msgstr ""
-"Xin lỗi. Hệ thống của chúng tôi gặp lỗi kỹ thuật khi thay đổi mật khẩu của "
-"bạn"
-
-#: lms/templates/registration/password_reset_confirm.html:87
-#, python-format
-msgid ""
-"\n"
-"                Someone has been made aware of this issue. Please try again shortly. Please %(start_link)scontact us%(end_link)s about any concerns you have.\n"
-"            "
-msgstr ""
-"\n"
-"             Đã thông báo về vấn đề này. Hãy quay lại sau. Xin vui lòng liên hệ %(start_link)s với chúng tôi %(end_link)s về thắc mắc của bạn.\n"
-"            "
-
-#: lms/templates/registration/password_reset_confirm.html:94
-msgid ""
-"Please enter your new password twice so we can verify you typed it in "
-"correctly."
-msgstr "Vui lòng nhập lại mật khẩu 2 lần để khẳng định chính xác mật khẩu."
-
-#: lms/templates/registration/password_reset_confirm.html:96
-#, python-format
-msgid ""
-"\n"
-"        Required fields are noted by %(bold_start)sbold text and an asterisk (*)%(bold_end)s.\n"
-"        "
-msgstr ""
-"\n"
-"        Ô yêu cầu được ghi chú lại bởi %(bold_start)s chữ đậm và một dấu hoa thị (*)%(bold_end)s.\n"
-"        "
-
-#: lms/templates/registration/password_reset_confirm.html:102
-msgid "Required Information"
-msgstr "Thông tin bắt buộc"
-
-#: lms/templates/registration/password_reset_confirm.html:106
-msgid "Your New Password"
-msgstr "Mật khẩu mới của bạn"
-
-#: lms/templates/registration/password_reset_confirm.html:110
-msgid "Your New Password Again"
-msgstr "Nhập lại mật khẩu mới của bạn"
-
-#: lms/templates/registration/password_reset_confirm.html:117
-msgid "Change My Password"
-msgstr "Thay đổi mật khẩu của tôi"
-
-#: lms/templates/registration/password_reset_confirm.html:124
-msgid "Your Password Reset Was Unsuccessful"
-msgstr "Cài đặt lại mật khẩu không thành công"
-
-#: lms/templates/registration/password_reset_confirm.html:127
-#, python-format
-msgid ""
-"\n"
-"            The password reset link was invalid, possibly because the link has already been used.  Please return to the %(start_link)slogin page%(end_link)s and start the password reset process again.\n"
-"        "
-msgstr ""
-"\n"
-"         Đường dẫn cài đặt lại mật khẩu không hợp lệ, có thể do đường dẫn đã bị sử dụng trước đó. Xin vui lòng quay lại %(start_link)s trang đăng nhập %(end_link)s và thực hiện lại việc đổi mật khẩu.\n"
-"        "
-
-#: lms/templates/registration/password_reset_confirm.html:137
-msgid "Password Reset Help"
-msgstr "Hỗ trợ thay đổi mật khẩu"
-
-#: lms/templates/registration/password_reset_confirm.html:141
-msgid "Need Help?"
-msgstr "Cần trợ giúp?"
-
-#: lms/templates/registration/password_reset_confirm.html:143
-#, python-format
-msgid ""
-"\n"
-"              View our %(start_link)shelp section for contact information and answers to commonly asked questions%(end_link)s\n"
-"          "
-msgstr ""
-"\n"
-"              Xem %(start_link)s trang trợ giúp của chúng tôi để có địa chỉ liên hệ và những phần hỏi đáp các câu hỏi thường gặp%(end_link)s\n"
-"          "
-
-#. Translators: "Terms of Service" is a legal document users must agree to
-#. in order to register a new account.
-#: openedx/core/djangoapps/user_api/views.py:666
-msgid "I agree to the {platform_name} {terms_of_service}."
-msgstr "Tôi đồng ý với {platform_name} {terms_of_service}."
-
-#. Translators: "Terms of Service" is a legal document users must agree to
-#. in order to register a new account.
-#: openedx/core/djangoapps/user_api/views.py:673
-msgid "You must agree to the {platform_name} {terms_of_service}."
-msgstr "Bạn phải đồng ý với {platform_name} {terms_of_service}."
+msgstr "Đã hết thời gian cho câu hỏi này. Hãy làm mới lại trang của bạn."
 
 #. Translators: "Terms of service" is a legal document users must agree to
 #. in order to register a new account.
@@ -2419,19 +2195,24 @@ msgid ""
 "You must agree to the {platform_name} {terms_of_service} and "
 "{privacy_policy}."
 msgstr ""
-"Bạn cần đồng ý với {platform_name} {terms_of_service} và {privacy_policy}."
+"Bạn phải đồng ý với {platform_name} {terms_of_service} và {privacy_policy}."
+
+#: lms/templates/cme_register.html:158
+#, python-format
+msgid "Welcome! Register below to create your %(platform_name)s account"
+msgstr "Chào mừng! Đăng ký dưới đây để tạo tài khoản %(platform_name)s của bạn"
 
 #: lms/templates/help-center-link.html:7
 msgid "Access the Help Center"
-msgstr "Truy cập Trung tâm hỗ trợ"
+msgstr "Truy cập Trung Tâm Hỗ Trợ"
 
 #: lms/templates/help-contact-link.html:7
 msgid ""
 "Can't find an answer to your question? You can contact the {platform_name} "
 "general support team directly {link_start}by clicking here{link_end}."
 msgstr ""
-"Không tìm thấy câu trả lời cho câu hỏi của bạn. Bạn có thể liên hệ "
-"{platform_name} trực tiếp tới nhóm hỗ trợ chung  {link_start}bằng cách nhấn "
+"Không tìm thấy câu trả lời cho câu hỏi của bạn? Bạn có thể liên hệ "
+"{platform_name} trực tiếp tới nhóm hỗ trợ chung {link_start}bằng cách nhấn "
 "con trỏ vào đây{link_end}."
 
 #: lms/templates/help_modal.html:47
@@ -2439,8 +2220,8 @@ msgid ""
 "For <strong>questions on course lectures, homework, tools, or materials for "
 "this course</strong>, post in the course discussion forum."
 msgstr ""
-"Với các câu hỏi <strong>trong bài học, bài tập, công cụ hoặc tài liệu cho "
-"khoá học</strong>, hãy đăng lên diễn đàn thảo luận"
+"Với <strong>các câu hỏi trong bài học, bài tập, công cụ hoặc tài liệu cho "
+"khoá học</strong>, hãy đăng lên diễn đàn thảo luận."
 
 #: lms/templates/help_modal.html:50
 msgid "Post in the Forum"
@@ -2451,41 +2232,32 @@ msgid ""
 "Have <strong>general questions about {platform_name}</strong>? You can find "
 "lots of helpful information in the {platform_name} Help Center."
 msgstr ""
-"Có câu hỏi chung <strong>về{platform_name}</strong>? Bạn có thể tìm thấy rất"
-" nhiều thông tin hữu ích trong {platform_name}Trung tâm hỗ trợ"
+"Có câu <strong>hỏi chung về {platform_name}</strong>? Bạn có thể tìm thấy rất"
+" nhiều thông tin hữu ích trong {platform_name} Trung Tâm Hỗ Trợ."
 
 #: lms/templates/help_modal.html:69
 msgid "Here are some of the most popular articles from the Help Center:"
-msgstr "Đây là một số bài viết phổ biến nhất từ Trung tâm hỗ trợ"
+msgstr "Đây là một số bài viết phổ biến nhất từ Trung Tâm Hỗ Trợ:"
 
 #: lms/templates/help_modal.html:136
 msgid ""
 "Thank you for your inquiry or feedback. We typically respond to a request "
-"within three business days. In the meantime, please review our "
-"{link_start}Help Center articles{link_end}, where answers to many common "
-"questions have been posted."
+"within three business days. In the meantime, please review our {link_start}"
+"Help Center articles{link_end}, where answers to many common questions have "
+"been posted."
 msgstr ""
 "Cám ơn bạn về câu hỏi và ý kiến phản hồi. Thông thường chúng tôi sẽ trả lời "
 "câu hỏi trong vòng 3 ngày làm việc. Trong lúc đó, xin vui lòng tham khảo bài"
-" viết {đường dẫn_bắt đầu} tại Trung tâm hỗ trợ {đường dẫn_kết thúc}, tại đó "
-"có đăng câu trả lời cho nhiều câu hỏi thường gặp "
+" viết {link_start}tại Trung Tâm Hỗ Trợ{link_end}, tại đó "
+"có đăng câu trả lời cho nhiều câu hỏi thường gặp."
 
 #: lms/templates/index.html:18
 msgid "The Future of Online Education"
 msgstr "Tương lai của Đào tạo qua mạng"
 
-#: lms/templates/navigation-edx.html:86 lms/templates/navigation.html:112
-#: themes/edx.org/lms/templates/header.html:85
-msgid "Profile image for {username}"
-msgstr "Hình ảnh đại diện cho {username}"
-
-#: lms/templates/navigation.html:90
-msgid "Choose Language"
-msgstr "Chọn ngôn ngữ"
-
 #: lms/templates/problem.html:17
 msgid "At {start_time}, you started this exam."
-msgstr "Vào {start_time}, bạn đã bắt đầu bài kiểm tra này"
+msgstr "Vào {start_time}, bạn đã bắt đầu bài kiểm tra này."
 
 #: lms/templates/problem.html:21
 msgid ""
@@ -2498,11 +2270,11 @@ msgstr "Bạn có {minutes_left} để hoàn thành câu hỏi này"
 
 #: lms/templates/problem.html:37
 msgid "You have exceeded the time limit for this problem."
-msgstr "Bạn đã hết thời gian cho câu hỏi này"
+msgstr "Bạn đã hết thời gian cho câu hỏi này."
 
 #: lms/templates/problem.html:67
 msgid "Deadline has passed, you can no longer submit."
-msgstr "Đã quá thời gian, bạn không thể gửi câu trả lời"
+msgstr "Đã quá thời gian, bạn không thể gửi câu trả lời."
 
 #: lms/templates/problem_interstitial.html:17
 msgid ""
@@ -2510,12 +2282,12 @@ msgid ""
 "is {minutes_allowed} minutes."
 msgstr ""
 "Bạn chuẩn bị bắt đầu một câu hỏi tính thời gian. Thời gian cho phép để trả "
-"lời câu hỏi này là {minutes_allowed} phút"
+"lời câu hỏi này là {minutes_allowed} phút."
 
 #: lms/templates/problem_interstitial.html:21
 msgid ""
 "At {end_time}, you must manually click the '{check_button}' button below."
-msgstr "Vào {end_time}, bạn cần bấm nút '{check_button}' dưới đây"
+msgstr "Vào {end_time}, bạn cần bấm nút '{check_button}' dưới đây."
 
 #: lms/templates/problem_interstitial.html:32
 msgid "Start Timer"
@@ -2523,19 +2295,19 @@ msgstr "Bắt đầu tính giờ"
 
 #: lms/templates/register-form.html:238
 msgid ""
-"I agree to the {link_start1}Terms of Service{link_end} and "
-"{link_start2}Privacy Policy{link_end}"
+"I agree to the {link_start1}Terms of Service{link_end} and {link_start2}"
+"Privacy Policy{link_end}"
 msgstr ""
-"Tôi đồng ý với {link_start1}các điều khoản{link_end} và {link_start2}quy "
-"định bảo mật{link_end}"
+"Tôi đồng ý với {link_start1}Điều Khoản Dịch Vụ{link_end} và {link_start2}Chính "
+"Sách về Quyền Riêng Tư{link_end}"
 
 #: lms/templates/register.html:16
 msgid "Create your {platform_name} learning and research account!"
-msgstr "Tạo  {platform_name} tài khoản học và nghiên cứu của bạn"
+msgstr "Tạo {platform_name} tài khoản học và nghiên cứu của bạn!"
 
 #: lms/templates/register.html:103
 msgid "Welcome to the {platform_name} Learning and Research Community"
-msgstr "Chào mừng bạn đến với {platform_name} Nhóm nghiên cứu và học tập"
+msgstr "Chào mừng bạn đến với {platform_name} Cộng Đồng Học Tập và Nghiên Cứu"
 
 #: lms/templates/register.html:104
 msgid "Create your account"
@@ -2546,8 +2318,8 @@ msgid ""
 "By exploring the course, you are agreeing to our Terms of Service. Please "
 "read them carefully."
 msgstr ""
-"Với việc tham gia khoá học, bạn sẽ đồng ý với các điều khoản thực hiện. Xin "
-"vui lòng đọc kỹ "
+"Với việc tham gia khoá học, bạn sẽ đồng ý với các Điều Khoản Dịch Vụ. Xin "
+"vui lòng đọc kỹ."
 
 #: lms/templates/courseware/course_about.html:189
 msgid "Explore Course"
@@ -2560,9 +2332,9 @@ msgid ""
 "Service{link_end} and {privacy_link_start}Privacy Policy{link_end}. Please "
 "read them carefully."
 msgstr ""
-"Với việc tham gia khoá học, bạn sẽ đồng ý với {tos_link_start}  các điều "
-"khoản{link_end}  và {privacy_link_start} chính sách bảo mật {link_end}. Xin "
-"vui lòng đọc kỹ "
+"Với việc tham gia khoá học, bạn sẽ đồng ý với các {tos_link_start}Điều Khoản Dịch "
+"Vụ{link_end} và {privacy_link_start}Chính Sách về Quyền Riêng Tư{link_end}. Xin "
+"vui lòng đọc kỹ."
 
 #: lms/templates/courseware/course_navigation-sneak-peek-warning.html:17
 msgid ""
@@ -2570,37 +2342,17 @@ msgid ""
 "progress."
 msgstr ""
 "Chế độ không đăng ký. {tag_start}Đăng ký{tag_end} để bắt đầu quá trình học "
-"tập"
-
-#: lms/templates/courseware/course_updates.html:8
-#: lms/templates/courseware/course_updates.html:20
-msgid "Show"
-msgstr "Xem"
-
-#: lms/templates/courseware/course_updates.html:27
-msgid "Show Earlier Course Updates"
-msgstr "Xem các cập nhật trước đây về khoá học "
-
-#: lms/templates/courseware/info.html:57
-msgid "Welcome to {org}'s {course_name}!"
-msgstr "Chào mừng bạn đến với  {org}'s {course_name}!"
-
-#: lms/templates/courseware/info.html:62
-msgid "Resume Course"
-msgstr "Quay lại khoá học"
-
-#: lms/templates/courseware/info.html:77
-msgid "Course Updates and News"
-msgstr "Tin tức và cập nhập khoá học"
+"tập."
 
 #: lms/templates/courseware/progress-info.html:6
 msgid ""
 "Note: Submitted assignments will appear as bars in the Progress chart.\n"
-"                Mouse over a bar to see more information about the relevant assignment.\n"
+"                Mouse over a bar to see more information about the relevant "
+"assignment.\n"
 "        "
 msgstr ""
-"Ghi chú: Các bài tập đã gửi sẽ xuất hiện trên thanh công cụ Quá trình\n"
-"Di chuyển con trỏ tới thanh công cụ để xem thêm thông tin về các bài tập"
+"Ghi chú: Các bài tập đã gửi sẽ xuất hiện trên thanh công cụ Quá trìnhi.\n"
+"Di chuyển con trỏ tới thanh công cụ để xem thêm thông tin về các bài tập."
 
 #: lms/templates/emails/activation_email.txt:5
 msgid ""
@@ -2609,23 +2361,23 @@ msgid ""
 msgstr ""
 "Bắt đầu học hôm nay bằng cách kích hoạt tài khoản {platform_name} của bạn. "
 "Chọn đường dẫn dưới đây hoặc sao chép đường dẫn vào thanh địa chỉ của trình "
-"duyệt "
+"duyệt."
 
 #: lms/templates/emails/activation_email.txt:18
 #: lms/templates/emails/activation_email.txt:24
 msgid ""
-"If you didn't request this, you don't need to do anything; you won't receive"
-" any more email from us. Please do not reply to this email. For more "
+"If you didn't request this, you don't need to do anything; you won't receive "
+"any more email from us. Please do not reply to this email. For more "
 "information, check our Help Center here: "
 msgstr ""
 "Nếu bạn không gửi yêu cầu này, bạn không cần làm gì tiếp theo; bạn sẽ không "
 "nhận thêm email từ nhóm quản trị. Vui lòng không trả lời email này. Để có "
-"thêm thông tin, hãy truy cập Trung tâm hỗ trợ tại đây:"
+"thêm thông tin, hãy truy cập Trung Tâm Hỗ Trợ tại đây:"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:12
 msgid ""
-"To start accessing course materials, please visit "
-"https://{site_name}/dashboard"
+"To start accessing course materials, please visit https://{site_name}/"
+"dashboard"
 msgstr ""
 "Để bắt đầu xem các tài liệu của khoá học, vui vòng truy cập trang "
 "https://{site_name}/dashboard"
@@ -2641,16 +2393,16 @@ msgstr ""
 "Hệ thống đang tìm kiếm tài khoản của bạn. Bạn sẽ nhận được email cùng với "
 "hướng dẫn cài đặt lại mật khẩu ngay. Nếu bạn không nhận được email trong "
 "vòng ít phút nữa (hãy kiểm tra thư mục rác trong hòm thư), tài khoản của bạn"
-" có thể được đăng ký bằng một địa chỉ email khác. Hãy thử  {start_link} đăng"
+" có thể được đăng ký bằng một địa chỉ email khác. Hãy thử {start_link}đăng"
 " nhập{end_link} lại với các địa chỉ email khác của bạn."
 
 #: lms/templates/student_account/email_change_failed.html:7
 msgid "Email change failed."
-msgstr "Thay đổi địa chỉ email không thành công"
+msgstr "Thay đổi Email không thành công."
 
 #: lms/templates/student_account/email_change_failed.html:12
 msgid "Something went wrong. Please contact {support} for help."
-msgstr "Có lỗi kỹ thuật. Xin vui lòng liên hệ {support}  để được trợ giúp."
+msgstr "Có lỗi kỹ thuật. Xin vui lòng liên hệ {support} để được trợ giúp."
 
 #: lms/templates/student_account/email_change_failed.html:18
 msgid ""
@@ -2658,10 +2410,8 @@ msgid ""
 "{platform_name} account."
 msgstr ""
 "Địa chỉ email bạn muốn dùng đã được sử dụng để đăng ký bởi tài khoản "
-"{platform_name} khác "
+"{platform_name} khác."
 
 #: lms/templates/student_account/email_change_failed.html:24
-msgid ""
-"You can try again from the {link_start}account settings{link_end} page."
-msgstr ""
-"Bạn có thể thử lại từ trang {link_start} cài đặt tài khoản {link_end} trang"
+msgid "You can try again from the {link_start}account settings{link_end} page."
+msgstr "Bạn có thể thử lại từ trang {link_start} cài đặt tài khoản {link_end} trang."
