@@ -1,0 +1,407 @@
+<%page expression_filter="h"/>
+
+<%!
+  from django.conf import settings
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+%>
+<%inherit file="../main.html" />
+
+<%namespace name='static' file='/static_content.html'/>
+<%namespace name='theme_settings' file='/theme-settings.html'/>
+
+<%block name="pagetitle">${_("Terms of Service")}</%block>
+
+<%
+  theme_vars = theme_settings.get_theme_vars()
+  effective_date = theme_vars['effective_date']
+  site_name = settings.SITE_NAME
+  accessibility_email = theme_vars['accessibility_email']
+  concern_email = theme_vars['concern_email']
+  contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
+  privacy_email = theme_vars['privacy_email']
+%>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about tos">
+
+        <h2><em>
+            ${_('NOTICE: On {date}, Stanford amended its Terms of Service and Privacy Policy as follows:').format(
+                date=effective_date
+            )}
+        </em></h2>
+
+        <hr />
+
+        <h2 id="privacy">${_('Privacy Policy')}</h2>
+
+        <p>
+            ${_('''Stanford respects your privacy, will use reasonable efforts to keep your Personally Identifiable
+                Information (i.e., information that can be used to identify you) private, and will not share it with third
+                parties, except as otherwise provided in this Privacy Policy, or unless Stanford has a good faith belief
+                that such disclosure is necessary in special cases, such as a physical threat to you or others.
+            ''')}
+        </p>
+
+        <p><strong>${_('What Information this Privacy Policy Covers')}</strong></p>
+
+        <p>
+            ${_('''Some of our Site\'s functionality can be used without revealing any personal information; however, for
+                features or services related to an online course registration and participation, personal information is
+                required. If you do not use these specific features or services on the Site, then the only information
+                Stanford collects will be "Non-Personal Information" (i.e., information that cannot be used to identify
+                you). Non-Personal Information includes information such as the web pages that you have viewed.
+            ''')}
+        </p>
+
+        <p>
+            ${_('''In order to access certain features and benefits on our Site, you may need to submit "Personally
+                Identifiable Information". Personally Identifiable Information can include information such as your name
+                and email address, among other things. You are responsible for ensuring the accuracy of the Personally
+                Identifiable Information you submit to Stanford. Inaccurate information may affect your ability to use the
+                Site, the information you receive when using the Site, and our ability to contact you. For example, your
+                email address should be kept current because that is one of the primary means by which we communicate with
+                you.
+            ''')}
+        </p>
+
+        <p>
+            ${_('''Please note that this Privacy Policy only applies to information that we collect through the Site and
+                does not apply to information that we may collect from you through other means such as by mail or over
+                the phone.
+            ''')}
+        </p>
+
+        <p><strong>${_('What You Consent to by Using Our Site')}</strong></p>
+
+        <p>
+            ${_('''Please understand that by submitting any Personally Identifiable Information to us, you consent and
+                agree that Stanford may collect, use and disclose such Personally Identifiable Information in accordance
+                with this Privacy Policy and our Terms of Use, and as permitted or required by law. If you do not agree
+                with these terms, then please do not provide any Personally Identifiable Information to us. If you refuse
+                or withdraw your consent, or if you choose not to provide us with any required Personally Identifiable
+                Information, Stanford may not be able to provide you with the services and courses that can be offered on
+                our Site.
+            ''')}
+        </p>
+
+        <p><strong>${_('The Information We Collect')}</strong></p>
+
+        <p>${_('We gather the following types of information about users through the Site:')}</p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Non-Personal Information')}</span>.
+            ${_('''When users come to our Site, Stanford may track, collect and aggregate Non-Personal Information
+                indicating, among other things, which pages of our Site were visited, the order in which they were
+                visited, when they were visited, and which hyperlinks were "clicked." We also collect information from the
+                URLs from which you linked to our Site. Collecting such information may involve logging the IP address,
+                operating system and browser software used by each user of the Site. Although such information is not
+                Personally Identifiable Information, we may be able to determine from an IP address a user\'s Internet
+                Service Provider and the geographic location of his or her point of connectivity.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Cookies')}</span>.
+            ${_('''Stanford also uses or may use cookies and/or web beacons to help us determine and identify repeat
+                visitors, the type of content and sites to which a user of our Site links, the length of time each user
+                spends at any particular area of our Site, and the specific functionalities that users choose to use.
+                Essentially, cookies are a user\'s identification card for the Stanford servers. Web beacons are small
+                graphic files linked to our servers that allow us to track your use of our Site and related
+                functionalities. Cookies and web beacons allow Stanford to serve you better and more efficiently, and to
+                personalize your experience at our Site. Cookies and web beacons are not used to retain Personally
+                Identifiable Information. From time to time Stanford may also use additional methods of collecting data.
+                Stanford does not provide any data collected through cookies to third parties.
+            ''')}
+        </p>
+
+        <p>
+            ${_('''You should be able to control how and whether cookies will be accepted by your web browser. Most
+                browsers offer instructions, in the "Help" section of the toolbar, on how to reset the browser to reject
+                cookies. If you reject our cookies, many functions and conveniences of this Site may not work properly.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Personally Identifiable Information')}</span>.
+            ${_('''This Privacy Policy serves as notice that Stanford collects Personally Identifiable Information in the
+                manner described herein. Such information may include but is not limited to: username, email address, home
+                address, IP address, postal code, gender and year of birth. Stanford collects Personally Identifiable Information that
+                you provide to us when you sign-up for email updates, participate in online courses or services through
+                our Site, participate in our public forums, send us email messages, and/or or otherwise contact us. In
+                order to subscribe to services, you may be required to provide us with Personally Identifiable Information
+                such as your user name, name, postal address, and email address. You may also be asked to provide
+                demographic information such as date of birth, gender and educational and vocational information. Stanford
+                may also receive Personally Identifiable Information when you access or log-in to a third party site,
+                e.g., Facebook, from our Site. This may include the text and/or images of your Personally Identifiable
+                Information available from the third party site. Personally Identifiable Information shall not include
+                any information posted or sent by or to you via any public forum.
+            ''')}
+        </p>
+
+        <p><strong>${_('Collection of Information by Third Parties')}</strong></p>
+
+        <p>
+            ${_('''We may permit a limited number of authorized third parties, such as analytics partners, to place cookies
+                through the Site to provide us with better insights into the use of the Site or user demographics. These
+                third parties may collect information, including non-personal information, about a consumer\'s online
+                activities over time and across different websites when he or she uses our website.
+            ''')}
+        </p>
+
+        <p><strong>${_('Do Not Track')}</strong></p>
+
+        <p>${_('We do not use technology that recognizes a "do-not-track" signal from your web browser.')}</p>
+
+        <p><strong>${_('How We Use and Share the Information')}</strong></p>
+
+        <p>
+            ${_('''Please take some time to familiarize yourself with the different ways Stanford uses and may disclose the
+                information that we gather. We do not share your Personally Identifiable Information with third parties for
+                their direct marketing use.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Non-Personal Information')}</span>.
+            ${_('''Stanford uses Non-Personal Information in aggregate form to build higher quality, more useful services
+                by performing statistical analyses of the collective characteristics and behavior of our users, and by
+                measuring demographics and interests regarding specific areas of our Site. Such aggregate information may
+                include but is not limited to video player interactions, views of posts, views and actions on pages,
+                assessment results and completion rates and assignments. We may share Non-Personal Information with
+                service providers and others to assist us in operating and enhancing our programs and site.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Personally Identifiable Information')}</span>.
+            ${_('''Among other things, Stanford may use the Personally Identifiable Information that you provide to
+                respond to your questions, provide you the specific course and/or services you select, send you updates
+                about online courses offered by Stanford or other Stanford events, and send you email messages about Site
+                maintenance or updates. Except as set forth in this Privacy Policy or as specifically agreed to by you,
+                Stanford will not disclose any Personally Identifiable Information we gather from you on the Site. In
+                addition to the other uses set forth in this Privacy Policy, Stanford may disclose and otherwise use
+                Personally Identifiable Information as described below.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Updates')}</span>.
+            ${_('''We use Personally Identifiable Information collected when you sign-up for our various email or update
+                services to send you the messages in connection with the Site or an online course. Stanford may also
+                archive this information and/or use it for future communications with you.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Forums')}</span>.
+            ${_('''Stanford uses Personally Identifiable Information collected during your use of forums to facilitate your
+                use of the forums. In addition Stanford may display this information either on the Site and/or in other
+                publications. Stanford may also archive this information and/or use it for future communications with you
+                and/or your designee(s). Since the forum is open to the public, you may wish to select a username which
+                does not disclose your identity when you post on the forum.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Participation in Online Courses')}</span>.
+            ${_('''We use the Personally Identifiable Information, including but not limited to username and email
+                address, that we collect from you when you participate in an online course through the Site for processing
+                purposes, including but not limited to tracking attendance, progress and completion of an online course.
+                Also, Stanford may archive this information and/or use it for future communications with you. This
+                information may be shared with the content providers or contractors.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Communications with Stanford')}</span>.
+            ${_('''When you send us an email message or otherwise contact us, we may use the information provided by you
+                to respond to your communication and/or as described in this Privacy Policy. We may also archive this
+                information and/or use it for future communications with you.
+            ''')}
+        </p>
+
+        <p id="pii">
+            <span style="text-decoration: underline;">${_('Research')}</span>.
+            ${_('''We will study course participation to learn how to enhance both our course offerings and the online
+                learning experience. Records of your participation may be used by Stanford for these research studies.
+                Such records may include but will not be limited to: username, email address, home address, IP address, postal code,
+                gender, year of birth and your interactions with the platform such as video player usage, forum posts,
+                actions on class pages, assignments, and assessment results. For purposes of research, we may share
+                information we collect from online learning activities, including Personally Identifiable Information
+                ("PII"), with researchers beyond Stanford. However, your PII will only be shared as permitted by
+                applicable law, will be limited to what is necessary to perform the research and will be subject to an
+                agreement to protect the data. We may also share with the public or third parties aggregated information
+                that does not personally identify you. Similarly, any research findings will be reported at the aggregate
+                level and will not expose your personal identity.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Third Party Sites')}</span>.
+            ${_('''We use the Personally Identifiable Information collected from third party sites for research and
+                teaching purposes. To the extent such Personally Identifiable Information contains images of you; you
+                grant Stanford a limited, non-exclusive right to use, reproduce, distribute, prepare derivative works of
+                or publicly display such images and/or your likeness for educational purposes.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Disclosure to Complete Transactions')}</span>.
+            ${_('''We may disclose your Personally Identifiable Information in order to help complete a transaction that
+                you have requested. This may include, for example, disclosure of credit card information to a payment
+                processor.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Disclosure to Stanford Contractors')}</span>.
+            ${_('''Our contractors may have limited access to your Personally Identifiable Information in the course of
+                providing products or services to us. These contractors may include vendors and suppliers that provide
+                us with technology, services, marketing assistance, and/or content related to the operation and
+                maintenance of the Site or the online course. Access to your Personally Identifiable Information by these
+                contractors is limited to the information reasonably necessary for the contractor to perform its limited
+                function for us.
+            ''')}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Government Authorities, Legal Rights and Actions')}</span>.
+            ${_('''Stanford may share your Personally Identifiable Information with various government authorities in
+                response to subpoenas, court orders, or other legal process; to establish or exercise our legal rights or
+                to protect our property, rights or safety or the property, rights or safety of others; to prosecute or to
+                defend against legal claims; or as otherwise required by law or applicable regulations. In such cases
+                Stanford reserves the right to raise or waive any legal objection or right available to us. We also may
+                share your Personally Identifiable Information when Stanford believes it is appropriate to investigate,
+                prevent, or take action regarding illegal or suspected illegal activities; to protect and defend the
+                rights, property, or safety of Stanford, the Site, our users or others; and in connection with our Terms
+                of Use and other agreements.
+            ''')}
+        </p>
+
+        <p><strong>${_('Security')}</strong></p>
+
+        <p>
+            ${_('''Stanford takes reasonable measures to protect your Personally Identifiable Information from disclosure
+                to or access by third parties. However, no method of electronic transmission or storage is 100% secure.
+                Please note that Stanford does not guarantee the security of Personally Identifiable Information, and
+                there is some risk that an unauthorized third party may find a way to circumvent our security systems or
+                that transmission of your information over the Internet will be intercepted. Any information that you post
+                on our site or send to us in an email is not secure.
+            ''')}
+        </p>
+
+        <p>
+            ${_('''You also play a role in protecting your information. Please safeguard your user name and password and do
+                not share them with others. If we receive instructions using your log-in information we will consider that
+                you have authorized the instructions. You agree to notify us immediately of any unauthorized use of your
+                account or any other breach of security. We reserve the right to refuse service, terminate accounts, or
+                remove or edit content in our sole discretion.
+            ''')}
+        </p>
+
+        <p><strong>${_('External Links')}</strong></p>
+
+        <p>
+            ${_('''For your convenience we may provide links to sites operated by organizations other than Stanford ("Third
+                Party Sites") that we believe may be of interest to you. Stanford does not disclose your Personally
+                Identifiable Information to these Third Party Sites without obtaining your consent. Stanford does not
+                endorse and is not responsible for the privacy practices of these Third Party Sites. If you choose to
+                click on a link to one of these Third Party Sites, you should review the terms of service and privacy
+                policy posted on the other site to understand how that Third Party Site collects and uses your Personally
+                Identifiable Information.
+            ''')}
+        </p>
+
+        <p><strong>${_('Updating or Deleting Your Personally Identifiable Information')}</strong></p>
+
+        <p>
+            ${_('''You may update or delete your Personally Identifiable Information by logging into the Site and visiting
+                your user account page. Keep in mind, however, that there will be residual information that will remain
+                within our databases, access logs and other records, which may or may not contain your Personally
+                Identifiable Information. You may also submit a request to update your Personally Identifiable Information
+                to {contact_email}. We try to answer every email promptly, but may not always be able to do so.
+            ''').format(
+                contact_email=contact_email
+            ) | n }
+        </p>
+
+        <p><strong>${_('Opt-Out Rights')}</strong></p>
+
+        <p>
+            ${_('''If you do not wish to receive information or other notices from us in the future, you can "opt out" by
+                contacting us at the address indicated at the end of this policy or by following the "unsubscribe"
+                instructions in any communication you receive from us. Please be aware that you are not able to opt out of
+                receiving communications about your account or your transactions with us.
+            ''')}
+        </p>
+
+        <p><strong>${_('Changing Our Privacy Policy')}</strong></p>
+
+        <p>
+            ${_('''Please note that we review our privacy practices from time to time, and that these practices are subject
+                to change. Any change, update, or modification will be effective immediately upon posting on our Site. We
+                will notify you of any material change to this Privacy Policy by posting a notice on our Site\'s homepage
+                for a reasonable period of time following such update, and by changing the effective date (located at the
+                bottom of this Policy). Be sure to return to this page periodically to ensure familiarity with the most
+                current version of this Privacy Policy. If you have any privacy-related questions, you may contact
+                Stanford at {privacy_email}.
+            ''').format(
+                privacy_email=privacy_email
+            ) | n }
+        </p>
+
+        <p><strong>${_('Protecting Children\'s Privacy')}</strong></p>
+
+        <p>
+            ${_('''Stanford does not knowingly collect or maintain Personally Identifiable Information on our Site from
+                persons under 13 years of age, and no part of our Site is directed to persons under 13 years of age. If you
+                are under 13 years of age, then please do not use or access this Site at any time or in any manner. Stanford
+                will take appropriate steps to delete any Personally Identifiable Information of persons less than 13 years of
+                age that has been collected on our Site without verified parental consent upon learning of the existence of
+                such Personally Identifiable Information. If you have any concerns with respect to data collected on the site,
+                please contact us at {contact_email}.
+            ''').format(
+                contact_email=contact_email
+            ) | n }
+        </p>
+
+        <p><strong>${_('Entire Agreement')}</strong></p>
+
+        <p>
+            ${_('''These Terms of Service, including the Honor Code and Privacy Policy, constitute the entire agreement
+                between you and Stanford and its affiliates with respect to the subject matter herein and supersedes any
+                and all prior or contemporaneous oral or written agreements.
+            ''')}
+        </p>
+
+        <p><strong>${_('Contacting Stanford')}</strong></p>
+
+        <p>${_('If you have a disability-related question, email us at {accessibility_email}.').format(
+                accessibility_email=accessibility_email
+            ) | n }
+        </p>
+
+        <p>${_('If you have a privacy-related question, email us at {privacy_email}.').format(
+                privacy_email=privacy_email
+            ) | n }
+        </p>
+
+        <p>${_('If you would like to report a concern, email us at {concern_email}.').format(
+                concern_email=concern_email
+            ) | n }
+        </p>
+
+        <p>${_('For any other questions, please contact us at {contact_email}.').format(
+                contact_email=contact_email
+            ) | n }
+        </p>
+
+        <hr />
+        <p><strong>
+            ${_('Effective date: {date}').format(
+                date=effective_date
+            ) | n }
+        </strong></p>
+    </section>
+</main>

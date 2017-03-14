@@ -1,9 +1,0 @@
-## mako
-<%! from django.utils.translation import ugettext as _ %>
-
-<%namespace name='static' file='../static_content.html'/>
-
-<div class="logo">
-    <img src="${settings.STATIC_URL + 'themes/lagunita/images/seal.png'}" alt="Stanford Seal Logo" />
-</div>		
-<h2>${_("Public courses from {university_name}.").format(university_name="Stanford University")}</h2>

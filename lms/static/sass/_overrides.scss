@@ -1,0 +1,314 @@
+/****************************************************************************************************
+*   Stanford Overrides File
+*
+*   Contains all the CSS overrides for the Stanford Open Source MOOC Project
+*
+****************************************************************************************************/
+
+//-----------------------
+//  Stanford Extra Styles
+//-----------------------
+#stanford-footer-edx-image {
+    display: block;
+    height: 40px;
+    width: 120px;
+    padding-bottom: 10px;
+    float: right;
+    background-image: url("https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png");
+    background-size: 120px 40px;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+#register {
+    .checkbox-honor_code,
+    .checkbox-terms_of_service,
+    .checkbox-privacy_policy {
+        label {
+            display: inline-block;
+            width: auto;
+            margin: 3px 5px 0 0;
+            vertical-align: top;
+        }
+        .supplemental-link {
+            display: inline-block;
+            vertical-align: top;
+            margin: 3px 0;
+            line-height: 1.5em;
+            font-weight: 700;
+        }
+    }
+}
+
+#global-navigation {
+    .wrapper-header {
+        h1.logo {
+            margin: 0 10px 0 0;
+            padding-right: 20px;
+
+            &:before {
+                content: "";
+                display: block;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                right: 3px;
+                width: 1px;
+                background-image: -webkit-linear-gradient(#D1D5D3 0%, #D1D5D3);
+            }
+        }
+        h2.course-header {
+            display: block;
+            float: left;
+            font-family: $sans-serif;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #515553;
+            letter-spacing: 0;
+            margin: 0;
+            margin-top: 9px;
+            text-transform: none;
+            text-shadow: 0 1px 0 #fff;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        .user, .wrapper-user-menu {
+            height: auto;
+
+            .user-link, .menu-title {
+                display: inline-block;
+                line-height: 1em;
+                vertical-align: middle;
+                background: none;
+                box-shadow: none;
+
+                &:hover {
+                    text-decoration: underline !important;
+                }
+
+                .user-image-frame, .menu-image {
+                    margin: 2px;
+                    max-width: 40px;
+                    border-radius: 10%;
+                }
+                .menu-image {
+                    margin-right: 15px;
+                }
+                .label-username {
+                    margin: 15px 10px 15px 15px;
+                }
+            }
+            .menu-title {
+                padding-right: 10px;
+            }
+            .user-menu  {
+                display: inline-block;
+                float: right;
+                margin: 6px;
+
+                button.dropdown, button.menu-button {
+                    padding: 3px 10px 6px 10px;
+                    box-shadow: none;
+                    line-height: 1.6rem;
+                    background: none;
+                    border-radius: 10%;
+                }
+                button.dropdown:hover, button.menu-button:hover {
+                    background: $white;
+                }
+                button.menu-button {
+                    margin-top: 0;
+                }
+                .dropdown-menu {
+                    top: 47px;
+                    right: 1px;
+                    border: 1px solid #c8c8c8;
+
+                    &:before {
+                        right: 12px;
+                        box-shadow: 1px -1px 0 #c8c8c8;
+                    }
+                }
+            }
+        }
+        .wrapper-user-menu .user-menu .dropdown-menu {
+            &:before {
+                border-color: transparent;
+            }
+            .dropdown-item {
+                border-bottom: 1px dotted #D1D5D3;
+            }
+        }
+    }
+}
+
+.help-buttons {
+    li {
+        margin-top: 10px;
+        
+        a:link, a:visited {
+            padding: 15px 0;
+            text-align: center;
+            cursor: pointer;
+            background: #fff;
+            text-decoration: none;
+            display: block;
+            border: 1px solid #c8c8c8;
+        }
+        a.help-modal-button {
+            &:link, &:visited {
+                font-family: $sans-serif;
+                font-weight: bold;
+                background-color: $dark-green;
+                color: $white;
+            }
+        }
+        a:hover {
+            background-color: $dark-green;
+            color: $white;
+        }
+    }
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+// Previous and Next arrow styling changes
+#course-content .sequence-bottom {
+    width: 220px;
+
+    .sequence-nav-button {
+        width: 110px;
+        text-indent: 0;
+        text-align: center;
+        padding: 8px 10px;
+
+        .icon {
+            position: absolute;
+            top: 16px;
+        }
+
+        &.button-previous {
+            padding-left: 30px;
+            
+            .icon {
+                left: 15px;
+            }
+        }
+
+        &.button-next {
+            padding-right: 30px;
+
+            .icon {
+                right: 15px;
+            }
+        }
+    }
+}
+
+// Research Info styling, upstream change styles ul element directly, so slight HAX
+.dashboard {
+    .profile-sidebar {
+        border-top: none !important;
+        margin-top: 25px;
+
+        .research-info {
+            padding: 25px 0 10px 0;
+            border-top: 1px solid #999;
+        }
+    }
+}
+
+// Student profile
+.view-profile .wrapper-profile-section-two {
+    margin-bottom: 30px;
+}
+
+.course-sidebar .research-info {
+    padding: 0 10px;
+}
+
+// Shib username page
+section.introduction h1.sr {
+    min-height: 100px;
+}
+
+// course about header
+#content {
+    .course-profile {
+        height: auto;
+        padding: 70px 0;
+    }
+}
+
+//-----------------
+// Footer Styling
+//-----------------
+.wrapper-footer {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    
+    footer#footer-openedx {
+        max-width: 1180px;
+        margin: 0 auto;
+    
+        .colophon {
+            width: 80% !important;
+            float: left;
+    
+            .footer-logo {
+                float: left;
+                margin-right: 35px;
+            }
+            .nav-colophon li {
+                display: inline-block;
+                height: 35px;
+                float: left;
+                margin: 0 20px 20px 0;
+            }
+        }
+    
+        .references {
+            width: 15% !important;
+            float: right;
+        }
+    
+        .copyright {
+            clear: both;
+        }
+    }
+}
+#su-footer {
+    clear: both;
+}
+
+// Typography styling
+P {
+    line-height: 1.4em;
+}
+.modal p {
+    color: #222;
+}
+ul li, ol li {
+    font-family: $sans-serif !important;
+}
+
+// Print page, originally implemented for TOS page
+@media print {
+    html body .window-wrap #su-header,
+    html body .window-wrap header.global,
+    html body .window-wrap .wrapper-footer,
+    html body .window-wrap #su-footer,
+    #content section.tos input.print {
+        display: none;
+    }
+}
+#content section.tos input.print {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@import '_mobile.scss';

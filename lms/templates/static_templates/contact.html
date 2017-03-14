@@ -1,0 +1,57 @@
+<%page expression_filter="h"/>
+<%!
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+%>
+<%namespace name='static' file='/static_content.html'/>
+<%namespace name='theme_settings' file='/theme-settings.html'/>
+<%inherit file="../main.html" />
+
+<%
+  theme_vars = theme_settings.get_theme_vars()
+  site_name = settings.SITE_NAME
+  accessibility_email = theme_vars['accessibility_email']
+  concern_email = theme_vars['concern_email']
+  contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
+  privacy_email = theme_vars['privacy_email']
+%>
+
+<%block name="pagetitle">${_("Contact")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about contact">
+        <nav id="about-menu">
+            <a href="/about" class="about">About</a>
+            <a href="/contact" class="contact active">Contact</a>
+        </nav>
+        <section class="vision">
+            <section class="message left" id="contact">
+                <div class="photo">
+                    <img src="${static.url('lagunita/images/dish.jpg')}" alt="${_('Stanford Dish by Twilight')}" />
+                    <!-- Image Copyright owned by Stanford University -->
+                </div>
+                <article>
+                    <h2>${_('Platform Help Center and Contact Emails')}</h2>
+                    <dl>
+                        <dt><strong>Stanford Online Help Center:</strong></dt>
+                        <dd><a href="https://stanfordonline.zendesk.com/hc">https://stanfordonline.zendesk.com</a></dd>
+                        <dd>${_("The {help_link_start}Help Center{link_end} contains a FAQ that answers all of the most common tech support questions for the courses available through {lagunita_home_link}. If you can't find what you're looking for there, or if you have a suggestion or bug report to make, you can also file a support ticket from the Help Center.").format(
+                                help_link_start='<a href="https://stanfordonline.zendesk.com/hc">',
+                                link_end='</a>',
+                                lagunita_home_link='<a href="https://lagunita.stanford.edu">https://lagunita.stanford.edu</a>'
+                            ) | n}
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><strong>${_("For disability-related questions email us at:")}</strong></dt>
+                        <dd>${accessibility_email | n}</dd>
+                    </dl>
+                    <dl>
+                        <dt><strong>${_("For privacy-related questions email us at:")}</strong></dt>
+                        <dd>${privacy_email | n}</dd>
+                    </dl>
+                </article>
+            </section>
+        </section>
+    </section>
+</main>

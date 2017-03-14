@@ -55,10 +55,6 @@ msgstr "طالع شروط الخدمة وسياسة الخصوصية "
 msgid "Revised {date}"
 msgstr "منقّح {date}"
 
-#: templates/theme-footer.html:32
-msgid "Copyright"
-msgstr "حقوق الطبع والنشر "
-
 #: templates/theme-footer.html:40
 msgid "Powered by {platform_name}"
 msgstr "مشغّل بواسطة {platform_name}"

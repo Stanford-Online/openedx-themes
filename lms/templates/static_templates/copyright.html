@@ -1,0 +1,73 @@
+<%page expression_filter="h"/>
+
+<%!
+  from django.conf import settings
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+%>
+<%inherit file="../main.html" />
+
+<%namespace name='static' file='/static_content.html'/>
+<%namespace name='theme_settings' file='/theme-settings.html'/>
+
+<%block name="pagetitle">${_("Terms of Service")}</%block>
+
+<%
+  theme_vars = theme_settings.get_theme_vars()
+  effective_date = theme_vars['effective_date']
+  site_name = settings.SITE_NAME
+  accessibility_email = theme_vars['accessibility_email']
+  concern_email = theme_vars['concern_email']
+  contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
+  privacy_email = theme_vars['privacy_email']
+%>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about tos">
+        <h2 id="copyright">${_('Copyright Complaints')}</h2>
+        <p>
+            ${_('''Stanford respects the intellectual property rights of others. In accordance with Title II of the Digital
+                Millennium Copyright Act (DMCA), an agent has been designated to receive notification of a claimed
+                copyright infringement for the Stanford University Network domains: Stanford.EDU, Stanford.ORG and
+                Stanford.COM. If you believe that your copyrighted work has been copied in a way that constitutes
+                copyright infringement, please contact Stanford's DMCA Designated Agent at DMCA-Claim@Stanford.EDU with
+                a copy to {contact_email} and provide the following written information: (i) an electronic or physical
+                signature of the person authorized to act on behalf of the owner of the copyright interest; (ii) a
+                description of the copyrighted work that you claim has been infringed upon; (iii) a description of where
+                the material that you claim is infringing is located on the Site; (iv) your address, telephone number, and
+                email address; (v) a statement by you that you have a good-faith belief that the disputed use is not
+                authorized by the copyright owner, its agent or the law; and (vi) a statement by you, made under penalty
+                of perjury, that the above information in your notice is accurate and that you are the copyright owner or
+                authorized to act on the copyright owner\'s behalf.
+            ''').format(
+                contact_email=contact_email
+            ) | n }
+        </p>
+        <p><strong>${_('Notices')}</strong></p>
+        <p>
+            ${_('''Notices to you may be made via either email or regular mail. Notices to Stanford should be directed to
+                the email listed below. The Site may also provide notices of changes to these Terms or other matters by
+                displaying notices or links to notices to you on the Site.
+            ''')}
+        </p>
+        <p><strong>${_('General Information')}</strong></p>
+        <p>
+            ${_('''Stanford\'s failure to exercise or enforce any right or provision of the Terms shall not constitute a
+                waiver of such right or provision. If any provision of the Terms is found by a court of competent
+                jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect
+                to the parties' intentions as reflected in the provision, and the other provisions of the Terms remain in
+                full force and effect.
+            ''')}
+        </p>
+        <p>
+            ${_('''You may not assign the Terms or any of your rights or obligations under the Terms without Stanford\'s
+                express prior written consent.
+            ''')}
+        </p>
+        <p>
+            ${_('''The Terms inure to the benefit of Stanford\'s successors, assigns and licensees. The section titles in
+                the Terms are for convenience only and have no legal or contractual effect.
+            ''')}
+        </p>
+    </section>
+</main>
