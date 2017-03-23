@@ -1710,6 +1710,15 @@ msgstr ""
 msgid "Queries"
 msgstr ""
 
+#: openedx/core/djangoapps/user_api/views.py:717
+msgid "I agree to the {platform_name} {terms_of_service} and {privacy_policy}."
+msgstr "Estoy de acuerdo con los {terms_of_service} y la {privacy_policy} de {platform_name}."
+
+#: openedx/core/djangoapps/user_api/views.py:725
+msgid "You must agree to the {platform_name} {terms_of_service} and {privacy_policy}."
+msgstr ""
+"Usted debe estar de acuerdo con los {terms_of_service} y la {privacy_policy} de {platform_name}."
+
 #: cms/templates/bulksettings.html:16
 msgid "Tools / Course Utilities"
 msgstr ""
