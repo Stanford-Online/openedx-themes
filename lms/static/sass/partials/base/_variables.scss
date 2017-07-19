@@ -80,6 +80,21 @@ $theme-serif-font: 'Crimson Text';
 $serif: $theme-serif-font, $serif;
 $f-serif: $serif;
 
+$m-base-font-size: em(16);
+
+// ----------------------------
+// #APPLICATIONS
+// ----------------------------
+// font sizes
+$body-font-size: em(16);
+$body-line-height: golden-ratio(.875em, 1) !default;
+
+$base-font-color: rgb(60,60,60) !default;
+$baseFontColor: $base-font-color;
+
+$lighter-base-font-color: rgb(100,100,100) !default;
+$very-light-text: rgb(255,255,255) !default;
+$text-color: rgb(51, 51, 51) !default;
 
 //-----------------
 //  Theme Element Assignments
