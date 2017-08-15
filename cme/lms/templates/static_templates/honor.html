@@ -1,0 +1,34 @@
+<%page expression_filter="h"/>
+<%!
+  from django.utils.translation import ugettext as _
+%>
+<%inherit file="../main.html" />
+<%namespace name='theme_settings' file='/theme-settings.html'/>
+<%block name="pagetitle">${_("Terms of Service")}</%block>
+<%
+  theme_vars = theme_settings.get_theme_vars()
+  effective_date = theme_vars['effective_date']
+%>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about tos">
+        <h2 id="honor">${_('Honor Code')}</h2>
+        <p>
+            ${_('''By registering in an online course, you agree to: rely solely on your own work in connection with all
+                assessments, problems, homework and assignments (unless collaboration is expressly permitted); acknowledge
+                any and all external sources used in your work; refrain from any activity that would dishonestly or
+                fraudulently improve your results or disadvantage others in the course; maintain only one user account and
+                not let anyone else use your username and/or password; and not access or attempt to access any other
+                user\'s account, or misrepresent or attempt to misrepresent your identity while using the Sites. This
+                Honor Code is not intended to prohibit discussion of course material. While users must submit work that
+                is their own, you should feel free to discuss lectures or other course material with others either
+                in-person or online.
+            ''')}
+        </p>
+        <p>
+            ${_('''Stanford employees using this Site are expected to abide by the University Code of Conduct,
+                Administrative Guide Memo 1.
+            ''')}
+        </p>
+    </section>
+</main>
