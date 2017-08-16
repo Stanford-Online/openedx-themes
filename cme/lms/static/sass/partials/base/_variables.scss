@@ -17,34 +17,31 @@ $dark-red: #820000; //Link Color
 $cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $cardinal-bg: #e9afaf; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
+//Beige Color Variables
+$beige: #9d9573;
+$beige-60: lighten($beige, 18.5%); //Main Border/HR Color
+$beige-25: lighten($beige, 25%);
+
+//Sandstone Color Variables
+$sandstone: #ddcf99;
+$sandstone-50: lighten($sandstone, 9%);
+$sandstone-25: lighten($sandstone, 20%); //Important Heading BG Color
+
 //Gray Color Variables
-$white: #ffffff;
+$gray: #3f3c30; //Main Text Color
+$gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
-$lightest-gray: #FBFFFD; //Main BG Color
-$lighter-gray: #E1E5E3; 
-$light-gray: #D1D5D3; //Block/Course BG Color
+$gray-4: #c7c4bd;
+$gray-3: #e9e6df; //Block/Course BG Color
+$gray-2: #f2f1eb;
+$gray-1: #fbfbf9; //Main BG Color
 
-$medium-gray: #919593;
+$black: #2e2d29;
+$black-80: #585754;
+$black-t0: rgba($black, .5);
 
-$dark-gray: #717573;
-$darker-gray: #515553; //Lighter Text Color
-$darkest-gray: #313533; //Main Text Color
-
-$black: #000000;
-
-//Green Color Variables
-$lightest-green: #CFF5F3;
-$lighter-green: #AFD5D3;
-$light-green: #8FB5B3;
-
-$medium-green: #6F9593;
-
-$dark-green: #4F7573;
-$darker-green: #2F5553;
-$darkest-green: #0F3533;
-
-$blue: $medium-green;
-$m-blue: $medium-green;
+$blue: $cardinal-red;
+$m-blue: $cardinal-red;
 $m-blue-l1: tint($m-blue,60%); // #2BACE6
 $m-blue-l2: tint($m-blue,70%); // #42B5E9
 $m-blue-l3: tint($m-blue,80%); // #59BEEC
@@ -52,20 +49,18 @@ $m-blue-l4: tint($m-blue,90%);
 $m-blue-l5: tint($m-blue,95%);
 $m-blue-s1: saturate($m-blue,15%);
 $m-blue-l5: tint($m-blue,75%);
-$m-blue-d1: $dark-green; // #1790C7
-$m-blue-d2: $dark-green;
-$m-blue-d3: $darker-green; // #126F9A
-$m-blue-d4: $darker-green;
-$m-blue-d5: $darker-green;
-$m-blue-d6: $darker-green;
+$m-blue-d1: $dark-red; // #1790C7
+$m-blue-d2: $dark-red;
+$m-blue-d3: $dark-red; // #126F9A
+$m-blue-d4: $dark-red;
+$m-blue-d5: $dark-red;
+$m-blue-d6: $dark-red;
 $m-blue-t0: rgba($m-blue,0.125);
 $m-blue-t1: rgba($m-blue,0.25);
 $m-blue-t2: rgba($m-blue,0.50);
 $m-blue-t3: rgba($m-blue,0.75);
 
-$uxpl-blue-base: $dark-green;
-
-$black-t0: rgba($black, .5);
+$uxpl-blue-base: $dark-red;
 
 //-----------------
 //  Font Assignment
@@ -100,134 +95,134 @@ $text-color: rgb(51, 51, 51) !default;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: $lightest-gray;
-$container-bg: $lightest-gray;
-$login-register-bg: $lightest-gray;
-$content-wrapper-bg: $lightest-gray;
+$body-bg: $white;
+$container-bg: $gray-1;
+$login-register-bg: $gray-1;
+$content-wrapper-bg: $white;
 $header-image: none;
-$header-bg: $lighter-gray;
+$header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $courseware-header-image: none;
-$courseware-header-bg: $lighter-gray;
+$courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $passwordreset-banner-image: none;
-$footer-bg: $lighter-gray;
-$courseware-footer-border: 1px solid $light-gray;
+$footer-bg: transparentize(lighten($sandstone, 18.5%), .25);
+$courseware-footer-border: 1px solid $gray-3;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
 
-$faded-hr-image-1: linear-gradient($light-gray 0%, $light-gray);
-$faded-hr-image-2: linear-gradient($light-gray 0%, $light-gray);
-$faded-hr-image-3: linear-gradient($light-gray 0%, $light-gray);
-$faded-hr-image-4: linear-gradient($light-gray 0%, $light-gray);
-$faded-hr-image-5: linear-gradient($light-gray 0%, $light-gray);
-$faded-hr-image-6: linear-gradient($light-gray 0%, $light-gray);
+$faded-hr-image-1: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-2: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-3: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-4: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-5: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-6: linear-gradient($beige-60 0%, $beige-60);
 
-$base-font-color: $darkest-gray;
-$lighter-base-font-color: $darker-gray;
-$very-light-text: $lightest-gray;
+$base-font-color: $black;
+$lighter-base-font-color: $black-80;
+$very-light-text: $gray-1;
 
-$link-color: $dark-green;
-$link-color-d1: $dark-green;
-$link-hover: $dark-gray;
+$link-color: $dark-red;
+$link-color-d1: $dark-red;
+$link-hover: $cardinal-light;
 $site-status-color: $cardinal-bg;
 $staff-color: $cardinal-red;
 
-$header-graphic-super-color: $dark-green;
+$header-graphic-super-color: $dark-red;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $darker-green;
-$header-link-hover: $dark-gray;
+$header-link-color: $dark-red;
+$header-link-hover: $gray-3;
 
-$button-color: $medium-green;
-$button-archive-color: $lighter-gray;
+$button-color: $cardinal-red;
+$button-archive-color: $gray-3;
 
-$shadow-color: $darkest-gray;
+$shadow-color: $gray;
 
 // actions
 $button-bg-image: none;
-$button-bg-color: $light-gray;
-$button-bg-hover-color: $lightest-gray;
+$button-bg-color: $gray-3;
+$button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: $darker-green;
-$action-primary-fg: $lighter-gray;
+$action-primary-bg: $cardinal-red;
+$action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: $dark-green;
-$action-primary-focused-fg: $lightest-gray;
+$action-primary-focused-bg: $dark-red;
+$action-primary-focused-fg: $gray-1;
 $action-primary-focused-shadow: none;
 
 // current or active navigation item
-$action-primary-active-bg: $darker-gray;
-$action-primary-active-fg: $lighter-gray;
+$action-primary-active-bg: $dark-red;
+$action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
 
-$action-primary-active-focused-bg: $dark-gray;
-$action-primary-active-focused-fg: $lightest-gray;
+$action-primary-active-focused-bg: $gray-75;
+$action-primary-active-focused-fg: $gray-1;
 $action-primary-active-focused-shadow: none;
 
 // disabled
-$action-primary-disabled-bg: $light-gray;
-$action-prmary-disabled-fg: $darkest-gray;
+$action-primary-disabled-bg: $gray-75;
+$action-prmary-disabled-fg: $gray-1;
 $action-prmary-disabled-shadow: none;
 
 
 
 // actions - secondary
-$action-secondary-bg: $light-green;
-$action-secondary-fg: $darkest-gray;
+$action-secondary-bg: $sandstone;
+$action-secondary-fg: $gray;
 $action-secondary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-secondary-focused-bg: $lightest-green;
-$action-secondary-focused-fg: $darker-gray;
+$action-secondary-focused-bg: $sandstone-50;
+$action-secondary-focused-fg: $gray;
 $action-secondary-focused-shadow: none;
 
 // current or active navigation item
-$action-secondary-active-bg: $light-gray;
-$action-secondary-active-fg: $darkest-gray;
+$action-secondary-active-bg: $sandstone-50;
+$action-secondary-active-fg: $gray;
 $action-secondary-active-shadow: none;
 
-$action-secondary-active-focused-fg: $lightest-gray;
-$action-secondary-active-focused-bg: $darker-gray;
+$action-secondary-active-focused-fg: $gray-2;
+$action-secondary-active-focused-bg: $gray-75;
 $action-secondary-active-focused-shadow: none;
 
 // disabled
-$action-secondary-disabled-bg: $light-gray;
-$action-secondary-disabled-fg: $darkest-gray;
+$action-secondary-disabled-bg: $gray-3;
+$action-secondary-disabled-fg: $gray;
 $action-secondary-disabled-shadow: none;
 
 //
 
-$border-color-1: $light-gray;
-$border-color-2: $light-gray;
-$border-color-3: $light-gray;
-$outer-border-color: $light-gray;
+$border-color-1: $beige-60;
+$border-color-2: $beige-60;
+$border-color-3: $beige-60;
+$outer-border-color: $beige-60;
 
-$sidebar-color: $lightest-gray;
+$sidebar-color: $gray-1;
 
-$homepage__header--gradient__color--alpha: $lightest-gray;
-$homepage__header--gradient__color--bravo: $lightest-gray;
-$homepage__header--background: $lightest-gray;
+$homepage__header--gradient__color--alpha: $sandstone-25;
+$homepage__header--gradient__color--bravo: $sandstone-25;
+$homepage__header--background: $sandstone-25;
 $dashboard-profile-header-image: none;
-$dashboard-profile-header-color: $lightest-gray;
-$dashboard-profile-color: $light-gray;
-$dot-color: $light-gray;
+$dashboard-profile-header-color: $sandstone-25;
+$dashboard-profile-color: $gray-3;
+$dot-color: $beige-60;
 
-$course-bg-color: $lighter-gray;
+$course-bg-color: $gray-3;
 $course-bg-image: none;
-$account-content-wrapper-bg: $lightest-gray;
+$account-content-wrapper-bg: $gray-1;
 
-$course-profile-bg: $lightest-gray;
-$course-header-bg: transparentize($lightest-gray, .1);
+$course-profile-bg: $gray-1;
+$course-header-bg: transparentize($gray-1, .1);
 
-$sidebar-chapter-bg-top: transparentize($lightest-gray, .3);
-$sidebar-chapter-bg-bottom: transparentize($lightest-gray, .9);
-$sidebar-chapter-bg: $lighter-gray;
-$sidebar-active-image: $light-gray;
+$sidebar-chapter-bg-top: transparentize($gray-1, .3);
+$sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
+$sidebar-chapter-bg: $gray-2;
+$sidebar-active-image: $gray-3;
 
-$form-bg-color: $lightest-gray;
-$modal-bg-color: $lightest-gray;
+$form-bg-color: $gray-1;
+$modal-bg-color: $gray-1;
 
 //TOP HEADER IMAGE MARGIN
 $header_image_margin: 0;
@@ -238,9 +233,9 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('/static/lagunita/images/lake_lag.jpg');
+$homepage-bg-image: url('/static/cme/images/stanford-pano.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '/static/lagunita/images/stanford-online-video-thumb.png';
+$video-thumb-url: '/static/cme/images/stanford-online-video-thumb.png';

@@ -5,6 +5,32 @@
 *
 ****************************************************************************************************/
 
+//-----------------
+//  Mixin Styles
+//-----------------
+@mixin login_register_h1_style {
+    clip: auto !important;
+    margin-top: 25px;
+    width: 750px;
+    top: 0px !important;
+}
+
+@mixin footer_references_style {
+    margin: 0 !important;
+    text-align: right;
+}
+
+.wrapper-footer {
+    padding: 10px 10px 0 10px !important;
+}
+
+.view-register, .view-login, .view-passwordreset {
+    .introduction header .title {
+        top: 20px;
+        left: 20px;
+    }
+}
+
 //-----------------------
 //  Stanford Extra Styles
 //-----------------------
@@ -29,6 +55,10 @@
             width: auto;
             margin: 3px 5px 0 0;
             vertical-align: top;
+
+            a {
+                font-weight: bold;
+            }
         }
         .supplemental-link {
             display: inline-block;
@@ -41,6 +71,8 @@
 }
 
 #global-navigation {
+    border-bottom: $beige;
+
     .wrapper-header {
         h1.logo {
             margin: 0 10px 0 0;
@@ -55,6 +87,10 @@
                 right: 3px;
                 width: 1px;
                 background-image: -webkit-linear-gradient(#D1D5D3 0%, #D1D5D3);
+            }
+
+            a img {
+                margin-top: -6px;
             }
         }
         h2.course-header {
@@ -143,6 +179,11 @@
     }
 }
 
+.help-tab {
+    a:link, a:visited {
+        border: 1px solid #c8c8c8;
+    }
+}
 .help-buttons {
     li {
         margin-top: 10px;
@@ -160,12 +201,12 @@
             &:link, &:visited {
                 font-family: $sans-serif;
                 font-weight: bold;
-                background-color: $dark-green;
+                background-color: $dark-red;
                 color: $white;
             }
         }
         a:hover {
-            background-color: $dark-green;
+            background-color: $dark-red;
             color: $white;
         }
     }
@@ -262,7 +303,7 @@ section.introduction h1.sr {
     
     footer#footer-openedx {
         max-width: 1180px;
-        margin: 0 auto;
+        margin: 10px auto 0 auto;
     
         .colophon {
             width: 80% !important;

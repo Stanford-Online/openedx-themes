@@ -3,6 +3,7 @@
   from django.core.urlresolvers import reverse
   from django.utils.translation import ugettext as _
   from edxmako.shortcuts import marketing_link
+  from django.utils.timezone import now
 %>
 <%namespace name='static' file='/static_content.html'/>
 <%namespace name='theme_settings' file='theme-settings.html'/>
@@ -14,25 +15,10 @@
 <div class="wrapper-footer">
   <footer id="footer-openedx">
     <div class="colophon">
-      <div class="footer-logo">
-        <a href="/">
-            <img src="${static.url('images/logo.png')}" height="70" width="auto" alt="Stanford Online Lagunita" />
-        </a>
+      <div class="copy-colophon">
+        <span class="license-text"> &copy; ${now().strftime('%Y')} ${_('Stanford Medicine')}</span>
       </div>
-      <nav class="nav-colophon">
-        <ol>
-          <li><a href="${marketing_link('TOS')}">${_('Terms of Service')} <br />
-            (${_('Revised {date}').format(date=effective_date)})
-          </a></li>
-          <li><a href="${marketing_link('PRIVACY')}">${_('Privacy Policy')} <br />
-            (${_('Revised {date}').format(date=effective_date)})
-          </a></li>
-          <li><a href="${marketing_link('HONOR')}">${_('Honor Code')}</a></li>
-          <li><a href="${marketing_link('COPYRIGHT')}">${_('Copyright')}</a></li>
-          <li><a href="${marketing_link('CONTACT')}">${_('Contact')}</a></li>
-          <li><a href="https://stanfordonline.zendesk.com/hc">${_('Help')}</a></li>
-        </ol>
-      </nav>
+      <nav class="nav-colophon"></nav>
     </div>
     <div class="references">
       <a id="stanford-footer-edx-image" href="https://open.edx.org">
