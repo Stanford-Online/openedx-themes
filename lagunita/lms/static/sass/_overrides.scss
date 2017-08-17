@@ -144,8 +144,11 @@
 }
 
 .help-buttons {
+    margin-left: 0;
+
     li {
         margin-top: 10px;
+        list-style: none;
         
         a:link, a:visited {
             padding: 15px 0;
