@@ -36,14 +36,6 @@ $gray-3: #e9e6df; //Block/Course BG Color
 $gray-2: #f2f1eb;
 $gray-1: #fbfbf9; //Main BG Color
 
-$gray-l1: $gray-1;
-$gray-l2: $gray-1;
-$gray-l3: $gray-1;
-$gray-l4: $gray-2;
-$gray-l5: $gray-2;
-$gray-l6: $gray-2;
-$gray-l7: $gray-3;
-
 $black: #2e2d29;
 $black-80: #585754;
 $black-t0: rgba($black, .5);
@@ -103,10 +95,10 @@ $text-color: rgb(51, 51, 51) !default;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: $gray-1;
+$body-bg: $white;
 $container-bg: $gray-1;
 $login-register-bg: $gray-1;
-$content-wrapper-bg: $gray-1;
+$content-wrapper-bg: $white;
 $header-image: none;
 $header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $courseware-header-image: none;
@@ -233,7 +225,7 @@ $form-bg-color: $gray-1;
 $modal-bg-color: $gray-1;
 
 //TOP HEADER IMAGE MARGIN
-$header_image_margin: 0;
+$header_image_margin: -77px;
 
 //FOOTER MARGIN
 $footer_margin: ($baseline/4) 0;
@@ -241,9 +233,9 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('/static/cme/images/stanford-pano.jpg');
+$homepage-bg-image: url('/static/suclass/images/stanford-pano.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '/static/cme/images/stanford-online-video-thumb.png';
+$video-thumb-url: '/static/suclass/images/stanford-online-video-thumb.png';

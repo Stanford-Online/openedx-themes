@@ -1,7 +1,11 @@
 ## mako
+<%namespace name='static' file='/static_content.html'/>
 <%!
   from django.utils.translation import ugettext as _
 %>
 
-<h1>${_("Continuing Medical Education")}</h1>
-<h2>${_("For Medical Professionals, Anywhere, Anytime")}</h2>
+<div class="logo">
+    <img src="${static.url('images/seal.png')}" alt="Stanford Seal Logo" />
+</div>
+<h2>${_("Your {university_name} courses, <strong>online</strong>.").format(university_name="Stanford")}</h2>
+

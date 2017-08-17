@@ -1,8 +1,29 @@
 ## mako
+<%page expression_filter="h" args="online_help_token"/>
 <%namespace name='static' file='/static_content.html'/>
 <%inherit file="/navigation.html"/>
+<%!
+from django.core.urlresolvers import reverse
+from django.utils.translation import ugettext as _
+%>
 
 ## TODO: this will eventually be moved to the Sass
 <%block name="navigation_logo">
   <img src="${static.url('images/stanford-S-logo.png')}" height="35" alt="Home Page" />
 </%block>
+
+% if course:
+    % if UserProfile.has_registered(user):
+        <%block name="navigation_global_links_authenticated">
+            %if settings.FEATURES.get('ENABLE_SYSADMIN_DASHBOARD','') and user.is_staff:
+                <li class="item">
+                    ## Translators: This is short for "System administration".
+                    <a href="${reverse('sysadmin')}">${_("Sysadmin")}</a>
+                </li>
+            %endif
+        </%block>
+    %endif
+%else:
+    <%block name="navigation_global_links"></%block>
+    <%block name="navigation_other_global_links"></%block>
+%endif

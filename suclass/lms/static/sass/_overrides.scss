@@ -109,12 +109,6 @@
             overflow: hidden;
         }
 
-        .nav-global {
-            .nav-global-00,  .nav-global-01, .nav-global-05 {
-                display: none !important;
-            }
-        }
-
         .user, .wrapper-user-menu {
             height: auto;
 
@@ -150,11 +144,12 @@
                 margin: 6px;
 
                 button.dropdown, button.menu-button {
-                    padding: 3px 10px 6px 10px;
-                    box-shadow: none;
+                    padding: 1px 10px 6px 10px;
+                    box-shadow: 0 1px 0 0 rgba(255,255,255, 0.6);
                     line-height: 1.6rem;
-                    background: none;
-                    border-radius: 10%;
+                    background-color: $button-bg-color;
+                    border-radius: 0;
+                    line-height: 1.6rem;
                 }
                 button.dropdown:hover, button.menu-button:hover {
                     background: $white;
@@ -218,6 +213,28 @@
     }
     &:first-child {
         margin-top: 0;
+    }
+}
+
+.content-wrapper {
+    .home {
+        .title {
+            .logo {
+                float: left;
+                height: 100px;
+                width: 100px;
+                
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            h2 {
+                margin: 32px 0 32px 25px;
+                display: inline-block;
+                font-size: 1.4em;
+            }
+        }
     }
 }
 
@@ -289,14 +306,6 @@ body.discussion {
 // Shib username page
 section.introduction h1.sr {
     min-height: 100px;
-}
-
-// course about header
-#content {
-    .course-profile {
-        height: auto;
-        padding: 70px 0;
-    }
 }
 
 //-----------------
