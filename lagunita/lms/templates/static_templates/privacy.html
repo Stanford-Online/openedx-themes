@@ -405,3 +405,14 @@
         </strong></p>
     </section>
 </main>
+
+<script>
+    $(document).ready(function() {
+        var print_doc = '<input type="button" value="${_('Print This Document')}" class="print">';
+        $('#content section.tos').prepend(print_doc).append(print_doc);
+        $('#content section.tos input.print').click(function() {
+            window.print();
+            return false;
+        });
+    });
+</script>
