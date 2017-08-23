@@ -4,6 +4,7 @@
   from django.conf import settings
   from django.core.urlresolvers import reverse
   from django.utils.translation import ugettext as _
+  from edxmako.shortcuts import marketing_link
 %>
 <%inherit file="../main.html" />
 
@@ -20,6 +21,8 @@
   concern_email = theme_vars['concern_email']
   contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
   privacy_email = theme_vars['privacy_email']
+  privacy_link = '<a href="{privacy}"><strong>'.format(privacy=marketing_link('PRIVACY'))
+  pii_link = '<a href="{privacy}#pii"><strong>'.format(privacy=marketing_link('PRIVACY'))
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
@@ -55,9 +58,9 @@
                 identify you. Similarly, any research findings will be reported at the aggregate level and will not expose
                 your personal identity.
             ''').format(
-                pii_link_start='<a href="#pii">',
-                research_link_start='<a href="https://lytics.stanford.edu/research/">',
-                link_end='</a>'
+                pii_link_start=pii_link,
+                research_link_start='<a href="https://lytics.stanford.edu/research/"><strong>',
+                link_end='</strong></a>'
             ) | n }
         </p>
 
@@ -66,7 +69,7 @@
                 transmission and use of data collected through the Stanford Online website and Stanford's Lagunita
                 platform.
             ''').format(
-                link_start='<a href="#privacy"><strong>',
+                link_start=privacy_link,
                 link_end='</strong></a>'
             ) | n }
         </p>
