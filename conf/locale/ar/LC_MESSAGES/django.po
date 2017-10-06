@@ -650,6 +650,10 @@ msgstr ""
 "قم بنسخ وإلصاق الكلمات المفاتيح إلى اليسار في {content_type}. ستستبدل بالقيم "
 "إلى اليمين."
 
+#: lms/templates/course.html
+msgid "Starts"
+msgstr "يبدأ في"
+
 #: lms/templates/forgot_password_modal.html:23
 msgid ""
 "Please enter your email address below, and we will email instructions for "

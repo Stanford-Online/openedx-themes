@@ -858,6 +858,10 @@ msgid "Welcome! Register below to create your %(platform_name)s account"
 msgstr ""
 "Bienvenido! Regístrese abajo para crear su cuenta con %(platform_name)s"
 
+#: lms/templates/course.html
+msgid "Starts"
+msgstr "Inicia"
+
 #: lms/templates/forgot_password_modal.html:21
 msgid ""
 "Please enter your email address below, and we will email instructions for "
