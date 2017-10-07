@@ -331,20 +331,23 @@ msgstr "Hết thời gian"
 msgid "This problem's time has expired. Please refresh your page."
 msgstr "Đã hết thời gian cho câu hỏi này. Hãy làm mới lại trang của bạn."
 
-#. Translators: "Terms of service" is a legal document users must agree to
-#. in order to register a new account.
-#: openedx/core/djangoapps/user_api/views.py:717
-msgid "I agree to the {platform_name} {terms_of_service} and {privacy_policy}."
-msgstr "Tôi đồng ý với {platform_name} {terms_of_service} và {privacy_policy}."
+#: openedx/core/djangoapps/user_api/views.py:878
+msgid "Review the Privacy Policy"
+msgstr "Xem lại Chính sách bảo mật"
 
-#. Translators: "Terms of service" is a legal document users must agree to
+#. Translators: "Privacy Policy" is a legal document users must agree to
 #. in order to register a new account.
-#: openedx/core/djangoapps/user_api/views.py:725
-msgid ""
-"You must agree to the {platform_name} {terms_of_service} and "
-"{privacy_policy}."
-msgstr ""
-"Bạn phải đồng ý với {platform_name} {terms_of_service} và {privacy_policy}."
+#: openedx/core/djangoapps/user_api/views.py:882
+#, python-brace-format
+msgid "I agree to the {platform_name} {privacy}"
+msgstr "Tôi đồng ý với {platform_name} {privacy}"
+
+#. Translators: "Privacy Policy" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/views.py:889
+#, python-brace-format
+msgid "You must agree to the {platform_name} {privacy}"
+msgstr "Bạn phải đồng ý với {platform_name} {privacy}"
 
 #: lms/templates/cme_register.html:158
 #, python-format
