@@ -562,18 +562,23 @@ msgstr ""
 msgid "Queries"
 msgstr ""
 
-#: openedx/core/djangoapps/user_api/views.py:687
-msgid "I agree to the {platform_name} {terms_of_service} and {privacy_policy}."
-msgstr ""
-"أوافق على {terms_of_service} و{privacy_policy} الخاصين بمنصّة {platform_name}."
+#: openedx/core/djangoapps/user_api/views.py:878
+msgid "Review the Privacy Policy"
+msgstr "استعراض سياسة الخصوصية"
 
-#: openedx/core/djangoapps/user_api/views.py:697
-msgid ""
-"You must agree to the {platform_name} {terms_of_service} and "
-"{privacy_policy}."
-msgstr ""
-"يجب الموافقة على {terms_of_service} و{privacy_policy} الخاصين بمنصّة "
-"{platform_name}."
+#. Translators: "Privacy Policy" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/views.py:882
+#, python-brace-format
+msgid "I agree to the {platform_name} {privacy}"
+msgstr "أوافق على {privacy} الخاصة بمنصة {platform_name}"
+
+#. Translators: "Privacy Policy" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/views.py:889
+#, python-brace-format
+msgid "You must agree to the {platform_name} {privacy}"
+msgstr "يجب الموافقة على {privacy} الخاصة بمنصة {platform_name}."
 
 #: openedx/core/lib/inline_analytics_utils.py:94
 msgid "The analytics cannot be displayed for this type of question."
