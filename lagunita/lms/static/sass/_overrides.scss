@@ -238,13 +238,17 @@ body.discussion {
     margin-bottom: 30px;
 }
 
-.course-sidebar {
-    .research-info {
-        padding: 0 10px;
-    }
-    >.coursetalk-read-reviews {
-        margin-top: 50px !important;
-        margin-bottom: 0 !important;
+#content {
+    .course-info {
+        .course-sidebar {
+            .research-info {
+                padding: 0 10px;
+            }
+            >.coursetalk-read-reviews {
+                margin-top: 50px;
+                margin-bottom: 0;
+            }
+        }
     }
 }
 
