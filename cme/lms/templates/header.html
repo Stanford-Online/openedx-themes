@@ -7,18 +7,21 @@ from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext as _
 %>
 
-% if course:
-    % if UserProfile.has_registered(user):
-        <%block name="navigation_global_links_authenticated">
-            %if settings.FEATURES.get('ENABLE_SYSADMIN_DASHBOARD','') and user.is_staff:
-                <li class="item">
-                    ## Translators: This is short for "System administration".
-                    <a href="${reverse('sysadmin')}">${_("Sysadmin")}</a>
-                </li>
-            %endif
-        </%block>
-    %endif
-%else:
-    <%block name="navigation_global_links"></%block>
-    <%block name="navigation_other_global_links"></%block>
+% if UserProfile.has_registered(user):
+    <%block name="navigation_global_links_authenticated">
+        %if settings.FEATURES.get('ENABLE_SYSADMIN_DASHBOARD','') and user.is_staff:
+            <li class="item">
+                ## Translators: This is short for "System administration".
+                <a href="${reverse('sysadmin')}">${_("Sysadmin")}</a>
+            </li>
+        %endif
+    </%block>
+% else:
+    <%block name="navigation_global_links">
+        <li class="item nav-global-04">
+            <a class="btn-neutral" href="/register${login_query()}">${_("Register")}</a>
+        </li>
+    </%block>
 %endif
+
+<%block name="navigation_other_global_links"></%block>
