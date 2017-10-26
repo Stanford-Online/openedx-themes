@@ -30,6 +30,19 @@ $dark-gray: #717573;
 $darker-gray: #515553; //Lighter Text Color
 $darkest-gray: #313533; //Main Text Color
 
+$gray: $medium-gray;
+$gray-l1:   tint($gray,20%);
+$gray-l2:   tint($gray,40%);
+$gray-l3:   tint($gray,60%);
+$gray-l4:   tint($gray,80%);
+$gray-l5:   tint($gray,90%);
+$gray-l6:   tint($gray,95%);
+$gray-l7:   tint($gray,99%);
+$gray-d1:   shade($gray,20%);
+$gray-d2:   shade($gray,40%);
+$gray-d3:   shade($gray,60%);
+$gray-d4:   shade($gray,80%);
+
 $black: #000000;
 
 //Green Color Variables
