@@ -23,6 +23,8 @@
   privacy_email = theme_vars['privacy_email']
   privacy_link = '<a href="{privacy}"><strong>'.format(privacy=marketing_link('PRIVACY'))
   pii_link = '<a href="{privacy}#pii"><strong>'.format(privacy=marketing_link('PRIVACY'))
+  copyright_link = '<a href="{copyright}"><strong>'.format(copyright=marketing_link('COPYRIGHT'))
+  link_end = '</strong></a>'
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
@@ -60,7 +62,7 @@
             ).format(
                 pii_link_start=pii_link,
                 research_link_start='<a href="https://lytics.stanford.edu/research/"><strong>',
-                link_end='</strong></a>'
+                link_end=link_end,
             ) | n }
         </p>
 
@@ -70,7 +72,7 @@
                 "platform."
             ).format(
                 link_start=privacy_link,
-                link_end='</strong></a>'
+                link_end=link_end
             ) | n }
         </p>
 
@@ -522,6 +524,13 @@
                 date=effective_date
             ) | n }
         </strong></p>
+
+        <p>
+        ${_("""Please visit {copyright_link}Copyright{link_end} for information pertaining to intellectual property rights and copyright infringement on Stanford Online.""").format(
+            copyright_link=copyright_link,
+            link_end=link_end,
+        ) | n}
+        </p>
     </section>
 </main>
 
