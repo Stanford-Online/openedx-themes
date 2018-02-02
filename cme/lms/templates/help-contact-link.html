@@ -6,7 +6,9 @@
 <p>
     ${_("Can't find an answer to your question? You can contact the {platform_name} general support team directly {link_start}by clicking here{link_end}.").format(
         platform_name=static.get_platform_name(),
-        link_start='<a href="https://support.zoho.com/portal/stanfordonlinecmesupport/newticket" target="_blank">',
+        link_start='<a href="{url}" target="_blank">'.format(
+            url=marketing_link('FAQ'),
+        ),
         link_end='</a>',
       )}
 </p>
