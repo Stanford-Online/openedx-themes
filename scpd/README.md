@@ -1,4 +1,4 @@
-Suclass Theme
+SCPD Theme
 =============
 
-This is the theme of Suclass (Stanford's On-Campus Open edX instance).
+This is the theme of SCPD (Stanford Center for Professional Development instance).

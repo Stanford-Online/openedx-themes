@@ -22,10 +22,10 @@ $beige: #9d9573;
 $beige-60: lighten($beige, 18.5%); //Main Border/HR Color
 $beige-25: lighten($beige, 25%);
 
-//Sandstone Color Variables
-$sandstone: #ddcf99;
-$sandstone-50: lighten($sandstone, 9%);
-$sandstone-25: lighten($sandstone, 20%); //Important Heading BG Color
+//Cloud Color Variables
+$cloud: #dad7cb;
+$cloud-50: lighten($cloud, 9%);
+$cloud-25: lighten($cloud, 20%); //Important Heading BG Color
 
 //Gray Color Variables
 $gray: #726b59;
@@ -51,21 +51,21 @@ $black: #2e2d29;
 $black-80: #585754;
 $black-t0: rgba($black, .5);
 
-$blue: $cardinal-red;
-$m-blue: $cardinal-red;
+
+$blue: #007C92;
+$m-blue: #007C92;
 $m-blue-l1: tint($m-blue,60%); // #2BACE6
 $m-blue-l2: tint($m-blue,70%); // #42B5E9
 $m-blue-l3: tint($m-blue,80%); // #59BEEC
 $m-blue-l4: tint($m-blue,90%);
 $m-blue-l5: tint($m-blue,95%);
 $m-blue-s1: saturate($m-blue,15%);
-$m-blue-l5: tint($m-blue,75%);
-$m-blue-d1: $dark-red; // #1790C7
-$m-blue-d2: $dark-red;
-$m-blue-d3: $dark-red; // #126F9A
-$m-blue-d4: $dark-red;
-$m-blue-d5: $dark-red;
-$m-blue-d6: $dark-red;
+$m-blue-d1: shade($m-blue,10%); // #1790C7
+$m-blue-d2: shade($m-blue,20%);
+$m-blue-d3: shade($m-blue,35%); // #126F9A
+$m-blue-d4: shade($m-blue,50%);
+$m-blue-d5: shade($m-blue,65%);
+$m-blue-d6: shade($m-blue,85%);
 $m-blue-t0: rgba($m-blue,0.125);
 $m-blue-t1: rgba($m-blue,0.25);
 $m-blue-t2: rgba($m-blue,0.50);
@@ -111,11 +111,11 @@ $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $white;
 $header-image: none;
-$header-bg: transparentize(lighten($sandstone, 18.5%), .25);
+$header-bg: $cloud-50;
 $courseware-header-image: none;
-$courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
+$courseware-header-bg: $cloud-50;
 $passwordreset-banner-image: none;
-$footer-bg: transparentize(lighten($sandstone, 18.5%), .25);
+$footer-bg: $cloud-50;
 $courseware-footer-border: 1px solid $gray-3;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
@@ -131,19 +131,19 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: $dark-red;
-$link-color-d1: $dark-red;
-$link-hover: $cardinal-light;
-$site-status-color: $cardinal-bg;
-$staff-color: $cardinal-red;
+$link-color: $m-blue;
+$link-color-d1: $m-blue;
+$link-hover: $m-blue-l4;
+$site-status-color: $m-blue-l5;
+$staff-color: $m-blue;
 
-$header-graphic-super-color: $dark-red;
+$header-graphic-super-color: $m-blue;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $dark-red;
+$header-link-color: $m-blue;
 $header-link-hover: $gray-3;
 
-$button-color: $cardinal-red;
+$button-color: $m-blue;
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
@@ -154,17 +154,17 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: $cardinal-red;
+$action-primary-bg: $m-blue;
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: $dark-red;
+$action-primary-focused-bg: $m-blue;
 $action-primary-focused-fg: $gray-1;
 $action-primary-focused-shadow: none;
 
 // current or active navigation item
-$action-primary-active-bg: $dark-red;
+$action-primary-active-bg: $m-blue;
 $action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
 
@@ -180,17 +180,17 @@ $action-prmary-disabled-shadow: none;
 
 
 // actions - secondary
-$action-secondary-bg: $sandstone;
+$action-secondary-bg: $cloud;
 $action-secondary-fg: $gray;
 $action-secondary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-secondary-focused-bg: $sandstone-50;
+$action-secondary-focused-bg: $cloud-50;
 $action-secondary-focused-fg: $gray;
 $action-secondary-focused-shadow: none;
 
 // current or active navigation item
-$action-secondary-active-bg: $sandstone-50;
+$action-secondary-active-bg: $cloud-50;
 $action-secondary-active-fg: $gray;
 $action-secondary-active-shadow: none;
 
@@ -212,11 +212,11 @@ $outer-border-color: $beige-60;
 
 $sidebar-color: $gray-1;
 
-$homepage__header--gradient__color--alpha: $sandstone-25;
-$homepage__header--gradient__color--bravo: $sandstone-25;
-$homepage__header--background: $sandstone-25;
+$homepage__header--gradient__color--alpha: $cloud-25;
+$homepage__header--gradient__color--bravo: $cloud-25;
+$homepage__header--background: $cloud-25;
 $dashboard-profile-header-image: none;
-$dashboard-profile-header-color: $sandstone-25;
+$dashboard-profile-header-color: $cloud-25;
 $dashboard-profile-color: $gray-3;
 $dot-color: $beige-60;
 
@@ -244,9 +244,9 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('/static/suclass/images/stanford-pano.jpg');
+$homepage-bg-image: url('/static/scpd/images/stanford-pano.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '/static/suclass/images/stanford-online-video-thumb.png';
+$video-thumb-url: '/static/scpd/images/stanford-online-video-thumb.png';
