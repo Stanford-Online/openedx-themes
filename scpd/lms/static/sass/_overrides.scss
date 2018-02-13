@@ -5,9 +5,6 @@
 *
 ****************************************************************************************************/
 
-//-----------------
-//  Mixin Styles
-//-----------------
 @mixin footer_references_style {
     margin: 0 !important;
     text-align: right;
@@ -24,16 +21,13 @@
     }
 }
 
-//-----------------------
-//  Stanford Extra Styles
-//-----------------------
 #stanford-footer-edx-image {
     display: block;
     height: 40px;
     width: 120px;
     padding-bottom: 10px;
     float: right;
-    background-image: url("https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png");
+    background-image: url('/static/scpd/images/edx-openedx-logo-tag.png');
     background-size: 120px 40px;
     background-repeat: no-repeat;
     border: none;
@@ -79,7 +73,7 @@
                 top: 0;
                 right: 3px;
                 width: 1px;
-                background-image: -webkit-linear-gradient(#D1D5D3 0%, #D1D5D3);
+                background-image: linear-gradient(#D1D5D3 0%, #D1D5D3);
             }
 
             a img {
@@ -332,9 +326,6 @@ section.introduction h1.sr {
     min-height: 100px;
 }
 
-//-----------------
-// Footer Styling
-//-----------------
 .wrapper-footer {
     float: left;
     width: 100%;
