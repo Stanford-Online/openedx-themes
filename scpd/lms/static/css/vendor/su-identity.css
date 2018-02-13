@@ -31,10 +31,9 @@
     clear: both;
 }
 
-/* Background gradient */
 #su-header {
     background: #8C1515;
-    box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+    box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2);
     min-height: 30px;
 }
 
@@ -42,10 +41,9 @@
 #su-footer .su-container {
     background: #8C1515;
     color: #e3dfd5;
-    box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+    box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2);
 }
 
-/* Prevent flush left */
 #su-header .su-container img {
     padding: 4px 0 0 10px;
 }
@@ -58,7 +56,6 @@
     text-decoration: underline;
 }
 
-/* Prevent horizontal scroll bar */
 #su-footer .su-container {
     padding: 3px 7px 20px;
 }
@@ -67,7 +64,6 @@
     margin: 30px 0 0;
 }
 
-/* Align logo and text */
 #su-footer-logo {
     margin: 0 0 10px;
     padding: 0;
@@ -105,7 +101,6 @@
     color: #e3dfd5;
 }
 
-/* Footer two columns */
 #su-footer .span2 {
     width: 48%;
     float: left;
@@ -121,7 +116,6 @@
     display: block;
 }
 
-/* Clear the floats */
 #su-footer .clear {
     clear: both;
 }
@@ -135,7 +129,6 @@ Media queries
 }
 
 @media screen and (min-width: 768px) {
-    /* Prevent double background gradient */
     #su-footer .su-container {
         background:none;
         box-shadow:none;
@@ -145,12 +138,10 @@ Media queries
         margin-top:2px;
     }
 
-    /* Remove left padding */
     #su-header .su-container img {
         padding:4px 0 0;
     }
 
-    /* Bootstrap style */
     #su-header .su-container,
     #su-footer .su-container {
         width:724px;
@@ -159,13 +150,11 @@ Media queries
     #su-footer .su-container .su-row {
         margin:30px 0 0 -20px;
     }
-    /* Footer single column */
     #su-footer .span2 {
         float:left;
         width:104px;
-        padding-left:8px; /* Prevent flush left */
+        padding-left:8px;
     }
-    /* Bootstrap style */
     #su-footer .span10 {
         width:600px;
         margin-left:20px;
@@ -211,7 +200,6 @@ Media queries
 }
 
 @media screen and (min-width: 980px) {
-    /* Bootstrap style */
     #su-header .su-container,
     #su-footer .su-container {
         width:940px;
@@ -227,8 +215,6 @@ Media queries
 }
 
 @media screen and (min-width: 1200px) {
-    /* Bootstrap style */
-
     #su-header .su-container,
     #su-footer .su-container {
         width:1180px;
