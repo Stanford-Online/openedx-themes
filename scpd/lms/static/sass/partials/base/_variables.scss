@@ -1,0 +1,252 @@
+/****************************************************************************************************
+*   Stanford Variables File
+*
+*   Contains all the theme color definitions for the Stanford Open Source MOOC Project
+*
+****************************************************************************************************/
+
+@import 'lms/static/sass/partials/base/variables';
+
+//-----------------
+//  Color variables (from Stanford palette unless noted)
+//-----------------
+
+//Cardinal Color Variables
+$cardinal-red: #8C1515;
+$dark-red: #820000; //Link Color
+$cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$cardinal-bg: #e9afaf; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
+
+//Beige Color Variables
+$beige: #9d9573;
+$beige-60: lighten($beige, 18.5%); //Main Border/HR Color
+$beige-25: lighten($beige, 25%);
+
+//Cloud Color Variables
+$cloud: #dad7cb;
+$cloud-50: lighten($cloud, 9%);
+$cloud-25: lighten($cloud, 20%); //Important Heading BG Color
+
+//Gray Color Variables
+$gray: #726b59;
+$gray-l1:   tint($gray,20%);
+$gray-l2:   tint($gray,40%);
+$gray-l3:   tint($gray,60%);
+$gray-l4:   tint($gray,80%);
+$gray-l5:   tint($gray,90%);
+$gray-l6:   tint($gray,95%);
+$gray-l7:   tint($gray,99%);
+$gray-d1:   shade($gray,20%);
+$gray-d2:   shade($gray,40%);
+$gray-d3:   shade($gray,60%);
+$gray-d4:   shade($gray,80%);
+$gray-75: lighten($gray, 18.25%); //Lighter Text Color
+
+$gray-4: #c7c4bd;
+$gray-3: #e9e6df; //Block/Course BG Color
+$gray-2: #f2f1eb;
+$gray-1: #fbfbf9; //Main BG Color
+
+$black: #2e2d29;
+$black-80: #585754;
+$black-t0: rgba($black, .5);
+
+
+$blue: #007C92;
+$m-blue: #007C92;
+$m-blue-l1: tint($m-blue,60%); // #2BACE6
+$m-blue-l2: tint($m-blue,70%); // #42B5E9
+$m-blue-l3: tint($m-blue,80%); // #59BEEC
+$m-blue-l4: tint($m-blue,90%);
+$m-blue-l5: tint($m-blue,95%);
+$m-blue-s1: saturate($m-blue,15%);
+$m-blue-d1: shade($m-blue,10%); // #1790C7
+$m-blue-d2: shade($m-blue,20%);
+$m-blue-d3: shade($m-blue,35%); // #126F9A
+$m-blue-d4: shade($m-blue,50%);
+$m-blue-d5: shade($m-blue,65%);
+$m-blue-d6: shade($m-blue,85%);
+$m-blue-t0: rgba($m-blue,0.125);
+$m-blue-t1: rgba($m-blue,0.25);
+$m-blue-t2: rgba($m-blue,0.50);
+$m-blue-t3: rgba($m-blue,0.75);
+
+$uxpl-blue-base: $dark-red;
+
+//-----------------
+//  Font Assignment
+//-----------------
+
+$theme-sans-font: 'Source Sans Pro';
+$sans-serif: $theme-sans-font, $sans-serif;
+$f-sans-serif: $sans-serif;
+$body-font-family: $sans-serif;
+
+$theme-serif-font: 'Crimson Text';
+$serif: $theme-serif-font, $serif;
+$f-serif: $serif;
+
+$m-base-font-size: em(16);
+
+// ----------------------------
+// #APPLICATIONS
+// ----------------------------
+// font sizes
+$body-font-size: em(16);
+$body-line-height: golden-ratio(.875em, 1) !default;
+
+$base-font-color: rgb(60,60,60) !default;
+$baseFontColor: $base-font-color;
+
+$lighter-base-font-color: rgb(100,100,100) !default;
+$very-light-text: rgb(255,255,255) !default;
+$text-color: rgb(51, 51, 51) !default;
+
+//-----------------
+//  Theme Element Assignments
+//-----------------
+
+$body-bg: $white;
+$container-bg: $gray-1;
+$login-register-bg: $gray-1;
+$content-wrapper-bg: $white;
+$header-image: none;
+$header-bg: $cloud-50;
+$courseware-header-image: none;
+$courseware-header-bg: $cloud-50;
+$passwordreset-banner-image: none;
+$footer-bg: $cloud-50;
+$courseware-footer-border: 1px solid $gray-3;
+$courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
+$courseware-footer-margin: 50px;
+
+$faded-hr-image-1: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-2: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-3: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-4: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-5: linear-gradient($beige-60 0%, $beige-60);
+$faded-hr-image-6: linear-gradient($beige-60 0%, $beige-60);
+
+$base-font-color: $black;
+$lighter-base-font-color: $black-80;
+$very-light-text: $gray-1;
+
+$link-color: $m-blue;
+$link-color-d1: $m-blue;
+$link-hover: $m-blue-l4;
+$site-status-color: $m-blue-l5;
+$staff-color: $m-blue;
+
+$header-graphic-super-color: $m-blue;
+$header-graphic-sub-color: $lighter-base-font-color;
+
+$header-link-color: $m-blue;
+$header-link-hover: $gray-3;
+
+$button-color: $m-blue;
+$button-archive-color: $gray-3;
+
+$shadow-color: $gray;
+
+// actions
+$button-bg-image: none;
+$button-bg-color: $gray-3;
+$button-bg-hover-color: $gray-1;
+
+// actions - primary
+$action-primary-bg: $m-blue;
+$action-primary-fg: $gray-2;
+$action-primary-shadow: none;
+
+// focused - hover/active pseudo states
+$action-primary-focused-bg: $m-blue;
+$action-primary-focused-fg: $gray-1;
+$action-primary-focused-shadow: none;
+
+// current or active navigation item
+$action-primary-active-bg: $m-blue;
+$action-primary-active-fg: $gray-1;
+$action-primary-active-shadow: none;
+
+$action-primary-active-focused-bg: $gray-75;
+$action-primary-active-focused-fg: $gray-1;
+$action-primary-active-focused-shadow: none;
+
+// disabled
+$action-primary-disabled-bg: $gray-75;
+$action-prmary-disabled-fg: $gray-1;
+$action-prmary-disabled-shadow: none;
+
+
+
+// actions - secondary
+$action-secondary-bg: $cloud;
+$action-secondary-fg: $gray;
+$action-secondary-shadow: none;
+
+// focused - hover/active pseudo states
+$action-secondary-focused-bg: $cloud-50;
+$action-secondary-focused-fg: $gray;
+$action-secondary-focused-shadow: none;
+
+// current or active navigation item
+$action-secondary-active-bg: $cloud-50;
+$action-secondary-active-fg: $gray;
+$action-secondary-active-shadow: none;
+
+$action-secondary-active-focused-fg: $gray-2;
+$action-secondary-active-focused-bg: $gray-75;
+$action-secondary-active-focused-shadow: none;
+
+// disabled
+$action-secondary-disabled-bg: $gray-3;
+$action-secondary-disabled-fg: $gray;
+$action-secondary-disabled-shadow: none;
+
+//
+
+$border-color-1: $beige-60;
+$border-color-2: $beige-60;
+$border-color-3: $beige-60;
+$outer-border-color: $beige-60;
+
+$sidebar-color: $gray-1;
+
+$homepage__header--gradient__color--alpha: $cloud-25;
+$homepage__header--gradient__color--bravo: $cloud-25;
+$homepage__header--background: $cloud-25;
+$dashboard-profile-header-image: none;
+$dashboard-profile-header-color: $cloud-25;
+$dashboard-profile-color: $gray-3;
+$dot-color: $beige-60;
+
+$course-bg-color: $gray-3;
+$course-bg-image: none;
+$account-content-wrapper-bg: $gray-1;
+
+$course-profile-bg: $gray-1;
+$course-header-bg: transparentize($gray-1, .1);
+
+$sidebar-chapter-bg-top: transparentize($gray-1, .3);
+$sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
+$sidebar-chapter-bg: $gray-2;
+$sidebar-active-image: $gray-3;
+
+$form-bg-color: $gray-1;
+$modal-bg-color: $gray-1;
+
+//TOP HEADER IMAGE MARGIN
+$header_image_margin: -77px;
+
+//FOOTER MARGIN
+$footer_margin: ($baseline/4) 0;
+
+//-----------------
+//  CSS BG Images
+//-----------------
+$homepage-bg-image: url('/static/scpd/images/stanford-pano.jpg');
+
+$login-banner-image: none;
+$register-banner-image: none;
+
+$video-thumb-url: '/static/scpd/images/stanford-online-video-thumb.png';
