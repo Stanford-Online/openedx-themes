@@ -62,6 +62,8 @@
             }
         }
         h2.course-header {
+            width: auto;
+            max-width: 55%;
             margin: 9px 0 0 0;
             float: left;
             font-family: $sans-serif;
