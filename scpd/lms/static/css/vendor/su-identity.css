@@ -1,10 +1,3 @@
-/**
- * su-identity.css
- * ========================================================
- * Custom base styles
- * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
- */
-
 #su-header .su-container,
 #su-footer .su-container {
   margin: 0 auto;
@@ -15,8 +8,8 @@
   display: block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #su-header .span10,
@@ -24,8 +17,8 @@
   display: block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #su-header .su-container:after,
@@ -38,10 +31,9 @@
   clear: both;
 }
 
-/* Background gradient */
 #su-header {
   background: #8C1515;
-  box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+  box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2);
   min-height: 30px;
 }
 
@@ -49,10 +41,9 @@
 #su-footer .su-container {
   background: #8C1515;
   color: #e3dfd5;
-  box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+  box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2);
 }
 
-/* Prevent flush left */
 #su-header .su-container img {
   padding: 4px 0 0 10px;
 }
@@ -65,7 +56,6 @@
   text-decoration: underline;
 }
 
-/* Prevent horizontal scroll bar */
 #su-footer .su-container {
   padding: 3px 7px 20px;
 }
@@ -74,7 +64,6 @@
   margin: 30px 0 0;
 }
 
-/* Align logo and text */
 #su-footer-logo {
   margin: 0 0 10px;
   padding: 0;
@@ -112,7 +101,6 @@
   color: #e3dfd5;
 }
 
-/* Footer two columns */
 #su-footer .span2 {
   width: 48%;
   float: left;
@@ -128,21 +116,14 @@
   display: block;
 }
 
-/* Clear the floats */
 #su-footer .clear {
   clear: both;
 }
-
-/*
-========================================================
-Media queries
-*/
 
 @media screen and (min-width: 480px) {
 }
 
 @media screen and (min-width: 768px) {
-  /* Prevent double background gradient */
   #su-footer .su-container {
     background:none;
     box-shadow:none;
@@ -152,12 +133,10 @@ Media queries
     margin-top:2px;
   }
 
-  /* Remove left padding */
   #su-header .su-container img {
     padding:4px 0 0;
   }
 
-  /* Bootstrap style */
   #su-header .su-container,
   #su-footer .su-container {
     width:724px;
@@ -166,13 +145,11 @@ Media queries
   #su-footer .su-container .su-row {
     margin:30px 0 0 -20px;
   }
-  /* Footer single column */
   #su-footer .span2 {
     float:left;
     width:104px;
-    padding-left:8px; /* Prevent flush left */
+    padding-left:8px;
   }
-  /* Bootstrap style */
   #su-footer .span10 {
     width:600px;
     margin-left:20px;
@@ -185,27 +162,26 @@ Media queries
   }
 
   #su-footer ul li.alt {
-  	clear:right;
+    clear:right;
   }
-  /* Footer two column */
   #su-footer ul {
     width:100%;
     float:left;
   }
 
   #su-footer ul li {
-  	width:auto;
-  	margin:0 13px 3px 0;
-  	padding:0;
-  	float:none;
-  	clear:left;
+    width:auto;
+    margin:0 13px 3px 0;
+    padding:0;
+    float:none;
+    clear:left;
     display:inline-block;
   }
 
   #bottom-logo {
     margin:-5px 0 10px;
   }
-
+  
   #su-footer .clear {
     clear:none;
   }
@@ -218,7 +194,6 @@ Media queries
 }
 
 @media screen and (min-width: 980px) {
-  /* Bootstrap style */
   #su-header .su-container,
   #su-footer .su-container {
     width:940px;
@@ -234,8 +209,6 @@ Media queries
 }
 
 @media screen and (min-width: 1200px) {
-  /* Bootstrap style */
-  
   #su-header .su-container,
   #su-footer .su-container {
     width:1180px;
@@ -253,50 +226,3 @@ Media queries
     padding-left:16%;
   }
 }
-
-/*
-Sticky Footer Solution
-by Steve Hatcher 
-http://stever.ca
-http://www.cssstickyfooter.com
-*/
-
-/*html, body {*/
-	/*height: 100%;*/
-/*}*/
-/*#su-wrap {*/
-	/*min-height: 100%;*/
-/*}*/
-/*#su-content {*/
-	/*overflow:visible;*/
-	/*padding-bottom: 120px; [> must be same height as the footer <]*/
-/*}*/
-/*#su-footer {*/
-	/*position: relative;*/
-	/*margin-top: -120px; [> negative value of footer height <]*/
-	/*height: 120px;*/
-	/*clear:both;*/
-/*} */
-
-/*[> IE6/7 uses media, <]*/
-/*@media, {*/
-  /*#su-footer {*/
-    /*height: 219px;*/
-  /*}*/
-/*}*/
-
-/*[> IE8 uses \0/ <]*/
-/*@media all {*/
-  /*#su-footer {*/
-    /*height: 196px\0/;*/
-  /*}*/
-/*}*/
-
-/*[>Opera Fix<]*/
-	/*body:before { [> thanks to Maleika (Kohoutec)<]*/
-	/*content:"";*/
-	/*height:100%;*/
-	/*float:left;*/
-	/*width:0;*/
-	/*margin-top:-32767px;[> thank you Erik J - negate effect of float<]*/
-/*}*/
