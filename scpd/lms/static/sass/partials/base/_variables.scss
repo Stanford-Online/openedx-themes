@@ -1,0 +1,9 @@
+// Fonts
+$sans-serif: 'Source Sans Pro', Trebuchet, 'Helvetica Neue', Helvetica, $verdana, sans-serif;
+$f-sans-serif: $sans-serif;
+$serif: 'Crimson Text', Georgia, Cambria, 'Times New Roman', Times, serif;
+$f-serif: $serif;
+$header-sans-serif: $sans-serif;
+
+// Import defaults
+@import 'lms/static/sass/partials/base/_variables.scss';
