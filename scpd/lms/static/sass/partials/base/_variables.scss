@@ -5,5 +5,5 @@ $serif: 'Crimson Text', Georgia, Cambria, 'Times New Roman', Times, serif;
 $f-serif: $serif;
 $header-sans-serif: $sans-serif;
 
-// Import defaults
+// Import remaining defaults directly from platform
 @import 'lms/static/sass/partials/base/_variables.scss';
