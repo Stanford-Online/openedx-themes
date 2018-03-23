@@ -1,0 +1,32 @@
+.header-global {
+    .logo {
+        margin-top: -5px;
+
+        img {
+            height: 50px;
+        }
+    }
+}
+
+.wrapper-footer {
+    padding: 15px;
+
+    footer#footer-openedx {
+        .wrapper-logo {
+            width: 50px;
+            float: left;
+            margin: 0 25px 0 0;
+
+            img {
+                width: 100%;
+            }
+        }
+        .copyright {
+            display: inline;
+            padding: 0;
+        }
+        .nav-legal {
+            padding-top: 15px;
+        }
+    }
+}
