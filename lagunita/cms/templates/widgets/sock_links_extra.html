@@ -1,0 +1,18 @@
+<%page expression_filter="h" />
+<%!
+from django.utils.translation import ugettext as _
+%>
+
+<%def name="get_sock_links_extra()">
+    <%
+        links_extra = [
+            {
+                'href': marketing_link('FAQ'),
+                'sr_mouseover_text': _('Find answers in the FAQ or ask a new question.'),
+                'text': _('Help Center'),
+                'condition': True,
+            },
+        ]
+        return links_extra
+    %>
+</%def>
