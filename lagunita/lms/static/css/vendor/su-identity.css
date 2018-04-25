@@ -199,10 +199,6 @@ Media queries
     margin:-5px 0 10px;
   }
 
-  #su-footer .clear {
-    clear:none;
-  }
-
   p.copyright {
     text-align:left;
     padding-left:17%;
