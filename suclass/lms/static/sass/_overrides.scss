@@ -410,4 +410,9 @@ ul li, ol li {
     margin-bottom: 25px;
 }
 
+// Hide the copyright footer on the ProblemBuilder XBlock
+.xblock .mentoring .copyright {
+    display: none;
+}
+
 @import '_mobile.scss';
