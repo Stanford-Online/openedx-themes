@@ -9,6 +9,12 @@ Each theme is organized in a tree to mimic the directory structure of the edX
 codebase so that it's easy to tell where the files will end up upon
 deploy.
 
+The Cardinal red header and footer follow Stanford’s guidelines from:
+https://identity.stanford.edu/web-mobile.html
+
+With the specific CSS from this file:
+https://www-media.stanford.edu/su-identity/css/su-identity.css
+
 
 License
 =======
