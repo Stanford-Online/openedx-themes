@@ -281,44 +281,44 @@ body.discussion {
         ul {
             margin-left:25px;
         }
-        ul li {
+        ul>li {
             list-style-type: disc;
         }
-        ul ul li {
+        ul ul>li {
             list-style-type: circle;
         }
-        ul ul ul li {
+        ul ul ul>li {
             list-style-type: square;
         }
-        ul ul ul ul li {
+        ul ul ul ul>li {
             list-style-type: disc;
         }
-        ul ul ul ul ul li {
+        ul ul ul ul ul>li {
             list-style-type: circle;
         }
-        ul ul ul ul ul ul li {
+        ul ul ul ul ul ul>li {
             list-style-type: square;
         }
 
         ol {
             margin-left:25px;
         }
-        ol li {
+        ol>li {
             list-style-type: decimal;
         }
-        ol ol li {
+        ol ol>li {
             list-style-type: lower-alpha;
         }
-        ol ol ol li {
+        ol ol ol>li {
             list-style-type: lower-roman;
         }
-        ol ol ol ol li {
+        ol ol ol ol>li {
             list-style-type: decimal;
         }
-        ol ol ol ol ol li {
+        ol ol ol ol ol>li {
             list-style-type: lower-alpha;
         }
-        ol ol ol ol ol ol li {
+        ol ol ol ol ol ol>li {
             list-style-type: lower-roman;
         }
 
@@ -478,6 +478,11 @@ ul li, ol li {
 #content section.tos input.print {
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+// Hide the copyright footer on the ProblemBuilder XBlock
+.xblock .mentoring .copyright {
+    display: none;
 }
 
 @import '_mobile.scss';
