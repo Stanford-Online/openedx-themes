@@ -36,7 +36,7 @@
 # Stanford OpenEdX translation file
 # Copyright (C) 2018 Stanford University
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# Stanford OpenEdX Team, 2018
+# Stanford OpenEdX Team, 2018.
 # 
 # Translators:
 # kluo <kevluo@stanford.edu>, 2018
@@ -93,8 +93,7 @@ msgstr "打印此文档"
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
 #: lagunita/lms/templates/static_templates/tos.html
-#: lagunita/lms/templates/footer.html lms/djangoapps/branding/api.py
-#: openedx/core/djangoapps/user_api/views.py
+#: lms/djangoapps/branding/api.py openedx/core/djangoapps/user_api/views.py
 #: lms/templates/static_templates/tos.html
 #: themes/red-theme/lms/templates/footer.html
 #: themes/stanford-style/lms/templates/footer.html
@@ -143,8 +142,6 @@ msgstr ""
 "{link_end}。但是，您的个人身份信息仅在适用法律允许的情况下共享，仅限于开展研究所需的内容，并且受到数据保护协议的约束。我们还可能会与公众或第三方共享不会识别您个人身份的汇总信息。同样，任何研究结果都将进行汇总级别的报告，不会透露您的个人身份。"
 
 #: lagunita/lms/templates/static_templates/tos.html
-#: lagunita/lms/templates/register_extra.html
-#: lagunita/lms/templates/student_account/register-extra.html
 msgid ""
 "Please read our {link_start}Privacy Policy{link_end} for more information "
 "regarding the processing, transmission and use of data collected through the"
@@ -848,8 +845,7 @@ msgstr ""
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
 #: lagunita/lms/templates/static_templates/privacy.html
-#: lagunita/lms/templates/footer.html lms/djangoapps/branding/api.py
-#: lms/djangoapps/certificates/views/webview.py
+#: lms/djangoapps/branding/api.py lms/djangoapps/certificates/views/webview.py
 #: openedx/core/djangoapps/user_api/views.py
 #: lms/templates/static_templates/privacy.html
 #: themes/red-theme/lms/templates/footer.html
@@ -1397,7 +1393,6 @@ msgid "For any other questions, please contact us at {contact_email}."
 msgstr "如有任何其他问题，请通过{contact_email}联系我们。"
 
 #: lagunita/lms/templates/static_templates/honor.html
-#: lagunita/lms/templates/footer.html
 #: common/djangoapps/course_modes/helpers.py lms/djangoapps/branding/api.py
 #: openedx/core/djangoapps/user_api/views.py
 #: lms/templates/static_templates/honor.html
@@ -1510,7 +1505,6 @@ msgid "Our Research Community"
 msgstr "我们的研究社区"
 
 #: lagunita/lms/templates/course_about_sidebar_extra.html
-#: lagunita/lms/templates/register_extra.html
 #: lagunita/lms/templates/dashboard/user_info_extra.html
 #: lagunita/lms/templates/student_account/register-extra.html
 msgid ""
@@ -1580,30 +1574,6 @@ msgstr "学习<strong>{university_name}</strong>"
 #: themes/stanford-style/lms/templates/index.html
 msgid "For anyone, anywhere, anytime"
 msgstr "任何人，任何地点，任何时间"
-
-#: lagunita/lms/templates/register_extra.html
-#: lagunita/lms/templates/student_account/register-extra.html
-msgid ""
-"By registering as an online learner, you are also participating in research "
-"intended to enhance Stanford's instructional offerings as well as the "
-"quality of learning and related sciences worldwide. In the interest of "
-"research, you may be exposed to some variations in the course materials. "
-"Stanford does not use learner data for any purpose beyond the University's "
-"stated missions of education and research. For purposes of research, we may "
-"share information we collect from online learning activities, including "
-"{link_start}Personally Identifiable Information{link_end}, with researchers "
-"beyond Stanford. However, your Personally Identifiable Information will only"
-" be shared as permitted by applicable law, will be limited to what is "
-"necessary to perform the research, and will be subject to an agreement to "
-"protect the data. We may also share with the public or third parties "
-"aggregated information that does not personally identify you. Similarly, any"
-" research findings will be reported at the aggregate level and will not "
-"expose your personal identity."
-msgstr ""
-"为了提高斯坦福大学的教学质量, 加强学习能力和全世界的相关科学研究，我们邀请您注册成为在线学员，。由于研究需要, "
-"您看到的课程资料会有一些变化。斯坦福大学不会使用学习者数据，做教育和研究任务以外的事。为了进行研究, 我们可能分享从在线学习活动中收集的信息, "
-"包括{link_start}个人身份识别信息{link_end} 。但是, 您个人识别信息的分享，只会依照法律允许， "
-"受保护数据的协议限制，仅限于进行研究所需的内容。我们与公众或第三方分享时，不会透漏您个人身份信息。同样, 任何研究结果上传, 也不会暴露你的个人身份。"
 
 #: lagunita/lms/templates/static_templates/about.html
 msgid "About {PLATFORM_NAME}"
@@ -1699,6 +1669,29 @@ msgid ""
 msgstr ""
 "系统提示 您现在使用的IP，访问 {SITE_NAME} 上的课程，受美国经济和贸易全面制裁， {university_name} "
 "必须遵守这些制裁条例, 非常抱歉, 我们不允许您访问这一特定的课程。 请随时浏览我们的目录, 查找您可能感兴趣的其他课程。"
+
+#: lagunita/lms/templates/student_account/register-extra.html
+msgid ""
+"By registering as an online learner, you are also participating in research "
+"intended to enhance Stanford's instructional offerings as well as the "
+"quality of learning and related sciences worldwide. In the interest of "
+"research, you may be exposed to some variations in the course materials. "
+"Stanford does not use learner data for any purpose beyond the University's "
+"stated missions of education and research. For purposes of research, we may "
+"share information we collect from online learning activities, including "
+"{link_start}Personally Identifiable Information{link_end}, with researchers "
+"beyond Stanford. However, your Personally Identifiable Information will only"
+" be shared as permitted by applicable law, will be limited to what is "
+"necessary to perform the research, and will be subject to an agreement to "
+"protect the data. We may also share with the public or third parties "
+"aggregated information that does not personally identify you. Similarly, any"
+" research findings will be reported at the aggregate level and will not "
+"expose your personal identity."
+msgstr ""
+"为了提高斯坦福大学的教学质量, 加强学习能力和全世界的相关科学研究，我们邀请您注册成为在线学员，。由于研究需要, "
+"您看到的课程资料会有一些变化。斯坦福大学不会使用学习者数据，做教育和研究任务以外的事。为了进行研究, 我们可能分享从在线学习活动中收集的信息, "
+"包括{link_start}个人身份识别信息{link_end} 。但是, 您个人识别信息的分享，只会依照法律允许， "
+"受保护数据的协议限制，仅限于进行研究所需的内容。我们与公众或第三方分享时，不会透漏您个人身份信息。同样, 任何研究结果上传, 也不会暴露你的个人身份。"
 
 #: common/djangoapps/course_modes/admin.py
 #: common/djangoapps/course_modes/models.py
@@ -10687,7 +10680,7 @@ msgstr "成绩单"
 
 #: lms/templates/video.html
 msgid "Download {file}"
-msgstr "下载"
+msgstr "下载 {file}"
 
 #: lms/templates/video.html
 msgid "Download transcript"
@@ -12420,7 +12413,7 @@ msgid ""
 "with some other email addresses you maintain."
 msgstr ""
 "系统正在寻找您的帐户。您应该刚刚收到一封电子邮件与密码复位指令。如果你在几分钟内没收到 (而且它不在你的邮件的垃圾邮件或垃圾箱里), "
-"您的帐户可能会有不同的电子邮件地址。请尝试 start_link} 再次登录 {end_link}, 并使用您维护的其他电子邮件地址。"
+"您的帐户可能会有不同的电子邮件地址。请尝试 {start_link} 再次登录 {end_link}, 并使用您维护的其他电子邮件地址。"
 
 #: lms/templates/static_templates/404.html
 msgid "Page Not Found"
