@@ -1,12 +1,9 @@
 <%page expression_filter="h"/>
-<%!
-  from django.core.urlresolvers import reverse
-  from django.utils.translation import ugettext as _
-%>
+<%! from django.utils.translation import ugettext as _ %>
 <%namespace name='static' file='/static_content.html'/>
 <%inherit file="../main.html" />
 
-<%block name="pagetitle">${_('About {PLATFORM_NAME}').format(PLATFORM_NAME='Stanford Online')}</%block>
+<%block name="pagetitle">${_('About')}</%block>
 
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="container about">

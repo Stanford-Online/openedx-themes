@@ -2,7 +2,6 @@
 
 <%!
   from django.conf import settings
-  from django.core.urlresolvers import reverse
   from django.utils.translation import ugettext as _
 %>
 <%inherit file="../main.html" />
@@ -10,16 +9,12 @@
 <%namespace name='static' file='/static_content.html'/>
 <%namespace name='theme_settings' file='/theme-settings.html'/>
 
-<%block name="pagetitle">${_("Copyright Complaints")}</%block>
+<%block name="pagetitle">${_('Copyright Complaints')}</%block>
 
 <%
   theme_vars = theme_settings.get_theme_vars()
   effective_date = theme_vars['effective_date']
-  site_name = settings.SITE_NAME
-  accessibility_email = theme_vars['accessibility_email']
-  concern_email = theme_vars['concern_email']
   contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
-  privacy_email = theme_vars['privacy_email']
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
