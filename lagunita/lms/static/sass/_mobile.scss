@@ -364,32 +364,6 @@ html {
             }
         }
     }
-
-    .view-register .wrapper-footer > footer,
-    .view-login .wrapper-footer > footer,
-    .view-passwordreset  .wrapper-footer > footer,
-    .wrapper-footer > footer {
-        min-width: 0;
-        width: 100%;
-
-        .colophon {
-            width: 90% !important;
-            margin: 0 5%;
-
-            .footer-logo {
-                display: none;
-            }
-            .nav-colophon ol li {
-                width: 45%;
-                display: inline-block;
-                height: auto;
-            }
-        }
-        .references {
-            float: right;
-            margin-right: 10px !important;
-        }
-    }
 }
 
 @media (max-width: 500px) and (orientation: portrait) {
@@ -530,11 +504,6 @@ html {
 
     .view-register, .view-login, .view-passwordreset {
         .container, .introduction {
-            width: auto !important;
-            max-width: 1180px;
-            min-width: 760px;
-        }
-        .wrapper-footer footer {
             width: auto !important;
             max-width: 1180px;
             min-width: 760px;
