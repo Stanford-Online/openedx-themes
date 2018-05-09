@@ -1,16 +1,7 @@
 ## mako
 <%! 
-  from django.core.urlresolvers import reverse
   from django.utils.translation import ugettext as _
-  from edxmako.shortcuts import marketing_link
 %>
-<%namespace name='static' file='/static_content.html'/>
-<%namespace name='theme_settings' file='theme-settings.html'/>
-<%
-  theme_vars = theme_settings.get_theme_vars()
-  effective_date = theme_vars['effective_date']
-%>
-
 <div class="wrapper-footer">
   <footer id="footer-openedx">
     <div class="colophon">
