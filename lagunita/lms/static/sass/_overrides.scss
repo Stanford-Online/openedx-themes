@@ -35,3 +35,6 @@
 .xblock .mentoring .copyright {
     display: none;
 }
+
+// Custom default styling for Lagunita courses, UX001
+@import 'custom_overrides/course_styling.scss';
