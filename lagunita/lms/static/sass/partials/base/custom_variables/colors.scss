@@ -39,15 +39,15 @@ $action-primary-active-fg: $cardinal-red;
 $action-primary-active-shadow: $dark-red;
 $action-primary-active-focused-fg: $bright-red;
 $action-primary-active-focused-shadow: $dark-red;
-$action-primary-disabled-bg: $sandstone;
-$action-prmary-disabled-fg: $light-sandstone;
+$action-primary-disabled-bg: $light-sage;
+$action-prmary-disabled-fg: tint($light-sage, 60%);
 
 // Colors - actions - misc
-$link-color: $lagunita;
-$link-hover: shade($lagunita, 50%);
+$link-color: $palo-alto;
+$link-hover: shade($palo-alto, 50%);
 $site-status-color: $redwood;
 $button-color: $cardinal-red;
-$button-archive-color: $light-sandstone;
+$button-archive-color: tint($light-sage, 75%);
 
 // Colors - edx deprecated
 $m-blue: $cardinal-red;  // uxpl blue base
@@ -72,8 +72,8 @@ $m-blue-t3: rgba($m-blue, 0.75) !default;
 $body-bg: $white;
 
 // Header
-$header-bg: tint($cloud, 75%);
-$header-border-color: $cardinal-red;
+$header-bg: tint($light-sage, 60%);
+$header-border-color: $lagunita;
 
 // Footer
-$footer-bg: tint($cloud, 75%);
+$footer-bg: tint($light-sage, 60%);
