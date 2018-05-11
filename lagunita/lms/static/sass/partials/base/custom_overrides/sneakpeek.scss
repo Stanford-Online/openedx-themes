@@ -1,0 +1,29 @@
+.course-info {
+    .sneakpeek-warning {
+        clear: both;
+        padding-top: 10px;
+    }
+    .sneakpeek-warning:before {
+        content: '* ';
+    }
+}
+.view-in-course {
+    .sneakpeek-warning {
+        position: relative;
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 5px;
+        border: none;
+        background-color: #000000;
+        color: $white;
+        line-height: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sneakpeek-warning a {
+        padding: 5px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+}
