@@ -1,14 +1,6 @@
 @import 'custom_variables/_colors.scss';
 
-.header-global {
-    .logo {
-        margin-top: -5px;
-
-        img {
-            height: 50px;
-        }
-    }
-}
+@import 'custom_overrides/_header.scss';
 
 .wrapper-footer {
     padding: 15px;
