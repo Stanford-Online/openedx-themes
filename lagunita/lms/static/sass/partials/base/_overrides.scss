@@ -1,19 +1,19 @@
-@import 'custom_variables/colors.scss';
+@import 'custom_variables/_colors.scss';
 
-@import 'custom_overrides/header.scss';
+@import 'custom_overrides/_header.scss';
 
 $help-modal-button-color: $palo-alto;
-@import 'custom_overrides/help_modal.scss';
+@import 'custom_overrides/_help_modal.scss';
 
-@import 'custom_overrides/print.scss';
+@import 'custom_overrides/_print.scss';
 
 $footer-logo-width: 80px;
-@import 'custom_overrides/footer.scss';
+@import 'custom_overrides/_footer.scss';
 
 // Custom default styling for Lagunita courses, UX001
-@import 'custom_overrides/course_styling.scss';
+@import 'custom_overrides/_course_styling.scss';
 
-@import 'custom_overrides/sneakpeek.scss';
+@import 'custom_overrides/_sneakpeek.scss';
 
 // Student profile
 .account-settings-container, .wrapper-profile {
