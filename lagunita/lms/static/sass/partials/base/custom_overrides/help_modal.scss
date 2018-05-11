@@ -1,0 +1,26 @@
+.help-buttons {
+    li {
+        margin-top: 10px;
+
+        a:link, a:visited {
+            display: block;
+            padding: 15px 0;
+            background: #fff;
+            border: 1px solid #c8c8c8;
+        }
+        a.help-modal-button {
+            &:link, &:visited {
+                font-weight: bold;
+                background-color: $help-modal-button-color;
+                color: $white;
+            }
+        }
+        a:hover {
+            background-color: $help-modal-button-color;
+            color: $white;
+        }
+    }
+    &:first-child {
+        margin-top: 0;
+    }
+}
