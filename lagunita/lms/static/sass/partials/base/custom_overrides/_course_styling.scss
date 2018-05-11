@@ -1,7 +1,7 @@
 #seq_content {
     font-size: 16px;
     letter-spacing: normal;
-    color: #000000;
+    color: $black;
 
     .unit-title {
         display: none;
@@ -18,7 +18,7 @@
             font-size: 1.5em;
             text-transform: none;
             line-height: 1.38em;
-            color: #000000;
+            color: $black;
             margin-top: 1.5em;
             margin-bottom: .5em;
         }
@@ -53,7 +53,7 @@
         }
 
         .blue {
-            color: #476bb2;
+            color: $bright-blue;
         }
 
         ul {
@@ -104,7 +104,7 @@
             margin: 1em;
             padding: 5px 10px 5px 20px;
             font-size: 1.2em;
-            border-left: 3px solid #dddddd;
+            border-left: 3px solid $cloud;
 
             p {
                 margin-bottom: 0;
@@ -115,9 +115,9 @@
             display: block;
             margin: 1em;
             padding: 15px 20px;
-            background-color: #f6f6f6;
+            background-color: $fog;
             border-radius: 5px;
-            border: 1px solid #eeeeee;
+            border: 1px solid $cloud;
         }
     }
 }
