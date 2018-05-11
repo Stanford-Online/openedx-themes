@@ -6,7 +6,11 @@
             height: 50px;
         }
     }
-
+    nav {
+        a.doc-link {
+            display: none;
+        }
+    }
     // User Menu tweaks (added Gingko release)
     .user, .wrapper-user-menu {
         .user-link, .menu-title {
