@@ -18,7 +18,7 @@
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
-    <section class="container about tos">
+    <section class="container copyright">
         <h2 id="copyright">${_('Copyright Complaints')}</h2>
         <p>
             ${_("Stanford respects the intellectual property rights of others. In accordance with Title II of the Digital "
@@ -76,8 +76,8 @@
 <script>
     $(document).ready(function() {
         var print_doc = '<input type="button" value="${_('Print This Document')}" class="print">';
-        $('#content section.tos').prepend(print_doc).append(print_doc);
-        $('#content section.tos input.print').click(function() {
+        $('#content section.copyright').prepend(print_doc).append(print_doc);
+        $('#content section.copyright input.print').click(function() {
             window.print();
             return false;
         });

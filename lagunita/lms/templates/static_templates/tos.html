@@ -24,7 +24,7 @@
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
-    <section class="container about tos">
+    <section class="container tos">
         <h2><em>
             ${_('NOTICE: On {date}, Stanford amended its Terms of Service as follows:').format(
                 date=effective_date
@@ -533,8 +533,8 @@
 <script>
     $(document).ready(function() {
         var print_doc = '<input type="button" value="${_('Print This Document')}" class="print">';
-        $('#content section.tos').prepend(print_doc).append(print_doc);
-        $('#content section.tos input.print').click(function() {
+        $('#content section.container').prepend(print_doc).append(print_doc);
+        $('#content section.container input.print').click(function() {
             window.print();
             return false;
         });

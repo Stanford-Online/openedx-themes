@@ -1,0 +1,38 @@
+section.container {
+    &.about,
+    &.tos,
+    &.privacy,
+    &.honor,
+    &.copyright,
+    &.contact {
+        min-width: 0%;
+        max-width: 1320px;
+        padding: 20px 50px 20px 50px;
+        .vision {
+            .message.left .photo {
+                float: none;
+                width: 100%;
+                max-width: 550px;
+                margin: 20px auto;
+            }
+            #about,
+            #tos,
+            #privacy,
+            #honor,
+            #copyright,
+            #contact {
+                &.message {
+                    border-bottom: 0;
+                    padding-bottom: 80px;
+                    &> article {
+                        width: 100%;
+                        float: none;
+                    }
+                }
+            }
+        }
+        dd {
+            margin: 0 0 0 20px;
+        }
+    }
+}

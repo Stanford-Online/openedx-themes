@@ -9,10 +9,6 @@
     <section class="container about">
         <section class="vision">
             <section class="message left" id="about">
-                <div class="photo">
-                    <img src="${static.url('lagunita/images/quad.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
-                    <!-- Image Copyright owned by Giulio Gratta -->
-                </div>
                 <article>
                     <h2>${_('About')} <span class="lagunita">Lagunita</span></h2>
                     <p>${_("{Lagunita} is {Stanford}'s instance of the open-source software release of the {Open_edX} platform, which was developed by the joint {Harvard_MIT} non-profit organization, and which {Stanford} engineers have been collaborating on since April 2013. {Lagunita} hosts many of the free, online courses that are taught by {Stanford} faculty and made available to lifelong learners around the world for self-enrichment. {Lagunita} also hosts a variety of professional education opportunities in conjunction with many of {Stanford_University}'s schools and departments.").format(
@@ -23,6 +19,10 @@
                             Stanford_University="Stanford University"
                         ) | n}
                     </p>
+                    <div class="photo">
+                        <img src="${static.url('lagunita/images/quad.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
+                        <!-- Image Copyright owned by Giulio Gratta -->
+                    </div>
                     <p>${_("All of the personal and professional learning opportunities that are hosted on {Lagunita} and open to the public are made available through Stanford Online and listed at {lagunita_courses_link}.  To see our complete catalog of {Stanford_Online} courses on {Lagunita} and other platforms, you can visit {online_courses_link}.").format(
                             Lagunita="Lagunita",
                             Stanford_Online="Stanford Online",
