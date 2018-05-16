@@ -1,3 +1,5 @@
+$screen_width_small: 768px;
+
 section.container {
     &.about,
     &.tos,
@@ -33,6 +35,31 @@ section.container {
         }
         dd {
             margin: 0 0 0 20px;
+        }
+    }
+}
+
+@media (max-width: $screen_width_small) {
+    #content {
+        .course-info {
+            .intro-inner-wrapper {
+                min-width: auto;
+
+                .media {
+                    display: none;
+                }
+            }
+            .container {
+                min-width: auto;
+
+                &> .details,
+                &> .course-sidebar {
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 15px;
+                    clear: both;
+                }
+            }
         }
     }
 }
