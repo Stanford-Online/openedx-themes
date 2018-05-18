@@ -13,6 +13,8 @@ $footer-logo-width: 100px;
 // Custom default styling for Lagunita courses, UX001
 @import 'custom_overrides/_course_styling.scss';
 
+@import 'custom_overrides/_instructor.scss';
+
 // Student profile
 .account-settings-container, .wrapper-profile {
     margin-bottom: 30px;
