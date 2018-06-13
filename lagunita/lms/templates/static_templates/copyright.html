@@ -73,13 +73,4 @@
     </section>
 </main>
 
-<script>
-    $(document).ready(function() {
-        var print_doc = '<input type="button" value="${_('Print This Document')}" class="print">';
-        $('#content section.copyright').prepend(print_doc).append(print_doc);
-        $('#content section.copyright input.print').click(function() {
-            window.print();
-            return false;
-        });
-    });
-</script>
+<%include file="print_document_button.html" />
