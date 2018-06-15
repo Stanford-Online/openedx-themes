@@ -1,5 +1,3 @@
-$screen_width_small: 768px;
-
 section.container {
     &.about,
     &.tos,
@@ -8,7 +6,7 @@ section.container {
     &.copyright,
     &.contact {
         min-width: 0%;
-        max-width: 1320px;
+        max-width: $screen_break_large;
         padding: 20px 50px 20px 50px;
         .vision {
             .message.left .photo {
@@ -39,7 +37,8 @@ section.container {
     }
 }
 
-@media (max-width: $screen_width_small) {
+// Small screens
+@media (max-width: $screen_break_medium - 1) {
     #content {
         .course-info {
             .intro-inner-wrapper {
