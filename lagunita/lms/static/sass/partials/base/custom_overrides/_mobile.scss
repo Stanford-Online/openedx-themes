@@ -6,7 +6,7 @@ section.container {
     &.copyright,
     &.contact {
         min-width: 0%;
-        max-width: 1320px;
+        max-width: $screen_break_m_l;
         padding: 20px 50px 20px 50px;
         .vision {
             .message.left .photo {
@@ -37,7 +37,8 @@ section.container {
     }
 }
 
-@media (max-width: $screen_width_small) {
+// Handheld screens (Phones to small tablets)
+@media (max-width: $screen_break_s_m - 1) {
     #content {
         .course-info {
             .intro-inner-wrapper {
