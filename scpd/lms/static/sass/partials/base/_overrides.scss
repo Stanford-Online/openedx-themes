@@ -5,6 +5,8 @@
 $footer-logo-width: 50px;
 @import 'custom_overrides/_footer.scss';
 
+@import 'custom_overrides/_instructor.scss';
+
 // Hide the copyright footer on the ProblemBuilder XBlock
 .xblock .mentoring .copyright {
     display: none;
