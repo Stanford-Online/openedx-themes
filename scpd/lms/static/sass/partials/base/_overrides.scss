@@ -2,28 +2,8 @@
 
 @import 'custom_overrides/_header.scss';
 
-.wrapper-footer {
-    padding: 15px;
-
-    footer#footer-openedx {
-        .wrapper-logo {
-            width: 50px;
-            float: left;
-            margin: 0 25px 0 0;
-
-            img {
-                width: 100%;
-            }
-        }
-        .copyright {
-            display: inline;
-            padding: 0;
-        }
-        .nav-legal {
-            padding-top: 15px;
-        }
-    }
-}
+$footer-logo-width: 50px;
+@import 'custom_overrides/_footer.scss';
 
 // Hide the copyright footer on the ProblemBuilder XBlock
 .xblock .mentoring .copyright {
