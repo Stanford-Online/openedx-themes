@@ -11,3 +11,9 @@ $footer-logo-width: 50px;
 .xblock .mentoring .copyright {
     display: none;
 }
+
+$screen_break_xs_s: 500px;
+$screen_break_s_m: 860px;
+$screen_break_m_l: 1220px;
+$screen_break_l_xl: 1580px;
+@import 'custom_overrides/_mobile.scss';
