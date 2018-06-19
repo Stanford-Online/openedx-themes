@@ -1,11 +1,9 @@
 #instructor-dashboard-content {
-    #extensions {
-        .slickgrid {
-            .slick-header-column.ui-state-default,
-            .slick-row > .slick-cell {
-                height: 30px;
-                padding: 5px;
-            }
+    .slickgrid {
+        .slick-header-column.ui-state-default,
+        .slick-row > .slick-cell {
+            height: 30px;
+            padding: 5px;
         }
     }
 }
