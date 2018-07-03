@@ -61,5 +61,16 @@ section.container {
                 }
             }
         }
+
+        #dashboard-main {
+            .course-container {
+                .wrapper-course-details {
+                    .course-info,
+                    .wrapper-course-actions {
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }
