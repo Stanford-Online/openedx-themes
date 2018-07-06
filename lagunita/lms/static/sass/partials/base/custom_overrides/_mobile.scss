@@ -37,6 +37,22 @@ section.container {
     }
 }
 
+// Phone screens (Phones only)
+@media (max-width: $screen_break_xs_s - 1) {
+    #global-navigation {
+        .user {
+            .user-link {
+                .label-username {
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+
 // Handheld screens (Phones to small tablets)
 @media (max-width: $screen_break_s_m - 1) {
     #content {
