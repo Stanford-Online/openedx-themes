@@ -37,6 +37,22 @@ section.container {
     }
 }
 
+// X-Small screens
+@media (max-width: $screen_break_small - 1) {
+    #global-navigation {
+        .user {
+            .user-link {
+                .label-username {
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+
 // Small screens
 @media (max-width: $screen_break_medium - 1) {
     #content {
