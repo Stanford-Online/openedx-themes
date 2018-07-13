@@ -1,9 +1,10 @@
 // Print styling, originally implemented for TOS page
 @media print {
-    html body .window-wrap #su-header,
+    #su-header,
+    #global-navigation,
     html body .window-wrap header.global,
     html body .window-wrap .wrapper-footer,
-    html body .window-wrap #su-footer,
+    #su-footer,
     #content section.container input.print {
         display: none;
     }

@@ -17,6 +17,10 @@ $footer-logo-width: 100px;
 
 @import 'custom_overrides/_typography.scss';
 
+#register-extra {
+    margin-top: 25px;
+}
+
 // Student profile
 .account-settings-container, .wrapper-profile {
     margin-bottom: 30px;
