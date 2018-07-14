@@ -31,4 +31,8 @@ $footer-logo-width: 100px;
     display: none;
 }
 
+$screen_break_small: 500px;
+$screen_break_medium: 860px;
+$screen_break_large: 1220px;
+$screen_break_xlarge: 1580px;
 @import 'custom_overrides/_mobile.scss';
