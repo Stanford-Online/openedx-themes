@@ -1,0 +1,15 @@
+<script type="text/javascript">
+    var mobileWidth = 768;
+
+    $(document).ready(function() {
+        var contentWidth = $('#content').width();
+        if (contentWidth < mobileWidth) {
+            var courseDetails = $('#content .details');
+            var courseSidebar = $('#content .course-sidebar');
+            var courseSidebarHeight = courseSidebar.height();
+
+            courseDetails.css("margin-top", courseSidebarHeight);
+            courseSidebar.css("position", "absolute");
+        }
+    });
+</script>
