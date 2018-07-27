@@ -88,4 +88,18 @@ section.container {
             }
         }
     }
+
+    // Fix forum heights on mobile
+    // TODO: Remove after merging Hawthorne
+    // !important flags are needed to override values set by JS
+    .discussion {
+        .forum-nav {
+            height: 500px !important;
+            overflow: scroll;
+
+            .forum-nav-browse-menu {
+                height: auto !important;
+            }
+        }
+    }
 }
