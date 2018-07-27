@@ -26,6 +26,15 @@ $footer-logo-width: 100px;
     margin-bottom: 30px;
 }
 
+// Override the bookmarks pagination behavior
+// TODO: Remove after merging Hawthorne
+.course-bookmarks {
+    .pagination.pagination-full {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 // Hide the copyright footer on the ProblemBuilder XBlock
 .xblock .mentoring .copyright {
     display: none;
