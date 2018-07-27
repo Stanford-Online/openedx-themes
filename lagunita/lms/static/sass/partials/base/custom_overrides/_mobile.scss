@@ -51,6 +51,18 @@ section.container {
             }
         }
     }
+    #content {
+        .course-info {
+            .container {
+                &> .details,
+                &> .course-sidebar {
+                    width: 100%;
+                    box-sizing: border-box;
+                    clear: both;
+                }
+            }
+        }
+    }
 }
 
 // Small screens
@@ -66,14 +78,6 @@ section.container {
             }
             .container {
                 min-width: auto;
-
-                &> .details,
-                &> .course-sidebar {
-                    width: 100%;
-                    box-sizing: border-box;
-                    padding: 15px;
-                    clear: both;
-                }
             }
         }
 
@@ -99,6 +103,18 @@ section.container {
 
             .forum-nav-browse-menu {
                 height: auto !important;
+            }
+        }
+    }
+}
+
+// Medium screens
+@media (max-width: $screen_break_large - 1) {
+    #content {
+        .course-info {
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
             }
         }
     }
