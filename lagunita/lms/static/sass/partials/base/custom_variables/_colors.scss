@@ -16,6 +16,12 @@ $green: $mint;
 $blue: $sky;
 $orange: $sun;
 
+// Colors - detailed overrides
+$black-t0:  rgba($black, 0.125) !default;
+$black-t1:  rgba($black, 0.25) !default;
+$black-t2:  rgba($black, 0.5) !default;
+$black-t3:  rgba($black, 0.75) !default;
+
 // Colors - uxpl overrides
 $uxpl-blue-base: $green-main;
 $uxpl-blue-hover-active: $green-dark;
@@ -74,6 +80,9 @@ $m-blue-t0: rgba($m-blue, 0.125) !default;
 $m-blue-t1: rgba($m-blue, 0.25) !default;
 $m-blue-t2: rgba($m-blue, 0.50) !default;
 $m-blue-t3: rgba($m-blue, 0.75) !default;
+
+// Courseware
+$courseware-border-bottom-color: $black-t3;
 
 // Homepage
 $body-bg: $white;
