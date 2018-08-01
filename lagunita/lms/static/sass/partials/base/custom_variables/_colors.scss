@@ -1,5 +1,11 @@
 @import '_palette.scss';
 
+// Lagunita Colors
+$green-main: $palo-alto;
+$green-dark: shade($palo-alto, 50%);
+$green-super-light: $light-sage;
+$green-ultra-light: tint($light-sage, 60%);
+
 // Colors - main overrides
 $black: $stanford-black;
 $white: $stanford-white;
@@ -11,10 +17,10 @@ $blue: $sky;
 $orange: $sun;
 
 // Colors - uxpl overrides
-$uxpl-blue-base: $cardinal-red;
-$uxpl-blue-hover-active: $bright-red;
-$uxpl-green-base: $palo-alto;
-$uxpl-green-hover-active: $mint;
+$uxpl-blue-base: $green-main;
+$uxpl-blue-hover-active: $green-dark;
+$uxpl-green-base: $green-main;
+$uxpl-green-hover-active: $green-dark;
 $uxpl-pink-base: adjust-hue($bright-red, -30);
 $uxpl-grayscale-x-back: $fog;
 
@@ -29,28 +35,29 @@ $success-color: $mint;
 $success-color-hover: $palo-alto;
 
 // Colors - action - primary
-$action-primary-bg: $cardinal-red;
+$action-primary-bg: $green-main;
 $action-primary-fg: $fog;
-$action-primary-shadow: $dark-red;
-$action-primary-focused-bg: $cardinal-red;
+$action-primary-shadow: $green-dark;
+$action-primary-focused-bg: $green-main;
 $action-primary-focused-fg: $fog;
-$action-primary-active-bg: $bright-red;
-$action-primary-active-fg: $cardinal-red;
-$action-primary-active-shadow: $dark-red;
-$action-primary-active-focused-fg: $bright-red;
-$action-primary-active-focused-shadow: $dark-red;
-$action-primary-disabled-bg: $light-sage;
-$action-prmary-disabled-fg: tint($light-sage, 60%);
+$action-primary-active-bg: $green-dark;
+$action-primary-active-fg: $green-main;
+$action-primary-active-shadow: $green-dark;
+$action-primary-active-focused-fg: $green-main;
+$action-primary-active-focused-shadow: $green-dark;
+$action-primary-disabled-bg: $green-super-light;
+$action-prmary-disabled-fg: $green-ultra-light;
 
 // Colors - actions - misc
-$link-color: $palo-alto;
-$link-hover: shade($palo-alto, 50%);
+$link-color: $green-main;
+$blue: $green-main;
+$link-hover: $green-dark;
 $site-status-color: $redwood;
-$button-color: $cardinal-red;
-$button-archive-color: tint($light-sage, 75%);
+$button-color: $green-main;
+$button-archive-color: $green-ultra-light;
 
 // Colors - edx deprecated
-$m-blue: $cardinal-red;  // uxpl blue base
+$m-blue: $green-main;  // uxpl blue base
 $m-blue-l1: tint($m-blue, 45%);
 $m-blue-l2: tint($m-blue, 65%);
 $m-blue-l3: tint($m-blue, 80%);
@@ -72,8 +79,8 @@ $m-blue-t3: rgba($m-blue, 0.75) !default;
 $body-bg: $white;
 
 // Header
-$header-bg: tint($light-sage, 60%);
+$header-bg: $green-ultra-light;
 $header-border-color: $lagunita;
 
 // Footer
-$footer-bg: tint($light-sage, 60%);
+$footer-bg: $green-ultra-light;
