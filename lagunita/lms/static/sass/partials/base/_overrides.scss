@@ -35,6 +35,13 @@ $footer-logo-width: 100px;
     }
 }
 
+// Hide track message on progress page
+#course-info-progress {
+    .wrapper-msg {
+        display: none;
+    }
+}
+
 // Hide the copyright footer on the ProblemBuilder XBlock
 .xblock .mentoring .copyright {
     display: none;
