@@ -101,7 +101,8 @@ section.container {
             height: 500px !important;
             overflow: scroll;
 
-            .forum-nav-browse-menu {
+            .forum-nav-browse-menu,
+            .forum-nav-thread-list {
                 height: auto !important;
             }
         }
