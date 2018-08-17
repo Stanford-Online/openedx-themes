@@ -14,38 +14,14 @@ $footer-logo-width: 100px;
 
 @import 'custom_overrides/_typography.scss';
 
-#register-extra {
-    margin-top: 25px;
-}
+@import 'custom_overrides/_register.scss';
 
-// Student profile
-.account-settings-container, .wrapper-profile {
-    margin-bottom: 30px;
-}
+@import 'custom_overrides/_student.scss';
 
-// Override the bookmarks pagination behavior
-// TODO: Remove after merging Hawthorne
-.course-bookmarks {
-    .pagination.pagination-full {
-        width: 100%;
-        text-align: center;
-    }
-}
+@import 'custom_overrides/_bookmarks.scss';
 
-// Hide track message on progress page
-#course-info-progress {
-    .wrapper-msg {
-        display: none;
-    }
-}
+@import 'custom_overrides/_progress.scss';
 
-// Hide the copyright footer on the ProblemBuilder XBlock
-.xblock .mentoring .copyright {
-    display: none;
-}
+@import 'custom_overrides/_xblocks.scss';
 
-$screen_break_small: 500px;
-$screen_break_medium: 860px;
-$screen_break_large: 1220px;
-$screen_break_xlarge: 1580px;
 @import 'custom_overrides/_mobile.scss';
