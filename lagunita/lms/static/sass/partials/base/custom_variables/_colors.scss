@@ -1,12 +1,12 @@
 @import '_palette.scss';
 
-// Lagunita Colors
-$green-main: $palo-alto;
-$green-dark: shade($palo-alto, 50%);
-$green-super-light: $light-sage;
-$green-ultra-light: tint($light-sage, 60%);
+$theme-color-main: $palo-alto;
+$theme-color-dark: shade($palo-alto, 50%);
+$theme-color-super-light: $light-sage;
+$theme-color-ultra-light: tint($light-sage, 60%);
+$theme-color-spot: $lagunita;
 
-// Colors - main overrides
+// main variable overrides
 $black: $stanford-black;
 $white: $stanford-white;
 $gray: $stone;
@@ -16,80 +16,4 @@ $green: $mint;
 $blue: $sky;
 $orange: $sun;
 
-// Colors - detailed overrides
-$black-t0:  rgba($black, 0.125) !default;
-$black-t1:  rgba($black, 0.25) !default;
-$black-t2:  rgba($black, 0.5) !default;
-$black-t3:  rgba($black, 0.75) !default;
-
-// Colors - uxpl overrides
-$uxpl-blue-base: $green-main;
-$uxpl-blue-hover-active: $green-dark;
-$uxpl-green-base: $green-main;
-$uxpl-green-hover-active: $green-dark;
-$uxpl-pink-base: adjust-hue($bright-red, -30);
-$uxpl-grayscale-x-back: $fog;
-
-// Colors - system-feedback overrides
-$error-color: $bright-red;
-$warning-color: $sun;
-$confirm-color: $mint;
-$active-color: $sky;
-$highlight-color: tint($sun, 50%);
-$alert-color: $bright-red;
-$success-color: $mint;
-$success-color-hover: $palo-alto;
-
-// Colors - action - primary
-$action-primary-bg: $green-main;
-$action-primary-fg: $fog;
-$action-primary-shadow: $green-dark;
-$action-primary-focused-bg: $green-main;
-$action-primary-focused-fg: $fog;
-$action-primary-active-bg: $green-dark;
-$action-primary-active-fg: $green-main;
-$action-primary-active-shadow: $green-dark;
-$action-primary-active-focused-fg: $green-main;
-$action-primary-active-focused-shadow: $green-dark;
-$action-primary-disabled-bg: $green-super-light;
-$action-prmary-disabled-fg: $green-ultra-light;
-
-// Colors - actions - misc
-$link-color: $green-main;
-$blue: $green-main;
-$link-hover: $green-dark;
-$site-status-color: $redwood;
-$button-color: $green-main;
-$button-archive-color: $green-ultra-light;
-
-// Colors - edx deprecated
-$m-blue: $green-main;  // uxpl blue base
-$m-blue-l1: tint($m-blue, 45%);
-$m-blue-l2: tint($m-blue, 65%);
-$m-blue-l3: tint($m-blue, 80%);
-$m-blue-l4: tint($m-blue, 90%);
-$m-blue-l5: tint($m-blue, 95%);
-$m-blue-l6: tint($m-blue, 97%);
-$m-blue-d1: shade($m-blue, 5%);
-$m-blue-d2: shade($m-blue, 10%);
-$m-blue-d3: shade($m-blue, 15%);
-$m-blue-d4: shade($m-blue, 20%);
-$m-blue-d5: shade($m-blue, 35%);
-$m-blue-d6: shade($m-blue, 50%);
-$m-blue-t0: rgba($m-blue, 0.125) !default;
-$m-blue-t1: rgba($m-blue, 0.25) !default;
-$m-blue-t2: rgba($m-blue, 0.50) !default;
-$m-blue-t3: rgba($m-blue, 0.75) !default;
-
-// Courseware
-$courseware-border-bottom-color: $black-t3;
-
-// Homepage
-$body-bg: $white;
-
-// Header
-$header-bg: $green-ultra-light;
-$header-border-color: $lagunita;
-
-// Footer
-$footer-bg: $green-ultra-light;
+@import '_derived.scss';
