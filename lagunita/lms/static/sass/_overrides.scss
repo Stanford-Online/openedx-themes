@@ -485,4 +485,13 @@ ul li, ol li {
     display: none;
 }
 
+// Hide the user role on discussion page
+#content {
+    .discussion-user-profile-board {
+        .user-roles {
+            display: none;
+        }
+    }
+}
+
 @import '_mobile.scss';
