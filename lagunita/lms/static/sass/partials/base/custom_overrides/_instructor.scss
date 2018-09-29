@@ -1,0 +1,11 @@
+#instructor-dashboard-content {
+    .slickgrid {
+        .slick-header-column.ui-state-default,
+        .slick-row > .slick-cell {
+            height: 100%;
+        }
+        .slick-header-column.ui-state-default {
+            height: 30px;
+        }
+    }
+}

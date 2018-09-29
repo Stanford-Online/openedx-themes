@@ -1,4 +1,4 @@
-# #-#-#-#-#  tos.po (stanford-openedx)  #-#-#-#-#
+# #-#-#-#-#  tos_and_honor.po (stanford-openedx)  #-#-#-#-#
 # Stanford OpenEdX translation file
 # Copyright (C) 2018 Stanford University
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
@@ -7,15 +7,8 @@
 # Translators:
 # kluo <kevluo@stanford.edu>, 2018
 # mondiaz <mondiaz@stanford.edu>, 2018
+# Hang Pham <hpham3@stanford.edu>, 2018
 # #-#-#-#-#  privacy.po (stanford-openedx)  #-#-#-#-#
-# Stanford OpenEdX translation file
-# Copyright (C) 2018 Stanford University
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# Stanford OpenEdX Team, 2018.
-# 
-# Translators:
-# mondiaz <mondiaz@stanford.edu>, 2018
-# #-#-#-#-#  honor.po (stanford-openedx)  #-#-#-#-#
 # Stanford OpenEdX translation file
 # Copyright (C) 2018 Stanford University
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
@@ -40,6 +33,7 @@
 # Translators:
 # kluo <kevluo@stanford.edu>, 2018
 # Hang Pham <hpham3@stanford.edu>, 2018
+# mondiaz <mondiaz@stanford.edu>, 2018
 # #-#-#-#-#  stanford_django.po (stanford-openedx)  #-#-#-#-#
 # Stanford OpenEdX translation file.
 # Copyright (C) 2018 Stanford University
@@ -66,8 +60,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stanford-openedx\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-17 14:13+0000\n"
-"PO-Revision-Date: 2018-03-17 14:13:21.008405\n"
+"POT-Creation-Date: 2018-09-20 13:02-0700\n"
+"PO-Revision-Date: 2018-09-20 20:03:09.761989\n"
 "Last-Translator: Kailey Chen <kailey@stanford.edu>, 2018\n"
 "Language-Team: Mongolian (https://www.transifex.com/stanford-online/teams/22259/mn/)\n"
 "MIME-Version: 1.0\n"
@@ -77,11 +71,16 @@ msgstr ""
 "Language: mn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: lagunita/lms/templates/static_templates/copyright.html
+#: lagunita/lms/templates/static_templates/privacy.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
+msgid "Effective date: {date}"
+msgstr "Хүчин төгөлдөр болох хугацаа: {date}"
+
 #. #-#-#-#-#  stanford_django.po (stanford-openedx)  #-#-#-#-#
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
-#: lagunita/lms/templates/footer.html
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 #: lms/djangoapps/branding/api.py openedx/core/djangoapps/user_api/views.py
 #: lms/templates/static_templates/tos.html
 #: themes/red-theme/lms/templates/footer.html
@@ -90,33 +89,19 @@ msgstr ""
 msgid "Terms of Service"
 msgstr "Үйлчилгээний нөхцөл"
 
-#: lagunita/lms/templates/static_templates/copyright.html
-#: lagunita/lms/templates/static_templates/honor.html
-#: lagunita/lms/templates/static_templates/privacy.html
-#: lagunita/lms/templates/static_templates/tos.html
-msgid "Effective date: {date}"
-msgstr "Хүчин төгөлдөр болох хугацаа: {date}"
-
-#: lagunita/lms/templates/static_templates/copyright.html
-#: lagunita/lms/templates/static_templates/honor.html
-#: lagunita/lms/templates/static_templates/privacy.html
-#: lagunita/lms/templates/static_templates/tos.html
-msgid "Print This Document"
-msgstr "Энэ баримт хэвлэх "
-
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "NOTICE: On {date}, Stanford amended its Terms of Service as follows:"
 msgstr ""
 "МЭДЭГДЭЛ: СТЭНФОРДЫН ИХ СУРГУУЛЬ НЬ {date} ҮЙЛЧИЛГЭЭНИЙ НӨХЦӨЛӨӨ ДАРААХ "
 "БАЙДЛААР ӨӨРЧЛӨВ:"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Welcome to the Stanford Online Learning and Research Community"
 msgstr ""
 "Стэнфордын Их Сургуулийн Цахим Сургалт, Судалгааны Нийгэмлэгт тавтай морилно"
 " уу."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Stanford University pursues the science of learning. Online learners are "
 "important participants in that pursuit. The information we gather from your "
@@ -132,7 +117,7 @@ msgstr ""
 "сайжруулах, улмаар суралцахуйн шинжлэх ухааныг цогцлоох боломжийг бий "
 "болгодог."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "By registering as an online learner, you are also participating in "
 "{research_link_start}research{link_end} intended to enhance Stanford's "
@@ -167,7 +152,7 @@ msgstr ""
 "мэдээллийг нэгдсэн түвшинд нийтлэх бөгөөд таны хувийн мэдээллийг бол "
 "задруулахгүй юм. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 #: lagunita/lms/templates/student_account/register-extra.html
 msgid ""
 "Please read our {link_start}Privacy Policy{link_end} for more information "
@@ -179,11 +164,11 @@ msgstr ""
 "мэдээллийг авахыг хүсвэл {link_start}Нууцлалын бодлого{link_end} хэсгийг "
 "уншина уу."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Terms of Service for Stanford Online Courses"
 msgstr "СТЭНФОРД ЦАХИМ СУРГАЛТЫН ҮЙЛЧИЛГЭЭНИЙ НӨХЦӨЛ"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "These Terms of Service govern the Stanford Online website and Stanford's "
 "OpenEdX platform, {site_name} (\"Site\") which is owned by Stanford "
@@ -198,11 +183,11 @@ msgstr ""
 "Үйлчилгээний нөхцөлийг сайтар уншиж танилцан, улмаар хүлээн зөвшөөрсний "
 "дараа энэхүү Веб сайтад нэвтрэх, эсвэл үүнийг ашиглах хэрэгтэйг анхаарна уу."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Use of the Site"
 msgstr "Веб сайтын ашиглалт"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "In order to participate in Stanford Online courses or access any online "
 "resources offered by Stanford you must first carefully read and agree to "
@@ -220,7 +205,7 @@ msgstr ""
 "ИЛЭРХИЙЛНЭ. Хэрэв та эдгээр нөхцөлийг хүлээн зөвшөөрөхгүй байгаа тохиолдолд "
 "Веб сайтаас нэн даруй гарна уу."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "STANFORD RESERVES THE RIGHT TO MODIFY THESE TERMS AT ANY TIME AND WILL "
 "PUBLISH NOTICE OF ANY MODIFICATIONS ON-LINE AT THIS SITE. BY CONTINUING TO "
@@ -232,11 +217,11 @@ msgstr ""
 "ТУХАЙ МЭДЭГДЭЛ ТАВИГДСАНЫ ДАРАА ВЕБ САЙТ РУУ ОРСНООР ТА ӨӨРЧЛӨГДСӨН "
 "НӨХЦӨЛҮҮДИЙГ ХҮЛЭЭН ЗӨВШӨӨРЧ БАЙНА ГЭЖ ТООЦНО."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "User Age and Eligibility"
 msgstr "Хэрэглэгчийн нас ба тавих болзол"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Participation in the Site and Stanford Online Courses is restricted to those"
 " individuals who have registered, who are 18 years of age and over, "
@@ -258,7 +243,7 @@ msgstr ""
 " нас хүрээгүй бол Веб сайтыг ашиглаж болохгүй. Та болзол нөхцөлүүдийг хангаж"
 " байгаа эсэх талаар асуулт байвал {contact_email} хаягаар холбогдоно уу."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Certain courses may also have additional eligibility requirements as "
 "specified in the specific course description. If you are not eligible for "
@@ -270,11 +255,11 @@ msgstr ""
 "болзол нөхцөлүүдийг хангахгүй, эсхүл Нөхцөлүүдийг хүлээн зөвшөөрөхгүй байгаа"
 " бол Веб сайтыг ашиглаж болохгүй."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Access to the Site"
 msgstr "Веб сайтад нэвтрэх"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "While portions of the Site may be available to the general public, portions "
 "of the Site are restricted to registered users who meet eligibility "
@@ -297,15 +282,15 @@ msgstr ""
 "зэрэг аливаа асуудлын улмаас Веб сайтад нэвтрэх боломжгүй болох, саатах "
 "эсхүл доголдох зэрэгт Стэнфорд хариуцлага хүлээхгүй болно."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "User Accounts"
 msgstr "Хэрэглэгчийн данс"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Site Registration"
 msgstr "Веб сайтын бүртгэл"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "In order to fully participate in all Site activities, you must register and "
 "create a User Account. You are required to provide a valid email address "
@@ -324,11 +309,11 @@ msgstr ""
 "болон таны хэн болохыг таних бусад мэдээлэл зэргийг нэмэлтээр хүсэх буюу "
 "шаардаж болох ба зөвхөн эдгээр мэдээллээр хязгаарлагдахгүй. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Course Registration"
 msgstr "Сургалтын бүртгэл "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "In order to participate in an online course you may be required to register "
 "in the course by selecting the course from the list of offered courses. You "
@@ -345,7 +330,7 @@ msgstr ""
 "шаардаж болох ба зөвхөн эдгээр мэдээллээр хязгаарлагдахгүй. Зарим сургалтад "
 "бүртгүүлэхийн тулд та тодорхой хэмжээний хураамж төлөх шаардлага гарч болно."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "You understand and agree that all information provided by you is accurate, "
 "current and complete and that you will maintain and update your information "
@@ -365,11 +350,11 @@ msgstr ""
 "орох эрх, нэвтрэх мэдээллийг гуравдагч талд ямар нэгэн шалтгаанаар хэзээ ч "
 "задруулахгүй, мэдээллийг хуваалцахгүй байхыг хүлээн зөвшөөрнө. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Fees and Refunds"
 msgstr "Сургалтын төлбөр ба төлбөрийн буцаалт"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Courses may be made available for free or for a fee at the sole discretion "
 "of Stanford. Course fees, if applicable, are due and payable at the time of "
@@ -404,11 +389,11 @@ msgstr ""
 "албагүй хэдий ч хэрэв та төлбөрийн буцаалт авах ёстой гэдэгт итгэлтэй байгаа"
 " бол {contact_email} хаягаар цахим шуудан бичиж хүсэлт гаргана уу."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Course Modification or Cancellation"
 msgstr "Сургалтад өөрчлөлт оруулах, сургалтыг цуцлах"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "The Site, including the course materials, may contain errors and omissions. "
 "We reserve the right to correct errors or omissions without prior notice. We"
@@ -425,11 +410,11 @@ msgstr ""
 "агуулга нь Стэнфордод элсэн суралцаж буй оюутнуудад олгож буй сургалтын "
 "хөтөлбөрийг бүхэлд нь төлөөлөхгүй гэдгийг та мэдэх нь зүйтэй.      "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "License to use Site Materials"
 msgstr "Веб сайт дахь материалыг ашиглах зөвшөөрөл"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Unless otherwise indicated, the Site and all its content, such as text, "
 "images, and the HTML used to generate the pages (\"Material\") are the "
@@ -470,11 +455,11 @@ msgstr ""
 "зэргийг Веб сайтад байршуулсан байна. Та эдгээр дүрэм болон хязгаарлалтыг "
 "дагаж мөрдөхөө зөвшөөрсөн байна."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Modifications to Site"
 msgstr "Веб сайтад өөрчлөлт оруулах"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Stanford reserves the right, for any reason or no reason, in our sole "
 "discretion and without notice, to terminate, change, suspend or discontinue "
@@ -495,11 +480,11 @@ msgstr ""
 "болон хязгаарыг тогтоож болох ба ингэхдээ ямар нэгэн мэдэгдэл гаргах, "
 "торгууль төлөх зэрэг хариуцлага хүлээхгүй. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Rules for Online Conduct"
 msgstr "Цахим орчинд биеэ авч явах дүрэм"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "You agree to use the Sites in accordance with all applicable laws. You are "
 "responsible for your own communications, including the upload, transmission "
@@ -518,21 +503,21 @@ msgstr ""
 "компьютерийн хэрэгсэл дээр байршуулахгүй байх эсхүл ийм утгатай цахим шуудан"
 " явуулахгүй гэдгээ хүлээн зөвшөөрнө:"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Content that defames or threatens others"
 msgstr "Бусдыг гутаан доромжилсон эсхүл заналхийлсэн агуулга"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Harassing statements or content that violates federal or state law"
 msgstr "Улсын хууль журмыг зөрчсөн, доромжилсон мэдэгдэл эсхүл агуулга"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Content that discusses illegal activities with the intent to commit them"
 msgstr ""
 "Хэрэгжүүлэхээр зорьсон хууль бус үйл ажиллагааны талаар хэлэлцсэн агуулга"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Content that is not your own, or infringes another's intellectual property, "
 "including, but not limited to, copyrights, trademarks or trade secrets"
@@ -540,16 +525,16 @@ msgstr ""
 "Зохиогчийн эрх, худалдааны тэмдэг эсхүл худалдааны нууц зэрэг өөрийн бус "
 "эсхүл хэн нэгний оюуны өмчид халдах замаар олж авсан мэдээлэл бүхий агуулга"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Content related to partisan political activities"
 msgstr "Аливаа намын улс төрийн үйл ажиллагаанд хамааралтай агуулга"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Material that contains obscene (i.e. pornographic) language or images"
 msgstr ""
 "Ёс журамгүй хэл яриа, дүрс бичлэг (тухайлбал, садар самуун) бүхий материал"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Advertising or any form of commercial solicitation or promotion, including "
 "links to other sites"
@@ -557,19 +542,19 @@ msgstr ""
 "Худалдаа арилжааны зар суртачилгаа эсхүл урамшууллыг ямар нэгэн хэлбэрээр "
 "сурталчлах, ийм төрлийн веб сайт руу холбоос өгөх"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Content that is otherwise unlawful"
 msgstr "Хууль бус агуулгатай мэдээлэл"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Intentionally incomplete, misleading or inaccurate content"
 msgstr "Зориудаар бүрэн бус, гуйвуулсан, худал хуурмаг агуулсан мэдээлэл"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Violations of Honor Code"
 msgstr "Шударга байдлын зарчмыг зөрчсөн агуулга"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Copyrighted material, including without limitation software, graphics, text,"
 " photographs, sound, video and musical recordings, may not be placed on the "
@@ -582,11 +567,11 @@ msgstr ""
 "эрх бүхий этгээдээс зөвшөөрөл авалгүйгээр Веб сайт дээр байршуулахыг "
 "хориглоно. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Security Rules"
 msgstr "Аюулгүй байдлын дүрэм"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Violations of system or network security may result in civil or criminal "
 "liability. Stanford will investigate occurrences and may involve, and "
@@ -602,7 +587,7 @@ msgstr ""
 "сайтын аюулгүй байдалд халдах эсхүл халдахыг завдахгүй гэдгээ хүлээн "
 "зөвшөөрнө. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "attacking, probing, scanning or testing the vulnerability of, breaching "
 "security of, disrupting, disabling or harming the Site, or servers or "
@@ -612,7 +597,7 @@ msgstr ""
 "сорих, аюулгүй байдалд нь халдах, Веб сайт эсхүл сервер эсхүл Веб сайттай "
 "холбогдсон сүлжээнүүдийг гэмтээх эсхүл хохирол учруулах "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "using the Site via any automated means, such as a screen-scraper or robot. "
 "This is not intended to exclude the use of assistive technology for your own"
@@ -622,7 +607,7 @@ msgstr ""
 "аргаар Веб сайтыг ашиглах явдал. Ингэснээр дэлгэцийн мэдээлэл уншигч гэх "
 "мэтийн туслах технологи ашиглахыг хориглоогүй болно."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "sending any unsolicited emails to other Site Users or forging any TCP/IP "
 "packet header or any part of the header information in any email"
@@ -631,7 +616,7 @@ msgstr ""
 "багцын гарчиг эсвэл гарчгийн мэдээллийн аливаа хэсгийг цахим шуудангаар "
 "илгээх"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "displaying the Site within a frame on another website without consent, or "
 "place pop-up windows or other disruptive technologies over it"
@@ -639,7 +624,7 @@ msgstr ""
 "Вэб сайтыг өөр вэб сайтын дотор зөвшөөрөлгүй харуулах эсвэл дэлгэгддэг цонх "
 "эсвэл бусад хэрэглээнд саад учруулах технологи ашиглан байрлуулах"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "accessing data not intended for you or logging into a server or account you "
 "are not authorized to access"
@@ -647,7 +632,7 @@ msgstr ""
 "Өөрт зориулаагүй өгөгдөлд нэвтрэх эсвэл нэвтрэх зөвшөөрөлгүй сервер эсвэл "
 "дансанд нэвтрэх"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "attempting to interfere with service to any user, host or network, including"
 " without limitation, via means of submitting a virus to the Site, "
@@ -657,7 +642,7 @@ msgstr ""
 "эсвэл \"гацаах\" зэрэг аргаар аливаа хэрэглэгч, хост, сүлжээнд үзүүлэх "
 "үйлчилгээнд хөндлөнгөөс нөлөөлөхийг оролдох"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "impersonating another person or improperly allowing another to use your "
 "registration information to access the Site."
@@ -665,11 +650,11 @@ msgstr ""
 "Вэб сайтад нэвтрэх өөрийн бүртгэлийн мэдээллийг бусдад ашиглуулах эсвэл өөр "
 "хүний нэрээр нэвтрэх."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Content Disclaimer"
 msgstr "Агуулгын тайлбар"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "The text and other material on the Sites may include the opinion of the "
 "specific instructor and are not statements of advice, endorsement, opinion, "
@@ -681,7 +666,7 @@ msgstr ""
 "дүгнэлт эсхүл мэдээлэл биш юм. Хэрэв Веб сайтын агуулга танд таалагдахгүй, "
 "та гомдолтой байгаа бол та веб сайтыг үргэлжлүүлэн ашиглах хэрэггүй."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Sites may also include the personal opinions and other expressions by Users "
 "who post entries on a wide range of topics. Neither the content of the "
@@ -698,11 +683,11 @@ msgstr ""
 "агуулга эсхүл форумаар холбогдож болох холбоосоор дамжуулан үзэж болох "
 "агуулгыг нийтэлсэн байгууллага нь биш юм. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "User Content"
 msgstr "Хэрэглэгчийн агуулга"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "You may be permitted to submit and distribute materials in connection with "
 "an online course (\"User Content\"). You represent and warrant that any "
@@ -724,7 +709,7 @@ msgstr ""
 "авсан болохоо төлөөлөн баталж, Стэнфорд болон бусад судлаачид материалыг "
 "ашиглах зөвшөөрөл олгосон байна. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "You agree that, if a third party claims that any material you have "
 "contributed to a Site is unlawful, you will bear the burden of establishing "
@@ -740,11 +725,11 @@ msgstr ""
 "устгах, хандах эрхийг хаах эсхүл өөрийн үзэмжээр тухайн материалтай "
 "холбоотойгоор өөр арга хэмжээ авах эрхтэй байна. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Grant of license"
 msgstr "Лиценз олгох. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "By your submission of any material in connection with this course, you "
 "hereby grant Stanford an irrevocable, non-exclusive, royalty free, fully "
@@ -764,11 +749,11 @@ msgstr ""
 "Хэрэглэгчийн агуулгыг ашиглуулахыг (үүнд: агуулгыг хуулбарлах, өөрчлөх, "
 "тараах зэрэг багтана) зөвшөөрсөн байна. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "User Status and Statement of Accomplishment"
 msgstr "Хэрэглэгчийн статус ба Сургалтын тодорхойлолт"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "You agree and acknowledge that your access to the Site, participation in an "
 "online course and your agreement to these Terms do not confer any right to "
@@ -790,7 +775,7 @@ msgstr ""
 "ажиллагаа, түншлэл, хөдөлмөр эрхлэлт эсхүл агентлагийн харилцаа холбоо бий "
 "болохгүй гэдэгтэй та санал нийлж байна. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Subject to satisfactory performance and course completion, you may receive a"
 " Statement of Accomplishment (\"Statement\") signed by the instructor(s). "
@@ -815,11 +800,11 @@ msgstr ""
 "хүлээн зөвшөөрүүлэх талаар ямар нэгэн оролдлого хийх шаардлагагүй гэдгийг та"
 " хүлээн зөвшөөрнө. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "International Use and Consent to Processing"
 msgstr "Олон улсын хэрэглээ болон Мэдээллийн боловсруулалт хийх зөвшөөрөл"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Stanford controls and operates this Site within the United States of "
 "America, and all information is collected, transmitted, processed and stored"
@@ -857,11 +842,11 @@ msgstr ""
 "судлаачид хэрхэн ашигладаг тухай бүрэн дүүрэн ойлголттой байхаас гадна ийм "
 "явцыг хүлээн зөвшөөрсөн байна.  "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Links to Other Sites"
 msgstr "Бусад веб сайт руу хандах холбоосууд"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "The Site may include hyperlinks to sites maintained or controlled by others."
 " Stanford is not responsible for and does not routinely screen, approve, "
@@ -890,11 +875,11 @@ msgstr ""
 "шуудангийн хаяг болон таны тухай нийтэд нээлттэй мэдээлэл зэргийг хүлээн авч"
 " болох ба таныг веб сайт руу орсон тухай бид магадлагчид мэдээлэх болно."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Choice of Law/Forum Selection"
 msgstr "Хууль/форумыг сонгох тухай"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "The Sites are managed by Stanford, located in Santa Clara County, "
 "California. You agree that any dispute arising out of or relating to these "
@@ -943,11 +928,11 @@ msgstr ""
 "холбоотой аливаа гомдол эсхүл нэхэмжлэлийг асуудал гарснаас хойш нэг (1) "
 "жилийн дотор гаргах ёстой. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Disclaimer of Warranties"
 msgstr "Баталгаа гаргахгүй байх"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "THESE SITES AND ANY INFORMATION, PRODUCTS OR SERVICES THEREIN ARE PROVIDED "
 "\"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING"
@@ -959,7 +944,7 @@ msgstr ""
 "ЭСХҮЛ ХУУЛЬ ЁСНЫ БАТАЛГАА БУЮУ ЭНГИЙН ХЭРЭГЛЭЭНИЙ БАТАЛГАА, ТУСГАЙ ЗОРИЛГООР"
 " АШИГЛАГДАХ БАТАЛГАА, ЭСХҮЛ ЗӨРЧИЛ ҮЛ ГАРГАХ БАТАЛГАА ЗЭРГИЙГ ГАРГАХГҮЙ."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "STANFORD DOES NOT WARRANT, AND HEREBY DISCLAIMS ANY WARRANTIES, EITHER "
 "EXPRESS OR IMPLIED, WITH RESPECT TO THE ACCURACY, ADEQUACY OR COMPLETENESS "
@@ -976,7 +961,7 @@ msgstr ""
 "БАТАЛГАА ӨГӨХГҮЙ. ТА ВЕБ САЙТААС МЭДЭЭЛЭЛ АВАХТАЙ ХОЛБООТОЙ ГАРЧ БОЛОХ "
 "ЭРСДЭЛИЙГ ӨӨРӨӨ ХАРИУЦНА."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "WITHOUT LIMITING THE FOREGOING, STANFORD DOES NOT WARRANT THAT (A) THE SITE "
 "WILL MEET YOUR REQUIREMENTS OR EXPECTATIONS OR ACHIEVE THE INTENDED "
@@ -995,11 +980,11 @@ msgstr ""
 "ДАМЖУУЛАХ БОЛОН ХҮЛЭЭЖ АВАХ БОЛОМЖТОЙ БАЙНА ЭСХҮЛ (Д) ВЕБ САЙТАД ГАРСАН "
 "АЛДАА ДУТАГДЛЫГ ЗАСАХ БОЛНО. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Limitation of Liability"
 msgstr "Хариуцлагын хэм хэмжээ"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "YOU AGREE THAT STANFORD WILL NOT BE LIABLE TO YOU FOR ANY LOSS OR DAMAGES, "
 "EITHER ACTUAL OR CONSEQUENTIAL, ARISING OUT OF OR RELATING TO THESE TERMS, "
@@ -1043,11 +1028,11 @@ msgstr ""
 "УЛМААС ТАНД УЧИРЧ БОЛОХ ХОХИРОЛ, АЛДАГДЛЫГ БАРАГДУУЛАХААР БОЛБОЛ СТЭНФОРДЫН "
 "ЗҮГЭЭС 100 АМЕРИК ДОЛЛАРААС ХЭТРЭХГҮЙ НӨХӨН ОЛГОВОР ОЛГОХ БОЛНО."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Termination Rights"
 msgstr "Татан буулгах эрх"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "You agree that: Stanford, in its sole discretion, may terminate your use of "
 "the Site or your participation in an online course activity, for any reason "
@@ -1064,11 +1049,11 @@ msgstr ""
 " тохиолдолд та сургалтын кредит хүртэх, оюутны болон сургалтын холбогдолтой "
 "санал гомдол гаргах эрхгүй болно. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Consumer Notice"
 msgstr "Хэрэглэгчийн мэдэгдэл"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "If you have any questions regarding services provided through the Site, you "
 "may contact Stanford's Course Operations Lead at {contact_email} or 408 "
@@ -1084,11 +1069,11 @@ msgstr ""
 "хандана уу: Public Inquiry Unit of the Office of the California Attorney "
 "General, P.O. Box 944255, Sacramento, CA 94244-2550."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Proprietary Rights"
 msgstr "Өмчлөх эрх"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "The logos, names and graphics on the Site of Stanford or any of its "
 "affiliates, may be trademarks of Stanford or its affiliates. Use, "
@@ -1107,7 +1092,7 @@ msgstr ""
 "тусынх нь эзэмшигчдийн тэмдгүүд юм. Стэнфордын худалдааны тэмдгийн талаарх "
 "мэдээллийг {trademark_link} холбоосоос авч болно."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Except as otherwise provided herein, use of the Site does not grant you a "
 "license to any content, features or Material you may access on the Site, and"
@@ -1140,11 +1125,11 @@ msgstr ""
 "оюуны өмчийг Веб сайт дээр байрлуулснаар тэдгээрийг ашиглах лиценз болон "
 "зөвшөөрөл олгож байна гэсэн үг биш."
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid "Indemnification"
 msgstr "Хохиролгүй болгох"
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "You agree to indemnify and hold Stanford and its instructors, trustees, "
 "officers, agents, employees, and assignees, harmless from any claims, "
@@ -1164,7 +1149,54 @@ msgstr ""
 "байна. Түүнчлэн иймэрхүү гомдол өргөдөл гарах явдлаас Стэнфордыг хамгаалахад"
 " та хамтран ажиллана гэдгийг хүлээн зөвшөөрнө. "
 
-#: lagunita/lms/templates/static_templates/tos.html
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
+#: common/djangoapps/course_modes/helpers.py lms/djangoapps/branding/api.py
+#: openedx/core/djangoapps/user_api/views.py
+#: lms/templates/static_templates/honor.html
+#: themes/stanford-style/lms/templates/footer.html
+#: themes/stanford-style/lms/templates/static_templates/tos.html
+msgid "Honor Code"
+msgstr "Тангараг"
+
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
+msgid ""
+"By registering in an online course, you agree to: rely solely on your own "
+"work in connection with all assessments, problems, homework and assignments "
+"(unless collaboration is expressly permitted); acknowledge any and all "
+"external sources used in your work; refrain from any activity that would "
+"dishonestly or fraudulently improve your results or disadvantage others in "
+"the course; maintain only one user account and not let anyone else use your "
+"username and/or password; and not access or attempt to access any other "
+"user's account, or misrepresent or attempt to misrepresent your identity "
+"while using the Sites. This Honor Code is not intended to prohibit "
+"discussion of course material. While users must submit work that is their "
+"own, you should feel free to discuss lectures or other course material with "
+"others either in-person or online."
+msgstr ""
+"Цахим сургалтад бүртгүүлснээр та дараах нөхцөлүүдийг зөвшөөрнө: бүх дүн "
+"үнэлгээ, бодлого, гэрийн даалгавар болон бие даалттай холбоотой ажлуудыг "
+"зөвхөн өөрөө хариуцах (тодорхой үед бусадтай хамтран ажиллахыг зөвшөөрснөөс "
+"бусад тохиолдолд); өөрийн ажилд ашигласан аливаа бүх эх сурвалжийг батлах; "
+"шударга бусаар эсвэл хууран мэхлэх замаар өөрийн үр дүнг сайжруулах болон "
+"бусад суралцагчийг хохироох аливаа үйл ажиллагаанаас татгалзах; хэрэглэгчийн"
+" цорын ганц бүртгэлийг үүсгэж нэвтрэх нэр болон нууц үгийг бусдад "
+"ашиглуулахгүй байх; бусад хэрэглэгчийн бүртгэлээр нэвтрэхгүй байх эсвэл "
+"нэвтрэхийг оролдохгүй байх; Веб сайтыг ашиглахдаа өөрийн хэн гэдгээ "
+"гуйвуулахгүй байх эсвэл гуйвуулахыг оролдохгүй байх. Энэхүү Шударга байдлын "
+"зарчим нь сургалтын материалыг хоорондоо хэлэлцэхийг хориглоогүй болно. Веб "
+"сайтын хэрэглэгчид нь зөвхөн өөрсдийн ажлыг оруулах, танилцуулах ёстой "
+"боловч лекц хичээлүүд эсвэл сургалтын бусад материалыг суралцагчидтай "
+"биечлэн эсвэл цахимаар чөлөөтэй хэлэлцэж, саналаа солилцож болох юм."
+
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
+msgid ""
+"Stanford employees using this Site are expected to abide by the University "
+"Code of Conduct, Administrative Guide Memo 1."
+msgstr ""
+"Энэхүү Веб сайтыг ашиглаж буй Стэнфордын ажилтнууд нь Их сургуулийн ёс зүйн "
+"дүрэм болон Захиргааны удирдлагын санамж бичиг – 1-ийг дагаж мөрдөнө."
+
+#: lagunita/lms/templates/static_templates/tos_and_honor.html
 msgid ""
 "Please visit {copyright_link}Copyright{link_end} for information pertaining "
 "to intellectual property rights and copyright infringement on Stanford "
@@ -1177,12 +1209,8 @@ msgstr ""
 #. #-#-#-#-#  stanford_django.po (stanford-openedx)  #-#-#-#-#
 #. Translators: A 'Privacy Policy' is a legal document/statement describing a
 #. website's use of personal information
-#. Translators: This is a legal document users must agree to
-#. in order to register a new account.
-#: lagunita/lms/templates/footer.html
 #: lagunita/lms/templates/static_templates/privacy.html
 #: lms/djangoapps/branding/api.py lms/djangoapps/certificates/views/webview.py
-#: openedx/core/djangoapps/user_api/views.py
 #: lms/templates/static_templates/privacy.html
 #: themes/red-theme/lms/templates/footer.html
 #: themes/stanford-style/lms/templates/footer.html
@@ -1935,54 +1963,6 @@ msgstr ""
 "Аливаа бусад асуулт байвал {contact_email} гэсэн цахим хаягаар бидэнтэй "
 "холбогдоно уу."
 
-#: lagunita/lms/templates/footer.html
-#: lagunita/lms/templates/static_templates/honor.html
-#: common/djangoapps/course_modes/helpers.py lms/djangoapps/branding/api.py
-#: openedx/core/djangoapps/user_api/views.py
-#: lms/templates/static_templates/honor.html
-#: themes/stanford-style/lms/templates/footer.html
-#: themes/stanford-style/lms/templates/static_templates/tos.html
-msgid "Honor Code"
-msgstr "Шударга байдлын зарчим"
-
-#: lagunita/lms/templates/static_templates/honor.html
-msgid ""
-"By registering in an online course, you agree to: rely solely on your own "
-"work in connection with all assessments, problems, homework and assignments "
-"(unless collaboration is expressly permitted); acknowledge any and all "
-"external sources used in your work; refrain from any activity that would "
-"dishonestly or fraudulently improve your results or disadvantage others in "
-"the course; maintain only one user account and not let anyone else use your "
-"username and/or password; and not access or attempt to access any other "
-"user's account, or misrepresent or attempt to misrepresent your identity "
-"while using the Sites. This Honor Code is not intended to prohibit "
-"discussion of course material. While users must submit work that is their "
-"own, you should feel free to discuss lectures or other course material with "
-"others either in-person or online."
-msgstr ""
-"Цахим сургалтад бүртгүүлснээр та дараах нөхцөлүүдийг зөвшөөрнө: бүх дүн "
-"үнэлгээ, бодлого, гэрийн даалгавар болон бие даалттай холбоотой ажлуудыг "
-"зөвхөн өөрөө хариуцах (тодорхой үед бусадтай хамтран ажиллахыг зөвшөөрснөөс "
-"бусад тохиолдолд); өөрийн ажилд ашигласан аливаа бүх эх сурвалжийг батлах; "
-"шударга бусаар эсвэл хууран мэхлэх замаар өөрийн үр дүнг сайжруулах болон "
-"бусад суралцагчийг хохироох аливаа үйл ажиллагаанаас татгалзах; хэрэглэгчийн"
-" цорын ганц бүртгэлийг үүсгэж нэвтрэх нэр болон нууц үгийг бусдад "
-"ашиглуулахгүй байх; бусад хэрэглэгчийн бүртгэлээр нэвтрэхгүй байх эсвэл "
-"нэвтрэхийг оролдохгүй байх; Веб сайтыг ашиглахдаа өөрийн хэн гэдгээ "
-"гуйвуулахгүй байх эсвэл гуйвуулахыг оролдохгүй байх. Энэхүү Шударга байдлын "
-"зарчим нь сургалтын материалыг хоорондоо хэлэлцэхийг хориглоогүй болно. Веб "
-"сайтын хэрэглэгчид нь зөвхөн өөрсдийн ажлыг оруулах, танилцуулах ёстой "
-"боловч лекц хичээлүүд эсвэл сургалтын бусад материалыг суралцагчидтай "
-"биечлэн эсвэл цахимаар чөлөөтэй хэлэлцэж, саналаа солилцож болох юм."
-
-#: lagunita/lms/templates/static_templates/honor.html
-msgid ""
-"Stanford employees using this Site are expected to abide by the University "
-"Code of Conduct, Administrative Guide Memo 1."
-msgstr ""
-"Энэхүү Веб сайтыг ашиглаж буй Стэнфордын ажилтнууд нь Их сургуулийн ёс зүйн "
-"дүрэм болон Захиргааны удирдлагын санамж бичиг – 1-ийг дагаж мөрдөнө."
-
 #: lagunita/lms/templates/static_templates/copyright.html
 msgid "Copyright Complaints"
 msgstr "Зохиогчийн эрхийн гомдол"
@@ -2087,40 +2067,6 @@ msgstr ""
 "зөвхөн тайлбарлах зорилго агуулсан бөгөөд хуулийн эсхүл гэрээний үр "
 "дагаваргүй байна."
 
-#: lagunita/lms/templates/course_about_sidebar_extra.html
-#: lagunita/lms/templates/dashboard/user_info_extra.html
-msgid "Our Research Community"
-msgstr "Манай судалгааны хамт олон "
-
-#: lagunita/lms/templates/course_about_sidebar_extra.html
-#: lagunita/lms/templates/dashboard/user_info_extra.html
-#: lagunita/lms/templates/student_account/register-extra.html
-msgid ""
-"{university_name} pursues the science of learning. Online learners are "
-"important participants in that pursuit. The information we gather from your "
-"engagement with our instructional offerings makes it possible for faculty, "
-"researchers, designers and engineers to continuously improve their work and,"
-" in that process, build learning science."
-msgstr ""
-"{university_name} нь суралцаx шинжлэх ухааныг эрхэмлэдэг. Цахим сургалтанд "
-"хамрагдаж буй оюутнууд бол эдгээр зорилгод гол үүргийг гүйцэтгэдэг. Та манай"
-" сургалтанд хамрагдсанаар тэнхимийн хамт олон, судлаачид, дизайнерүүд болон "
-"инженерүүдэд өөрсдийн ажлаа тогтмол сайжруулахад нь хувь нэмрээ оруулж буй "
-"хэрэг бөгөөд ингэснээр мөн шинжлэх ухаанд суралцах боломжийг бүрдүүлж өгч "
-"байгаа юм"
-
-#: lagunita/lms/templates/course_about_sidebar_extra.html
-#: lagunita/lms/templates/dashboard/user_info_extra.html
-msgid ""
-"By registering as an online learner, you are also participating in "
-"research..."
-msgstr "Цахим суралцагч болж бүртгүүлснээр та мөн судалгаанд хамрагдана…"
-
-#: lagunita/lms/templates/course_about_sidebar_extra.html
-#: lagunita/lms/templates/dashboard/user_info_extra.html
-msgid "Read Terms of Service and Privacy Policy."
-msgstr "Үйлчилгээний нөхцөл болон нууцлалын журамтай уншиж танилцана уу"
-
 #: lagunita/lms/templates/course_info_extra.html
 msgid ""
 "We encourage you to review our {tos_link_start}Terms of Service{link_end} "
@@ -2130,36 +2076,6 @@ msgstr ""
 "Та сургалтаа эхлүүлэхээсээ өмнө {tos_link_start}Үйлчилгээний нөхцөл "
 "{link_end} болон {privacy_link_start}нууцлалын журамтай{link_end} уншиж "
 "танилцахыг бид зөвлөж байна."
-
-#: lagunita/lms/templates/footer.html
-msgid "Revised {date}"
-msgstr "Хянасан {date}"
-
-#: lagunita/lms/templates/footer.html
-#: themes/stanford-style/lms/templates/footer.html
-#: themes/stanford-style/lms/templates/static_templates/tos.html
-msgid "Copyright"
-msgstr "Зохиогчийн эрх"
-
-#: lagunita/lms/templates/footer.html
-#: lagunita/lms/templates/static_templates/about.html
-#: lagunita/lms/templates/static_templates/contact.html
-#: lms/djangoapps/branding/api.py lms/templates/static_templates/contact.html
-#: themes/red-theme/lms/templates/footer.html
-#: themes/stanford-style/lms/templates/footer.html
-#: themes/stanford-style/lms/templates/static_templates/about.html
-msgid "Contact"
-msgstr "Холбоо барих"
-
-#: lagunita/lms/templates/footer.html lms/templates/navigation.html
-#: lms/templates/static_templates/help.html
-#: themes/edx.org/lms/templates/header.html
-msgid "Help"
-msgstr "Тусламж"
-
-#: lagunita/lms/templates/footer.html
-msgid "Powered by {platform_name}"
-msgstr "{platform_name}-ийн Бэлтгэсэн"
 
 #: lagunita/lms/templates/index_overlay.html
 msgid "Learn from <strong>{university_name}</strong>"
@@ -2171,23 +2087,13 @@ msgid "For anyone, anywhere, anytime"
 msgstr "For anyone, anywhere, anytime"
 
 #: lagunita/lms/templates/static_templates/about.html
-msgid "About {PLATFORM_NAME}"
-msgstr "Тухай {PLATFORM_NAME}"
-
-#: lagunita/lms/templates/static_templates/about.html
-#: lagunita/lms/templates/static_templates/contact.html
 #: common/lib/xmodule/xmodule/course_module.py lms/djangoapps/branding/api.py
-#: lms/templates/footer.html lms/templates/navigation.html
-#: lms/templates/static_templates/about.html
+#: lms/templates/footer.html lms/templates/static_templates/about.html
 #: themes/red-theme/lms/templates/footer.html
 #: themes/stanford-style/lms/templates/footer.html
 #: themes/stanford-style/lms/templates/static_templates/about.html
 msgid "About"
 msgstr "Тухай"
-
-#: lagunita/lms/templates/static_templates/about.html
-msgid "Stanford Quad with Hoover Tower"
-msgstr "Хүүвэр цамхаг бүхий Стэнфордын талбай "
 
 #: lagunita/lms/templates/static_templates/about.html
 msgid ""
@@ -2211,6 +2117,10 @@ msgstr ""
 "сургалтуудтай."
 
 #: lagunita/lms/templates/static_templates/about.html
+msgid "Stanford Quad with Hoover Tower"
+msgstr "Хүүвэр цамхаг бүхий Стэнфордын талбай "
+
+#: lagunita/lms/templates/static_templates/about.html
 msgid ""
 "All of the personal and professional learning opportunities that are hosted "
 "on {Lagunita} and open to the public are made available through Stanford "
@@ -2225,8 +2135,12 @@ msgstr ""
 "харахыг хүсвэл {online_courses_link}руу зочилно уу. "
 
 #: lagunita/lms/templates/static_templates/contact.html
-msgid "Stanford Dish by Twilight"
-msgstr "Стэнфордын таваг үүрээр "
+#: lms/djangoapps/branding/api.py lms/templates/static_templates/contact.html
+#: themes/red-theme/lms/templates/footer.html
+#: themes/stanford-style/lms/templates/footer.html
+#: themes/stanford-style/lms/templates/static_templates/about.html
+msgid "Contact"
+msgstr "Холбоо барих"
 
 #: lagunita/lms/templates/static_templates/contact.html
 msgid "Platform Help Center and Contact Emails"
@@ -2268,19 +2182,38 @@ msgstr "Энэ хичээл Танай Улсад орохгүй"
 
 #: lagunita/lms/templates/static_templates/embargo.html
 msgid ""
-"Our system indicates that you are trying to access a course at {SITE_NAME} "
+"Our system indicates that you are trying to access a course at {site_name} "
 "from an IP address associated with a country currently subject to "
 "comprehensive U.S. economic and trade sanctions.  {university_name} is "
 "required to comply with these sanctions regulations, and regretfully, we are"
 " not permitted to allow you to access this particular course.  Feel free to "
 "browse our catalogue to find other courses you may be interested in taking."
 msgstr ""
-"Манай систем нь АНУ-тай эдийн засгийн болон худалдааны хоригтой орнуудаас "
-"{SITE_NAME} дахь сургалтууд руу IP хаягаараа нэвтрэхийг завдаж буй үйлдлийг "
-"илрүүлдэг. {university_name} нь эдгээр хоригийг дагаж мөрдөх шаардлагатай ба"
-" харамсалтай нь бид эдгээр сургалтуудад нэвтэрх эрхийг танд олгох боломжгүй."
-" Та манай сургалтын каталогтай танилцан өөр сонирхож буй сургалтандаа "
-"хамрагдана уу."
+
+#: lagunita/lms/templates/static_templates/honor.html
+#: lagunita/lms/templates/static_templates/redirect_to_tos_and_honor.html
+#: lagunita/lms/templates/static_templates/tos.html
+msgid "Redirect to Terms of Service and Honor Code"
+msgstr ""
+
+#: lagunita/lms/templates/static_templates/print_document_button.html
+msgid "Print This Document"
+msgstr "Энэ баримт хэвлэх "
+
+#: lagunita/lms/templates/student_account/register-extra.html
+msgid ""
+"{university_name} pursues the science of learning. Online learners are "
+"important participants in that pursuit. The information we gather from your "
+"engagement with our instructional offerings makes it possible for faculty, "
+"researchers, designers and engineers to continuously improve their work and,"
+" in that process, build learning science."
+msgstr ""
+"{university_name} нь суралцаx шинжлэх ухааныг эрхэмлэдэг. Цахим сургалтанд "
+"хамрагдаж буй оюутнууд бол эдгээр зорилгод гол үүргийг гүйцэтгэдэг. Та манай"
+" сургалтанд хамрагдсанаар тэнхимийн хамт олон, судлаачид, дизайнерүүд болон "
+"инженерүүдэд өөрсдийн ажлаа тогтмол сайжруулахад нь хувь нэмрээ оруулж буй "
+"хэрэг бөгөөд ингэснээр мөн шинжлэх ухаанд суралцах боломжийг бүрдүүлж өгч "
+"байгаа юм"
 
 #: lagunita/lms/templates/student_account/register-extra.html
 msgid ""
@@ -2374,7 +2307,7 @@ msgstr "Мэргэжлийн сургалт"
 
 #: common/djangoapps/course_modes/models.py common/lib/xmodule/xmodule/tabs.py
 #: lms/djangoapps/courseware/tabs.py lms/djangoapps/courseware/views/views.py
-#: lms/djangoapps/shoppingcart/reports.py
+#: lms/djangoapps/shoppingcart/reports.py lms/templates/help_modal.html
 #: lms/templates/courseware/courseware.html
 msgid "Course"
 msgstr "Сургалт"
@@ -2391,6 +2324,7 @@ msgstr "Сургалт"
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 #: common/lib/xmodule/xmodule/word_cloud_module.py
+#: common/lib/xmodule/xmodule/x_module.py
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py
 msgid "Display Name"
 msgstr "Дэлгэцийн нэр"
@@ -2450,6 +2384,19 @@ msgid ""
 "The time period before a course ends in which a course mode will expire"
 msgstr "Сургалтын горимын хугацаа дуусах сургалт дуусахаас өмнөх хугацаа"
 
+#: common/djangoapps/course_modes/views.py
+#, python-brace-format
+msgid "Congratulations!  You are now enrolled in {course_name}"
+msgstr "Баяр хүргэе! Та одоо {course_name} -д бүртгэгдсэн байна"
+
+#: common/djangoapps/course_modes/views.py
+#, python-brace-format
+msgid ""
+"Welcome, {username}! You are about to enroll in {course_name}, from "
+"{partner_names}, sponsored by {enterprise_name}. Please select your "
+"enrollment information below."
+msgstr ""
+
 #: common/djangoapps/course_modes/views.py common/djangoapps/student/views.py
 msgid "Enrollment is closed"
 msgstr "Бүртгэл хаагдсан байна"
@@ -2479,13 +2426,39 @@ msgid "Community TA"
 msgstr "Нийгэмлэгийн ТА"
 
 #: common/djangoapps/django_comment_common/models.py
-#: lms/templates/courseware/course_navigation.html
 msgid "Student"
 msgstr "Сурагч"
 
 #: common/djangoapps/student/admin.py
 msgid "User profile"
 msgstr "Хэрэглэгчийн профайл"
+
+#: common/djangoapps/student/forms.py
+msgid "Username must be minimum of two characters long"
+msgstr "Хэрэглэгчийн нэр хамгийн багадаа хоёр үсэгтэй байх ёстой."
+
+#: common/djangoapps/student/forms.py
+#, python-format
+msgid "Username cannot be more than %(limit_value)s characters long"
+msgstr "Хэрэглэгчийн нэр  %(limit_value)s -с урт байж болохгүй"
+
+#. Translators: This message is shown when the Unicode usernames are NOT
+#. allowed
+#: common/djangoapps/student/forms.py
+msgid ""
+"Usernames can only contain Roman letters, western numerals (0-9), "
+"underscores (_), and hyphens (-)."
+msgstr ""
+"Хэрэглэгчийн нэр Ром үсгээр, барууны тоогоор (0-9), доогуур зураас  (_), "
+"дунд зураасаас  (_) бүтнэ"
+
+#. Translators: This message is shown only when the Unicode usernames are
+#. allowed
+#: common/djangoapps/student/forms.py
+msgid ""
+"Usernames can only contain letters, numerals, underscore (_), numbers and "
+"@/./+/-/_ characters."
+msgstr ""
 
 #: common/djangoapps/student/forms.py
 msgid ""
@@ -2504,10 +2477,6 @@ msgstr ""
 "боломжгүй байна."
 
 #: common/djangoapps/student/forms.py
-msgid "Username must be minimum of two characters long"
-msgstr "Хэрэглэгчийн нэр хамгийн багадаа хоёр үсэгтэй байх ёстой."
-
-#: common/djangoapps/student/forms.py
 msgid "A properly formatted e-mail is required"
 msgstr "Зөв форматтай цахим хаяг шаардлагатай"
 
@@ -2518,19 +2487,6 @@ msgstr "Зөв нууц үг шаардлагатай"
 #: common/djangoapps/student/forms.py
 msgid "Your legal name must be a minimum of two characters long"
 msgstr "Таын албан ёсны нэр хамгийн багадаа хоёр үсэгтэй байх ёстой."
-
-#: common/djangoapps/student/forms.py
-msgid ""
-"Usernames can only contain Roman letters, western numerals (0-9), "
-"underscores (_), and hyphens (-)."
-msgstr ""
-"Хэрэглэгчийн нэр Ром үсгээр, барууны тоогоор (0-9), доогуур зураас  (_), "
-"дунд зураасаас  (_) бүтнэ"
-
-#: common/djangoapps/student/forms.py
-#, python-format
-msgid "Username cannot be more than %(limit_value)s characters long"
-msgstr "Хэрэглэгчийн нэр  %(limit_value)s -с урт байж болохгүй"
 
 #: common/djangoapps/student/forms.py
 #, python-format
@@ -2572,10 +2528,6 @@ msgstr "Улс шаардлагатай"
 #: common/djangoapps/student/forms.py
 msgid "To enroll, you must follow the honor code."
 msgstr "Та бүртгүүлэхийн тулд тангаргийг дагах шаардлагатай"
-
-#: common/djangoapps/student/forms.py
-msgid "You must consent to data sharing to register."
-msgstr "Та бүртгүүлэхийн тулд мэдээллээ хуваалцахыг зөвшөөрөх шаардлагатай"
 
 #: common/djangoapps/student/forms.py
 msgid "You are missing one or more required fields"
@@ -2756,6 +2708,38 @@ msgid "The course you are looking for is closed for enrollment as of {date}."
 msgstr "Таны хайж буй сургалт {date} -нд бүртгэлээ хаасан байна "
 
 #: common/djangoapps/student/views.py
+msgid "Photos are mismatched"
+msgstr ""
+
+#: common/djangoapps/student/views.py
+msgid "Name missing from ID photo"
+msgstr ""
+
+#: common/djangoapps/student/views.py
+msgid "ID photo not provided"
+msgstr ""
+
+#: common/djangoapps/student/views.py
+msgid "ID is invalid"
+msgstr ""
+
+#: common/djangoapps/student/views.py
+msgid "Learner photo is blurry"
+msgstr ""
+
+#: common/djangoapps/student/views.py
+msgid "Name on ID does not match name on account"
+msgstr ""
+
+#: common/djangoapps/student/views.py
+msgid "Learner photo not provided"
+msgstr ""
+
+#: common/djangoapps/student/views.py
+msgid "ID photo is blurry"
+msgstr ""
+
+#: common/djangoapps/student/views.py
 msgid "Course id not specified"
 msgstr "Сургалтын ID -г тодорхой бичээгүй"
 
@@ -2782,6 +2766,15 @@ msgstr "Таны батламж таныг энэхүү сургалтаас г�
 #: common/djangoapps/student/views.py
 msgid "Enrollment action is invalid"
 msgstr "Бүртгүүлэх үйлдэл алдаатай"
+
+#: common/djangoapps/student/views.py
+#, python-brace-format
+msgid ""
+"In order to sign in, you need to activate your account.<br /><br />We just "
+"sent an activation link to <strong>{email}</strong>.  If you do not receive "
+"an email, check your spam folders or <a href=\"{support_url}\">contact "
+"{platform} Support</a>."
+msgstr ""
 
 #: common/djangoapps/student/views.py
 #, python-brace-format
@@ -2857,14 +2850,6 @@ msgid "Email or password is incorrect."
 msgstr "Нууц үг эсвэл е-майл буруу байна."
 
 #: common/djangoapps/student/views.py
-msgid ""
-"Before you sign in, you need to activate your account. We have sent you an "
-"email message with instructions for activating your account."
-msgstr ""
-"Та бүртгүүлэхийнхээ өмнө өөрийн аккаунтаа идэвхижүүлэх шаардлагатай. Үүнийг "
-"хэрхэн хийх талаар бид танд зааварчилгааг цахим хаягаар явуулсан байгаа. "
-
-#: common/djangoapps/student/views.py
 msgid "Please enter a username"
 msgstr "Хэрэглэгчийн нэрээ оруулна уу"
 
@@ -2899,6 +2884,11 @@ msgid "An account with the Email '{email}' already exists."
 msgstr "'{email}' цахим хаягтай аккаунт оршиж байна"
 
 #: common/djangoapps/student/views.py
+#, python-brace-format
+msgid "Registration using {provider} has timed out."
+msgstr ""
+
+#: common/djangoapps/student/views.py
 msgid "An access_token is required when passing value ({}) for provider."
 msgstr "({}) өртгийг давж буй тохиолдолд access_token шаардлагатай"
 
@@ -2911,9 +2901,36 @@ msgid "The provided access_token is not valid."
 msgstr "Оруулсан access_token идэвхигүй байна"
 
 #: common/djangoapps/student/views.py
-msgid "Unknown error. Please e-mail us to let us know how it happened."
+#: openedx/core/djangoapps/user_api/accounts/api.py
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Account creation not allowed."
 msgstr ""
-"Үл мэдэгдэх алдаа. Юунаас болж ингэсэн тааар бидэнд цахим шуудан илгээнэ үү"
+
+#: common/djangoapps/student/views.py
+#, python-brace-format
+msgid ""
+"{html_start}Your account could not be activated{html_end}Something went "
+"wrong, please <a href=\"{support_url}\">contact support</a> to resolve this "
+"issue."
+msgstr ""
+
+#: common/djangoapps/student/views.py
+#, python-brace-format
+msgid "{html_start}Success{html_end} You have activated your account."
+msgstr ""
+
+#: common/djangoapps/student/views.py
+#, python-brace-format
+msgid ""
+"{html_start}Success! You have activated your account.{html_end}You will now "
+"receive email updates and alerts from us related to the courses you are "
+"enrolled in. Sign In to continue."
+msgstr ""
+
+#: common/djangoapps/student/views.py
+#, python-brace-format
+msgid "{html_start}This account has already been activated.{html_end}"
+msgstr ""
 
 #: common/djangoapps/student/views.py
 #, python-brace-format
@@ -2995,6 +3012,14 @@ msgstr "Энхүү байгууллагын илгээсэн цахим хаяг
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
+"If this option is enabled, users that visit a \"TPA hinted\" URL for this "
+"provider (e.g. a URL ending with `?tpa_hint=[provider_name]`) will be "
+"forwarded directly to the login URL of the provider instead of being first "
+"prompted with a login dialog."
+msgstr ""
+
+#: common/djangoapps/third_party_auth/models.py
+msgid ""
 "If this option is enabled, users will not be asked to confirm their details "
 "(name, email, etc.) during the registration process. Only select this option"
 " for trusted providers that are known to provide accurate user information."
@@ -3019,6 +3044,28 @@ msgid ""
 msgstr ""
 "Хэрвээ энэ сонголтыг хийгээгүй бол гар аргааг зөв цахим холбоосыг "
 "идэьхижүүлнэ"
+
+#: common/djangoapps/third_party_auth/models.py
+msgid ""
+"Whether to drop an existing session when accessing a view decorated with "
+"third_party_auth.decorators.tpa_hint_ends_existing_session when a tpa_hint "
+"URL query parameter mapping to this provider is included in the request."
+msgstr ""
+
+#: common/djangoapps/third_party_auth/models.py
+msgid ""
+"If this option is set, then users logging in using this SSO provider will "
+"have their session length limited to no longer than this value. If set to 0 "
+"(zero), the session will expire upon the user closing their browser. If left"
+" blank, the Django platform session default length will be used."
+msgstr ""
+
+#: common/djangoapps/third_party_auth/models.py
+msgid ""
+"If this option is selected, users will be directed to the registration page "
+"immediately after authenticating with the third party instead of the login "
+"page."
+msgstr ""
 
 #: common/djangoapps/third_party_auth/models.py
 msgid "The Site that this SAML configuration belongs to."
@@ -3380,26 +3427,6 @@ msgctxt "month name"
 msgid "December"
 msgstr "12 сар"
 
-#: common/djangoapps/util/enterprise_helpers.py
-#, python-brace-format
-msgid ""
-"I agree to allow {platform_name} to share data about my enrollment, "
-"completion and performance in all {platform_name} courses and programs where"
-" my enrollment is sponsored by {ec_name}."
-msgstr ""
-"Миний сургалтын бүртгэл {ec_name} -р санхүүжсэн бүх {platform_name} сургалт "
-"ба хөтөлбөр дэхь миний оролцоо, төгсгөл ба дүнгийн талаархи мэдээллийг "
-"{platform_name} хуваалцахыг би зөвшөөрч байна "
-
-#: common/djangoapps/util/enterprise_helpers.py
-#, python-brace-format
-msgid ""
-"To link your account with {ec_name}, you are required to consent to data "
-"sharing."
-msgstr ""
-"Өөрийн аккаунтаа {ec_name} -тэй холбохын тулд та мэдээллээ хуваалцахыг "
-"зөвшөөрөх естой"
-
 #: common/djangoapps/util/file.py
 #, python-brace-format
 msgid "The file must end with the extension '{file_types}'."
@@ -3745,15 +3772,15 @@ msgid "Could not interpret '{student_answer}' as a number."
 msgstr " '{student_answer}' -г тоо гэж тайлж уншиж чадсангүй "
 
 #: common/lib/capa/capa/responsetypes.py
-#, python-brace-format
-msgid "You may not use variables ({bad_variables}) in numerical problems."
-msgstr "Та тоон асуудлуудыг ({bad_variables}) хувьсагч хэрэглэж болохгүй"
+msgid ""
+"Answers can include numerals, operation signs, and a few specific "
+"characters, such as the constants e and i."
+msgstr ""
 
 #: common/lib/capa/capa/responsetypes.py
 #, python-brace-format
-msgid "factorial function evaluated outside its domain:'{student_answer}'"
+msgid "Factorial function evaluated outside its domain:'{student_answer}'"
 msgstr ""
-"факториаль функц нь түүний домэйноос гадна үнэлэгдсэн: '{student_answer}' "
 
 #: common/lib/capa/capa/responsetypes.py
 #, python-brace-format
@@ -3869,17 +3896,10 @@ msgstr "Тоон илэрхийлэл оруулах"
 
 #: common/lib/capa/capa/responsetypes.py
 #, python-brace-format
-msgid "Invalid input: {bad_input} not permitted in answer."
-msgstr "Алдаатай оруулалт : {bad_input} хариултаар хүлээн авах боломжгүй "
-
-#: common/lib/capa/capa/responsetypes.py
-#, python-brace-format
 msgid ""
-"factorial function not permitted in answer for this problem. Provided answer"
+"Factorial function not permitted in answer for this problem. Provided answer"
 " was: {bad_input}"
 msgstr ""
-"энэ бодлогонд факториал функцээр хариулах боломжгүй. Оруулсан хариулт "
-"{bad_input} "
 
 #: common/lib/capa/capa/responsetypes.py
 #, python-brace-format
@@ -3947,23 +3967,25 @@ msgid "XML data for the annotation"
 msgstr "XML data for the annotation"
 
 #: common/lib/xmodule/xmodule/annotatable_module.py
+#: common/lib/xmodule/xmodule/capa_base.py
+#: common/lib/xmodule/xmodule/conditional_module.py
 #: common/lib/xmodule/xmodule/html_module.py
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/library_content_module.py
+#: common/lib/xmodule/xmodule/library_root_xblock.py
+#: common/lib/xmodule/xmodule/poll_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
+#: common/lib/xmodule/xmodule/video_module/video_xfields.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
-msgid "Display name for this module"
-msgstr "энэ модулийн харагдах нэр"
+#: common/lib/xmodule/xmodule/word_cloud_module.py
+#: common/lib/xmodule/xmodule/x_module.py
+#: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py
+msgid "The display name for this component."
+msgstr ""
 
 #: common/lib/xmodule/xmodule/annotatable_module.py
 msgid "Annotation"
 msgstr "тэмдэглэгээ"
-
-#: common/lib/xmodule/xmodule/capa_base.py
-#: common/lib/xmodule/xmodule/conditional_module.py
-#: common/lib/xmodule/xmodule/html_module.py
-msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr "энэ нэр хуудасны дээр хэвтээ харагдах болно"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Blank Advanced Problem"
@@ -4107,6 +4129,10 @@ msgstr "оруулж буй төрлиүүдийн толь бичиг"
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Dictionary with the current student responses"
 msgstr "суралцагчийн одоогийн хариулттай толь бичиг"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Dictionary with the current student score"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Whether or not the answers have been saved since last submit"
@@ -4294,12 +4320,6 @@ msgstr ""
 "Та хүлээлгэн өгөхдөө дор хаяж {wait_secs} хүлээх ёстой. үлдсэн "
 "{remaining_secs}."
 
-#. Translators: {msg} will be replaced with a problem's error message.
-#: common/lib/xmodule/xmodule/capa_base.py
-#, python-brace-format
-msgid "Error: {msg}"
-msgstr "Aлдаа: {msg}"
-
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
 msgid "{num_hour} hour"
@@ -4320,16 +4340,6 @@ msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
 msgstr[0] "{num_second} секунд"
 msgstr[1] "{num_second} секунд"
-
-#. Translators: 'rescoring' refers to the act of re-submitting a student's
-#. solution so it can get a new score.
-#: common/lib/xmodule/xmodule/capa_base.py
-msgid "Problem's definition does not support rescoring."
-msgstr "Асуудлын тодорхойлолт нь дахин сэргээхийг дэмждэггүй."
-
-#: common/lib/xmodule/xmodule/capa_base.py
-msgid "Problem must be answered before it can be graded again."
-msgstr "Асуудлыг дахин ангилахаас өмнө хариулах ёстой."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem needs to be reset prior to save."
@@ -4357,6 +4367,16 @@ msgstr "Та хаалттай байгаа асуудлыг дахин reset т�
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "You must submit an answer before you can select Reset."
 msgstr "Та хариултаа оруулахын тулд хариулах ёстой."
+
+#. Translators: 'rescoring' refers to the act of re-submitting a student's
+#. solution so it can get a new score.
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Problem's definition does not support rescoring."
+msgstr "Асуудлын тодорхойлолт нь дахин сэргээхийг дэмждэггүй."
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Problem must be answered before it can be graded again."
+msgstr "Асуудлыг дахин ангилахаас өмнө хариулах ёстой."
 
 #: common/lib/xmodule/xmodule/capa_module.py
 msgid ""
@@ -4492,6 +4512,10 @@ msgstr "Энэ модуль харагдах үед цаг эхлэн"
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Date that this class ends"
 msgstr "Энэ анги дуусгаx он сар өдөр"
+
+#: common/lib/xmodule/xmodule/course_module.py
+msgid "Date that certificates become available to learners"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Cosmetic Course Display Price"
@@ -4968,7 +4992,7 @@ msgstr ""
 "Хэрэв үнэн бол сертификатын Вэб / HTML үзэл нь курсэд \n"
 "идэвхжүүлсэн"
 
-#. Translators: This field is the container for course-specific certifcate
+#. Translators: This field is the container for course-specific certificate
 #. configuration values
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Web/HTML View Overrides"
@@ -4984,7 +5008,7 @@ msgstr ""
 "Вебсайт / HTML загвар параметрүүдийн хувьд тусгайлсан өөрчлөлтүүдийг оруулна"
 " уу (JSON format)"
 
-#. Translators: This field is the container for course-specific certifcate
+#. Translators: This field is the container for course-specific certificate
 #. configuration values
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Configuration"
@@ -5557,10 +5581,6 @@ msgid "No Library Selected"
 msgstr "Сонгогдсон номын сан байхгүй байна"
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
-msgid "Enter the name of the library as it should appear in Studio."
-msgstr "Studio дээр гарч ирэх ёстой номын сангийн нэрийг оруулна уу."
-
-#: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Library Display Name"
 msgstr "Номын сангийн харуулах нэр"
 
@@ -5570,8 +5590,8 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
-"Enter the name that students see for this component.  Analytics reports may "
-"also use the display name to identify this component."
+"The display name for this component. Analytics reports may also use the "
+"display name to identify this component."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/lti_module.py
@@ -5729,15 +5749,6 @@ msgstr ""
 msgid ""
 "Could not parse LTI passport: {lti_passport}. Should be \"id:key:secret\" "
 "string."
-msgstr ""
-
-#: common/lib/xmodule/xmodule/mixin.py
-msgid "License"
-msgstr "Тусгай зөвшөөрөл"
-
-#: common/lib/xmodule/xmodule/mixin.py
-msgid ""
-"A license defines how the contents of this block can be shared and reused."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -5946,6 +5957,34 @@ msgstr ""
 "Үнэн эсвэл худал оруулна уу. Хэрэв үнэн бол асуудлыг шийдвэрлэх модулиудын "
 "талаархи хариултыг Entrance Exam scoring / gating алгоритмаар авч үзнэ."
 
+#: common/lib/xmodule/xmodule/partitions/partitions_service.py
+msgid "Enrollment Track Groups"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/partitions/partitions_service.py
+msgid "Partition for segmenting users by enrollment track"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/poll_module.py
+msgid "Whether this student has voted on the poll"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/poll_module.py
+msgid "Student answer"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/poll_module.py
+msgid "Poll answers from all students"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/poll_module.py
+msgid "Poll answers from xml"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/poll_module.py
+msgid "Poll question"
+msgstr ""
+
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Enter the date by which problems are due."
 msgstr "Асуудал зохих огноог оруул."
@@ -6031,17 +6070,14 @@ msgid "This exam is hidden from the learner."
 msgstr "Энэ шалгалт нь суралцагчаас далдлагддаг"
 
 #: common/lib/xmodule/xmodule/seq_module.py
-msgid "subsection"
-msgstr "дэд хэсэг"
+msgid ""
+"Because the course has ended, this assignment is hidden from the learner."
+msgstr ""
 
 #: common/lib/xmodule/xmodule/seq_module.py
-#, python-brace-format
 msgid ""
-"Because the due date has passed, this {subsection_format} is hidden from the"
-" learner."
+"Because the due date has passed, this assignment is hidden from the learner."
 msgstr ""
-"Хугацаа нь дууссан тул {subsection_format} энэ нь суралцагчаас нуугдсан "
-"байна."
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
@@ -6059,12 +6095,8 @@ msgid "Not Selected"
 msgstr "Сонгогдоогүй"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
-msgid ""
-"This name is used for organizing your course content, but is not shown to "
-"students."
+msgid "The display name for this component. (Not shown to learners)"
 msgstr ""
-"Энэ нэрийг курсын агуулгыг зохион байгуулахад ашигладаг боловч оюутнуудад "
-"харуулагддаггүй."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Content Experiment"
@@ -6239,14 +6271,6 @@ msgstr ""
 #: common/lib/xmodule/xmodule/video_module/video_module.py
 msgid "Default Video URL"
 msgstr "Стандарт Видео URL"
-
-#: common/lib/xmodule/xmodule/video_module/video_xfields.py
-msgid ""
-"The name students see. This name appears in the course ribbon and as a "
-"header for the video."
-msgstr ""
-"Оюутнуудын нэрийг харна уу. Энэ нэр нь курс туузанд гарч, видеоны толгой "
-"болгодог."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Component Display Name"
@@ -6501,10 +6525,6 @@ msgid "Poster URL"
 msgstr "Зурагт хуудас URL"
 
 #: common/lib/xmodule/xmodule/word_cloud_module.py
-msgid "The label for this word cloud on the course page."
-msgstr ""
-
-#: common/lib/xmodule/xmodule/word_cloud_module.py
 #: lms/templates/annotatable.html lms/templates/imageannotation.html
 #: lms/templates/textannotation.html lms/templates/videoannotation.html
 #: lms/templates/peer_grading/peer_grading.html
@@ -6634,14 +6654,17 @@ msgstr ""
 msgid "Please check the syntax of your entry."
 msgstr "Таны оролтын синтаксийг шалгана уу."
 
+#: lms/djangoapps/branding/api.py
+msgid "Take free online courses at edX.org"
+msgstr ""
+
 #. Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'.
 #. Please do not translate any of these trademarks and company names.
 #: lms/djangoapps/branding/api.py
 #, python-brace-format
 msgid ""
 "© {org_name}.  All rights reserved except where noted.  EdX, Open edX and "
-"the edX and Open EdX logos are registered trademarks or trademarks of edX "
-"Inc."
+"their respective logos are trademarks or registered trademarks of edX Inc."
 msgstr ""
 
 #. #-#-#-#-#  stanford_django.po (stanford-openedx)  #-#-#-#-#
@@ -6706,6 +6729,12 @@ msgstr ""
 #: lms/djangoapps/branding/api.py
 #, python-brace-format
 msgid "Download the {platform_name} mobile app from Google Play"
+msgstr ""
+
+#. Translators: Bulk email from address e.g. ("Physics 101" Course Staff)
+#: lms/djangoapps/bulk_email/tasks.py
+#, python-brace-format
+msgid "\"{course_title}\" Course Staff"
 msgstr ""
 
 #: lms/djangoapps/ccx/plugins.py
@@ -7217,14 +7246,12 @@ msgstr "цахим худалдаадны үйлчилгээний нэг сур
 #: lms/djangoapps/commerce/models.py openedx/core/djangoapps/catalog/models.py
 #: openedx/core/djangoapps/credentials/models.py
 #: openedx/core/djangoapps/credit/models.py
-#: openedx/core/djangoapps/programs/models.py
 msgid "Cache Time To Live"
 msgstr "Cache Time to Live"
 
 #: lms/djangoapps/commerce/models.py
 #: openedx/core/djangoapps/credentials/models.py
 #: openedx/core/djangoapps/credit/models.py
-#: openedx/core/djangoapps/programs/models.py
 msgid ""
 "Specified in seconds. Enable caching by setting this to a value greater than"
 " 0."
@@ -7233,6 +7260,10 @@ msgstr "Секундээр хэмжигдэнэ"
 #: lms/djangoapps/commerce/models.py
 msgid "Path to order receipt page."
 msgstr "Баримт захиалах дараалал"
+
+#: lms/djangoapps/commerce/models.py
+msgid "Automatically approve valid refund requests, without manual processing"
+msgstr ""
 
 #: lms/djangoapps/commerce/signals.py
 #, python-brace-format
@@ -7790,6 +7821,22 @@ msgstr ""
 "Агуулгын санд зориулсан URL-ыг бий болгоход хэрэглэгддэг lms url схем, жишээ"
 " нь. https://courses.edx.org."
 
+#: lms/djangoapps/email_marketing/models.py
+msgid ""
+"Number of seconds to delay the sending of User Welcome email after user has "
+"been activated"
+msgstr ""
+
+#: lms/djangoapps/lms_xblock/mixin.py
+msgid ""
+"This component's access settings refer to deleted or invalid group "
+"configurations."
+msgstr ""
+
+#: lms/djangoapps/lms_xblock/mixin.py
+msgid "This component's access settings refer to deleted or invalid groups."
+msgstr ""
+
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Whether to display this module in the table of contents"
 msgstr "Энэ модулийг агуулгын хүснэгтэд харуулах эсэх"
@@ -7856,18 +7903,6 @@ msgstr ""
 "бүлгийн тохиргоонд түлхүүр байхгүй эсвэл бүлэг бүлгийн ID хоосон бол блок нь"
 " бүгдэд харагдах болно. Блокийг visible_to_staff_only бол энэ талбарыг "
 "хэрэгсэхгүй гэдгийг анхаарна уу."
-
-#: lms/djangoapps/lms_xblock/mixin.py
-msgid ""
-"This component refers to deleted or invalid content group configurations."
-msgstr ""
-"Энэ бүрэлдэхүүн хэсэг нь устгасан эсвэл хүчин төгөлдөр бус агуулга бүлгийн "
-"тохиргоонуудыг хэлнэ"
-
-#: lms/djangoapps/lms_xblock/mixin.py
-msgid "This component refers to deleted or invalid content groups."
-msgstr ""
-"Энэ бүрэлдэхүүн хэсэг нь устгагдсан эсвэл хүчингүй агуулгын бүлгүүдийг хэлнэ"
 
 #: lms/djangoapps/notes/views.py lms/templates/notes.html
 msgid "My Notes"
@@ -8901,44 +8936,10 @@ msgstr ""
 msgid "Refunded {cost} for order id {order_id}"
 msgstr ""
 
-#: lms/djangoapps/verified_track_content/forms.py
-#: openedx/core/djangoapps/embargo/forms.py
-msgid "COURSE NOT FOUND.  Please check that the course ID is valid."
-msgstr ""
-
-#: lms/djangoapps/verified_track_content/models.py
-msgid "The course key for the course we would like to be auto-cohorted."
-msgstr ""
-
 #: lms/djangoapps/verify_student/models.py
 #, python-brace-format
 msgid "Your {platform_name} verification has expired."
 msgstr ""
-
-#: lms/djangoapps/verify_student/models.py
-msgid "No photo ID was provided."
-msgstr "Зургийн дугаар байхгүй байна."
-
-#: lms/djangoapps/verify_student/models.py
-msgid "We couldn't read your name from your photo ID image."
-msgstr "Бид таны зургийн ID дүрснээс нэрийг уншиж чадсангүй."
-
-#: lms/djangoapps/verify_student/models.py
-msgid ""
-"The name associated with your account and the name on your ID do not match."
-msgstr "Таны акаунттай холбоотой нэр, таны ID дээрх нэр таарахгүй байна."
-
-#: lms/djangoapps/verify_student/models.py
-msgid "The image of your face was not clear."
-msgstr "Таны нүүрний зураг тодорхойгүй байна."
-
-#: lms/djangoapps/verify_student/models.py
-msgid "Your face was not visible in your self-photo."
-msgstr "Таны нүүрэн дээр таны зурган дээр харагдахгүй байсан."
-
-#: lms/djangoapps/verify_student/models.py
-msgid "There was an error verifying your ID photos."
-msgstr "Таны ID зургийг баталгаажуулах явцад алдаа гарлаа."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "The course for which this deadline applies"
@@ -9005,10 +9006,6 @@ msgid "Invalid course key"
 msgstr "Буруу курсын түлхүүр"
 
 #: lms/djangoapps/verify_student/views.py
-msgid "Invalid checkpoint location"
-msgstr "Шалгах цэгийн байрлал буруу байна"
-
-#: lms/djangoapps/verify_student/views.py
 msgid "No profile found for user"
 msgstr "Хэрэглэгчдэд зориулсан профайл олдсонгүй"
 
@@ -9024,6 +9021,10 @@ msgstr "Зургийн дата хүчин төгөлдөр бус байна."
 #: lms/djangoapps/verify_student/views.py
 msgid "Verification photos received"
 msgstr "Баталгаажуулалтын зураг хүлээн авсан"
+
+#: lms/envs/common.py
+msgid "Audit"
+msgstr ""
 
 #. #-#-#-#-#  stanford_django.po (stanford-openedx)  #-#-#-#-#
 #. Translators: This is the website name of www.facebook.com.  Please
@@ -9120,6 +9121,19 @@ msgstr ""
 #: lms/envs/common.py
 msgid "Kosovo"
 msgstr "Kosovo"
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid "Welcome to {platform_name}."
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid ""
+"{start_bold}{enterprise_name}{end_bold} has partnered with "
+"{start_bold}{platform_name}{end_bold} to offer you high-quality learning "
+"opportunities from the world's best universities."
+msgstr ""
 
 #: lms/templates/logout.html
 msgid "Signed Out"
@@ -9325,9 +9339,7 @@ msgid "Internal API URL"
 msgstr "Дотоод API URL"
 
 #: openedx/core/djangoapps/catalog/models.py
-msgid ""
-"API root to be used for server-to-server requests (e.g., https://catalog-"
-"internal.example.com/api/v1/)."
+msgid "DEPRECATED: Use the setting COURSE_CATALOG_API_URL."
 msgstr ""
 
 #: openedx/core/djangoapps/catalog/models.py
@@ -9340,6 +9352,16 @@ msgstr ""
 msgid ""
 "Username created for Course Catalog Integration, e.g. "
 "lms_catalog_service_user."
+msgstr ""
+
+#: openedx/core/djangoapps/catalog/models.py
+msgid "Page Size"
+msgstr ""
+
+#: openedx/core/djangoapps/catalog/models.py
+msgid ""
+"Maximum number of records in paginated response of a single request to "
+"catalog service."
 msgstr ""
 
 #: openedx/core/djangoapps/cors_csrf/models.py
@@ -9365,20 +9387,11 @@ msgstr "Оюутнуудад автоматаар хуваарилагдах н�
 msgid "A cohort with the same name already exists."
 msgstr "Ижил нэртэй когорт үүссэн байна."
 
-#: openedx/core/djangoapps/coursetalk/models.py
-msgid ""
-"The platform key associates CourseTalk widgets with your platform. "
-"Generally, it is the domain name for your platform. For example, if your "
-"platform is http://edx.org, the platform key is \"edx\"."
-msgstr ""
-
 #: openedx/core/djangoapps/credentials/models.py
-#: openedx/core/djangoapps/programs/models.py
 msgid "Internal Service URL"
 msgstr "Дотоод үйлчилгээ URL"
 
 #: openedx/core/djangoapps/credentials/models.py
-#: openedx/core/djangoapps/programs/models.py
 msgid "Public Service URL"
 msgstr "Нийтийн үйлчилгээний URL"
 
@@ -9526,6 +9539,11 @@ msgstr "Хэлний анхдагч хэлний кодонд хэлийг да�
 msgid "Language reset to user's preference: {preview_language_code}"
 msgstr "Хэрэглэгчийн давуу тал дахь хэлний тохиргоо: {preview_language_code}"
 
+#: openedx/core/djangoapps/embargo/forms.py
+#: openedx/core/djangoapps/verified_track_content/forms.py
+msgid "COURSE NOT FOUND.  Please check that the course ID is valid."
+msgstr ""
+
 #: openedx/core/djangoapps/embargo/models.py
 msgid "The course key for the restricted course."
 msgstr "Хязгаарлагдмал сургалтанд зориулсан курсын түлхүүр."
@@ -9635,59 +9653,8 @@ msgid "No file provided for profile image"
 msgstr "Профайлын зургийн талаар ямар ч файл байхгүй"
 
 #: openedx/core/djangoapps/programs/models.py
-msgid "API Version"
-msgstr "API хувилбар"
-
-#: openedx/core/djangoapps/programs/models.py
 msgid "Path used to construct URLs to programs marketing pages (e.g., \"/foo\")."
 msgstr ""
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Path to authoring app's JS"
-msgstr ""
-
-#: openedx/core/djangoapps/programs/models.py
-msgid ""
-"This value is required in order to enable the Studio authoring interface."
-msgstr ""
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Path to authoring app's CSS"
-msgstr ""
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Enable Student Dashboard Displays"
-msgstr "Оюутны хяналтын самбарыг идэвхжүүл"
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Enable Studio Authoring Interface"
-msgstr ""
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Enable Program Certificate Generation"
-msgstr "Хөтөлбөрийн гэрчилгээ олгох үеийг идэвхжүүлэх"
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Maximum Certification Retries"
-msgstr "Хамгийн их магадлан итгэмжлэлийг сэргээх"
-
-#: openedx/core/djangoapps/programs/models.py
-msgid ""
-"When making requests to award certificates, make at most this many attempts "
-"to retry a failing request."
-msgstr ""
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Do we want to show xseries program advertising"
-msgstr ""
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Do we want to show program listing page"
-msgstr "Бид хөтөлбөрийн жагсаалтыг үзүүлэхийг хүсч байна"
-
-#: openedx/core/djangoapps/programs/models.py
-msgid "Do we want to show program details pages"
-msgstr "Бид хөтөлбөрийн дэлгэрэнгүй мэдээллийг үзүүлэхийг хүсч байна уу"
 
 #: openedx/core/djangoapps/self_paced/models.py
 msgid "Enable course home page improvements."
@@ -9808,50 +9775,69 @@ msgstr ""
 "Энэ нь {username} одоо байгаа акаунттай холбоотой харагдана. Өөр "
 "хэрэглэгчийн нэрээр дахин оролдоно уу."
 
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's email address.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "This is what you will use to login."
+msgstr ""
+
+#. Translators: This label appears above a field on the registration form
+#. meant to confirm the user's email address.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Confirm Email"
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/views.py
+msgid "The email addresses do not match."
+msgstr ""
+
+#. #-#-#-#-#  stanford_django.po (stanford-openedx)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Full name"
+#: openedx/core/djangoapps/user_api/views.py lms/templates/register-form.html
+#: lms/templates/signup_modal.html
+#: themes/stanford-style/lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid "Full Name"
 msgstr "Бүтэн нэр"
 
 #. Translators: This example name is used as a placeholder in
 #. a field on the registration form meant to hold the user's name.
 #: openedx/core/djangoapps/user_api/views.py
-msgid "Jane Doe"
-msgstr "Jane Doe"
+msgid "Jane Q. Learner"
+msgstr ""
 
-#. #-#-#-#-#  stanford_django.po (stanford-openedx)  #-#-#-#-#
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-form.html
-msgid "Your legal name, used for any certificates you earn."
-msgstr "Таны хуулийн нэрийг олсон ямар ч гэрчилгээнд ашигладаг."
+#: openedx/core/djangoapps/user_api/views.py
+msgid "This name will be used on any certificates that you earn."
+msgstr ""
 
+#. #-#-#-#-#  stanford_django.po (stanford-openedx)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's public username.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Public username"
-msgstr "Нийтийн хэрэглэгчийн нэр"
+#: openedx/core/djangoapps/user_api/views.py lms/templates/register-form.html
+#: lms/templates/signup_modal.html
+#: themes/stanford-style/lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid "Public Username"
+msgstr "Хэрэглэгчийн нэр"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's public username.
 #: openedx/core/djangoapps/user_api/views.py
-#, python-brace-format
 msgid ""
-"The name that will identify you in your courses - {bold_start}(cannot be "
-"changed later){bold_end}"
+"The name that will identify you in your courses. It cannot be changed later."
 msgstr ""
-"Курсууддаа таныг тодорхойлох нэр - {bold_start} (cannot be changed later) "
-"{bold_end}"
 
 #. Translators: This example username is used as a placeholder in
 #. a field on the registration form meant to hold the user's username.
 #: openedx/core/djangoapps/user_api/views.py
-msgid "JaneDoe"
-msgstr "JaneDoe"
+msgid "Jane_Q_Learner"
+msgstr ""
 
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's highest completed level of education.
@@ -9976,23 +9962,17 @@ msgstr "Та зөвшөөрөх ёстой {platform_name} {terms_of_service}"
 msgid "Review the Terms of Service"
 msgstr "Үйлчилгээний Нөхцлийг шалгана уу"
 
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Review the Privacy Policy"
-msgstr "Нууцлалын бодлогыг хянана уу"
+#: openedx/core/djangoapps/verified_track_content/models.py
+msgid "The course key for the course we would like to be auto-cohorted."
+msgstr ""
 
-#. Translators: "Privacy Policy" is a legal document users must agree to
-#. in order to register a new account.
-#: openedx/core/djangoapps/user_api/views.py
-#, python-brace-format
-msgid "I agree to the {platform_name} {privacy}"
-msgstr "Би зөвшөөрч байна {platform_name} {privacy}"
+#: openedx/core/djangoapps/waffle_utils/models.py
+msgid "Force On"
+msgstr ""
 
-#. Translators: "Privacy Policy" is a legal document users must agree to
-#. in order to register a new account.
-#: openedx/core/djangoapps/user_api/views.py
-#, python-brace-format
-msgid "You must agree to the {platform_name} {privacy}"
-msgstr "Та зөвшөөрөх ёстой {platform_name} {privacy}"
+#: openedx/core/djangoapps/waffle_utils/models.py
+msgid "Force Off"
+msgstr ""
 
 #: openedx/core/lib/api/view_utils.py
 msgid "This value is invalid."
@@ -10012,19 +9992,14 @@ msgstr "%(min_score)s нь хүчин төгөлдөр хувь хэмжээ б�
 msgid "Gating milestone for {usage_key}"
 msgstr "нь Gating амжилт гаргасан {usage_key}"
 
-#: openedx/core/lib/inline_analytics_utils.py
-msgid "The analytics cannot be displayed for this type of question."
-msgstr "Дээжийг энэ төрлийн асуултанд харуулах боломжгүй"
+#: openedx/core/lib/license/mixin.py
+msgid "License"
+msgstr "Тусгай зөвшөөрөл"
 
-#: openedx/core/lib/inline_analytics_utils.py
+#: openedx/core/lib/license/mixin.py
 msgid ""
-"The analytics cannot be displayed for this question as it uses "
-"randomization."
-msgstr "Аналитикийг энэ асуултанд харуулах боломжгүй."
-
-#: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py
-msgid "Display name for this component"
-msgstr "Энэ бүрэлдэхүүн хэсгийг харуулах нэр"
+"A license defines how the contents of this block can be shared and reused."
+msgstr ""
 
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py
 msgid "Category"
@@ -10084,37 +10059,19 @@ msgstr ""
 msgid "time student started this assessment"
 msgstr "цаг хугацаатай оюутан энэ үнэлгээг эхлүүлсэн"
 
+#: openedx/stanford/lms/djangoapps/inline_analytics/utils.py
+msgid "The analytics cannot be displayed for this type of question."
+msgstr "Дээжийг энэ төрлийн асуултанд харуулах боломжгүй"
+
+#: openedx/stanford/lms/djangoapps/inline_analytics/utils.py
+msgid ""
+"The analytics cannot be displayed for this question as it uses "
+"randomization."
+msgstr "Аналитикийг энэ асуултанд харуулах боломжгүй."
+
 #: common/lib/capa/capa/templates/codeinput.html
 msgid "Code Editor"
 msgstr "Програмын код засварлагч"
-
-#: common/templates/license.html
-msgid "All Rights Reserved"
-msgstr "Бүх эрх хуулиар хамгаалагдсан"
-
-#: common/templates/license.html
-msgid "Attribution"
-msgstr "Аттрибут"
-
-#: common/templates/license.html
-msgid "Noncommercial"
-msgstr "Арилжааны бус"
-
-#: common/templates/license.html
-msgid "No Derivatives"
-msgstr "Үүсмэл бус"
-
-#: common/templates/license.html
-msgid "Share Alike"
-msgstr "Хуваалцах адил"
-
-#: common/templates/license.html
-msgid "Creative Commons licensed content, with terms as follow:"
-msgstr "Creative Commons контентыг дараах агуулгатай лицензтэй:"
-
-#: common/templates/license.html
-msgid "Some Rights Reserved"
-msgstr "Зарим эрх хамгаалагдсан"
 
 #: common/templates/emails/contact_us_feedback_email_body.txt
 msgid "Feedback Form"
@@ -10148,26 +10105,25 @@ msgstr " Нэмэлт мэдээлэл:"
 msgid "Feedback from user"
 msgstr "Хэрэглэгчийн санал хүсэлт"
 
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html
-#: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
-msgid "Discussion - {course_number}"
-msgstr "Хэлэлцүүлэг - {course_number}"
-
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html
 msgid "Discussions"
 msgstr "Хэлэлцүүлэг"
 
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html
 msgid "Add a Post"
 msgstr "Пост Нэмэх "
 
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html
 msgid "Discussion thread list"
 msgstr "Хэлэлцүүлгийн утас жагсаалт"
 
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html
 msgid "New topic form"
 msgstr "Шинэ сэдэв хэлбэр"
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
+msgid "Discussion - {course_number}"
+msgstr "Хэлэлцүүлэг - {course_number}"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
 #: lms/templates/discussion/_user_profile.html
@@ -10185,11 +10141,11 @@ msgid_plural "%s comments"
 msgstr[0] "%s коммент "
 msgstr[1] "%s комментууд "
 
-#: lms/djangoapps/discussion/templates/discussion/maintenance.html
+#: lms/djangoapps/discussion/templates/discussion/maintenance_fragment.html
 msgid "Discussion unavailable"
 msgstr "Хэлэлцүүлэг боломжгүй байна"
 
-#: lms/djangoapps/discussion/templates/discussion/maintenance.html
+#: lms/djangoapps/discussion/templates/discussion/maintenance_fragment.html
 msgid ""
 "The discussions are currently undergoing maintenance. We'll have them back "
 "up shortly!"
@@ -10213,14 +10169,6 @@ msgstr "Хөтөлсөн хэлэлцүүлэг"
 #: lms/templates/annotatable.html
 msgid "Hide Annotations"
 msgstr "Товчлолыг нуух"
-
-#: lms/templates/bookmark_button.html
-msgid "Click to remove"
-msgstr "Устгахын тулд дарна уу"
-
-#: lms/templates/bookmark_button.html
-msgid "Click to add"
-msgstr "Нэмэх бол товшино уу"
 
 #: lms/templates/bookmark_button.html lms/templates/seq_module.html
 msgid "Bookmarked"
@@ -10254,10 +10202,6 @@ msgstr "Бүх сургалтыг үзэх"
 #: themes/edx.org/lms/templates/dashboard.html
 msgid "Dashboard"
 msgstr "Нүүр хуудас"
-
-#: lms/templates/dashboard.html themes/edx.org/lms/templates/dashboard.html
-msgid "My Courses"
-msgstr "Миний сургалт"
 
 #: lms/templates/dashboard.html themes/edx.org/lms/templates/dashboard.html
 msgid "You are not enrolled in any courses yet."
@@ -10546,6 +10490,10 @@ msgstr ""
 "Тусламжийн төв {link_end} ихэнх асуултууд аль хэдийн хариулагдсан байдаг."
 
 #: lms/templates/help_modal.html
+msgid "- Select -"
+msgstr ""
+
+#: lms/templates/help_modal.html
 msgid "problem"
 msgstr "тест"
 
@@ -10602,18 +10550,26 @@ msgid "Please try again later."
 msgstr "Дараа оролдоно уу."
 
 #: lms/templates/hidden_content.html
-msgid "The due date for this {subsection_format} has passed."
-msgstr "Энэ хугацаа нь дуусах хугацаа {subsection_format} өнгөрч байна."
+msgid "The course has ended."
+msgstr ""
+
+#: lms/templates/hidden_content.html
+msgid "The due date for this assignment has passed."
+msgstr ""
 
 #: lms/templates/hidden_content.html
 msgid ""
-"Because the due date has passed, this {subsection_format} is no longer "
-"available.{line_break}If you have completed this {subsection_format}, your "
-"grade is available on the {link_start}progress page{link_end}."
+"Because the course has ended, this assignment is no longer "
+"available.{line_break}If you have completed this assignment, your grade is "
+"available on the {link_start}progress page{link_end}."
 msgstr ""
-"Хугацаа нь дууссан учраас, {subsection_format} нь боломжгүй болсонis "
-".{line_break} Хэрэв та {subsection_format} -ийг бөглөсөн бол, таны зэрэг нь "
-"боломжтойIf {link_start}Прогресс хуудас{link_end}."
+
+#: lms/templates/hidden_content.html
+msgid ""
+"Because the due date has passed, this assignment is no longer "
+"available.{line_break}If you have completed this assignment, your grade is "
+"available on the {link_start}progress page{link_end}."
+msgstr ""
 
 #: lms/templates/imageannotation.html
 msgid "Note: only instructors may annotate."
@@ -10897,73 +10853,46 @@ msgstr "Алдаа:"
 msgid "Raw data:"
 msgstr "Raw data:"
 
-#: lms/templates/navigation.html themes/red-theme/lms/templates/header.html
-msgid "Global"
-msgstr "Глобал"
-
-#: lms/templates/navigation.html themes/edx.org/lms/templates/header.html
-#: themes/red-theme/lms/templates/header.html
-msgid "{platform_name} Home Page"
-msgstr "{platform_name} Нүүр хуудас"
-
-#: lms/templates/navigation.html lms/templates/courseware/courses.html
-#: themes/edx.org/lms/templates/header.html
-#: themes/red-theme/lms/templates/header.html
-msgid "Courses"
-msgstr "Хичээлүүд"
-
-#: lms/templates/navigation.html lms/templates/learner_dashboard/programs.html
-#: themes/edx.org/lms/templates/header.html
-#: themes/red-theme/lms/templates/header.html
-msgid "Programs"
-msgstr "Хөтөлбөрүүд"
-
-#. Translators: This is short for "System administration".
-#: lms/templates/navigation.html themes/red-theme/lms/templates/header.html
-msgid "Sysadmin"
-msgstr "Sysadmin"
-
-#: lms/templates/navigation.html themes/edx.org/lms/templates/header.html
-#: themes/red-theme/lms/templates/header.html
-msgid "Shopping Cart"
-msgstr "Shopping Cart"
-
-#: lms/templates/navigation.html themes/edx.org/lms/templates/header.html
-#: themes/red-theme/lms/templates/header.html
-msgid "How it Works"
-msgstr "Хэрхэн ажилладаг тухай"
-
-#: lms/templates/navigation.html themes/red-theme/lms/templates/header.html
-msgid "Schools"
-msgstr "Сургуулиуд"
-
-#: lms/templates/navigation.html lms/templates/register-form.html
-#: themes/edx.org/lms/templates/header.html
-#: themes/stanford-style/lms/templates/register-form.html
-msgid "Register"
-msgstr "Бүртгүүлэх"
-
-#: lms/templates/navigation.html themes/edx.org/lms/templates/header.html
-#: themes/red-theme/lms/templates/header.html
-msgid "Sign in"
-msgstr "Нэвтрэх"
-
-#: lms/templates/navigation.html
-msgid "Choose Language"
-msgstr "Хэл сонгох"
-
-#: lms/templates/navigation.html themes/edx.org/lms/templates/header.html
-msgid ""
-"{begin_strong}Warning:{end_strong} Your browser is not fully supported. We "
-"strongly recommend using {chrome_link} or {ff_link}."
-msgstr ""
-"{begin_strong} Анхааруулга: {end_strong} Таны хөтөч бүрэн дэмжигдээгүй "
-"байна. Бид {chrome_link} эсвэл {ff_link} -г ашиглахыг зөвлөж байна."
-
 #: lms/templates/notes.html lms/templates/textannotation.html
 #: lms/templates/videoannotation.html
 msgid "You do not have any notes."
 msgstr "Танд ямар нэгэн тэмдэглэгээ байхгүй байна."
+
+#: lms/templates/preview_menu.html
+msgid "Course View"
+msgstr "Курс харах"
+
+#: lms/templates/preview_menu.html
+msgid "View this course as:"
+msgstr "Энэ хичээлийг үзэхийн тулд:"
+
+#: lms/templates/preview_menu.html
+msgid "Staff"
+msgstr "Багш, Ажилтан"
+
+#: lms/templates/preview_menu.html
+msgid "Learner"
+msgstr ""
+
+#: lms/templates/preview_menu.html
+msgid "Specific learner"
+msgstr ""
+
+#: lms/templates/preview_menu.html
+msgid "Learner in {content_group}"
+msgstr ""
+
+#: lms/templates/preview_menu.html
+msgid "Username or email:"
+msgstr "Хэрэглэгчийн нэр эсвэл и-мэйл:"
+
+#: lms/templates/preview_menu.html
+msgid "Set preview mode"
+msgstr "Урьдчилан харах горимыг тохируулах"
+
+#: lms/templates/preview_menu.html
+msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
+msgstr "Та одоо курс үзэж байна {i_start} {user_name} {i_end}."
 
 #: lms/templates/problem.html
 msgid "At {start_time}, you started this exam."
@@ -10982,6 +10911,18 @@ msgstr ""
 #: lms/templates/problem.html
 msgid "You have exceeded the time limit for this problem."
 msgstr "Та энэ асуултын цагийн хязгаарыг давсан."
+
+#: lms/templates/problem.html
+msgid "You have used {num_used} of {num_total} attempt"
+msgid_plural "You have used {num_used} of {num_total} attempts"
+msgstr[0] "Та {num_total} оролдлогын {num_used} -ыг ашиглаж байна"
+msgstr[1] "Та {num_total}  оролдлогын {num_used} -ыг ашиглаж байна"
+
+#: lms/templates/problem.html
+msgid ""
+"Some problems have options such as save, reset, hints, or show answer. These"
+" options follow the Submit button."
+msgstr ""
 
 #: lms/templates/problem.html
 msgid "Hint"
@@ -11006,16 +10947,6 @@ msgstr "Хариултаа шинэчилнэ"
 #: lms/templates/problem.html
 msgid "Deadline has passed, you can no longer submit."
 msgstr "Цаг хугацаа өнгөрсөн, та цаашид өгөх боломжгүй"
-
-#: lms/templates/problem.html
-msgid "Submit your answer"
-msgstr "Хариултаа оруулна уу"
-
-#: lms/templates/problem.html
-msgid "You have used {num_used} of {num_total} attempt"
-msgid_plural "You have used {num_used} of {num_total} attempts"
-msgstr[0] "Та {num_total} оролдлогын {num_used} -ыг ашиглаж байна"
-msgstr[1] "Та {num_total}  оролдлогын {num_used} -ыг ашиглаж байна"
 
 #: lms/templates/problem_interstitial.html
 msgid ""
@@ -11118,22 +11049,15 @@ msgstr ""
 msgid "Please complete the following fields to register for an account. "
 msgstr "Нэвтрэх эрх үүсгэхийн тулд дараах талбаруудыг бөглөнө үү. "
 
-#: lms/templates/register-form.html lms/templates/signup_modal.html
-#: themes/stanford-style/lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-shib.html
-msgid "Full Name"
-msgstr "Овог нэр"
-
 #: lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "example: Jane Doe"
 msgstr "Жишээ нь: Мөнхцацрал"
 
-#: lms/templates/register-form.html lms/templates/signup_modal.html
+#: lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-shib.html
-msgid "Public Username"
-msgstr "Хэрэглэгчийн нэр"
+msgid "Your legal name, used for any certificates you earn."
+msgstr "Таны хуулийн нэрийг олсон ямар ч гэрчилгээнд ашигладаг."
 
 #: lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-form.html
@@ -11214,6 +11138,14 @@ msgstr "{link_start} Үйлчилгээний нөхцлийг{link_end} зөв�
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "I agree to the {link_start}Honor Code{link_end}"
 msgstr "{link_start} Хүндэтгэх шалтгааныг{link_end} зөвшөөрөх"
+
+#: lms/templates/register-form.html
+#: lms/templates/navigation/navbar-not-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html
+#: themes/edx.org/lms/templates/header.html
+#: themes/stanford-style/lms/templates/register-form.html
+msgid "Register"
+msgstr "Бүртгүүлэх"
 
 #: lms/templates/register-form.html lms/templates/signup_modal.html
 #: themes/stanford-style/lms/templates/register-form.html
@@ -11317,8 +11249,8 @@ msgid "Previous"
 msgstr "Өмнөх"
 
 #: lms/templates/seq_module.html
-msgid "Unit"
-msgstr "Нэгж"
+msgid "Sequence"
+msgstr ""
 
 #: lms/templates/seq_module.html
 msgid "Next"
@@ -11404,10 +11336,12 @@ msgid "Page"
 msgstr "Хуудас"
 
 #: lms/templates/staticbook.html
+#: lms/templates/courseware/program_marketing.html
 msgid "Previous page"
 msgstr "Өмнөх хуудас "
 
 #: lms/templates/staticbook.html
+#: lms/templates/courseware/program_marketing.html
 msgid "Next page"
 msgstr "Дараагийн хуудас "
 
@@ -11439,14 +11373,10 @@ msgid "Usermenu"
 msgstr "Хэрэглэгчийн цэс"
 
 #: lms/templates/user_dropdown.html
-msgid "Usermenu dropdown"
-msgstr "задардаг хэрэглэгчийн цэс"
-
-#: lms/templates/user_dropdown.html
 msgid "Profile"
 msgstr "Хувийн мэдээлэл"
 
-#: lms/templates/user_dropdown.html
+#: lms/templates/user_dropdown.html themes/edx.org/lms/templates/header.html
 msgid "Account"
 msgstr "Хэрэглэгчийн эрх"
 
@@ -11454,9 +11384,13 @@ msgstr "Хэрэглэгчийн эрх"
 msgid "Sign Out"
 msgstr "Гарах"
 
-#: lms/templates/user_dropdown.html themes/red-theme/lms/templates/header.html
-msgid "More options dropdown"
-msgstr "Илүү олон сонголт унах"
+#: lms/templates/user_dropdown.html
+msgid "Usermenu dropdown"
+msgstr "задардаг хэрэглэгчийн цэс"
+
+#: lms/templates/user_dropdown.html
+msgid "More options"
+msgstr ""
 
 #: lms/templates/using.html
 msgid "Using the system"
@@ -11501,6 +11435,12 @@ msgstr "Видеог тоглуулах "
 #: lms/templates/video.html
 msgid "No playable video sources found."
 msgstr "Тоглуулах видео эх сурвалжууд олдсонгүй. "
+
+#: lms/templates/video.html
+msgid ""
+"Your browser does not support this video format. Try using a different "
+"browser."
+msgstr ""
 
 #: lms/templates/video.html
 msgid "Downloads and transcripts"
@@ -11749,6 +11689,7 @@ msgid "enroll"
 msgstr "бүртгүүлэх"
 
 #: lms/templates/courseware/course_about_sidebar_header.html
+#: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html
 msgid "Share with friends and family!"
 msgstr "Найз нөхөд,гэр бүлийнхэнтэйгээ хуваалц!"
 
@@ -11765,44 +11706,18 @@ msgid "I just enrolled in {number} {title} through {platform} {url}"
 msgstr "Би саяхан {number} {title} {platform} {url}"
 
 #: lms/templates/courseware/course_about_sidebar_header.html
+#: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html
 msgid "Tweet that you've enrolled in this course"
 msgstr "Та энэ курст хамрагдсан гэдгийг мэдэгдээрэй"
 
 #: lms/templates/courseware/course_about_sidebar_header.html
+msgid "Post a Facebook message to say you've enrolled in this course"
+msgstr ""
+
+#: lms/templates/courseware/course_about_sidebar_header.html
+#: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html
 msgid "Email someone to say you've enrolled in this course"
 msgstr "Энэ курст хамрагдсан гэж хэлэхийн тулд хэн нэгэнд илгээнэ үү"
-
-#: lms/templates/courseware/course_navigation.html
-msgid "Course View"
-msgstr "Курс харах"
-
-#: lms/templates/courseware/course_navigation.html
-msgid "View this course as:"
-msgstr "Энэ хичээлийг үзэхийн тулд:"
-
-#: lms/templates/courseware/course_navigation.html
-msgid "Staff"
-msgstr "Багш, Ажилтан"
-
-#: lms/templates/courseware/course_navigation.html
-msgid "Specific student"
-msgstr "Тусгай оюутан"
-
-#: lms/templates/courseware/course_navigation.html
-msgid "Student in {content_group}"
-msgstr "{content_group} дахь сурагч"
-
-#: lms/templates/courseware/course_navigation.html
-msgid "Username or email:"
-msgstr "Хэрэглэгчийн нэр эсвэл и-мэйл:"
-
-#: lms/templates/courseware/course_navigation.html
-msgid "Set preview mode"
-msgstr "Урьдчилан харах горимыг тохируулах"
-
-#: lms/templates/courseware/course_navigation.html
-msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
-msgstr "Та одоо курс үзэж байна {i_start} {user_name} {i_end}."
 
 #: lms/templates/courseware/course_navigation.html
 msgid "Course Material"
@@ -11819,6 +11734,16 @@ msgstr "Харуулах"
 #: lms/templates/courseware/course_updates.html
 msgid "Show Earlier Course Updates"
 msgstr "Өмнөх зааврыг харах"
+
+#: lms/templates/courseware/courses.html
+#: lms/templates/navigation/navbar-authenticated.html
+#: lms/templates/navigation/navbar-not-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html
+#: themes/edx.org/lms/templates/header.html
+#: themes/red-theme/lms/templates/header.html
+msgid "Courses"
+msgstr "Хичээлүүд"
 
 #: lms/templates/courseware/courses.html lms/templates/edxnotes/edxnotes.html
 #: lms/templates/student_profile/learner_profile.html
@@ -11847,7 +11772,7 @@ msgstr "Сургалтын хэрэгсэл"
 msgid "Courseware"
 msgstr "Хичээлийн тухай"
 
-#: lms/templates/courseware/courseware.html
+#: lms/templates/courseware/courseware.html lms/templates/courseware/info.html
 msgid "Bookmarks"
 msgstr "Хавчуурга"
 
@@ -11863,10 +11788,8 @@ msgstr "Энэ хичээлд агуулга нэмэгдээгүй "
 #, python-format
 msgid ""
 "To access course materials, you must score {required_score}% or higher on "
-"this                 exam. Your current score is {current_score}%."
+"this                     exam. Your current score is {current_score}%."
 msgstr ""
-"Шалгалтын материалд хандахын тулд та энэ шалгалтанд {required_score}% эсвэл "
-"түүнээс дээш оноо авах шаардлагатай. Таны одоогийн оноо {current_score}%."
 
 #: lms/templates/courseware/courseware.html
 msgid "Your score is {current_score}%. You have passed the entrance exam."
@@ -11882,11 +11805,9 @@ msgstr "Та одоогоор бүртгүүлээгүй байна"
 
 #: lms/templates/courseware/info.html
 msgid ""
-"You are not currently enrolled in this course. {link_start}Sign up "
+"You are not currently enrolled in this course. {link_start}Enroll "
 "now!{link_end}"
 msgstr ""
-"Та энэ сургалтад хамрагдаагүй байна. {link_start} Одоо бүртгүүлнэ үү! "
-"{link_end}"
 
 #: lms/templates/courseware/info.html
 msgid "Welcome to {org}'s {course_name}!"
@@ -11909,12 +11830,12 @@ msgid "Handout Navigation"
 msgstr "Гарын авлагын Навигаци"
 
 #: lms/templates/courseware/info.html
-msgid "Important Course Dates"
-msgstr "Чухал хичээлийн хугацаа"
+msgid "Course Tools"
+msgstr ""
 
 #: lms/templates/courseware/info.html
-msgid "Today is {date}"
-msgstr "Өнөөдөр {date}"
+msgid "Reviews"
+msgstr ""
 
 #: lms/templates/courseware/news.html
 msgid "News - MITx 6.002x"
@@ -11923,6 +11844,137 @@ msgstr "Мэдээ - MITx 6.002x"
 #: lms/templates/courseware/news.html
 msgid "Updates to Discussion Posts You Follow"
 msgstr "Таны Дагаж байгаа Ярилцлагын Постуудын шинэчлэл"
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Purchase the Program"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Start Learning"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "View Program Trailer"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Play"
+msgstr "Тоглуулах"
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Number of Courses"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "{number_of_courses} courses in program"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Average Length"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "{weeks_to_complete} weeks per course"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Effort"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid ""
+"{min_hours_effort_per_week}-{max_hours_effort_per_week} hours per week, per "
+"course"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Price (USD)"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Original Price"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "${oldPrice}"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Discounted Price"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "${newPrice}{htmlEnd} for entire program"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "You save ${discount_value} {currency}"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "${full_program_price} for entire program"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Overview"
+msgstr "Тойм"
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Job Outlook"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "What You'll Learn"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Instructors"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "{position} at {organization}"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+#: lms/templates/static_templates/faq.html
+#: themes/red-theme/lms/templates/footer.html
+msgid "FAQ"
+msgstr "Асуулт хариулт"
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Endorser Image"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Meet the Instructors"
+msgstr ""
+
+#. Translators: Pagination range contains ordinal numbers of the first and the
+#. last instructor
+#. whose information is shown on the current page.
+#: lms/templates/courseware/program_marketing.html
+msgid "{pagination_range} of {number_of_instructors}"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Courses in the {program_type}"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Starts {course_start_datetime}"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Instructor - Paced"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "Self - Paced"
+msgstr ""
+
+#: lms/templates/courseware/program_marketing.html
+msgid "YouTube Video"
+msgstr ""
 
 #: lms/templates/courseware/progress-info.html
 msgid ""
@@ -12031,6 +12083,22 @@ msgid "Practice Scores: "
 msgstr "Дадлагын Оноонууд: "
 
 #: lms/templates/courseware/progress.html
+msgid "Problem scores are hidden until the due date."
+msgstr ""
+
+#: lms/templates/courseware/progress.html
+msgid "Practice scores are hidden until the due date."
+msgstr ""
+
+#: lms/templates/courseware/progress.html
+msgid "Problem scores are hidden."
+msgstr ""
+
+#: lms/templates/courseware/progress.html
+msgid "Practice scores are hidden."
+msgstr ""
+
+#: lms/templates/courseware/progress.html
 msgid "No problem scores in this section"
 msgstr "Энэ хэсэгт асуудлын оноо байхгүй"
 
@@ -12051,6 +12119,11 @@ msgstr ""
 "Сургалтыг судлахдаа та {tos_link_start} Үйлчилгээний нөхцөл {link_end} болон"
 " {privacy_link_start} Нууцлалын бодлого {link_end} -ийг зөвшөөрч байна. "
 "Үүнийг анхааралтай уншина уу."
+
+#: lms/templates/courseware/static_tab.html
+#: lms/templates/courseware/tab-view.html
+msgid "name"
+msgstr ""
 
 #: lms/templates/courseware/syllabus.html
 msgid "{course.display_number_with_default} Course Info"
@@ -12230,12 +12303,16 @@ msgid "View Archived Course"
 msgstr "Архивласан Хичээлийг Үзэх "
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "I'm taking {course_name} online with {platform_name}. Check it out!"
+msgstr ""
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Share on Facebook"
 msgstr "Фэйсбүүк дээр хуваалцах"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "I'm learning on {platform_name}:"
-msgstr "Би {platform_name} дээр сурч байна:"
+msgid "I'm taking {course_name} online with {twitter_username}. Check it out!"
+msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Course options for"
@@ -12463,19 +12540,19 @@ msgstr "Шүүх: "
 
 #. Translators: This is a menu option for showing all forum threads unfiltered
 #: lms/templates/discussion/_thread_list_template.html
-msgid "Show all"
-msgstr "Бүгдийг харуулах"
+msgid "Show all posts"
+msgstr ""
 
 #. Translators: This is a menu option for showing only unread forum threads
 #: lms/templates/discussion/_thread_list_template.html
-msgid "Unread"
-msgstr "Уншаагүй"
+msgid "Unread posts"
+msgstr ""
 
 #. Translators: This is a menu option for showing only unanswered forum
 #. question threads
 #: lms/templates/discussion/_thread_list_template.html
-msgid "Unanswered"
-msgstr "Хариулаагүй"
+msgid "Unanswered posts"
+msgstr ""
 
 #. Translators: This is a menu option for showing only forum threads flagged
 #. for abuse
@@ -12483,14 +12560,14 @@ msgstr "Хариулаагүй"
 msgid "Flagged"
 msgstr "Дарцаг хийсэн"
 
-#. Translators: This labels a cohort menu in forum navigation
+#. Translators: This labels a group menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html
-msgid "Cohort:"
-msgstr "Групп"
+msgid "Group:"
+msgstr ""
 
 #: lms/templates/discussion/_thread_list_template.html
-msgid "in all cohorts"
-msgstr "Бүх бүлгүүдэд"
+msgid "in all groups"
+msgstr ""
 
 #. Translators: This labels a sort menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html
@@ -12600,35 +12677,35 @@ msgid "Sincerely yours,The {course_name} Team"
 msgstr "Хүндэтгэсэн таны, {course_name} Баг багтана"
 
 #: lms/templates/emails/activation_email.txt
-msgid "Thank you for creating an account with {platform_name}!"
-msgstr "{platform_name} -тэй акаунт үүсгэхийг танд баярлалаа!"
+msgid ""
+"You're almost there! Use the link to activate your account to access "
+"engaging, high-quality {platform_name} courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+
+#: lms/templates/emails/activation_email.txt
+msgid "Enjoy learning with {platform_name}."
+msgstr ""
+
+#: lms/templates/emails/activation_email.txt
+msgid "The {platform_name} Team"
+msgstr ""
 
 #: lms/templates/emails/activation_email.txt
 msgid ""
-"There's just one more step before you can enroll in a course: you need to "
-"activate your {platform_name} account. To activate your account, click the "
-"following link. If that doesn't work, copy and paste the link into your "
-"browser's address bar."
+"If you need help, please use our web form at {support_url} or email "
+"{support_email}."
 msgstr ""
-"Курсд элсэхийн өмнө та нэг л алхам боллоо: өөрийн {platform_name} акаунтыг "
-"идэвхжүүлэх хэрэгтэй. Өөрийн акаунтыг идэвхжүүлэхийн тулд дараах холбоос "
-"дээр дарна уу. Хэрэв энэ нь ажиллахгүй бол холбоосыг хуулж, браузерынхаа "
-"хаягийн мөрөнд хуулна уу."
 
 #: lms/templates/emails/activation_email.txt
 msgid ""
-"If you didn't create an account, you don't need to do anything; you won't "
-"receive any more email from us. If you need assistance, please do not reply "
-"to this email message. Check the help section of the {platform_name} "
-"website."
+"This email message was automatically sent by {lms_url} because someone "
+"attempted to create an account on {platform_name} using this email address."
 msgstr ""
-"Та данс үүсгээгүй, та ямар нэгэн юм хийх шаардлагагүй; Та биднээс өөр имэйл "
-"хүлээж авахгүй болно. Хэрэв танд туслалцаа хэрэгтэй бол энэ имэйлд хариу "
-"бичихгүй. {platform_name} вэбсайтын тусламжийн хэсгийг шалгана уу."
 
 #: lms/templates/emails/activation_email_subject.txt
-msgid "Activate Your {platform_name} Account"
-msgstr "Өөрийн {platform_name} Бүртгэлийг идэвхжүүл"
+msgid "Action Required: Activate your {platform_name} account"
+msgstr ""
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
@@ -13010,9 +13087,22 @@ msgstr ""
 msgid "Donation Actions"
 msgstr "Хандивын Арга хэмжээнүүд"
 
+#: lms/templates/learner_dashboard/_dashboard_navigation_courses.html
+#: themes/edx.org/lms/templates/dashboard.html
+msgid "My Courses"
+msgstr "Миний сургалт"
+
 #: lms/templates/learner_dashboard/program_details.html
 msgid "Program Details"
 msgstr "Хөтөлбөрийн мэдээлэл"
+
+#: lms/templates/learner_dashboard/programs.html
+#: lms/templates/navigation/navbar-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html
+#: themes/edx.org/lms/templates/header.html
+#: themes/red-theme/lms/templates/header.html
+msgid "Programs"
+msgstr "Хөтөлбөрүүд"
 
 #: lms/templates/modal/_modal-settings-language.html
 msgid "Change Preferred Language"
@@ -13051,6 +13141,73 @@ msgstr "БОЛЖ БАЙНА УУ"
 #: lms/templates/modal/accessible_confirm.html
 msgid "open"
 msgstr "нээлттэй байна"
+
+#. Translators: This is short for "System administration".
+#: lms/templates/navigation/navbar-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html
+#: themes/red-theme/lms/templates/header.html
+msgid "Sysadmin"
+msgstr "Sysadmin"
+
+#: lms/templates/navigation/navbar-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html
+#: lms/templates/static_templates/help.html
+#: themes/edx.org/lms/templates/header.html
+msgid "Help"
+msgstr "Тусламж"
+
+#: lms/templates/navigation/navbar-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html
+#: themes/edx.org/lms/templates/header.html
+#: themes/red-theme/lms/templates/header.html
+msgid "Shopping Cart"
+msgstr "Shopping Cart"
+
+#: lms/templates/navigation/navbar-logo-header.html
+#: lms/templates/navigation/bootstrap/navbar-logo-header.html
+#: themes/edx.org/lms/templates/header.html
+#: themes/red-theme/lms/templates/header.html
+msgid "{platform_name} Home Page"
+msgstr "{platform_name} Нүүр хуудас"
+
+#: lms/templates/navigation/navbar-not-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html
+#: themes/edx.org/lms/templates/header.html
+#: themes/red-theme/lms/templates/header.html
+msgid "How it Works"
+msgstr "Хэрхэн ажилладаг тухай"
+
+#: lms/templates/navigation/navbar-not-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html
+#: themes/red-theme/lms/templates/header.html
+msgid "Schools"
+msgstr "Сургуулиуд"
+
+#: lms/templates/navigation/navbar-not-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html
+#: themes/edx.org/lms/templates/header.html
+#: themes/red-theme/lms/templates/header.html
+msgid "Sign in"
+msgstr "Нэвтрэх"
+
+#: lms/templates/navigation/navigation.html
+#: themes/red-theme/lms/templates/header.html
+msgid "Global"
+msgstr "Глобал"
+
+#: lms/templates/navigation/navigation.html
+#: lms/templates/widgets/footer-language-selector.html
+msgid "Choose Language"
+msgstr "Хэл сонгох"
+
+#: lms/templates/navigation/navigation.html
+#: themes/edx.org/lms/templates/header.html
+msgid ""
+"{begin_strong}Warning:{end_strong} Your browser is not fully supported. We "
+"strongly recommend using {chrome_link} or {ff_link}."
+msgstr ""
+"{begin_strong} Анхааруулга: {end_strong} Таны хөтөч бүрэн дэмжигдээгүй "
+"байна. Бид {chrome_link} эсвэл {ff_link} -г ашиглахыг зөвлөж байна."
 
 #: lms/templates/peer_grading/peer_grading.html
 msgid ""
@@ -13259,6 +13416,21 @@ msgstr "Глобал ажилчдын хэрэглэгчид байгаа эсэ
 msgid "Manage your data: {permission}"
 msgstr "Өөрийн датаг удирдах боломжтой: {permission}"
 
+#: lms/templates/registration/account_activation_sidebar_notice.html
+msgid "Account Activation Info"
+msgstr ""
+
+#: lms/templates/registration/account_activation_sidebar_notice.html
+msgid "Activate your account!"
+msgstr ""
+
+#: lms/templates/registration/account_activation_sidebar_notice.html
+msgid ""
+"Check your {email_start}{email}{email_end} inbox for an account activation "
+"link from {platform_name}. If you need help, contact "
+"{link_start}{platform_name} Support{link_end}."
+msgstr ""
+
 #: lms/templates/registration/activate_account_notice.html
 msgid "You're almost there!"
 msgstr "Та бол хөгшчүүл юм"
@@ -13274,49 +13446,6 @@ msgstr ""
 "хэрэгтэй. Бид таны бүртгэлийг идэвхжүүлэх заавар бүхий {email_start} {email}"
 " {email_end} руу имэйл зурвас илгээсэн. Хэрэв та энэ зурвасыг хүлээн авахгүй"
 " бол өөрийн спам фолдерыг шалгана уу."
-
-#: lms/templates/registration/activation_complete.html
-msgid "Account Activated"
-msgstr "Идэвхжүүлсэн бүртгэл"
-
-#: lms/templates/registration/activation_complete.html
-msgid "Account already active"
-msgstr "Акаунт идэвхтэй байна"
-
-#: lms/templates/registration/activation_complete.html
-msgid "Thanks for activating your account."
-msgstr "Эрхээ идэвхжүүлсэнд баярлалаа."
-
-#: lms/templates/registration/activation_complete.html
-msgid "This account has already been activated."
-msgstr "Энэ эрх аль хэдийн идэвхжсэн байна."
-
-#: lms/templates/registration/activation_complete.html
-msgid "Visit your {link_start}dashboard{link_end} to see your courses."
-msgstr "Visit your {link_start}dashboard{link_end} to see your courses."
-
-#: lms/templates/registration/activation_complete.html
-msgid "You can now {link_start}sign in{link_end}."
-msgstr "Та одоо -д  {link_start} нэвтрэх {link_end}  болно."
-
-#: lms/templates/registration/activation_invalid.html
-msgid "Activation Invalid"
-msgstr "Идэвхжүүлэлт Хүчингүй "
-
-#: lms/templates/registration/activation_invalid.html
-msgid ""
-"Something went wrong. Email programs sometimes split URLs into two lines, so"
-" make sure the URL you're using is formatted correctly. If you still have "
-"issues, send us an email message at {email_start}{email}{email_end}."
-msgstr ""
-"Ямар нэгэн зүйл буруугаар эргэсэн. И-мэйл програм заримдаа URL-уудыг хоёр "
-"мөр болгон хуваах тул таны ашиглаж буй URL зөв хэлбэршүүлэгдсэн эсэхийг "
-"шалгаарай. Хэрэв танд асуудал байгаа бол бидэнд имэйл зурвас {email_start} "
-"{email} {email_end} руу илгээнэ үү ."
-
-#: lms/templates/registration/activation_invalid.html
-msgid "Return to the {link_start}home page{link_end}."
-msgstr "Руу буцах {link_start}гэрийн хуудас{link_end}."
 
 #: lms/templates/registration/password_reset_complete.html
 msgid "Your Password Reset is Complete"
@@ -13424,18 +13553,9 @@ msgstr ""
 msgid ""
 "Our system indicates that you are trying to access this {platform_name} "
 "course from a country or region currently subject to U.S. economic and trade"
-" sanctions. Unfortunately, at this time {platform_name} must comply with "
-"export controls, and we cannot allow you to access this course."
+" sanctions.Unfortunately, because {platform_name} is required to comply with"
+" export controls,we cannot allow you to access this course at this time."
 msgstr ""
-"Манай систем нь та энэ {platform_name} курст АНУ-ын эдийн засгийн болон "
-"худалдааны хоригийг даган мөрдөж буй улс эсвэл бүс нутгаас хандаж байгаа "
-"гэдгийг харуулж байна. Харамсалтай нь энэ үед {platform_name} экспортын "
-"хяналтыг дагаж мөрдөх ёстой бөгөөд бид танд энэ курст хандах боломжгүй."
-
-#: lms/templates/static_templates/faq.html
-#: themes/red-theme/lms/templates/footer.html
-msgid "FAQ"
-msgstr "Асуулт хариулт"
 
 #: lms/templates/static_templates/jobs.html
 #: themes/red-theme/lms/templates/footer.html
@@ -13600,6 +13720,20 @@ msgstr ""
 "Хэрэв та энэ курс эсвэл энэ маягтын талаар ямар нэгэн асуулт байвал, та "
 "{link_start} {mail_to_link} {link_end} руу холбоо барьж болно."
 
+#: lms/templates/widgets/cookie-consent.html
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+
+#: lms/templates/widgets/cookie-consent.html
+msgid "Got it!"
+msgstr ""
+
+#: lms/templates/widgets/cookie-consent.html
+msgid "Learn more"
+msgstr ""
+
 #: themes/edx.org/cms/templates/widgets/sock.html
 msgid "Looking for help with {studio_name}?"
 msgstr "{studio_name} ашиглахад тусламж хэрэгтэй юу?"
@@ -13678,14 +13812,19 @@ msgid "About edX"
 msgstr "edX-н тухай"
 
 #: themes/edx.org/lms/templates/footer.html
-msgid ""
-"© 2016 edX Inc.  All rights reserved except where noted.  EdX, Open edX and "
-"the edX and Open EdX logos are registered trademarks or trademarks of edX "
-"Inc."
+msgid "edX Home Page"
 msgstr ""
-"© 2016 edX Inc. Бүх тэмдэглэлээс бусад бүх эрх хуулиар хамгаалагдсан. EdX, "
-"Open edX, edX болон Open ЭдX лого нь edX Inc.-ийн бүртгэгдсэн худалдааны "
-"тэмдэгнүүд эсвэл худалдааны тэмдэгнүүд юм."
+
+#: themes/edx.org/lms/templates/footer.html
+msgid ""
+"© 2012–{year} edX Inc.  All rights reserved except where noted.  EdX, Open "
+"edX and the edX and Open edX logos are registered trademarks or trademarks "
+"of edX Inc."
+msgstr ""
+
+#: themes/edx.org/lms/templates/header.html
+msgid "Main"
+msgstr ""
 
 #: themes/edx.org/lms/templates/header.html
 #: themes/red-theme/lms/templates/header.html
@@ -13703,10 +13842,6 @@ msgstr "{course_name} -д бүртгүүлэх | Өөрийнхөө замыг �
 #: themes/edx.org/lms/templates/course_modes/choose.html
 msgid "Sorry, there was an error when trying to enroll you"
 msgstr "Уучлаарай, таныг бүртгүүлэхэд алдаа гарлаа."
-
-#: themes/edx.org/lms/templates/course_modes/choose.html
-msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr "Баяр хүргэе! Та одоо {course_name} -д бүртгэгдсэн байна"
 
 #: themes/edx.org/lms/templates/course_modes/choose.html
 msgid "Pursue Academic Credit with a Verified Certificate"
@@ -13863,12 +13998,21 @@ msgstr ""
 "Хүндэтгэлийн код{honor_link_end}"
 
 #: themes/red-theme/lms/templates/header.html
+msgid "More options dropdown"
+msgstr "Илүү олон сонголт унах"
+
+#: themes/red-theme/lms/templates/header.html
 msgid "My Profile"
 msgstr "Миний намтар"
 
 #: themes/red-theme/lms/templates/header.html
 msgid "Register Now"
 msgstr "Одоо бүртгүүл"
+
+#: themes/stanford-style/lms/templates/footer.html
+#: themes/stanford-style/lms/templates/static_templates/tos.html
+msgid "Copyright"
+msgstr "Зохиогчийн эрх"
 
 #: themes/stanford-style/lms/templates/footer.html
 msgid "Copyright {year}. All rights reserved."

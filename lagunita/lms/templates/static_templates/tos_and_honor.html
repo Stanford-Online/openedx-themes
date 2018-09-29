@@ -1,0 +1,554 @@
+<%page expression_filter="h"/>
+
+<%!
+  from django.conf import settings
+  from django.utils.translation import ugettext as _
+  from edxmako.shortcuts import marketing_link
+%>
+<%inherit file="../main.html" />
+
+<%namespace name='static' file='/static_content.html'/>
+<%namespace name='theme_settings' file='/theme-settings.html'/>
+
+<%block name="pagetitle">${_('Terms of Service')}</%block>
+
+<%
+  theme_vars = theme_settings.get_theme_vars()
+  effective_date = theme_vars['effective_date']
+  site_name = settings.SITE_NAME
+  contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
+  privacy_link = '<a href="{privacy}"><strong>'.format(privacy=marketing_link('PRIVACY'))
+  pii_link = '<a href="{privacy}#pii"><strong>'.format(privacy=marketing_link('PRIVACY'))
+  copyright_link = '<a href="{copyright}"><strong>'.format(copyright=marketing_link('COPYRIGHT'))
+  link_end = '</strong></a>'
+%>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container tos">
+        <h2><em>
+            ${_('NOTICE: On {date}, Stanford amended its Terms of Service as follows:').format(
+                date=effective_date
+            )}
+        </em></h2>
+
+        <hr />
+
+        <h1>${_('Welcome to the Stanford Online Learning and Research Community')}</h1>
+
+        <p>
+            ${_("Stanford University pursues the science of learning. Online learners are important participants in that "
+                "pursuit. The information we gather from your engagement with our instructional offerings makes it possible "
+                "for faculty, researchers, designers and engineers to continuously improve their work and, in that process, "
+                "build learning science."
+            )}
+        </p>
+
+        <p>
+            ${_("By registering as an online learner, you are also participating in {research_link_start}research{link_end} intended to enhance "
+                "Stanford\'s instructional offerings as well as the quality of learning and related sciences worldwide. In "
+                "the interest of research, you may be exposed to some variations in the course materials. Stanford does not "
+                "use learner data for any purpose beyond the University\'s stated missions of education and research. For "
+                "purposes of research, we may share information we collect from online learning activities, including "
+                "{pii_link_start}Personally Identifiable Information {link_end}, with researchers beyond Stanford. However, "
+                "your Personally Identifiable Information will only be shared as permitted by applicable law, will be "
+                "limited to what is necessary to perform the research, and will be subject to an agreement to protect the "
+                "data. We may also share with the public or third parties aggregated information that does not personally "
+                "identify you. Similarly, any research findings will be reported at the aggregate level and will not expose "
+                "your personal identity."
+            ).format(
+                pii_link_start=pii_link,
+                research_link_start='<a href="https://lytics.stanford.edu/research/"><strong>',
+                link_end=link_end,
+            ) | n }
+        </p>
+
+        <p>
+            ${_("Please read our {link_start}Privacy Policy{link_end} for more information regarding the processing, "
+                "transmission and use of data collected through the Stanford Online website and Stanford's Lagunita "
+                "platform."
+            ).format(
+                link_start=privacy_link,
+                link_end=link_end
+            ) | n }
+        </p>
+
+        <hr />
+
+        <h2 id="tos">${_('Terms of Service for Stanford Online Courses')}</h2>
+
+        <p>
+            ${_("These Terms of Service govern the Stanford Online website and Stanford\'s OpenEdX platform, "
+                "{site_name} (\"Site\") which is owned by Stanford University (\"Stanford\") and operated by Stanford or its "
+                "service providers. You should not access or use this Site until you have carefully read and agreed to the "
+                "following Terms of Service."
+            ).format(
+                site_name=site_name
+            ) | n }
+        </p>
+
+        <p><strong>${_('Use of the Site')}</strong></p>
+
+        <p><strong>
+            ${_("In order to participate in Stanford Online courses or access any online resources offered by "
+                "Stanford you must first carefully read and agree to these Terms of Service, Honor Code and Privacy Policy "
+                "(collectively \"Terms\"). BY ACCESSING AND PARTICIPATING IN THE SITE, YOU HAVE INDICATED THAT YOU HAVE READ "
+                "THESE TERMS AND AGREE TO BE BOUND BY AND COMPLY WITH THEM. If you do not agree to be bound by these Terms, "
+                "please promptly exit the Site."
+            )}
+        </strong></p>
+
+        <p><strong>
+            ${_("STANFORD RESERVES THE RIGHT TO MODIFY THESE TERMS AT ANY TIME AND WILL PUBLISH NOTICE OF ANY "
+                "MODIFICATIONS ON-LINE AT THIS SITE. BY CONTINUING TO ACCESS A SITE AFTER NOTICE OF SUCH MODIFICATIONS HAS "
+                "BEEN PUBLISHED, YOU SIGNIFY YOUR AGREEMENT TO BE BOUND BY THEM."
+            )}
+        </strong></p>
+
+        <p><strong>${_('User Age and Eligibility')}</strong></p>
+
+        <p>${_("Participation in the Site and Stanford Online Courses is restricted to those individuals who have "
+               "registered, who are 18 years of age and over, emancipated minors, or those who possess parental or legal "
+               "guardian consent, and who are fully able and competent to enter into these terms, conditions, obligations, "
+               "affirmations, representations and warranties herein. By accessing the Site you affirm that you are at least "
+               "13 years old and meet the eligibility requirements. This Site is not intended for children under 13. If you "
+               "are under 13 years of age, do not use the Site. If you have questions about your eligibility, please "
+               "contact us at {contact_email}."
+            ).format(
+                contact_email=contact_email
+            ) | n }
+        </p>
+
+        <p>
+            ${_("Certain courses may also have additional eligibility requirements as specified in the specific course "
+                "description. If you are not eligible for registration and participation or do not agree to the Terms, you "
+                "may not use the Site."
+            )}
+        </p>
+
+        <p><strong>${_('Access to the Site')}</strong></p>
+
+        <p>
+            ${_("While portions of the Site may be available to the general public, portions of the Site are restricted "
+                "to registered users who meet eligibility criteria. You agree that you will not access any registration-only "
+                "portions of the Site if you do not meet the eligibility requirements. Stanford is not responsible for any "
+                "delay, inability or failure to access the Site due to any cause, including but not limited to acts of God, "
+                "natural disasters, government orders, labor unrest, malfunction of user hardware or software, interruption "
+                "in internet service, loss or corruption of data, and unanticipated suspension or cessation of service from "
+                "any underlying service provider."
+            )}
+        </p>
+
+        <p><strong>${_('User Accounts')}</strong></p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Site Registration')}</span>.
+            ${_("In order to fully participate in all Site activities, you must register and create a User Account. You "
+                "are required to provide a valid email address (\"Email Address\") and create a user password (\"User "
+                "Password\") and a unique username, which will be publicly visible on the forum and other locations on the "
+                "Site. In setting up your User Account, you may also be prompted or required to enter additional "
+                "information, including but not limited to your name, location or other information required to confirm "
+                "your identity."
+            )}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Course Registration')}</span>.
+            ${_("In order to participate in an online course you may be required to register in the course by selecting "
+                "the course from the list of offered courses. You may be required to provide additional information at the "
+                "time of registration including, without limitation, evidence of eligibility or of successful completion of "
+                "prerequisite courses. You may be required to pay a fee to register in some courses."
+            )}
+        </p>
+
+        <p>
+            ${_("You understand and agree that all information provided by you is accurate, current and complete and that "
+                "you will maintain and update your information to keep it accurate, current and complete. You acknowledge "
+                "that if any information provided by you is untrue, inaccurate, not current or incomplete, we reserve the "
+                "right to refuse access to the selected course or to terminate your use of the Site. You agree that you "
+                "will never divulge or share access or access information to your User Account with any third party for any "
+                "reason."
+            )}
+        </p>
+
+        <p><strong>${_('Fees and Refunds')}</strong></p>
+
+        <p>
+            ${_("Courses may be made available for free or for a fee at the sole discretion of Stanford. Course fees, if "
+                "applicable, are due and payable at the time of registration for the course or at the time of requesting a "
+                "service or materials for which a fee is required. Stanford expressly reserves the right to refuse to "
+                "permit access to any fee-based course if the fee is not paid, is cancelled or not processed for any "
+                "reason. For a period of fourteen (14) calendar days from the course start date (\"Refund Period\"), you "
+                "may withdraw or unenroll from the course by clicking on the unregister link and request a refund of the "
+                "registration fee by emailing {contact_email}. Please include your full name and username in your request. "
+                "Refunds will be credited to the credit card used when you registered and may take up to two billing cycles "
+                "to process. Stanford has no obligation to issue a refund after the Refund Period, but if you believe a "
+                "refund is warranted, please email us at {contact_email}."
+            ).format(
+                contact_email=contact_email
+            ) | n }
+        </p>
+
+        <p><strong>${_('Course Modification or Cancellation')}</strong></p>
+
+        <p>
+            ${_("The Site, including the course materials, may contain errors and omissions. We reserve the right to "
+                "correct errors or omissions without prior notice. We also reserve the right to cancel, discontinue, "
+                "reschedule, delay, change instructors or modify any course or service. You acknowledge that the course "
+                "content of the online course does not reflect the complete curriculum of a course that may be offered to "
+                "students enrolled at Stanford."
+            )}
+        </p>
+
+        <p><strong>${_('License to use Site Materials')}</strong></p>
+
+        <p>
+            ${_("Unless otherwise indicated, the Site and all its content, such as text, images, and the HTML used to "
+                "generate the pages (\"Material\") are the property of Stanford or that of our suppliers or licensors and are "
+                "protected by patent, trademark and/or copyright under US or foreign laws. In consideration for your "
+                "agreement to the terms and conditions contained here, Stanford grants you a personal, non-exclusive, "
+                "non-transferable license to access and use the Site and the Material. Registered users may download "
+                "Material from the Site only for such user\'s own personal, non-commercial use. No user may otherwise copy, "
+                "reproduce, duplicate, retransmit, distribute, publish, scrape, download in bulk, sell, resell, "
+                "commercially exploit or otherwise transfer any Material or modify or create derivative works of the "
+                "Material. The burden of determining that use of any information, software, material or any other content "
+                "on the Site is permissible rests with User. Some content on the Site is provided by third parties, and the "
+                "use of that content is subject to rules and restrictions as indicated on the Site. You agree to be bound "
+                "by all such rules and restrictions."
+            )}
+        </p>
+
+        <p><strong>${_('Modifications to Site')}</strong></p>
+
+        <p>
+            ${_("Stanford reserves the right, for any reason or no reason, in our sole discretion and without notice, to "
+                "terminate, change, suspend or discontinue any aspect of the Site, including without limitation, information, "
+                "data, text, music, sound, photographs, graphics, video, messages, courses, Materials, features and/or hours "
+                "of availability, and we will not be liable to you or to any third party for doing so. We may also impose "
+                "rules and limits on the use of the Site or restrict your access to part, or the entire, Site without notice "
+                "or penalty."
+            )}
+        </p>
+
+        <p><strong>${_('Rules for Online Conduct')}</strong></p>
+
+        <p>
+            ${_("You agree to use the Sites in accordance with all applicable laws. You are responsible for your own "
+                "communications, including the upload, transmission and posting of information, and are responsible for the "
+                "consequences of their posting on or through the Site. You further agree that you will not email or post "
+                "malicious or harmful content anywhere on the Site, or on any other Stanford computing resources including "
+                "without limitation the following:"
+            )}
+        </p>
+
+        <ul>
+            <li>${_('Content that defames or threatens others')}</li>
+            <li>${_('Harassing statements or content that violates federal or state law')}</li>
+            <li>${_('Content that discusses illegal activities with the intent to commit them')}</li>
+            <li>${_('Content that is not your own, or infringes another\'s intellectual property, including, but not limited to, copyrights, trademarks or trade secrets')}</li>
+            <li>${_('Content related to partisan political activities')}</li>
+            <li>${_('Material that contains obscene (i.e. pornographic) language or images')}</li>
+            <li>${_('Advertising or any form of commercial solicitation or promotion, including links to other sites')}</li>
+            <li>${_('Content that is otherwise unlawful')}</li>
+            <li>${_('Intentionally incomplete, misleading or inaccurate content')}</li>
+            <li>${_('Violations of Honor Code')}</li>
+        </ul>
+
+        <p>
+            ${_("Copyrighted material, including without limitation software, graphics, text, photographs, sound, video "
+                "and musical recordings, may not be placed on the Site without the express permission of the owner of the "
+                "copyright in the material, or other legal entitlement to use the material."
+            )}
+        </p>
+
+        <p><strong>${_('Security Rules')}</strong></p>
+
+        <p>
+            ${_("Violations of system or network security may result in civil or criminal liability. Stanford will "
+                "investigate occurrences and may involve, and cooperate with, law enforcement authorities in prosecuting the "
+                "use or users who are involved in such violations. You agree that you will not violate or attempt to violate "
+                "the security of the Site, including without limitation:"
+            )}
+        </p>
+
+        <ul>
+            <li>${_('attacking, probing, scanning or testing the vulnerability of, breaching security of, disrupting, disabling or harming the Site, or servers or networks connected to the Site')}</li>
+            <li>${_('using the Site via any automated means, such as a screen-scraper or robot. This is not intended to exclude the use of assistive technology for your own use, such as screen-readers')}</li>
+            <li>${_('sending any unsolicited emails to other Site Users or forging any TCP/IP packet header or any part of the header information in any email')}</li>
+            <li>${_('displaying the Site within a frame on another website without consent, or place pop-up windows or other disruptive technologies over it')}</li>
+            <li>${_('accessing data not intended for you or logging into a server or account you are not authorized to access')}</li>
+            <li>${_('attempting to interfere with service to any user, host or network, including without limitation, via means of submitting a virus to the Site, overloading, "flooding", "Mailbombing" or "Crashing"')}</li>
+            <li>${_('impersonating another person or improperly allowing another to use your registration information to access the Site.')}</li>
+        </ul>
+
+        <p><strong>${_('Content Disclaimer')}</strong></p>
+
+        <p>
+            ${_("The text and other material on the Sites may include the opinion of the specific instructor and are not "
+                "statements of advice, endorsement, opinion, or information of Stanford. If you feel you might be offended "
+                "by the content of the Sites, you should not continue."
+            )}
+        </p>
+
+        <p>
+            ${_("Sites may also include the personal opinions and other expressions by Users who post entries on a wide "
+                "range of topics. Neither the content of the forums, nor the links to other web sites, are screened, "
+                "approved, reviewed or endorsed by Stanford or any other related entity. Stanford is not a publisher of any "
+                "of the content of the forums, or of any content that may be available through links to and from them."
+            )}
+        </p>
+
+        <p><strong>${_('User Content')}</strong></p>
+
+        <p>
+            ${_("You may be permitted to submit and distribute materials in connection with an online course (\"User "
+                "Content\"). You represent and warrant that any material you submit to the Site, instructors or other Users "
+                "is accurate and complete and will not violate or infringe the rights of any third party, including without "
+                "limitation privacy, publicity, intellectual property and any other proprietary rights, such as copyright, "
+                "trademark and patent rights. You represent and warrant that you have all the necessary rights and licenses "
+                "to use the material and to permit use of the material by Stanford and other researchers."
+            )}
+        </p>
+
+        <p>
+            ${_("You agree that, if a third party claims that any material you have contributed to a Site is unlawful, "
+                "you will bear the burden of establishing that the material complies with all applicable laws. Although "
+                "Stanford does not monitor the content of the Site, Stanford has the right to remove material from the "
+                "Site, block access, or take other action with respect to the material in its sole discretion."
+            )}
+        </p>
+
+        <p>
+            <span style="text-decoration: underline;">${_('Grant of license')}</span>.
+            ${_("By your submission of any material in connection with this course, you hereby grant Stanford an "
+                "irrevocable, non-exclusive, royalty free, fully transferable, worldwide license to use, disclose, "
+                "reproduce, distribute, prepare derivative works of, publicly perform, publicly display and provide to "
+                "other researchers any such submission. You hereby grant Users in your online course a license to use your "
+                "User Content (including the right to copy, modify and distribute such content) in conjunction with their "
+                "participation in the course."
+            )}
+        </p>
+
+        <p><strong>${_('User Status and Statement of Accomplishment')}</strong></p>
+
+        <p>
+            ${_("You agree and acknowledge that your access to the Site, participation in an online course and your "
+                "agreement to these Terms do not confer any right to access or use the resources of Stanford or establish "
+                "any relationship with Stanford or its instructors beyond the Site, that you are not enrolled, admitted or "
+                "in attendance at Stanford and that you are not entitled to any student or academic grievance procedures. "
+                "You agree that no joint venture, partnership, employment, or agency relationship exists between Stanford "
+                "and you as a result of these Terms or your use of the Site."
+            )}
+        </p>
+
+        <p>
+            ${_("Subject to satisfactory performance and course completion, you may receive a Statement of Accomplishment "
+                "(\"Statement\") signed by the instructor(s). Stanford reserves the right to determine whether a Statement "
+                "will be issued for the online course and the nature of the information to be provided in the Statement. You "
+                "acknowledge that any Statement will not stand in the place of a course taken at Stanford or an accredited "
+                "institution or confer any academic credit, grade or degree or indicate enrollment at Stanford. You further "
+                "acknowledge that instructors of any online course are not required to participate in any attempts to get "
+                "the course recognized by any educational or accredited institution."
+            )}
+        </p>
+
+        <p><strong>${_('International Use and Consent to Processing')}</strong></p>
+
+        <p>
+            ${_("Stanford controls and operates this Site within the United States of America, and all information is "
+                "collected, transmitted, processed and stored within the United States. We do not represent that materials "
+                "on the Site are appropriate or available for use in other locations. Persons who choose to access the Site "
+                "from other locations do so on their own initiative, and are responsible for compliance with local laws, if "
+                "and to the extent local laws are applicable. You agree to comply with all applicable laws, rules and "
+                "regulations in connection with your use of the Site. Without limiting the generality of the foregoing, you "
+                "agree to comply with all applicable laws regarding the transmission of technical data exported from the "
+                "United States or the country in which you reside. By providing any personal information to the Site, all "
+                "users, including without limitation users in the European Union, fully understand and unambiguously "
+                "consent to the collection, transmission processing and storage of such information in the United States "
+                "and the use of such information for research by Stanford and other U.S. and international researchers."
+            )}
+        </p>
+
+        <p><strong>${_('Links to Other Sites')}</strong></p>
+
+        <p>
+            ${_("The Site may include hyperlinks to sites maintained or controlled by others. Stanford is not responsible "
+                "for and does not routinely screen, approve, review or endorse the contents of or use of any of the "
+                "products or services that may be offered at other sites. These links do not imply Stanford\'s endorsement "
+                "of or association with the linked sites. Stanford is not responsible for and shall in no event be liable, "
+                "directly or indirectly, to anyone for any loss or damage arising from or occasioned by the creation or use "
+                "of the linked sites or the information or material accessed through those linked sites. If you choose to "
+                "use Social Auth login, we may receive from the authenticator your name, email, and public profile "
+                "information, and the authenticator is notified of your login to this site."
+            )}
+        </p>
+
+        <p><strong>${_('Choice of Law/Forum Selection')}</strong></p>
+
+        <p>
+            ${_("The Sites are managed by Stanford, located in Santa Clara County, California. You agree that any dispute "
+                "arising out of or relating to these Terms or any content posted to a Site, including copies and "
+                "republication thereof, whether based in contract, tort, statutory or other law, will be governed by the "
+                "laws of the State of California, excluding its conflicts of law provisions. You further consent to the "
+                "personal jurisdiction of and exclusive venue in the federal and state courts located in and serving Santa "
+                "Clara County, California as the legal forum for any such dispute. Excluding claims for injunctive or other "
+                "equitable relief, for claims related to the Site where the total amount sought is less than ten thousand "
+                "U.S. Dollars ($10,000.00 USD), either you or Stanford may elect at any point during the dispute to resolve "
+                "the claim through binding, non-appearance-based arbitration. The dispute will then be resolved using an "
+                "established alternative dispute resolution (\"ADR\") provider, mutually agreed upon by you and Stanford. The "
+                "parties and the selected ADR provider shall not involve any personal appearance by the parties or "
+                "witnesses, unless otherwise mutually agreed by the parties; rather, the arbitration shall be conducted, at "
+                "the option of the party seeking relief, online, by telephone or via written submissions alone. Any "
+                "judgment rendered by the arbitrator may be entered in any court of competent jurisdiction. Any claim or "
+                "cause of action you may have with respect to Stanford or the Site must be commenced within one (1) year "
+                "after the claim or cause of action arose."
+            )}
+        </p>
+
+        <p><strong>${_('Disclaimer of Warranties')}</strong></p>
+
+        <p>
+            ${_("THESE SITES AND ANY INFORMATION, PRODUCTS OR SERVICES THEREIN ARE PROVIDED \"AS IS\" WITHOUT WARRANTY OF "
+                "ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF "
+                "MERCHANTABILITY, FITNESS FOR USE OF A PARTICULAR PURPOSE, OR NONINFRINGEMENT."
+            )}
+        </p>
+
+        <p>
+            ${_("STANFORD DOES NOT WARRANT, AND HEREBY DISCLAIMS ANY WARRANTIES, EITHER EXPRESS OR IMPLIED, WITH RESPECT "
+                "TO THE ACCURACY, ADEQUACY OR COMPLETENESS OF ANY SITE, INFORMATION OBTAINED FROM A SITE, OR LINK TO A SITE. "
+                "STANFORD DOES NOT WARRANT THAT THE SITE WILL OPERATE IN AN UNINTERRUPTED OR ERROR-FREE MANNER OR THAT THE "
+                "SITE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. USE OF INFORMATION OBTAINED FROM OR THROUGH THE SITE "
+                "IS AT YOUR OWN RISK."
+            )}
+        </p>
+
+        <p>
+            ${_("WITHOUT LIMITING THE FOREGOING, STANFORD DOES NOT WARRANT THAT (A) THE SITE WILL MEET YOUR REQUIREMENTS "
+                "OR EXPECTATIONS OR ACHIEVE THE INTENDED PURPOSES, (B) THE SITE WILL BE FREE OF OUTAGES, INTERRUPTIONS, "
+                "DELAYS, SECURITY FLAWS, AND ERRORS, (C) THE INFORMATION OBTAINED FROM THE SITE WILL BE ACCURATE, COMPLETE, "
+                "CURRENT, ERROR-FREE, COMPLETELY SECURE OR RELIABLE, (D) THAT YOU WILL BE ABLE TO TRANSMIT OR RECEIVE "
+                "INFORMATION FROM OR THROUGH THE SITE OR (E) THAT DEFECTS IN OR ON THE SITE WILL BE CORRECTED."
+            )}
+        </p>
+
+        <p><strong>${_('Limitation of Liability')}</strong></p>
+
+        <p>
+            ${_("YOU AGREE THAT STANFORD WILL NOT BE LIABLE TO YOU FOR ANY LOSS OR DAMAGES, EITHER ACTUAL OR "
+                "CONSEQUENTIAL, ARISING OUT OF OR RELATING TO THESE TERMS, OR TO YOUR (OR ANY THIRD PARTY/'S) USE OR "
+                "INABILITY TO USE THE SITE, OR TO YOUR PLACEMENT OF CONTENT ON THE SITE, OR TO YOUR RELIANCE UPON "
+                "INFORMATION OBTAINED FROM OR THROUGH THE SITE. IN PARTICULAR, STANFORD WILL HAVE NO LIABILTY FOR ANY "
+                "CONSEQUENTIAL, INDIRECT, PUNITIVE, SPECIAL OR INCIDENTAL DAMAGES, WHETHER FORESEEABLE OR UNFORESEEABLE, "
+                "(INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR DEFAMATION, ERRORS, LOSS OF DATA, OR INTERRUPTION IN "
+                "AVAILABILITY OF DATA), ARISING OUT OF OR RELATING TO THESE TERMS, YOUR USE OR INABILITY TO USE THE SITE, "
+                "OR YOUR PLACEMENT OF CONTENT ON A SITE, OR TO YOUR RELIANCE UPON INFORMATION OBTAINED FROM OR THROUGH A "
+                "SITE, WHETHER BASED IN CONTRACT, TORT, STATUTORY OR OTHER LAW, EVEN IF STANFORD OR ITS REPRESENTATIVES "
+                "HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR "
+                "EXCLUSION OF LIABILITY SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU. IN NO EVENT SHALL THE TOTAL "
+                "LIABILITY OF STANFORD TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION ARISING FROM THE TERMS OR YOUR "
+                "USE OF THE SITE EXCEED, IN THE AGGREGATE, $100.00."
+            )}
+        </p>
+
+        <p><strong>${_('Termination Rights')}</strong></p>
+
+        <p>
+            ${_("You agree that: Stanford, in its sole discretion, may terminate your use of the Site or your "
+                "participation in an online course activity, for any reason or no reason and at any time; Stanford shall not "
+                "have any liability to you for the termination; and that you are not entitled to any course credit or to any "
+                "student or academic grievance procedures in connection with such a termination."
+            )}
+        </p>
+
+        <p><strong>${_('Consumer Notice')}</strong></p>
+
+        <p>
+            ${_("If you have any questions regarding services provided through the Site, you may contact Stanford\'s "
+                "Course Operations Lead at {contact_email} or 408 Panama Mall, Stanford, CA 94305, USA. The "
+                "Public Inquiry Unit of the Office of the California Attorney General may be contacted at P.O. Box 944255, "
+                "Sacramento, CA 94244-2550."
+            ).format(
+                contact_email=contact_email
+            ) | n }
+        </p>
+
+        <p><strong>${_('Proprietary Rights')}</strong></p>
+
+        <p>
+            ${_("The logos, names and graphics on the Site of Stanford or any of its affiliates, may be trademarks of "
+                "Stanford or its affiliates. Use, reproduction, copying or redistribution of Stanford trademarks, without "
+                "the prior written permission of Stanford or its affiliates, is prohibited. All other trademarks or "
+                "servicemarks appearing on the Site are the marks of their respective owners. Information about Stanford "
+                "trademarks may be found at {trademark_link}."
+            ).format(
+                    trademark_link=(
+                        '<a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">'
+                        'https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4</a>'
+                    )
+            ) | n }
+        </p>
+
+        <p>
+            ${_("Except as otherwise provided herein, use of the Site does not grant you a license to any content, "
+                "features or Material you may access on the Site, and you may not modify, rent, lease, loan, sell, "
+                "distribute or create derivative works of such content, features or Material, in whole or in part. Any "
+                "commercial use of the Site is strictly prohibited except as allowed herein or otherwise approved by us. "
+                "You may not download or save a copy of any of the content or screens for any purpose except as otherwise "
+                "provided by Stanford. If you make use of the Site, other than as provided herein, in doing so you may "
+                "violate copyright and other laws of the United States, other countries, as well as applicable state laws "
+                "and may be subject to liability for such unauthorized use. We do not grant any license or other "
+                "authorization to any user of our trademarks, registered trademarks, service marks, other copyrightable "
+                "material or any other intellectual property by including them on the Site."
+            )}
+        </p>
+
+        <p><strong>${_('Indemnification')}</strong></p>
+
+        <p>
+            ${_("You agree to indemnify and hold Stanford and its instructors, trustees, officers, agents, employees, and "
+                "assignees, harmless from any claims, actions, demands, losses or damages, including legal fees, arising out "
+                "of, resulting from or in any way related to your participation in an online course, use of a Site, placement "
+                "of any content onto a Site or violation of these Terms. You further agree to fully cooperate in Stanford\'s "
+                "defense against any such claims."
+            )}
+        </p>
+
+        <hr />
+
+        <h2>${_('Honor Code')}</h2>
+        <p>
+            ${_("By registering in an online course, you agree to: rely solely on your own work in connection with all "
+                "assessments, problems, homework and assignments (unless collaboration is expressly permitted); acknowledge "
+                "any and all external sources used in your work; refrain from any activity that would dishonestly or "
+                "fraudulently improve your results or disadvantage others in the course; maintain only one user account and "
+                "not let anyone else use your username and/or password; and not access or attempt to access any other "
+                "user\'s account, or misrepresent or attempt to misrepresent your identity while using the Sites. This "
+                "Honor Code is not intended to prohibit discussion of course material. While users must submit work that "
+                "is their own, you should feel free to discuss lectures or other course material with others either "
+                "in-person or online."
+            )}
+        </p>
+        <p>
+            ${_("Stanford employees using this Site are expected to abide by the University Code of Conduct, "
+                "Administrative Guide Memo 1."
+            )}
+        </p>
+
+        <hr />
+
+        <p><strong>
+            ${_('Effective date: {date}').format(
+                date=effective_date
+            ) | n }
+        </strong></p>
+
+        <p>
+        ${_("""Please visit {copyright_link}Copyright{link_end} for information pertaining to intellectual property rights and copyright infringement on Stanford Online.""").format(
+            copyright_link=copyright_link,
+            link_end=link_end,
+        ) | n}
+        </p>
+    </section>
+</main>
+
+<%include file="print_document_button.html" />

@@ -1,0 +1,15 @@
+// Print styling, originally implemented for TOS page
+@media print {
+    #su-header,
+    #global-navigation,
+    html body .window-wrap header.global,
+    html body .window-wrap .wrapper-footer,
+    #su-footer,
+    #content section.container input.print {
+        display: none;
+    }
+}
+#content section.container input.print {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
