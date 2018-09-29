@@ -1,0 +1,127 @@
+$screen_break_small: 500px;
+$screen_break_medium: 860px;
+$screen_break_large: 1220px;
+$screen_break_xlarge: 1580px;
+
+section.container {
+    &.about,
+    &.tos,
+    &.privacy,
+    &.honor,
+    &.copyright,
+    &.contact {
+        min-width: 0%;
+        max-width: $screen_break_large;
+        padding: 20px 50px 20px 50px;
+        .vision {
+            .message.left .photo {
+                float: none;
+                width: 100%;
+                max-width: 550px;
+                margin: 20px auto;
+            }
+            #about,
+            #tos,
+            #privacy,
+            #honor,
+            #copyright,
+            #contact {
+                &.message {
+                    border-bottom: 0;
+                    padding-bottom: 80px;
+                    &> article {
+                        width: 100%;
+                        float: none;
+                    }
+                }
+            }
+        }
+        dd {
+            margin: 0 0 0 20px;
+        }
+    }
+}
+
+// X-Small screens
+@media (max-width: $screen_break_small - 1) {
+    #content {
+        .course-info {
+            .container {
+                &> .details,
+                &> .course-sidebar {
+                    width: 100%;
+                    box-sizing: border-box;
+                    clear: both;
+                }
+            }
+        }
+    }
+}
+
+// Small screens
+@media (max-width: $screen_break_medium - 1) {
+    #global-navigation {
+        .user {
+            .user-link {
+                .label-username {
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    #content {
+        .course-info {
+            .intro-inner-wrapper {
+                min-width: auto;
+
+                .media {
+                    display: none;
+                }
+            }
+            .container {
+                min-width: auto;
+            }
+        }
+
+        #dashboard-main {
+            .course-container {
+                .wrapper-course-details {
+                    .course-info,
+                    .wrapper-course-actions {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    // Fix forum heights on mobile
+    // TODO: Remove after merging Hawthorne
+    // !important flags are needed to override values set by JS
+    .discussion {
+        .forum-nav {
+            height: 500px !important;
+            overflow: scroll;
+
+            .forum-nav-browse-menu,
+            .forum-nav-thread-list {
+                height: auto !important;
+            }
+        }
+    }
+}
+
+// Medium screens
+@media (max-width: $screen_break_large - 1) {
+    #content {
+        .course-info {
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<%page expression_filter="h"/>
+<%!
+  from django.utils.translation import ugettext as _
+  from edxmako.shortcuts import marketing_link
+%>
+<%inherit file="../main.html" />
+<%block name="pagetitle">${_('Redirect to Terms of Service and Honor Code')}</%block>
+<%
+  page_url = marketing_link('TOS_AND_HONOR')
+%>
+
+<%block name="headextra">
+    <%!
+      from edxmako.shortcuts import marketing_link
+    %>
+    <%
+      page_url = marketing_link('TOS_AND_HONOR')
+    %>
+    ## HTML meta redirect code from: https://stackoverflow.com/a/5411601
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=${page_url}">
+    <script type="text/javascript">
+        window.location.href = "${page_url}"
+    </script>
+</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container tos honor">
+        <h2>${_('Redirect to Terms of Service and Honor Code')}</h2>
+        <p>If you are not redirected automatically, follow this <a href="${page_url}">link to the Terms of Service and the Honor Code</a>.</p>
+    </section>
+</main>

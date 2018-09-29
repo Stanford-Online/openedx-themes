@@ -1,0 +1,14 @@
+<%page expression_filter="h"/>
+<%!
+  from django.utils.translation import ugettext as _
+%>
+<script>
+    $(document).ready(function() {
+        var printDoc = '<input type="button" value="${_('Print This Document')}" class="print">';
+        $('#content section.container').prepend(printDoc).append(printDoc);
+        $('#content section.container input.print').click(function() {
+            window.print();
+            return false;
+        });
+    });
+</script>

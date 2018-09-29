@@ -1,35 +1,21 @@
 <%page expression_filter="h"/>
-<%!
-  from django.core.urlresolvers import reverse
-  from django.utils.translation import ugettext as _
-%>
+<%! from django.utils.translation import ugettext as _ %>
 <%namespace name='static' file='/static_content.html'/>
 <%namespace name='theme_settings' file='/theme-settings.html'/>
 <%inherit file="../main.html" />
 
 <%
   theme_vars = theme_settings.get_theme_vars()
-  site_name = settings.SITE_NAME
   accessibility_email = theme_vars['accessibility_email']
-  concern_email = theme_vars['concern_email']
-  contact_email = '<a href="mailto:{email}">{email}</a>'.format(email=settings.CONTACT_EMAIL)
   privacy_email = theme_vars['privacy_email']
 %>
 
-<%block name="pagetitle">${_("Contact")}</%block>
+<%block name="pagetitle">${_('Contact')}</%block>
 
 <main id="main" aria-label="Content" tabindex="-1">
-    <section class="container about contact">
-        <nav id="about-menu">
-            <a href="/about" class="about">${_('About')}</a>
-            <a href="/contact" class="contact active">${_('Contact')}</a>
-        </nav>
+    <section class="container contact">
         <section class="vision">
             <section class="message left" id="contact">
-                <div class="photo">
-                    <img src="${static.url('lagunita/images/dish.jpg')}" alt="${_('Stanford Dish by Twilight')}" />
-                    <!-- Image Copyright owned by Stanford University -->
-                </div>
                 <article>
                     <h2>${_('Platform Help Center and Contact Emails')}</h2>
                     <dl>
