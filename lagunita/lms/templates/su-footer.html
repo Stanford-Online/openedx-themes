@@ -1,12 +1,14 @@
 ## mako
 
+<%namespace name='static' file='/static_content.html'/>
+
 <div id="su-footer">
   <div class="su-container">
     <div class="su-row">
       <div id="su-footer-logo" class="span2">
-        <a href="http://www.stanford.edu">
+        <a href="https://www.stanford.edu">
           <img
-            src="https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png"
+            src="${static.url('images/footer-stanford-logo.png')}"
             alt="Stanford University"
             width="105"
             height="49"

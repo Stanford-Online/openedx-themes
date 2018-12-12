@@ -1,0 +1,133 @@
+#course-container {
+    .welcome-message {
+        .dismiss-message {
+            width: 100%;
+            text-align: right;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+#seq_content {
+    font-size: 16px;
+    letter-spacing: normal;
+    color: $black;
+
+    .unit-title {
+        display: none;
+    }
+
+    .xmodule_HtmlModule {
+        h1 {
+            font-weight:700;
+            font-size: 2em;
+            text-transform: none;
+        }
+        h2 {
+            font-weight:700;
+            font-size: 1.5em;
+            text-transform: none;
+            line-height: 1.38em;
+            color: $black;
+            margin-top: 1.5em;
+            margin-bottom: .5em;
+        }
+        h3 {
+            font-size: 1.3em;
+            text-transform: none;
+            line-height: 1.38em;
+            margin-top: 1em;
+            margin-bottom: .3em;
+        }
+        h4 {
+            font-size: 1.1em;
+            text-transform: none;
+            line-height: 1.38em;
+            margin-top: 1em;
+            margin-bottom: .3em;
+        }
+        h5 {
+            font-size: 1em;
+            text-transform: none;
+            line-height: 1.38em;
+            margin-top: 1em;
+            margin-bottom: .3em;
+        }
+        h6 {
+            font-style: italic;
+            font-size: 1em;
+            text-transform: none;
+            line-height: 1.38em;
+            margin-top: 1em;
+            margin-bottom: .3em;
+        }
+
+        .blue {
+            color: $bright-blue;
+        }
+
+        ul {
+            margin-left:25px;
+        }
+        ul>li {
+            list-style-type: disc;
+        }
+        ul ul>li {
+            list-style-type: circle;
+        }
+        ul ul ul>li {
+            list-style-type: square;
+        }
+        ul ul ul ul>li {
+            list-style-type: disc;
+        }
+        ul ul ul ul ul>li {
+            list-style-type: circle;
+        }
+        ul ul ul ul ul ul>li {
+            list-style-type: square;
+        }
+
+        ol {
+            margin-left:25px;
+        }
+        ol>li {
+            list-style-type: decimal;
+        }
+        ol ol>li {
+            list-style-type: lower-alpha;
+        }
+        ol ol ol>li {
+            list-style-type: lower-roman;
+        }
+        ol ol ol ol>li {
+            list-style-type: decimal;
+        }
+        ol ol ol ol ol>li {
+            list-style-type: lower-alpha;
+        }
+        ol ol ol ol ol ol>li {
+            list-style-type: lower-roman;
+        }
+
+        blockquote {
+            margin: 1em;
+            padding: 5px 10px 5px 20px;
+            font-size: 1.2em;
+            border-left: 3px solid $cloud;
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        code {
+            display: block;
+            margin: 1em;
+            padding: 15px 20px;
+            background-color: $fog;
+            border-radius: 5px;
+            border: 1px solid $cloud;
+        }
+    }
+}

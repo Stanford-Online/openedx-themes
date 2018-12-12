@@ -1,0 +1,6 @@
+## mako
+<%namespace name='static' file='/static_content.html'/>
+
+% if not disable_footer:
+    <%include file="${static.get_template_path(relative_path='su-footer.html')}"  />
+% endif
