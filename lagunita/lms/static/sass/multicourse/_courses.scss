@@ -1,0 +1,45 @@
+@import 'lms/static/sass/base/grid-settings';
+@import 'neat/neat';
+
+.find-courses {
+  .courses-container {
+    .courses {
+      &:not(.no-course-discovery) {
+        @include span-columns(12);
+
+        @include media($bp-medium) {
+          @include span-columns(8); // 8 of 8
+          @include omega(2n);
+        }
+
+        @include media($bp-large) {
+          @include span-columns(12);
+        }
+
+        @include media($bp-huge) {
+          @include span-columns(12);
+        }
+
+        .courses-listing .courses-listing-item {
+          @include media($bp-medium) {
+            @include span-columns(4); // 4 of 8
+            @include omega(2n);
+          }
+
+          @include media($bp-large) {
+            @include span-columns(4); // 4 of 12
+            @include omega(3n);
+          }
+
+          @include media($bp-huge) {
+            @include span-columns(3); // 3 of 12
+            @include omega(4n);
+          }
+        }
+      }
+    }
+  }
+  .search-facets {
+    display: none;
+  }
+}
