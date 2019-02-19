@@ -1,4 +1,17 @@
 #instructor-dashboard-content {
+    .instructor-dashboard-wrapper-2 {
+        section.idash-section#metrics {
+            .metrics-container {
+                .metrics-overlay {
+                    .metrics-overlay-content-wrapper {
+                        height: auto;
+                        padding-bottom: 70px;
+                    }
+                }
+            }
+        }
+    }
+
     .slickgrid {
         .slick-header-column.ui-state-default,
         .slick-row > .slick-cell {
