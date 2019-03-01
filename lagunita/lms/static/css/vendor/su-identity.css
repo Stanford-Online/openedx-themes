@@ -223,3 +223,11 @@
     text-align: center;
   }
 }
+
+/* Studio header styling */
+@media screen and (min-width: 1280px) {
+  .wrapper #su-header .su-container,
+  .wrapper #su-footer .su-container {
+    width: 1280px;
+  }
+}
