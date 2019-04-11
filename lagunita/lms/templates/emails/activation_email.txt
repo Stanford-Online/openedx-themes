@@ -1,7 +1,7 @@
 ## mako
 <%! from django.utils.translation import ugettext as _ %>
 ${_("You're almost there! Use the link below to activate your account to access our engaging, high-quality "
-"courses. You will not be able to successfully log-in and access your courses until "
+"courses. You will not be able to successfully log in and access your courses until "
 "you have activated your account.")}
 
 % if is_secure:
