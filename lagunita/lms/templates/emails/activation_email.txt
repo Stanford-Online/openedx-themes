@@ -1,0 +1,26 @@
+## mako
+<%! from django.utils.translation import ugettext as _ %>
+${_("You're almost there! Use the link below to activate your account to access our engaging, high-quality "
+"courses. You will not be able to successfully log in and access your courses until "
+"you have activated your account.")}
+
+% if is_secure:
+https://${ site }/activate/${ key }
+% else:
+http://${ site }/activate/${ key }
+% endif
+
+${_("Enjoy learning!")}
+
+${_("The {platform_name} Team").format(platform_name=platform_name)}
+
+${_("If you need help, please use our web form at {support_url} or email {support_email}.").format(
+  support_url=support_url,
+  support_email=support_email,
+)}
+
+${_("This email message was automatically sent because this email address was used to create an "
+"account on {platform_name} ({lms_url}).").format(
+  lms_url=lms_url,
+  platform_name=platform_name,
+)}

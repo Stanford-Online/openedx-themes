@@ -1,0 +1,32 @@
+{
+  "name": "openedx-themes",
+  "title": "OpenEdX themes",
+  "description": "A collection of OpenEdX themes used at Stanford",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Stanford-Online/openedx-themes",
+  "author": {
+    "name": "Stanford-Online",
+    "email": "openedx-dev@lists.stanford.edu",
+    "url": "https://github.com/Stanford-Online"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stanford-Online/openedx-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stanford-Online/openedx-themes/issues"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": [
+    "sass-lint",
+    "csslint"
+  ],
+  "keywords": [
+    "stanford",
+    "openedx",
+    "xblock",
+    "edx"
+  ]
+}

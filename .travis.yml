@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+  - node
+env:
+  - MAKE_TARGET=csslint
+  - MAKE_TARGET=sasslint
+cache:
+    directories:
+        - node_modules
+install:
+  - make requirements
+script:
+  - make $MAKE_TARGET
+branches:
+    only:
+      - master
