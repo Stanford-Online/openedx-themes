@@ -1,0 +1,31 @@
+@import '_palette.scss';
+@import '_functions.scss';
+
+// main variable overrides
+$black: $stanford-black;
+$white: $stanford-white;
+$gray: $stone;
+$yellow: tinted($sun, 85%);
+$red: $bright-red;
+$green: $mint;
+$blue: $sky;
+$orange: $sun;
+
+// Colors - Bootstrap
+$primary:       $palo-alto;
+$secondary:     shaded($palo-alto, 50%);
+$inverse:       tinted($light-sage, 60%);
+$disabled:      $stone;
+$success:       $mint;
+$info:          $sky;
+$warning:       $sun;
+$danger:        $bright-red;
+$purchase:      $mint;
+$lightest:      $fog;
+$light:         shaded($fog, 25%);
+$dark:          $warm-gray;
+$darker:        shaded($warm-gray, 50%);
+$darkest:       shaded($warm-gray, 75%);
+$status:        $redwood;
+
+@import '_derived.scss';

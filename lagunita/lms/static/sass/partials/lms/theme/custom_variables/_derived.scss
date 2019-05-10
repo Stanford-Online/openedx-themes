@@ -1,0 +1,71 @@
+// Colors - uxpl overrides
+$uxpl-blue-base: $primary;
+$uxpl-blue-hover-active: $dark;
+$uxpl-green-base: $primary;
+$uxpl-green-hover-active: $dark;
+$uxpl-pink-base: adjust-hue($danger, -30);
+$uxpl-grayscale-x-back: $lightest;
+
+// Colors - system-feedback overrides
+$error-color: $danger;
+$warning-color: $warning;
+$confirm-color: $success;
+$active-color: $info;
+$highlight-color: tinted($warning, 50%);
+$alert-color: $danger;
+$success-color: $success;
+$success-color-hover: $primary;
+
+// Colors - action - primary
+$action-primary-bg: $primary;
+$action-primary-fg: $lightest;
+$action-primary-shadow: $dark;
+$action-primary-focused-bg: $primary;
+$action-primary-focused-fg: $lightest;
+$action-primary-active-bg: $dark;
+$action-primary-active-fg: $primary;
+$action-primary-active-shadow: $dark;
+$action-primary-active-focused-fg: $primary;
+$action-primary-active-focused-shadow: $dark;
+$action-primary-disabled-bg: $light;
+$action-prmary-disabled-fg: $lightest;
+
+// Colors - actions - misc
+$link-color: $primary;
+$blue: $primary;
+$link-hover: $dark;
+$site-status-color: $status;
+$button-color: $primary;
+$button-archive-color: $lightest;
+
+// Colors - edx deprecated
+$m-blue: $primary;  // uxpl blue base
+$m-blue-l1: tinted($m-blue, 45%);
+$m-blue-l2: tinted($m-blue, 65%);
+$m-blue-l3: tinted($m-blue, 80%);
+$m-blue-l4: tinted($m-blue, 90%);
+$m-blue-l5: tinted($m-blue, 95%);
+$m-blue-l6: tinted($m-blue, 97%);
+$m-blue-d1: shaded($m-blue, 5%);
+$m-blue-d2: shaded($m-blue, 10%);
+$m-blue-d3: shaded($m-blue, 15%);
+$m-blue-d4: shaded($m-blue, 20%);
+$m-blue-d5: shaded($m-blue, 35%);
+$m-blue-d6: shaded($m-blue, 50%);
+$m-blue-t0: rgba($m-blue, 0.125) !default;
+$m-blue-t1: rgba($m-blue, 0.25) !default;
+$m-blue-t2: rgba($m-blue, 0.50) !default;
+$m-blue-t3: rgba($m-blue, 0.75) !default;
+
+// Courseware
+$courseware-border-bottom-color: $darkest;
+
+// Homepage
+$body-bg: $white;
+
+// Header
+$header-bg: $inverse;
+$header-border-color: $secondary;
+
+// Footer
+$footer-bg: $inverse;
