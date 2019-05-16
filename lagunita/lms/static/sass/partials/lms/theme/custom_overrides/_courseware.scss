@@ -1,0 +1,26 @@
+html {
+    background-color: $white;
+
+    .window-wrap {
+        .content-wrapper {
+            max-width: 100%;
+            margin-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+
+            .course-info {
+                header.course-profile {
+                    height: 450px;
+                    padding-top: 0;
+
+                    .intro-inner-wrapper {
+                        position: absolute;
+                        bottom: 0;
+                        width: 96%;
+                        margin: 0 2% 2% 2%;
+                    }
+                }
+            }
+        }
+    }
+}

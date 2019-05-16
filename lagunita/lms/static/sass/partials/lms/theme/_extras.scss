@@ -8,6 +8,8 @@ $footer-logo-width: 100px;
 // Custom default styling for Lagunita courses, UX001
 @import 'custom_overrides/_course_styling.scss';
 
+@import 'custom_overrides/_courseware.scss';
+
 @import 'custom_overrides/_instructor.scss';
 
 @import 'custom_overrides/_discussion.scss';
