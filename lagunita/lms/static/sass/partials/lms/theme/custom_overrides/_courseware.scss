@@ -18,6 +18,20 @@ html {
                         bottom: 0;
                         width: 96%;
                         margin: 0 2% 2% 2%;
+
+                        .intro {
+                            .heading-group {
+                                span {
+                                    display: none;
+                                }
+                            }
+
+                            .main-cta {
+                                a.register {
+                                    float: left;
+                                }
+                            }
+                        }
                     }
                 }
             }
