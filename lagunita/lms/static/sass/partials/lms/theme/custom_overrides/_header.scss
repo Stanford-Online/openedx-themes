@@ -1,11 +1,21 @@
-html {
-    background-color: $white;
-}
-
 .global-header {
-    .header-logo a {
-        .logo {
-            height: 50px;
+    .main-header {
+        .header-logo {
+            a {
+                .logo {
+                    height: 50px;
+                }
+            }
+            .course-header {
+                span {
+                    float: left;
+                    margin-right: 5px;
+
+                    &.course-name {
+                        clear: both;
+                    }
+                }
+            }
         }
     }
 
@@ -37,5 +47,11 @@ html {
                 }
             }
         }
+    }
+}
+
+.page-banner {
+    .user-messages {
+        margin-top: 0;
     }
 }
