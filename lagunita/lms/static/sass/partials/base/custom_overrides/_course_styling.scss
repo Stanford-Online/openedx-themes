@@ -131,3 +131,25 @@
         }
     }
 }
+
+#content {
+    .dashboard-notifications {
+        .dashboard-banner {
+            .wrapper-msg.urgency-high {
+                background: #FFBF00;
+                .msg {
+                    .msg-content {
+                        .title {
+                            color: #383838;
+                        }
+                        .copy {
+                            .activation-message {
+                                color: #383838;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
