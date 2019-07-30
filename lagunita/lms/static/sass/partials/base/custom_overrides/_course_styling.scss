@@ -131,3 +131,26 @@
         }
     }
 }
+
+#content {
+    .dashboard-notifications {
+        .dashboard-banner {
+            .wrapper-msg.urgency-high {
+                background: #FFBF00;
+                .msg {
+                    border-bottom: none;
+                    .msg-content {
+                        .title {
+                            color: $black;
+                        }
+                        .copy {
+                            .activation-message {
+                                color: $black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
