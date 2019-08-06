@@ -154,3 +154,26 @@
         }
     }
 }
+
+#content {
+    .dashboard-banner {
+        .wrapper-msg.urgency-high {
+            background: #FFBF00;
+            position: relative;
+            z-index: 9;
+            .msg {
+                border-bottom: none;
+                .msg-content {
+                    .title {
+                        color: #383838;
+                    }
+                    .copy {
+                        .activation-message {
+                            color: #383838;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
