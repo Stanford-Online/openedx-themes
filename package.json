@@ -21,6 +21,7 @@
   },
   "devDependencies": [
     "sass-lint",
+    "eslint",
     "csslint"
   ],
   "keywords": [
