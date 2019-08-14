@@ -6,7 +6,7 @@ from student.models import RegistrationCookieConfiguration
 <%
 utm_cookie_enabled = RegistrationCookieConfiguration.current().enabled
 utm_cookie_name = RegistrationCookieConfiguration.current().utm_cookie_name
-utm_cookie_domain = settings.SESSION_COOKIE_DOMAIN or 'localhost'
+utm_cookie_domain = settings.SESSION_COOKIE_DOMAIN or '.localhost'
 %>
 % if utm_cookie_enabled and utm_cookie_name:
 <script type="text/javascript">
@@ -34,7 +34,7 @@ utm_cookie_domain = settings.SESSION_COOKIE_DOMAIN or 'localhost'
         var dCookieExpires = new Date(),
             iCookieLengthMilliseconds = iCookieLengthDays * 24 * 60 * 60 * 1000;
         dCookieExpires.setTime(dCookieExpires.getTime() + iCookieLengthMilliseconds);
-        document.cookie = sCookieName + "=" + sCookieContents + "; expires=" + dCookieExpires.toGMTString() + "; path=/; domain=." + sCookieDomain + ";";
+        document.cookie = sCookieName + "=" + sCookieContents + "; expires=" + dCookieExpires.toGMTString() + "; path=/; domain=" + sCookieDomain + ";";
     }
 
     var sSourceValue = _getQueryStringValue(sSourceParameterName),
