@@ -1,0 +1,45 @@
+html {
+    background-color: $white;
+
+    .window-wrap {
+        .content-wrapper {
+            max-width: 100%;
+            margin-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+
+            .courses-container {
+                padding: 0 20px;
+            }
+
+            .course-info {
+                header.course-profile {
+                    height: auto;
+                    padding-top: 0;
+
+                    .intro-inner-wrapper {
+                        margin: 60px;
+
+                        .intro {
+                            .heading-group {
+                                span {
+                                    display: none;
+                                }
+                            }
+
+                            .main-cta {
+                                a.register {
+                                    float: left;
+                                }
+                                .register.disabled, .add-to-cart {
+                                    display: inline-block;
+                                    padding: 15px 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

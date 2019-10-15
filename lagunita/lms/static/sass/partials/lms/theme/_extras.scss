@@ -1,0 +1,31 @@
+@import 'custom_overrides/_header.scss';
+
+@import 'custom_overrides/_print.scss';
+
+$footer-logo-width: 100px;
+@import 'custom_overrides/_footer.scss';
+
+// Custom default styling for Lagunita courses, UX001
+@import 'custom_overrides/_course_styling.scss';
+
+@import 'custom_overrides/_courseware.scss';
+
+@import 'custom_overrides/_instructor.scss';
+
+@import 'custom_overrides/_discussion.scss';
+
+@import 'custom_overrides/_typography.scss';
+
+@import 'custom_overrides/_register.scss';
+
+@import 'custom_overrides/_student.scss';
+
+@import 'custom_overrides/_bookmarks.scss';
+
+@import 'custom_overrides/_progress.scss';
+
+@import 'custom_overrides/_xblocks.scss';
+
+@import 'custom_overrides/_mobile.scss';
+
+@import 'custom_overrides/_search.scss';

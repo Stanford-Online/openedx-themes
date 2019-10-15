@@ -1,0 +1,52 @@
+.global-header {
+    .main-header {
+        .header-logo {
+            .course-header {
+                span {
+                    float: left;
+                    margin-right: 5px;
+
+                    &.course-name {
+                        clear: both;
+                    }
+                }
+            }
+        }
+    }
+
+    // User Menu tweaks (added Hawthorn release)
+    .nav-links {
+        .secondary {
+            .dropdown-user-menu {
+                top: 95px !important;
+                min-width: 150px;
+                background: $white;
+
+                .dropdown-item {
+                    &:hover {
+                        background-color: $lightest;
+                    }
+                }
+            }
+        }
+    }
+
+    &.slim {
+        .user, .wrapper-user-menu {
+            .user-menu {
+                .user-dropdown {
+                    padding: 3px 9px 7px 9px;
+                }
+                .user-dropdown-menu {
+                    right: 6px;
+                }
+            }
+        }
+    }
+}
+
+.page-banner {
+    .user-messages {
+        margin-top: 0;
+    }
+}

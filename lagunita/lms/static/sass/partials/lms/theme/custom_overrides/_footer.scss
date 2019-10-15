@@ -1,0 +1,36 @@
+.window-wrap {
+
+    .main-container {
+        padding-bottom: 0;
+
+        .my-courses {
+            padding-bottom: 40px;
+        }
+    }
+}
+.wrapper-footer {
+    margin-top: 0;
+    padding: 15px;
+    box-shadow: none;
+    background-color: $inverse;
+
+    footer, footer#footer-openedx {
+        .wrapper-logo {
+            width: $footer-logo-width;
+            float: left;
+            margin: 0 15px 15px 0;
+            margin-top: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+        .copyright {
+            display: inline;
+            padding: 0;
+        }
+        .nav-legal {
+            padding-top: 15px;
+        }
+    }
+}

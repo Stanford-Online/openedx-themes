@@ -1,0 +1,9 @@
+// version of Bourbon's function tint()
+@function tinted($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+// version of Bourbon's function shade()
+@function shaded($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
